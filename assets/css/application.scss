@@ -1,0 +1,224 @@
+@import 'common';
+
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+	border-top: 6px solid $kcolor;
+	background-color: #f7f7f7;
+}
+
+.container {
+	width: 1200px !important;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+.form-control {
+	& + .form-control {
+		margin-left: 10px;
+	}
+}
+
+label {
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #808080;
+	font-weight: normal;
+	cursor: pointer;
+	& + label {
+		[type="radio"] {
+			margin-left: 30px;
+		}
+	}
+}
+
+select.form-control,
+[type="text"].form-control,
+[type="email"].form-control,
+textarea.form-control {
+	display: inline-block;
+	width: 142px;
+	height: 32px;
+	border-radius: 2px !important;
+	box-shadow: none !important;
+	font-size: 13px;
+	color: #999;
+	&:focus {
+		border-color: $kcolor;
+		color: #666;
+	}
+}
+
+textarea.form-control {
+	width: 100%;
+	height: inherit;
+}
+
+.help-inline {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #999;
+	&.asterisk {
+		&:before {
+			margin-right: 5px;
+			content: "*";
+			color: #e61937;
+		}
+	}
+}
+
+.help-block {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 18px;
+	color: #999;
+}
+
+.table {
+	border-top: 2px solid #920326;
+	th, td {
+		min-height: 50px !important;
+		vertical-align: middle !important;
+	}
+	th {
+		padding-left: 25px !important;
+		padding-right: 20px !important;
+		background-color: #f5f5f5;
+		color: #444;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 18px !important;
+		span {
+			position: relative;
+		}
+		&:first-child {
+			width: 155px;
+		}
+	}
+	td {
+		padding-left: 40px !important;
+		padding-right: 40px !important;
+		.dash {
+			display: inline-block;
+			width: 21px;
+			text-align: center;
+			color: #999;
+			&:before {
+				content: "-";
+			}
+		}
+	}
+	i.require {
+		position: absolute;
+		left: -10px;
+		color: #e61937;
+		&:before {
+			margin-right: 5px;
+			content: '*';
+		}
+	}
+	tr:last-child {
+		th, td {
+			border-bottom: 1px solid #6f848e;
+		}
+	}
+}
+
+#header {
+	.logo {
+		img {
+			display: block;
+		}
+	}
+	p {
+		font-size: 16px;
+		color: #333;
+		font-weight: bold;
+		text-align: right;
+	}
+}
+
+#content {
+	padding-bottom: 100px;
+	.guide {
+		padding: 40px 70px;
+		background-color: #bfbfbf;
+		color: #fff;
+		font-size: 16px;
+		box-shadow: 3px 4px 6.5px 0.5px rgba(0, 0, 0, 0.13); 
+		ul {
+			li {
+				&:before {
+					margin-right: 5px;
+					content: '■';
+				}
+				& + li {
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+	.form-wrap {
+		fieldset {
+			position: relative;
+			margin-top: 40px;
+			padding: 145px 70px 65px;
+			background-color: #fff;
+			box-shadow: 5px 5px 14.72px 1.28px rgba(0, 0, 0, 0.07);
+			h4 {
+				position: absolute;
+				top: 30px;
+				left: -10px;
+				padding-top: 25px;
+				padding-left: 80px;
+				width: 441px;
+				height: 62px;
+				font-size: 20px;
+				color: #fff;
+				background-image: url(/assets/images/application/bg_fieldset_head.png);
+				background-repeat: no-repeat;
+			}
+			.note {
+				margin-bottom: 5px;
+				color: $kcolor;
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+.application.step1 {
+	.personal-details {
+		.nationality {
+			.form-control {
+				width: 342px;
+			}
+		}
+		.passport.number, .email {
+			.form-control {
+				width: 332px;
+			}
+		}
+		.passport.valid, .birthday, .phone {
+			.form-control {
+				width: 92px;
+				text-align: center;
+			}
+		}
+		.address {
+			.form-control {
+				width: 100%;
+			}
+		}
+		.disability {
+			.help-block {
+				margin-bottom: 15px;
+				color: #444;
+			}
+		}
+	}
+}

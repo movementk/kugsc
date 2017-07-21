@@ -1,0 +1,177 @@
+@charset "UTF-8";
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  border-top: 6px solid #920326;
+  background-color: #f7f7f7; }
+
+.container {
+  width: 1200px !important; }
+
+.form-group {
+  margin-bottom: 0; }
+
+.form-control + .form-control {
+  margin-left: 10px; }
+
+label {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #808080;
+  font-weight: normal;
+  cursor: pointer; }
+  label + label [type="radio"] {
+    margin-left: 30px; }
+
+select.form-control,
+[type="text"].form-control,
+[type="email"].form-control,
+textarea.form-control {
+  display: inline-block;
+  width: 142px;
+  height: 32px;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-size: 13px;
+  color: #999; }
+  select.form-control:focus,
+  [type="text"].form-control:focus,
+  [type="email"].form-control:focus,
+  textarea.form-control:focus {
+    border-color: #920326;
+    color: #666; }
+
+textarea.form-control {
+  width: 100%;
+  height: inherit; }
+
+.help-inline {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #999; }
+  .help-inline.asterisk:before {
+    margin-right: 5px;
+    content: "*";
+    color: #e61937; }
+
+.help-block {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999; }
+
+.table {
+  border-top: 2px solid #920326; }
+  .table th, .table td {
+    min-height: 50px !important;
+    vertical-align: middle !important; }
+  .table th {
+    padding-left: 25px !important;
+    padding-right: 20px !important;
+    background-color: #f5f5f5;
+    color: #444;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px !important; }
+    .table th span {
+      position: relative; }
+    .table th:first-child {
+      width: 155px; }
+  .table td {
+    padding-left: 40px !important;
+    padding-right: 40px !important; }
+    .table td .dash {
+      display: inline-block;
+      width: 21px;
+      text-align: center;
+      color: #999; }
+      .table td .dash:before {
+        content: "-"; }
+  .table i.require {
+    position: absolute;
+    left: -10px;
+    color: #e61937; }
+    .table i.require:before {
+      margin-right: 5px;
+      content: '*'; }
+  .table tr:last-child th, .table tr:last-child td {
+    border-bottom: 1px solid #6f848e; }
+
+#header .logo img {
+  display: block; }
+#header p {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: right; }
+
+#content {
+  padding-bottom: 100px; }
+  #content .guide {
+    padding: 40px 70px;
+    background-color: #bfbfbf;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 3px 4px 6.5px 0.5px rgba(0, 0, 0, 0.13); }
+    #content .guide ul li:before {
+      margin-right: 5px;
+      content: '■'; }
+    #content .guide ul li + li {
+      margin-top: 15px; }
+  #content .form-wrap fieldset {
+    position: relative;
+    margin-top: 40px;
+    padding: 145px 70px 65px;
+    background-color: #fff;
+    box-shadow: 5px 5px 14.72px 1.28px rgba(0, 0, 0, 0.07); }
+    #content .form-wrap fieldset h4 {
+      position: absolute;
+      top: 30px;
+      left: -10px;
+      padding-top: 25px;
+      padding-left: 80px;
+      width: 441px;
+      height: 62px;
+      font-size: 20px;
+      color: #fff;
+      background-image: url(/assets/images/application/bg_fieldset_head.png);
+      background-repeat: no-repeat; }
+    #content .form-wrap fieldset .note {
+      margin-bottom: 5px;
+      color: #920326;
+      font-size: 13px; }
+
+.application.step1 .personal-details .nationality .form-control {
+  width: 342px; }
+.application.step1 .personal-details .passport.number .form-control, .application.step1 .personal-details .email .form-control {
+  width: 332px; }
+.application.step1 .personal-details .passport.valid .form-control, .application.step1 .personal-details .birthday .form-control, .application.step1 .personal-details .phone .form-control {
+  width: 92px;
+  text-align: center; }
+.application.step1 .personal-details .address .form-control {
+  width: 100%; }
+.application.step1 .personal-details .disability .help-block {
+  margin-bottom: 15px;
+  color: #444; }
+
+/*# sourceMappingURL=application.css.map */
