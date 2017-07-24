@@ -40,6 +40,8 @@ label {
   cursor: pointer; }
   label + label [type="radio"] {
     margin-left: 30px; }
+  label + label [type="checkbox"] {
+    margin-left: 30px; }
 
 select.form-control,
 [type="text"].form-control,
@@ -107,6 +109,13 @@ textarea.form-control {
       color: #999; }
       .table td .dash:before {
         content: "-"; }
+    .table td .slash {
+      display: inline-block;
+      width: 31px;
+      text-align: center;
+      color: #999; }
+      .table td .slash:before {
+        content: "/"; }
   .table i.require {
     position: absolute;
     left: -10px;
@@ -173,5 +182,198 @@ textarea.form-control {
 .application.step1 .personal-details .disability .help-block {
   margin-bottom: 15px;
   color: #444; }
+
+.application.step2 .academic-background .apply {
+  height: 54px;
+  color: #444;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px !important;
+  padding-left: 25px !important;
+  padding-right: 20px !important; }
+  .application.step2 .academic-background .apply span {
+    position: relative; }
+  .application.step2 .academic-background .apply .form-group {
+    display: inline-block;
+    margin-left: 40px; }
+.application.step2 .academic-background .major .form-control {
+  width: 445px; }
+.application.step2 .academic-background .gpa .form-control, .application.step2 .academic-background .recent-year .form-control {
+  width: 140px; }
+.application.step2 .academic-background .gpa.recent-year th, .application.step2 .academic-background .recent-year.recent-year th {
+  padding-left: 18px !important; }
+.application.step2 .home-institution .international .form-control, .application.step2 .home-institution email .form-control, .application.step2 .home-institution addr .form-control {
+  width: 445px; }
+.application.step2 .home-institution .phone .form-control, .application.step2 .home-institution .fax .form-control {
+  width: 92px; }
+.application.step2 .home-institution .phone.fax th, .application.step2 .home-institution .fax.fax th {
+  padding-left: 18px !important; }
+.application.step2 .study-plan .form-control {
+  height: 40px;
+  border-radius: 0 !important; }
+.application.step2 .study-plan th {
+  height: 54px;
+  font-size: 16px;
+  color: #303030;
+  text-align: center;
+  font-weight: 400;
+  background-color: #fff;
+  border-bottom: 1px solid #910023;
+  border-right: 1px solid #e7e7e7; }
+  .application.step2 .study-plan th:last-child {
+    border-right: 0; }
+.application.step2 .study-plan tr:last-child td {
+  border-bottom: 1px solid #910023; }
+.application.step2 .study-plan tr td {
+  padding: 35px 0 !important;
+  text-align: center;
+  border-right: 1px solid #e7e7e7; }
+  .application.step2 .study-plan tr td:last-child {
+    border-right: 0; }
+  .application.step2 .study-plan tr td.department .form-control {
+    width: 256px;
+    margin-left: 0;
+    margin-bottom: 10px; }
+    .application.step2 .study-plan tr td.department .form-control:last-child {
+      margin-bottom: 0; }
+  .application.step2 .study-plan tr td.course-code .form-control {
+    width: 110px !important; }
+  .application.step2 .study-plan tr td.title .form-control {
+    width: 344px !important; }
+  .application.step2 .study-plan tr td.credit-value select.form-control {
+    width: 130px !important; }
+.application.step2 .language-proficiency td {
+  height: 54px;
+  color: #444;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px !important;
+  padding-left: 25px !important;
+  padding-right: 20px !important; }
+  .application.step2 .language-proficiency td span {
+    position: relative; }
+  .application.step2 .language-proficiency td .form-group {
+    display: inline-block;
+    margin-left: 40px; }
+
+.application.step3 .supporting-documents .table th {
+  width: 50%;
+  background-color: #fff; }
+  .application.step3 .supporting-documents .table th i.require {
+    top: 0; }
+  .application.step3 .supporting-documents .table th .help-inline {
+    margin-left: 0; }
+  .application.step3 .supporting-documents .table th .btn-down {
+    display: inline-block;
+    margin-left: 30px; }
+    .application.step3 .supporting-documents .table th .btn-down .btn {
+      width: 144px;
+      height: 34px;
+      font-size: 14px;
+      color: #303030;
+      line-height: 32px;
+      padding: 0;
+      border-radius: 0;
+      text-align: center;
+      border: 1px solid #e9e9e9;
+      background-image: url(/assets/images/application/btn_down_bg.gif); }
+.application.step3 .supporting-documents .table td {
+  width: 50%;
+  height: 54px;
+  padding-right: 20px !important; }
+  .application.step3 .supporting-documents .table td .form-group {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-right: 110px; }
+    .application.step3 .supporting-documents .table td .form-group .form-control {
+      width: 100%;
+      height: 40px;
+      border-color: #f6f6f6;
+      border-radius: 0;
+      background-color: #f6f6f6; }
+    .application.step3 .supporting-documents .table td .form-group .btn-search {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .application.step3 .supporting-documents .table td .form-group .btn-search .btn {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        border-radius: 0;
+        background-color: #bfbfbf; }
+.application.step3 .supporting-documents .table .passport td {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+.application.step3 .supporting-documents .attention {
+  width: 100%;
+  margin-top: 40px;
+  padding: 30px 20px;
+  background-color: #f2f2f2; }
+  .application.step3 .supporting-documents .attention ul li {
+    font-size: 14px;
+    color: #303030;
+    line-height: 18px;
+    margin-bottom: 15px; }
+    .application.step3 .supporting-documents .attention ul li:before {
+      content: "-"; }
+    .application.step3 .supporting-documents .attention ul li:last-child {
+      margin-bottom: 0; }
+.application.step3 .insurance-submission h5 {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+  margin-bottom: 35px; }
+.application.step3 .insurance-submission .line {
+  width: 100%;
+  border-top: 1px solid #d6d6d6;
+  margin: 50px 0; }
+.application.step3 .insurance-submission .form-group .help-inline {
+  margin-left: 50px;
+  margin-right: 10px; }
+.application.step3 .insurance-submission .form-group .form-control {
+  width: 530px;
+  height: 40px;
+  border-radius: 0 !important; }
+.application.step3 .declaration h5 {
+  display: inline-block;
+  font-size: 14px;
+  color: #333; }
+  .application.step3 .declaration h5:before {
+    content: "*";
+    margin-right: 5px;
+    color: #e61937; }
+.application.step3 .declaration .form-group {
+  display: inline-block;
+  margin-left: 40px; }
+.application.step3 .declaration p {
+  font-size: 13px;
+  color: #777;
+  line-height: 22px; }
+  .application.step3 .declaration p.declaration-details {
+    margin-top: 30px; }
+  .application.step3 .declaration p.attention {
+    margin-top: 30px;
+    color: #777; }
+    .application.step3 .declaration p.attention:before {
+      content: "※";
+      margin-right: 5px; }
+.application.step3 .declaration ul {
+  margin-top: 30px; }
+  .application.step3 .declaration ul li {
+    font-size: 13px;
+    color: #777;
+    line-height: 22px; }
+    .application.step3 .declaration ul li:before {
+      content: "-";
+      margin-right: 3px; }
+.application.step3 .declaration .line {
+  width: 100%;
+  border-top: 1px solid #d6d6d6;
+  margin: 50px 0; }
 
 /*# sourceMappingURL=application.css.map */
