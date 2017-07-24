@@ -66,7 +66,7 @@
 					            <div class="form-group">
 					                <input type="text" class="form-control" required>
 					                <p class="btn-search">
-					                    <a href="#" class="btn" role="button">Search...</a>
+					                    <button class="btn">Search...</button>
 					                </p>
 					            </div>
 					        </td>
@@ -77,7 +77,7 @@
 					            <div class="form-group">
 					                <input type="text" class="form-control" required>
 					                <p class="btn-search">
-					                    <a href="#" class="btn" role="button">Search...</a>
+					                    <button class="btn">Search...</button>
 					                </p>
 					            </div>
 					        </td>
@@ -93,7 +93,7 @@
 					            <div class="form-group">
 					                <input type="text" class="form-control" required>
 					                <p class="btn-search">
-					                    <a href="#" class="btn" role="button">Search...</a>
+					                    <button class="btn">Search...</button>
 					                </p>
 					            </div>
 					        </td>
@@ -109,15 +109,15 @@
 					            <div class="form-group">
 					                <input type="text" class="form-control" required>
 					                <p class="btn-search">
-					                    <a href="#" class="btn" role="button">Search...</a>
+					                    <button class="btn">Search...</button>
 					                </p>
 					            </div>
 					        </td>
 					    </tr>
 					    <tr class="passport">
                             <th>
-                                <span><i class="require"></i>Copy of a valid passport</span><br>
-                                <span class="help-inline">
+                                <span><i class="require"></i>Copy of a valid passport</span>
+                                <span class="help-block">
                                     (All the information should be shown clear<br>
                                     since it is essential for your visa documents)
                                 </span>
@@ -126,7 +126,7 @@
 					            <div class="form-group">
 					                <input type="text" class="form-control" required>
 					                <p class="btn-search">
-					                    <a href="#" class="btn" role="button">Search...</a>
+					                    <button class="btn">Search...</button>
 					                </p>
 					            </div>
 					        </td>
@@ -145,10 +145,10 @@
 				
 				<fieldset class="insurance-submission">
 				    <h4>8. Health Insurance Submission</h4>
-				    <h5>
+				    <span><i class="require"></i>
 				        I have uploaded all the supporting documents above and in addition, I will send a copy of my private health insurance via email to <br>
 				        studyabroad@korea.ac.kr by 31 July , 2017 
-				    </h5>
+				    </span>
 				    <div class="form-group">
 				        <label>
 				            <input type="radio" required> Yes
@@ -161,24 +161,22 @@
 				        </span>
 				        <input type="text" class="form-control" required>
 				    </div>
-				    <hr class="line">
-				    <h5>
+				    <hr>
+				    <span><i class="require"></i>
 				        I understand that I am responsible for submitting the copy of private health insurance by the deadline which will be valid during my stay in the Republic of Korea and that I will not be given the right to register for any courses without its submission. 
-				    </h5>
-				    <div class="form-group">
-				        <label>
-				            <input type="radio" required> Yes
-				        </label>
-				        <label>
-				            <input type="radio" required> No
-				        </label>
-				    </div>
+				    </span>
+                    <label>
+                        <input type="radio" required> Yes
+                    </label>
+                    <label>
+                        <input type="radio" required> No
+                    </label>
 				</fieldset>
 				
 				<fieldset class="declaration">
 				    <h4>9. Declaration</h4>
-                    <div class="chapter-1">
-                        <h5>Do you have any criminal convictions?</h5>
+                    <div class="detail-content">
+                        <span><i class="require"></i>Do you have any criminal convictions?</span>
                         <div class="form-group">
                             <label>
                                 <input type="radio" required> Yes
@@ -187,16 +185,16 @@
                                 <input type="radio" required> No
                             </label>
                         </div>
-                        <p class="declaration-details">
+                        <p>
                             If yes, please contact us prior to application. Please note that spent convictions and convictions for driving/minor offences are unlikely to be considered relevant to the admissions decision
                         </p>
-                        <p class="declaration-details">
+                        <p>
                             I declare that the information submitted in this application is true and correct. I authorize the University to obtain information from any educational institution previously or currently attended by me. If any information supplied by me is considered to be untrue, incomplete or misleading in any respect, I understand the University may take such action including the disclosure of the information to any person or body. I understand the University reserves the right to vary of reverse any decision made on the basis of untrue, incomplete or misleading information.
                         </p>
                     </div>
-				    <hr class="line">
-				    <div class="chapter-2">
-                        <h5>I agree that Korea University may collect my personal information shown above for the following purposes:</h5>
+				    <hr>
+				    <div class="detail-content">
+                        <span><i class="require"></i>I agree that Korea University may collect my personal information shown above for the following purposes:</span>
                         <ul>
                             <li>Administration purposes for the exchange/visiting program and scholarships</li>
                             <li>Statistical and research purposes by the Office of International Affairs, Korea University</li>
@@ -204,15 +202,15 @@
                             <li>To obtain access to Korea University facilities available to exchange/visiting students</li>
                             <li>Process for student ID card issuance (KU Library and Hana bank)</li>
                         </ul>
-                        <p class="attention">
-                            Exchange/visiting Students can apply for the student ID card only after they arrive in Korea and it is required to register through the Hana bank only.<br>
+                        <p>
+                            ※ Exchange/visiting Students can apply for the student ID card only after they arrive in Korea and it is required to register through the Hana bank only.<br>
                             (It is students’ decision to use the student card as debit card afterwards)
                         </p>
-                        <p class="attention">The Application record will be kept for three years</p>
+                        <p>※ The Application record will be kept for three years</p>
                     </div>
-				    <hr class="line">
-                    <div class="chapter-3">
-                        <h5>I have read the declaration and agree.</h5>
+				    <hr>
+                    <div class="detail-content">
+                        <span><i class="require"></i>I have read the declaration and agree.</span>
                         <div class="form-group">
                             <label>
                                 <input type="radio" required> Yes

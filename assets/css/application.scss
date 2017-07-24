@@ -250,10 +250,7 @@ textarea.form-control {
             padding-right: 20px !important;
             span {
                 position: relative;
-            }
-            .form-group {
-                display: inline-block;
-                margin-left: 40px;
+                margin-right: 40px;
             }
         }
         .major {
@@ -303,6 +300,18 @@ textarea.form-control {
             background-color: #fff;
             border-bottom: 1px solid #910023;
             border-right: 1px solid #e7e7e7;
+            &:nth-of-type(1) {
+                width: 290px;
+            }
+            &:nth-of-type(2) {
+                width: 155px;
+            }
+            &:nth-of-type(3) {
+                width: 390px;
+            }
+            &:nth-of-type(4) {
+                width: 195px;
+            }
             &:last-child {
                 border-right: 0;
             }
@@ -319,6 +328,18 @@ textarea.form-control {
                 border-right: 1px solid #e7e7e7;
                 &:last-child {
                     border-right: 0;
+                }
+                &:nth-of-type(1) {
+                    width: 290px;
+                }
+                &:nth-of-type(2) {
+                    width: 155px;
+                }
+                &:nth-of-type(3) {
+                    width: 390px;
+                }
+                &:nth-of-type(4) {
+                    width: 195px;
                 }
                 &.department {
                     .form-control {
@@ -361,10 +382,7 @@ textarea.form-control {
             padding-right: 20px !important;
             span {
                 position: relative;
-            }
-            .form-group {
-                display: inline-block;
-                margin-left: 40px;
+                margin-right: 40px;
             }
         }
     }
@@ -462,13 +480,24 @@ textarea.form-control {
         }
     }
     .insurance-submission {
-        h5 {
+        > span {
+            position: relative;
             font-size: 14px;
+            display: block;
             color: #333;
             line-height: 22px;
             margin-bottom: 35px;
+            i.require {
+                position: absolute;
+                left: -10px;
+                color: #e61937;
+                &:before {
+                    margin-right: 5px;
+                    content: '*';
+                }
+            }
         }
-        .line {
+        hr {
             width: 100%;
             border-top: 1px solid #d6d6d6;
             margin: 50px 0;
@@ -486,14 +515,20 @@ textarea.form-control {
         }
     }
     .declaration {
-        h5 {
-            display: inline-block;
+        span {
+            position: relative;
             font-size: 14px;
             color: #333;
-            &:before {
-                content: "*";
-                margin-right: 5px;
+            line-height: 22px;
+            margin-bottom: 35px;
+            i.require {
+                position: absolute;
+                left: -10px;
                 color: #e61937;
+                &:before {
+                    margin-right: 5px;
+                    content: '*';
+                }
             }
         }
         .form-group {
@@ -504,17 +539,7 @@ textarea.form-control {
             font-size: 13px;
             color: #777;
             line-height: 22px;
-            &.declaration-details {
-                margin-top: 30px;
-            }
-            &.attention {
-                margin-top: 30px;
-                color: #777;
-                &:before {
-                    content: "※";
-                    margin-right: 5px;
-                }
-            }
+            margin-top: 30px;
         }
         ul {
             margin-top: 30px;
@@ -528,7 +553,7 @@ textarea.form-control {
                 }
             }
         }
-        .line {
+        hr {
             width: 100%;
             border-top: 1px solid #d6d6d6;
             margin: 50px 0;

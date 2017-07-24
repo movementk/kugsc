@@ -63,14 +63,12 @@
 					    <tr>
 					        <td colspan="2" class="apply">
 					            <span><i class="require"></i>Are you currently enrolled at your home institution?</span>
-					            <div class="form-group">
-					                <label>
-										<input type="radio"> Yes
-									</label>
-									<label>
-										<input type="radio"> No
-									</label>
-					            </div>
+                                <label>
+                                    <input type="radio"> Yes
+                                </label>
+                                <label>
+                                    <input type="radio"> No
+                                </label>
 					        </td>
 					    </tr>
 						<tr>
@@ -102,33 +100,29 @@
 						<tr>
 						    <th><span><i class="require"></i>Undergraduate</span></th>
 						    <td>
-						        <div class="form-group">
-					                <label>
-										<input type="radio"> Year 1
-									</label>
-									<label>
-										<input type="radio"> Year 2
-									</label>
-                                    <label>
-										<input type="radio"> Year 3
-									</label>
-                                    <label>
-										<input type="radio"> Year 4
-									</label>
-					            </div>
+                                <label>
+                                    <input type="radio"> Year 1
+                                </label>
+                                <label>
+                                    <input type="radio"> Year 2
+                                </label>
+                                <label>
+                                    <input type="radio"> Year 3
+                                </label>
+                                <label>
+                                    <input type="radio"> Year 4
+                                </label>
 						    </td>
 						</tr>
 						<tr>
 						    <th><span><i class="require"></i>Graduate</span></th>
 						    <td>
-						        <div class="form-group">
-					                <label>
-										<input type="radio"> Year 1
-									</label>
-									<label>
-										<input type="radio"> Year 2
-									</label>
-					            </div>
+                                <label>
+                                    <input type="radio"> Year 1
+                                </label>
+                                <label>
+                                    <input type="radio"> Year 2
+                                </label>
 						    </td>
 						</tr>
 						<tr class="major">
@@ -171,7 +165,7 @@
                         <tr class="email">
                             <th><span><i class="require"></i>Email</span></th>
                             <td>
-                                <input type="text" class="form-control" required>
+                                <input type="email" class="form-control" required>
                             </td>
                         </tr>
                         <tr class="addr">
@@ -209,12 +203,6 @@
 				    <h4>5. Study Plan at KU</h4>
 					<p class="note text-right">* Required input</p>
                     <table class="table">
-                        <colgroup>
-                            <col style="width: 290px;">
-                            <col style="width: 155px;">
-                            <col style="width: 390px;">
-                            <col style="width: 195px;">
-                        </colgroup>
                         <thead>
                             <tr>
                                 <th>Department</th>
@@ -395,53 +383,45 @@
 				        <tr>
 				            <td>
 				                <span><i class="require"></i>In which language do you wish to study at KU?</span>
-					            <div class="form-group">
-					                <label>
-										<input type="checkbox"> Korean
-									</label>
-									<label>
-										<input type="checkbox"> English
-									</label>
-					            </div>
+                                <label>
+                                    <input type="checkbox"> Korean
+                                </label>
+                                <label>
+                                    <input type="checkbox"> English
+                                </label>
 				            </td>
 				        </tr>
 				        <tr>
 				            <td>
 				                <span><i class="require"></i>Are you fluent in either Korean or English to follow lectures and complete course assignments?</span>
-					            <div class="form-group">
-					                <label>
-										<input type="radio"> Yes
-									</label>
-									<label>
-										<input type="radio"> No
-									</label>
-					            </div>
+                                <label>
+                                    <input type="radio"> Yes
+                                </label>
+                                <label>
+                                    <input type="radio"> No
+                                </label>
 				            </td>
 				        </tr>
 				        <tr>
 				            <td>
 				                <span><i class="require"></i>Have you taken any Korean language course before?</span>
-					            <div class="form-group">
-					                <label>
-										<input type="radio"> Yes
-									</label>
-									<label>
-										<input type="radio"> No
-									</label>
-					            </div>
+                                <label>
+                                    <input type="radio"> Yes
+                                </label>
+                                <label>
+                                    <input type="radio"> No
+                                </label>
 				            </td>
 				        </tr>
                         <tr>
 				            <td>
 				                <span><i class="require"></i>Do you wish to take credit-bearing Korean language courses?</span>
-					            <div class="form-group">
-					                <label>
-										<input type="radio"> Yes
-									</label>
-									<label>
-										<input type="radio"> No
-									</label>
-					            </div>
+                                <label>
+                                    <input type="radio"> Yes
+                                </label>
+                                <label>
+                                    <input type="radio"> No
+                                </label>
 				            </td>
 				        </tr>
 				    </table>
