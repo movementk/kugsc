@@ -192,10 +192,8 @@ textarea.form-control {
   padding-left: 25px !important;
   padding-right: 20px !important; }
   .application.step2 .academic-background .apply span {
-    position: relative; }
-  .application.step2 .academic-background .apply .form-group {
-    display: inline-block;
-    margin-left: 40px; }
+    position: relative;
+    margin-right: 40px; }
 .application.step2 .academic-background .major .form-control {
   width: 445px; }
 .application.step2 .academic-background .gpa .form-control, .application.step2 .academic-background .recent-year .form-control {
@@ -220,6 +218,14 @@ textarea.form-control {
   background-color: #fff;
   border-bottom: 1px solid #910023;
   border-right: 1px solid #e7e7e7; }
+  .application.step2 .study-plan th:nth-of-type(1) {
+    width: 290px; }
+  .application.step2 .study-plan th:nth-of-type(2) {
+    width: 155px; }
+  .application.step2 .study-plan th:nth-of-type(3) {
+    width: 390px; }
+  .application.step2 .study-plan th:nth-of-type(4) {
+    width: 195px; }
   .application.step2 .study-plan th:last-child {
     border-right: 0; }
 .application.step2 .study-plan tr:last-child td {
@@ -230,6 +236,14 @@ textarea.form-control {
   border-right: 1px solid #e7e7e7; }
   .application.step2 .study-plan tr td:last-child {
     border-right: 0; }
+  .application.step2 .study-plan tr td:nth-of-type(1) {
+    width: 290px; }
+  .application.step2 .study-plan tr td:nth-of-type(2) {
+    width: 155px; }
+  .application.step2 .study-plan tr td:nth-of-type(3) {
+    width: 390px; }
+  .application.step2 .study-plan tr td:nth-of-type(4) {
+    width: 195px; }
   .application.step2 .study-plan tr td.department .form-control {
     width: 256px;
     margin-left: 0;
@@ -251,10 +265,8 @@ textarea.form-control {
   padding-left: 25px !important;
   padding-right: 20px !important; }
   .application.step2 .language-proficiency td span {
-    position: relative; }
-  .application.step2 .language-proficiency td .form-group {
-    display: inline-block;
-    margin-left: 40px; }
+    position: relative;
+    margin-right: 40px; }
 
 .application.step3 .supporting-documents .table th {
   width: 50%;
@@ -323,12 +335,21 @@ textarea.form-control {
       content: "-"; }
     .application.step3 .supporting-documents .attention ul li:last-child {
       margin-bottom: 0; }
-.application.step3 .insurance-submission h5 {
+.application.step3 .insurance-submission > span {
+  position: relative;
   font-size: 14px;
+  display: block;
   color: #333;
   line-height: 22px;
   margin-bottom: 35px; }
-.application.step3 .insurance-submission .line {
+  .application.step3 .insurance-submission > span i.require {
+    position: absolute;
+    left: -10px;
+    color: #e61937; }
+    .application.step3 .insurance-submission > span i.require:before {
+      margin-right: 5px;
+      content: '*'; }
+.application.step3 .insurance-submission hr {
   width: 100%;
   border-top: 1px solid #d6d6d6;
   margin: 50px 0; }
@@ -339,29 +360,27 @@ textarea.form-control {
   width: 530px;
   height: 40px;
   border-radius: 0 !important; }
-.application.step3 .declaration h5 {
-  display: inline-block;
+.application.step3 .declaration span {
+  position: relative;
   font-size: 14px;
-  color: #333; }
-  .application.step3 .declaration h5:before {
-    content: "*";
-    margin-right: 5px;
+  color: #333;
+  line-height: 22px;
+  margin-bottom: 35px; }
+  .application.step3 .declaration span i.require {
+    position: absolute;
+    left: -10px;
     color: #e61937; }
+    .application.step3 .declaration span i.require:before {
+      margin-right: 5px;
+      content: '*'; }
 .application.step3 .declaration .form-group {
   display: inline-block;
   margin-left: 40px; }
 .application.step3 .declaration p {
   font-size: 13px;
   color: #777;
-  line-height: 22px; }
-  .application.step3 .declaration p.declaration-details {
-    margin-top: 30px; }
-  .application.step3 .declaration p.attention {
-    margin-top: 30px;
-    color: #777; }
-    .application.step3 .declaration p.attention:before {
-      content: "※";
-      margin-right: 5px; }
+  line-height: 22px;
+  margin-top: 30px; }
 .application.step3 .declaration ul {
   margin-top: 30px; }
   .application.step3 .declaration ul li {
@@ -371,7 +390,7 @@ textarea.form-control {
     .application.step3 .declaration ul li:before {
       content: "-";
       margin-right: 3px; }
-.application.step3 .declaration .line {
+.application.step3 .declaration hr {
   width: 100%;
   border-top: 1px solid #d6d6d6;
   margin: 50px 0; }
