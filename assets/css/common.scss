@@ -5,6 +5,7 @@ $lg: "1230px";
 
 $kcolor: #920326;
 
+@import url('/assets/fontello/css/fontello.css');
 @mixin trans($prop: all, $sec: .15s, $timing: linear, $delay: 0s) {
 	-webkit-transition-property: $prop;
     transition-property: $prop;

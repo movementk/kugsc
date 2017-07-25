@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("/assets/fontello/css/fontello.css");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -81,6 +82,17 @@ textarea.form-control {
   font-size: 12px;
   line-height: 18px;
   color: #999; }
+
+.decimal-list {
+  list-style: decimal;
+  list-style-position: inside; }
+  .decimal-list > li {
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 60px; }
+    .decimal-list > li:last-child {
+      margin-bottom: 0; }
 
 .table {
   border-top: 2px solid #920326; }
@@ -170,6 +182,9 @@ textarea.form-control {
       color: #920326;
       font-size: 13px; }
 
+.application {
+  padding: 40px 0 30px; }
+
 .application.step1 .personal-details .nationality .form-control {
   width: 342px; }
 .application.step1 .personal-details .passport.number .form-control, .application.step1 .personal-details .email .form-control {
@@ -182,6 +197,35 @@ textarea.form-control {
 .application.step1 .personal-details .disability .help-block {
   margin-bottom: 15px;
   color: #444; }
+.application.step1 .personal-details .passport.ask {
+  padding: 50px 26px; }
+  .application.step1 .personal-details .passport.ask h3 {
+    display: inline-block;
+    font-size: 20px;
+    color: #202020;
+    font-weight: 400;
+    margin-bottom: 35px; }
+  .application.step1 .personal-details .passport.ask p {
+    font-size: 14px;
+    color: #333; }
+  .application.step1 .personal-details .passport.ask label {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    padding-left: 25px; }
+    .application.step1 .personal-details .passport.ask label input[type="radio"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 0; }
+  .application.step1 .personal-details .passport.ask .help-block {
+    font-size: 14px;
+    color: #808080;
+    margin: 0;
+    padding-left: 25px; }
+    .application.step1 .personal-details .passport.ask .help-block:before {
+      content: "*";
+      color: #e61937; }
 
 .application.step2 .academic-background .apply {
   height: 54px;
@@ -206,6 +250,33 @@ textarea.form-control {
   width: 92px; }
 .application.step2 .home-institution .phone.fax th, .application.step2 .home-institution .fax.fax th {
   padding-left: 18px !important; }
+.application.step2 .study-plan strong {
+  display: inline-block;
+  font-size: 16px;
+  color: #920326;
+  font-weight: 400;
+  margin: 80px 0 15px; }
+  .application.step2 .study-plan strong:before {
+    content: "※";
+    margin-right: 5px; }
+.application.step2 .study-plan .notice-summary {
+  font-size: 14px;
+  color: #333;
+  line-height: 26px;
+  margin-bottom: 35px; }
+.application.step2 .study-plan .decimal-list li ul {
+  margin-top: 20px; }
+  .application.step2 .study-plan .decimal-list li ul li {
+    font-size: 14px;
+    color: #808080;
+    line-height: 20px; }
+    .application.step2 .study-plan .decimal-list li ul li:before {
+      content: "-";
+      margin-right: 5px; }
+.application.step2 .study-plan .decimal-list li > p {
+  font-size: 14px;
+  color: #808080;
+  line-height: 20px; }
 .application.step2 .study-plan .form-control {
   height: 40px;
   border-radius: 0 !important; }
@@ -394,5 +465,145 @@ textarea.form-control {
   width: 100%;
   border-top: 1px solid #d6d6d6;
   margin: 50px 0; }
+
+.steps {
+  margin: 90px 0 70px; }
+  .steps ul {
+    font-size: 0; }
+    .steps ul li {
+      position: relative;
+      width: 33.33%;
+      text-align: center;
+      display: inline-block; }
+      .steps ul li:after {
+        position: absolute;
+        top: 79px;
+        right: -13px;
+        font-size: 14px;
+        content: "\E800";
+        font-family: "fontello";
+        width: 26px;
+        height: 26px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid #989898; }
+      .steps ul li:last-child:after {
+        display: none; }
+      .steps ul li.active .item {
+        background-color: #920326; }
+        .steps ul li.active .item.step-1 {
+          background-image: url(/assets/images/application/stap01_bg_ac.png); }
+        .steps ul li.active .item.step-2 {
+          background-image: url(/assets/images/application/stap02_bg_ac.png); }
+        .steps ul li.active .item.step-3 {
+          background-image: url(/assets/images/application/stap03_bg_ac.png); }
+        .steps ul li.active .item h2 {
+          color: #fff; }
+      .steps ul li.active:after {
+        color: #920326;
+        border-color: #920326; }
+      .steps ul li.active .details {
+        color: #920326;
+        opacity: 1; }
+      .steps ul li .item {
+        display: inline-block;
+        width: 176px;
+        height: 176px;
+        border-radius: 50%;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: 50% 66px;
+        box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.1); }
+        .steps ul li .item.step-1 {
+          background-image: url(/assets/images/application/stap01_bg.png); }
+        .steps ul li .item.step-2 {
+          background-image: url(/assets/images/application/stap02_bg.png); }
+        .steps ul li .item.step-3 {
+          background-image: url(/assets/images/application/stap03_bg.png); }
+        .steps ul li .item h2 {
+          display: inline-block;
+          font-size: 14px;
+          color: #b2b2b2;
+          font-weight: bold;
+          margin-top: 35px; }
+      .steps ul li .details {
+        font-size: 14px;
+        color: #333;
+        opacity: .5;
+        font-weight: bold;
+        margin-top: 30px; }
+
+.questions {
+  margin-top: 40px;
+  padding: 40px 70px 50px;
+  background-color: #6b6a6a;
+  box-shadow: 3px 4px 6.5px 0.5px rgba(0, 0, 0, 0.13); }
+  .questions strong {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px; }
+  .questions p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px; }
+  .questions address {
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px; }
+  .questions ul li {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    padding-left: 20px; }
+    .questions ul li a {
+      color: #fff;
+      text-decoration: none; }
+    .questions ul li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 12px;
+      font-family: "fontello"; }
+    .questions ul li.tel {
+      position: relative; }
+      .questions ul li.tel:before {
+        content: "\E802"; }
+    .questions ul li.email:before {
+      content: "\E801"; }
+
+.btn-area {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 0; }
+  .btn-area p .btn {
+    display: inline-block;
+    width: 141px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin-right: 10px; }
+    .btn-area p .btn:last-child {
+      margin-right: 0; }
+    .btn-area p .btn:hover, .btn-area p .btn:focus {
+      color: #fff;
+      background: none;
+      box-shadow: none; }
+    .btn-area p .btn.btn-cancel {
+      background-color: #b8b8b8; }
+    .btn-area p .btn.btn-pre {
+      background-color: #b8b8b8; }
+    .btn-area p .btn.btn-next {
+      background-color: #900020; }
+    .btn-area p .btn.btn-send {
+      background-color: #900020; }
 
 /*# sourceMappingURL=application.css.map */
