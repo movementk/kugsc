@@ -123,22 +123,26 @@
 						<tr>
 							<td colspan="3">
 								<div class="passport ask">
-									<h3>Please read below carefully before you move to the next step</h3>
+									<h5>Please read below carefully before you move to the next step</h5>
 									<p>Do you have multiple passports and one of them is Korean?</p>
-									<label>
-									    <input type="radio" required> Yes, I have multiple passport, and one of them is Korean passport <br>
-									    (if yes, please write Korean passport number only)
-									</label>
-									<span class="help-block">
-									    Those who have Korean passport, Certificate of Admission will not be issued.
-									</span>
-									<label>
-									    <input type="radio" required>
-									    No, I have only one passport OR I do not have Korean passport
-									</label>
-                                    <span class="help-block">
-                                        The passport written here will be used to issue students’ Certificate of Admission
-                                    </span>
+                                    <div class="form-group">
+                                        <label>
+                                            <input type="radio" required> Yes, I have multiple passport, and one of them is Korean passport <br>
+                                            (if yes, please write Korean passport number only)
+                                        </label>
+                                        <span class="help-block">
+                                            Those who have Korean passport, Certificate of Admission will not be issued.
+                                        </span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>
+                                            <input type="radio" required>
+                                            No, I have only one passport OR I do not have Korean passport
+                                        </label>
+                                        <span class="help-block">
+                                            The passport written here will be used to issue students’ Certificate of Admission
+                                        </span>
+                                    </div>
 								</div>
 							</td>
 						</tr>
