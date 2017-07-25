@@ -479,7 +479,7 @@ textarea.form-control {
         top: 79px;
         right: -13px;
         font-size: 14px;
-        content: "\E800";
+        content: "\F006";
         font-family: "fontello";
         width: 26px;
         height: 26px;
@@ -569,9 +569,9 @@ textarea.form-control {
     .questions ul li.tel {
       position: relative; }
       .questions ul li.tel:before {
-        content: "\E802"; }
+        content: "\E804"; }
     .questions ul li.email:before {
-      content: "\E801"; }
+      content: "\E803"; }
 
 .btn-area {
   margin-top: 70px;
