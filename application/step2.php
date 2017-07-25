@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>KOREA UNIVERSITY THE OFFICE OF INTERNATIONAL AFFAIRS</title>
+	<link href="/assets/fontello/css/fontello.css" rel="stylesheet">
 	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/assets/css/application.css" rel="stylesheet">
 	<!--[if lt IE 9]>

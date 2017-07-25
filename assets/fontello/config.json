@@ -23,6 +23,24 @@
       "css": "eye",
       "code": 59394,
       "src": "entypo"
+    },
+    {
+      "uid": "b6ef4443ecc502136135437837d9724b",
+      "css": "mail",
+      "code": 59395,
+      "src": "elusive"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "37910a1398001a5ccb541cb2a253a2c7",
+      "css": "right-open",
+      "code": 61446,
+      "src": "mfglabs"
     }
   ]
 }

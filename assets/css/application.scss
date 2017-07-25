@@ -666,7 +666,7 @@ textarea.form-control {
                 top: 79px;
                 right: -13px;
                 font-size: 14px;
-                content: "\E800";
+                content: "\F006";
                 font-family: "fontello";
                 width: 26px;
                 height: 26px;
@@ -773,13 +773,13 @@ textarea.form-control {
             &.tel {
                 position: relative;
                 &:before {
-                    content: "\E802";
+                    content: "\E804";
                 }
                 
             }
             &.email {
                 &:before {
-                    content: "\E801";
+                    content: "\E803";
                 }
             }
         }
