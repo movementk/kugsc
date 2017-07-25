@@ -33,16 +33,22 @@
 		<div class="steps">
 			<ul>
 				<li>
-					STEP 01
-					<p>Program and Personal Details</p>
+					<div class="item step-1">
+					    <h2>STEP 01</h2>
+					</div>
+					<p class="details">Program and Personal Details</p>
 				</li>
 				<li>
-					STEP 02
-					<p>Academic Background</p>
+					<div class="item step-2">
+					    <h2>STEP 02</h2>
+					</div>
+					<p class="details">Academic Background</p>
 				</li>
-				<li>
-					STEP 03
-					<p>Documents and Declaration</p>
+				<li class="active">
+					<div class="item step-3">
+					    <h2>STEP 03</h2>
+					</div>
+					<p class="details">Documents and Declaration</p>
 				</li>
 			</ul>
 		</div>
@@ -145,7 +151,7 @@
 				
 				<fieldset class="insurance-submission">
 				    <h4>8. Health Insurance Submission</h4>
-				    <span><i class="require"></i>
+				    <span>
 				        I have uploaded all the supporting documents above and in addition, I will send a copy of my private health insurance via email to <br>
 				        studyabroad@korea.ac.kr by 31 July , 2017 
 				    </span>
@@ -162,7 +168,7 @@
 				        <input type="text" class="form-control" required>
 				    </div>
 				    <hr>
-				    <span><i class="require"></i>
+				    <span>
 				        I understand that I am responsible for submitting the copy of private health insurance by the deadline which will be valid during my stay in the Republic of Korea and that I will not be given the right to register for any courses without its submission. 
 				    </span>
                     <label>
@@ -221,11 +227,22 @@
                         </div>
                     </div>
 				</fieldset>
+				<article class="questions">
+				    <strong>If you have any inquiries, please contact to:</strong>
+				    <p>Global Services Center, KOREA UNIVERSITY</p>
+				    <address>#104A Central Plaza, 145 Anam-Ro, Seongbuk-Gu, Seoul, Korea 02841</address>
+				    <ul>
+				        <li class="tel">Tel. +82-2-3290-5176 or 5177 or 5178</li>
+				        <li class="email">
+				            E-mail. <a href="mailto:">studyabroad@korea.ac.kr</a>
+				        </li>
+				    </ul>
+				</article>
 				<div class="btn-area">
 					<p>
-						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="button" class="btn btn-default">Previous</button>
-						<button type="submit" class="btn btn-default">Next</button>
+						<button type="reset" class="btn btn-default btn-cancel">Cancel</button>
+						<button type="button" class="btn btn-default btn-pre">Previous</button>
+						<button type="submit" class="btn btn-default btn-send">Send</button>
 					</p>
 				</div>
 			</form>

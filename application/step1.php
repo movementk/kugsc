@@ -32,17 +32,23 @@
 	
 		<div class="steps">
 			<ul>
-				<li>
-					STEP 01
-					<p>Program and Personal Details</p>
+				<li class="active">
+					<div class="item step-1">
+					    <h2>STEP 01</h2>
+					</div>
+					<p class="details">Program and Personal Details</p>
 				</li>
 				<li>
-					STEP 02
-					<p>Academic Background</p>
+					<div class="item step-2">
+					    <h2>STEP 02</h2>
+					</div>
+					<p class="details">Academic Background</p>
 				</li>
 				<li>
-					STEP 03
-					<p>Documents and Declaration</p>
+					<div class="item step-3">
+					    <h2>STEP 03</h2>
+					</div>
+					<p class="details">Documents and Declaration</p>
 				</li>
 			</ul>
 		</div>
@@ -138,13 +144,23 @@
 						</tr>
 						<tr>
 							<td colspan="3">
-								<div style="height: 100px;">
-									
-									
-									
-									
-									
-									
+								<div class="passport ask">
+									<h3>Please read below carefully before you move to the next step</h3>
+									<p>Do you have multiple passports and one of them is Korean?</p>
+									<label>
+									    <input type="radio" required> Yes, I have multiple passport, and one of them is Korean passport <br>
+									    (if yes, please write Korean passport number only)
+									</label>
+									<span class="help-block">
+									    Those who have Korean passport, Certificate of Admission will not be issued.
+									</span>
+									<label>
+									    <input type="radio" required>
+									    No, I have only one passport OR I do not have Korean passport
+									</label>
+                                    <span class="help-block">
+                                        The passport written here will be used to issue students’ Certificate of Admission
+                                    </span>
 								</div>
 							</td>
 						</tr>
@@ -254,10 +270,8 @@
 				</fieldset>
 				<div class="btn-area">
 					<p>
-						
-						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="button" class="btn btn-default">Previous</button>
-						<button type="submit" class="btn btn-default">Next</button>
+						<button type="reset" class="btn btn-default btn-cancel">Cancel</button>
+						<button type="submit" class="btn btn-default btn-next">Next</button>
 					</p>
 				</div>
 			</form>
