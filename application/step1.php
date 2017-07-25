@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>KOREA UNIVERSITY THE OFFICE OF INTERNATIONAL AFFAIRS</title>
-	<link href="/assets/fontello/css/fontello.css" rel="stylesheet">
-	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/assets/css/application.css" rel="stylesheet">
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/application/_dochead.php"); ?>
 </head>
 <body class="application step1">
 
-<header id="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-3">
-				<h1><a class="logo" href="/"><img src="/assets/images/application/logo.gif" alt="KOREA UNIVERSITY THE OFFICE OF INTERNATIONAL AFFAIRS"></a></h1>
-			</div>
-			<div class="col-xs-6 col-xs-offset-3">
-				<p>Exchange &amp; Study Abroad Program Application Form</p>
-			</div>
-		</div>
-	</div>
-</header>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/application/_header.php"); ?>
 
 <main id="content">
 
@@ -282,8 +259,7 @@
 	
 </main>
 
-<script async src="/assets/js/jquery.min.js"></script>
-<script async src="/assets/bootstrap/js/bootstrap.min.js"></script>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/application/_docfoot.php"); ?>
 
 </body>
 </html>
