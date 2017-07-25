@@ -252,7 +252,7 @@ textarea.form-control {
 		}
         .passport.ask {
             padding: 50px 26px;
-            h3 {
+            h5 {
                 display: inline-block;
                 font-size: 20px;
                 color: #202020;
@@ -298,9 +298,19 @@ textarea.form-control {
             font-size: 14px;
             font-weight: normal;
             line-height: 18px !important;
-            padding-left: 25px !important;
+            padding-left: 16px !important;
             padding-right: 20px !important;
-            span {
+            .form-group {
+                > p {
+                    display: inline-block;
+                    &:before {
+                        content: "*";
+                        color: #e61937;
+                        margin-right: 3px;
+                    }
+                }
+            }
+            p {
                 position: relative;
                 margin-right: 40px;
             }
@@ -316,7 +326,7 @@ textarea.form-control {
             }
             &.recent-year {
                 th {
-                    padding-left: 18px !important;
+                    padding-left: 16px !important;
                 }
             }
         }
@@ -358,22 +368,24 @@ textarea.form-control {
         }
         .decimal-list {
             li {
-                ul {
-                    margin-top: 20px;
-                    li {
+                .registration-courses {
+                    ul {
+                        margin-top: 20px;
+                        li {
+                            font-size: 14px;
+                            color: #808080;
+                            line-height: 20px;
+                            &:before {
+                                content: "-";
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    > p {
                         font-size: 14px;
                         color: #808080;
                         line-height: 20px;
-                        &:before {
-                            content: "-";
-                            margin-right: 5px;
-                        }
                     }
-                }
-                > p {
-                    font-size: 14px;
-                    color: #808080;
-                    line-height: 20px;
                 }
             }
         }
@@ -470,9 +482,16 @@ textarea.form-control {
             line-height: 18px !important;
             padding-left: 25px !important;
             padding-right: 20px !important;
-            span {
-                position: relative;
-                margin-right: 40px;
+            .form-group {
+                p {
+                    display: inline-block;
+                    margin-right: 40px;
+                    &:before {
+                        content: "*";
+                        color: #e61937;
+                        margin-right: 3px;
+                    }
+                }
             }
         }
     }
@@ -570,7 +589,7 @@ textarea.form-control {
         }
     }
     .insurance-submission {
-        > span {
+        > p {
             position: relative;
             font-size: 14px;
             display: block;
@@ -605,41 +624,79 @@ textarea.form-control {
         }
     }
     .declaration {
-        span {
-            position: relative;
-            font-size: 14px;
-            color: #333;
-            line-height: 22px;
-            margin-bottom: 35px;
-            i.require {
-                position: absolute;
-                left: -10px;
-                color: #e61937;
-                &:before {
-                    margin-right: 5px;
-                    content: '*';
-                }
+        .form-group {
+            p {
+                display: inline-block;
             }
         }
-        .form-group {
-            display: inline-block;
-            margin-left: 40px;
-        }
-        p {
-            font-size: 13px;
-            color: #777;
-            line-height: 22px;
-            margin-top: 30px;
-        }
-        ul {
-            margin-top: 30px;
-            li {
+        .criminal-records {
+            .form-group {
+                > p {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #333;
+                    line-height: 22px;
+                    margin-right: 40px;
+                    &:before {
+                        content: "*";
+                        color: #e61937;
+                        margin-right: 2px;
+                    }
+                }
+            }
+            > p {
                 font-size: 13px;
                 color: #777;
                 line-height: 22px;
+                margin-top: 30px;
+            }
+        }
+        .information-collection {
+            .consent {
+                font-size: 14px;
+                color: #333;
+                line-height: 22px;
                 &:before {
-                    content: "-";
-                    margin-right: 3px;
+                    content: "*";
+                    color: #e61937;
+                    margin-right: 2px;
+                }
+            }
+            p {
+                font-size: 13px;
+                color: #777;
+                line-height: 22px;
+                margin-top: 30px;
+                &:before {
+                    content: "※";
+                }
+            }
+            ul {
+                margin-top: 30px;
+                li {
+                    font-size: 13px;
+                    color: #777;
+                    line-height: 22px;
+                    &:before {
+                        content: "-";
+                        margin-right: 3px;
+                    }
+                }
+            }
+        }
+        .announcement {
+            .form-group {
+                p {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #333;
+                    line-height: 22px;
+                    margin-right: 40px;
+                    &:before {
+                        content: "*";
+                        color: #e61937;
+                        margin-right: 2px;
+                    }
                 }
             }
         }
@@ -665,15 +722,16 @@ textarea.form-control {
                 position: absolute;
                 top: 79px;
                 right: -13px;
-                font-size: 14px;
                 content: "\F006";
                 font-family: "fontello";
                 width: 26px;
                 height: 26px;
+                font-size: 14px;
+                color: #999;
                 line-height: 24px;
                 text-align: center;
                 border-radius: 50%;
-                border: 1px solid #989898;
+                border: 1px solid #999;
             }
             &:last-child {
                 &:after {
@@ -707,7 +765,7 @@ textarea.form-control {
                 background-color: #fff;
                 background-repeat: no-repeat;
                 background-position: 50% 66px;
-                box-shadow: 4px 5px 7px rgba(0, 0, 0, .1);
+                box-shadow: 3px 4px 8.55px 0.45px rgba(0, 0, 0, 0.17);
                 &.step-1 {background-image: url(/assets/images/application/stap01_bg.png);}
                 &.step-2 {background-image: url(/assets/images/application/stap02_bg.png);}
                 &.step-3 {background-image: url(/assets/images/application/stap03_bg.png);}

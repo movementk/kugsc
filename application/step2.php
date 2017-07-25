@@ -46,13 +46,15 @@
 					<table class="table">
 					    <tr>
 					        <td colspan="2" class="apply">
-					            <span><i class="require"></i>Are you currently enrolled at your home institution?</span>
-                                <label>
-                                    <input type="radio"> Yes
-                                </label>
-                                <label>
-                                    <input type="radio"> No
-                                </label>
+                                <div class="form-group">
+                                    <p>Are you currently enrolled at your home institution?</p>
+                                    <label>
+                                        <input type="radio"> Yes
+                                    </label>
+                                    <label>
+                                        <input type="radio"> No
+                                    </label>
+                                </div>
 					        </td>
 					    </tr>
 						<tr>
@@ -185,213 +187,221 @@
                 
                 <fieldset class="study-plan">
 				    <h4>5. Study Plan at KU</h4>
-                    <ol class="decimal-list">
-                        <li>
-                            As the completion of this Study Plan is a preliminary survey, it does not guarantee enrollment in a particular course. Course registration has to be completed online during the official period. The detailed instruction on online course registration will be announced via e-mail.
-                        </li>
-                        <li>
-                            For the latest course list, students are required to check the course registration page in January for spring semester (Mar-Jun)<br>
-                            and in July for fall semester (Sep-Dec).<br>
-                            Course syllabus will be available at http://sugang.korea.ac.kr > Select ‘English’ > Major/General Subject > Select College/School and Course Classification by clicking the ‘Course No.’ link.
-                            <ul>
-                                <li>Courses conducted in English will be indicated in brackets, English. (e.g. Understanding Korea(English))</li>
-                                <li>Courses marked under ‘5)X’ are available to exchange/visiting students.</li>
-                                <li>Students can only apply for the courses marked ‘A(Anam)’ under ‘1)C (Campus)’</li>
-                            </ul>
-                            <p>(Courses marked ‘S’ is Sejong campus, which is KU’s satellite campus and is located 3 hours away from Seoul).</p>
-                        </li>
-                        <li>
-                            Students can refer to the course list from the previous year, however courses are subject to change.
-                        </li>
-                        <li>
-                            Academic Credit Policy
-                            <ul>
-                                <li>
-                                    Undergraduate: Maximum of 19 credits (12-15 credits are recommended)<br>
-                                    <p>*The minimum credit requirements for the Exchange/Visiting program is based on your home university policy.</p>
-                                </li>
-                                <li>Graduate : Maximum of 9 credits</li>
-                            </ul>
-                        </li>
-                    </ol>
-                    <strong>Important Notice</strong>
-                    <p class="notice-summary">
-                        It is highly competitive to register some courses in Korea University and students may not be able to sign up the courses they desire. Therefore we strongly<br>
-                        recommend students to be flexible with their course selection. Please be aware that the course details could be changed every semester. Students take the<br>
-                        responsibility themselves for their course plan. None of the courses can be guaranteed in advance.
-                    </p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Department</th>
-                                <th>Course Code</th>
-                                <th>Title (List in order of preference)</th>
-                                <th>Credit Value</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="department">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                                <td class="course-code">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="title">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="credit-value">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="department">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                                <td class="course-code">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="title">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="credit-value">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="department">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                                <td class="course-code">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="title">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="credit-value">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="department">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                                <td class="course-code">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="title">
-                                    <input type="text" class="form-control" required>
-                                </td>
-                                <td class="credit-value">
-                                    <select class="form-control" required>
-                                        <option value="">Select</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                        <option value="">Option</option>
-                                    </select>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="preliminary-investigation">
+                        <ol class="decimal-list">
+                            <li>
+                                As the completion of this Study Plan is a preliminary survey, it does not guarantee enrollment in a particular course. Course registration has to be completed online during the official period. The detailed instruction on online course registration will be announced via e-mail.
+                            </li>
+                            <li>
+                                For the latest course list, students are required to check the course registration page in January for spring semester (Mar-Jun)<br>
+                                and in July for fall semester (Sep-Dec).<br>
+                                Course syllabus will be available at http://sugang.korea.ac.kr > Select ‘English’ > Major/General Subject > Select College/School and Course Classification by clicking the ‘Course No.’ link.
+                                <div class="registration-courses">
+                                    <ul>
+                                        <li>Courses conducted in English will be indicated in brackets, English. (e.g. Understanding Korea(English))</li>
+                                        <li>Courses marked under ‘5)X’ are available to exchange/visiting students.</li>
+                                        <li>Students can only apply for the courses marked ‘A(Anam)’ under ‘1)C (Campus)’</li>
+                                    </ul>
+                                    <p>(Courses marked ‘S’ is Sejong campus, which is KU’s satellite campus and is located 3 hours away from Seoul).</p>
+                                </div>
+                            </li>
+                            <li>
+                                Students can refer to the course list from the previous year, however courses are subject to change.
+                            </li>
+                            <li>
+                                Academic Credit Policy
+                                <ul>
+                                    <li>
+                                        Undergraduate: Maximum of 19 credits (12-15 credits are recommended)<br>
+                                        <p>*The minimum credit requirements for the Exchange/Visiting program is based on your home university policy.</p>
+                                    </li>
+                                    <li>Graduate : Maximum of 9 credits</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="important-notice">
+                        <strong>Important Notice</strong>
+                        <p class="notice-summary">
+                            It is highly competitive to register some courses in Korea University and students may not be able to sign up the courses they desire. Therefore we strongly<br>
+                            recommend students to be flexible with their course selection. Please be aware that the course details could be changed every semester. Students take the<br>
+                            responsibility themselves for their course plan. None of the courses can be guaranteed in advance.
+                        </p>
+                    </div>
+                    <div class="course">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Department</th>
+                                    <th>Course Code</th>
+                                    <th>Title (List in order of preference)</th>
+                                    <th>Credit Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="department">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                    <td class="course-code">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="title">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="credit-value">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="department">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                    <td class="course-code">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="title">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="credit-value">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="department">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                    <td class="course-code">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="title">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="credit-value">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="department">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                    <td class="course-code">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="title">
+                                        <input type="text" class="form-control" required>
+                                    </td>
+                                    <td class="credit-value">
+                                        <select class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                            <option value="">Option</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 				</fieldset>
 				
 				<fieldset class="language-proficiency">
@@ -400,46 +410,54 @@
 				    <table class="table">
 				        <tr>
 				            <td>
-				                <span><i class="require"></i>In which language do you wish to study at KU?</span>
-                                <label>
-                                    <input type="checkbox"> Korean
-                                </label>
-                                <label>
-                                    <input type="checkbox"> English
-                                </label>
+                                <div class="form-group">
+                                    <p>In which language do you wish to study at KU?</p>
+                                    <label>
+                                        <input type="checkbox"> Korean
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> English
+                                    </label>
+                                </div>
 				            </td>
 				        </tr>
 				        <tr>
 				            <td>
-				                <span><i class="require"></i>Are you fluent in either Korean or English to follow lectures and complete course assignments?</span>
-                                <label>
-                                    <input type="radio"> Yes
-                                </label>
-                                <label>
-                                    <input type="radio"> No
-                                </label>
+                                <div class="form-group">
+                                    <p>Are you fluent in either Korean or English to follow lectures and complete course assignments?</p>
+                                    <label>
+                                        <input type="radio"> Yes
+                                    </label>
+                                    <label>
+                                        <input type="radio"> No
+                                    </label>
+                                </div>
 				            </td>
 				        </tr>
 				        <tr>
 				            <td>
-				                <span><i class="require"></i>Have you taken any Korean language course before?</span>
-                                <label>
-                                    <input type="radio"> Yes
-                                </label>
-                                <label>
-                                    <input type="radio"> No
-                                </label>
+                                <div class="form-group">
+                                    <p>Have you taken any Korean language course before?</p>
+                                    <label>
+                                        <input type="radio"> Yes
+                                    </label>
+                                    <label>
+                                        <input type="radio"> No
+                                    </label>
+                                </div>
 				            </td>
 				        </tr>
                         <tr>
 				            <td>
-				                <span><i class="require"></i>Do you wish to take credit-bearing Korean language courses?</span>
-                                <label>
-                                    <input type="radio"> Yes
-                                </label>
-                                <label>
-                                    <input type="radio"> No
-                                </label>
+                                <div class="form-group">
+                                    <p>Do you wish to take credit-bearing Korean language courses?</p>
+                                    <label>
+                                        <input type="radio"> Yes
+                                    </label>
+                                    <label>
+                                        <input type="radio"> No
+                                    </label>
+                                </div>
 				            </td>
 				        </tr>
 				    </table>
