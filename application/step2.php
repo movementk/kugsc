@@ -33,16 +33,22 @@
 		<div class="steps">
 			<ul>
 				<li>
-					STEP 01
-					<p>Program and Personal Details</p>
+					<div class="item step-1">
+					    <h2>STEP 01</h2>
+					</div>
+					<p class="details">Program and Personal Details</p>
+				</li>
+				<li class="active">
+					<div class="item step-2">
+					    <h2>STEP 02</h2>
+					</div>
+					<p class="details">Academic Background</p>
 				</li>
 				<li>
-					STEP 02
-					<p>Academic Background</p>
-				</li>
-				<li>
-					STEP 03
-					<p>Documents and Declaration</p>
+					<div class="item step-3">
+					    <h2>STEP 03</h2>
+					</div>
+					<p class="details">Documents and Declaration</p>
 				</li>
 			</ul>
 		</div>
@@ -201,7 +207,41 @@
                 
                 <fieldset class="study-plan">
 				    <h4>5. Study Plan at KU</h4>
-					<p class="note text-right">* Required input</p>
+                    <ol class="decimal-list">
+                        <li>
+                            As the completion of this Study Plan is a preliminary survey, it does not guarantee enrollment in a particular course. Course registration has to be completed online during the official period. The detailed instruction on online course registration will be announced via e-mail.
+                        </li>
+                        <li>
+                            For the latest course list, students are required to check the course registration page in January for spring semester (Mar-Jun)<br>
+                            and in July for fall semester (Sep-Dec).<br>
+                            Course syllabus will be available at http://sugang.korea.ac.kr > Select ‘English’ > Major/General Subject > Select College/School and Course Classification by clicking the ‘Course No.’ link.
+                            <ul>
+                                <li>Courses conducted in English will be indicated in brackets, English. (e.g. Understanding Korea(English))</li>
+                                <li>Courses marked under ‘5)X’ are available to exchange/visiting students.</li>
+                                <li>Students can only apply for the courses marked ‘A(Anam)’ under ‘1)C (Campus)’</li>
+                            </ul>
+                            <p>(Courses marked ‘S’ is Sejong campus, which is KU’s satellite campus and is located 3 hours away from Seoul).</p>
+                        </li>
+                        <li>
+                            Students can refer to the course list from the previous year, however courses are subject to change.
+                        </li>
+                        <li>
+                            Academic Credit Policy
+                            <ul>
+                                <li>
+                                    Undergraduate: Maximum of 19 credits (12-15 credits are recommended)<br>
+                                    <p>*The minimum credit requirements for the Exchange/Visiting program is based on your home university policy.</p>
+                                </li>
+                                <li>Graduate : Maximum of 9 credits</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <strong>Important Notice</strong>
+                    <p class="notice-summary">
+                        It is highly competitive to register some courses in Korea University and students may not be able to sign up the courses they desire. Therefore we strongly<br>
+                        recommend students to be flexible with their course selection. Please be aware that the course details could be changed every semester. Students take the<br>
+                        responsibility themselves for their course plan. None of the courses can be guaranteed in advance.
+                    </p>
                     <table class="table">
                         <thead>
                             <tr>
@@ -428,10 +468,9 @@
 				</fieldset>
 				<div class="btn-area">
 					<p>
-						
-						<button type="reset" class="btn btn-default">Cancel</button>
-						<button type="button" class="btn btn-default">Previous</button>
-						<button type="submit" class="btn btn-default">Next</button>
+						<button type="reset" class="btn btn-default btn-cancel">Cancel</button>
+						<button type="button" class="btn btn-default btn-pre">Previous</button>
+						<button type="submit" class="btn btn-default btn-next">Next</button>
 					</p>
 				</div>
 			</form>
