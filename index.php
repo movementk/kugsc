@@ -13,61 +13,13 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body class="nav-expand">
+<body>
 
-<header id="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-6 col-lg-3">
-				<h1 class="logo">
-					<a href="/">
-						<img class="visible-xs" src="/assets/images/logo_white_xs.png" alt="KOREA UNIVERSITY Global Services Center">
-						<img class="visible-sm visible-md" src="/assets/images/logo_white_sm.png" alt="KOREA UNIVERSITY Global Services Center">
-						<img class="visible-lg" src="/assets/images/logo_white_lg.png" alt="KOREA UNIVERSITY Global Services Center">
-					</a>
-				</h1>
-			</div>
-			<div class="col-xs-6 hidden-lg">
-				<button class="btn btn-link btn-menu" type="button">
-					<i class="icon-menu"></i>
-					<span class="sr-only">메뉴 열기</span>
-				</button>
-			</div>
-			<div class="col-lg-9 visible-lg">
-				<nav class="nav">
-					<ul>
-						<li>
-							<a href="#">About GSC<span class="bar"></span></a>
-							<div class="nav-content">
-								
-							</div>
-						</li>
-						<li>
-							<a href="#">International Student<span class="bar"></span></a>
-							<div class="nav-content">
-								
-							</div>
-						</li>
-						<li>
-							<a href="#">Exchange/Visiting Program<span class="bar"></span></a>
-							<div class="nav-content">
-								
-							</div>
-						</li>
-						<li>
-							<a href="#">Student Services<span class="bar"></span></a>
-							<div class="nav-content">
-								
-							</div>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-</header>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
 
-<main id="content" style="height: 5000px; background-color: #666;">
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/side_nav.php"); ?>
+
+<main id="content" style="height: 1000px; background-color: #666;">
 
 	<section id="">
 		
@@ -75,31 +27,51 @@
 	
 </main>
 
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-3 col-lg-12">
-				<h2 class="logo">
-					<img class="visible-xs" src="/assets/images/logo_footer_xs.png" alt="KOREA UNIVERSITY Global Services Center">
-					<img class="visible-sm visible-md" src="/assets/images/logo_footer_sm.png" alt="KOREA UNIVERSITY Global Services Center">
-					<img class="visible-lg" src="/assets/images/logo_footer_lg.png" alt="KOREA UNIVERSITY Global Services Center">
-				</h2>
-			</div>
-			<div class="col-xs-12 col-sm-9 col-lg-10">
-				<p class="copyright">
-					Copyright ⓒ 2017 KOREA UNIVERSITY Office of
-					International Affairs. All Rights Reserved.
-				</p>
-			</div>
-			<div class="col-lg-2 visible-lg">
-				<a class="sitemap" href="#">SITE</a>
-			</div>
-		</div>
-	</div>
-</footer>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 
-<script async src="/assets/js/jquery.min.js"></script>
-<script async src="/assets/bootstrap/js/bootstrap.min.js"></script>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
+
+<script>
+	(function($) {
+		
+		// 해상도: = lg
+		// 설명: 상단 gnb 관련 이벤트
+		$(document).on("mouseenter focusin", "#header .nav > ul > li > a", function() {
+			$("body").addClass("nav-expanded");
+			$(this).parent().siblings(".active").removeClass("active");
+			$(this).parent().addClass("active");
+		});
+		$(document).on("mouseleave", "#header", function() {
+			$("body").removeClass("nav-expanded");
+			$(this).find(".nav > ul > li").removeClass("active");
+		});
+		
+		// 해상도: < lg
+		// 설명: 사이드 네비게이션 열기, 닫기 이벤트
+		$(document).on("click", "#header .btn-nav-open", function() {
+			$('body').addClass('nav-opened');
+		});
+		$(document).on("click", "#side-nav", function(e) {
+			if ($(e.target).attr('id') == "side-nav") {
+				$('body').removeClass('nav-opened');
+			}
+		});
+		$(document).on('click', '#side-nav .btn-nav-close', function() {
+			$('body').removeClass('nav-opened');
+		});
+		$(document).on('click', '#side-nav .nav-body ul li a', function(e) {
+			if ($(this).siblings('ul').length > 0) {
+				if ($(this).parent().hasClass('active')) {
+					$(this).parent().removeClass('active');
+				} else {
+					$(this).parent().siblings('.active').removeClass('active');
+					$(this).parent().addClass('active');
+				}
+				e.preventDefault();
+			}
+		});
+	})(jQuery);
+</script>
 
 </body>
 </html>
