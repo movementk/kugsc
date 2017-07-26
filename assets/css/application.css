@@ -198,7 +198,7 @@ textarea.form-control {
   color: #444; }
 .application.step1 .personal-details .passport.ask {
   padding: 50px 26px; }
-  .application.step1 .personal-details .passport.ask h3 {
+  .application.step1 .personal-details .passport.ask h5 {
     display: inline-block;
     font-size: 20px;
     color: #202020;
@@ -232,9 +232,15 @@ textarea.form-control {
   font-size: 14px;
   font-weight: normal;
   line-height: 18px !important;
-  padding-left: 25px !important;
+  padding-left: 16px !important;
   padding-right: 20px !important; }
-  .application.step2 .academic-background .apply span {
+  .application.step2 .academic-background .apply .form-group > p {
+    display: inline-block; }
+    .application.step2 .academic-background .apply .form-group > p:before {
+      content: "*";
+      color: #e61937;
+      margin-right: 3px; }
+  .application.step2 .academic-background .apply p {
     position: relative;
     margin-right: 40px; }
 .application.step2 .academic-background .major .form-control {
@@ -242,7 +248,7 @@ textarea.form-control {
 .application.step2 .academic-background .gpa .form-control, .application.step2 .academic-background .recent-year .form-control {
   width: 140px; }
 .application.step2 .academic-background .gpa.recent-year th, .application.step2 .academic-background .recent-year.recent-year th {
-  padding-left: 18px !important; }
+  padding-left: 16px !important; }
 .application.step2 .home-institution .international .form-control, .application.step2 .home-institution email .form-control, .application.step2 .home-institution addr .form-control {
   width: 445px; }
 .application.step2 .home-institution .phone .form-control, .application.step2 .home-institution .fax .form-control {
@@ -263,16 +269,16 @@ textarea.form-control {
   color: #333;
   line-height: 26px;
   margin-bottom: 35px; }
-.application.step2 .study-plan .decimal-list li ul {
+.application.step2 .study-plan .decimal-list li .registration-courses ul {
   margin-top: 20px; }
-  .application.step2 .study-plan .decimal-list li ul li {
+  .application.step2 .study-plan .decimal-list li .registration-courses ul li {
     font-size: 14px;
     color: #808080;
     line-height: 20px; }
-    .application.step2 .study-plan .decimal-list li ul li:before {
+    .application.step2 .study-plan .decimal-list li .registration-courses ul li:before {
       content: "-";
       margin-right: 5px; }
-.application.step2 .study-plan .decimal-list li > p {
+.application.step2 .study-plan .decimal-list li .registration-courses > p {
   font-size: 14px;
   color: #808080;
   line-height: 20px; }
@@ -334,9 +340,13 @@ textarea.form-control {
   line-height: 18px !important;
   padding-left: 25px !important;
   padding-right: 20px !important; }
-  .application.step2 .language-proficiency td span {
-    position: relative;
+  .application.step2 .language-proficiency td .form-group p {
+    display: inline-block;
     margin-right: 40px; }
+    .application.step2 .language-proficiency td .form-group p:before {
+      content: "*";
+      color: #e61937;
+      margin-right: 3px; }
 
 .application.step3 .supporting-documents .table th {
   width: 50%;
@@ -405,18 +415,18 @@ textarea.form-control {
       content: "-"; }
     .application.step3 .supporting-documents .attention ul li:last-child {
       margin-bottom: 0; }
-.application.step3 .insurance-submission > span {
+.application.step3 .insurance-submission > p {
   position: relative;
   font-size: 14px;
   display: block;
   color: #333;
   line-height: 22px;
   margin-bottom: 35px; }
-  .application.step3 .insurance-submission > span i.require {
+  .application.step3 .insurance-submission > p i.require {
     position: absolute;
     left: -10px;
     color: #e61937; }
-    .application.step3 .insurance-submission > span i.require:before {
+    .application.step3 .insurance-submission > p i.require:before {
       margin-right: 5px;
       content: '*'; }
 .application.step3 .insurance-submission hr {
@@ -430,36 +440,57 @@ textarea.form-control {
   width: 530px;
   height: 40px;
   border-radius: 0 !important; }
-.application.step3 .declaration span {
-  position: relative;
+.application.step3 .declaration .form-group p {
+  display: inline-block; }
+.application.step3 .declaration .criminal-records .form-group > p {
+  display: inline-block;
   font-size: 14px;
   color: #333;
   line-height: 22px;
-  margin-bottom: 35px; }
-  .application.step3 .declaration span i.require {
-    position: absolute;
-    left: -10px;
-    color: #e61937; }
-    .application.step3 .declaration span i.require:before {
-      margin-right: 5px;
-      content: '*'; }
-.application.step3 .declaration .form-group {
-  display: inline-block;
-  margin-left: 40px; }
-.application.step3 .declaration p {
+  margin-right: 40px; }
+  .application.step3 .declaration .criminal-records .form-group > p:before {
+    content: "*";
+    color: #e61937;
+    margin-right: 2px; }
+.application.step3 .declaration .criminal-records > p {
   font-size: 13px;
   color: #777;
   line-height: 22px;
   margin-top: 30px; }
-.application.step3 .declaration ul {
+.application.step3 .declaration .information-collection .consent {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px; }
+  .application.step3 .declaration .information-collection .consent:before {
+    content: "*";
+    color: #e61937;
+    margin-right: 2px; }
+.application.step3 .declaration .information-collection p {
+  font-size: 13px;
+  color: #777;
+  line-height: 22px;
   margin-top: 30px; }
-  .application.step3 .declaration ul li {
+  .application.step3 .declaration .information-collection p:before {
+    content: "※"; }
+.application.step3 .declaration .information-collection ul {
+  margin-top: 30px; }
+  .application.step3 .declaration .information-collection ul li {
     font-size: 13px;
     color: #777;
     line-height: 22px; }
-    .application.step3 .declaration ul li:before {
+    .application.step3 .declaration .information-collection ul li:before {
       content: "-";
       margin-right: 3px; }
+.application.step3 .declaration .announcement .form-group p {
+  display: inline-block;
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+  margin-right: 40px; }
+  .application.step3 .declaration .announcement .form-group p:before {
+    content: "*";
+    color: #e61937;
+    margin-right: 2px; }
 .application.step3 .declaration hr {
   width: 100%;
   border-top: 1px solid #d6d6d6;
@@ -478,15 +509,16 @@ textarea.form-control {
         position: absolute;
         top: 79px;
         right: -13px;
-        font-size: 14px;
         content: "\F006";
         font-family: "fontello";
         width: 26px;
         height: 26px;
+        font-size: 14px;
+        color: #999;
         line-height: 24px;
         text-align: center;
         border-radius: 50%;
-        border: 1px solid #989898; }
+        border: 1px solid #999; }
       .steps ul li:last-child:after {
         display: none; }
       .steps ul li.active .item {
@@ -513,7 +545,7 @@ textarea.form-control {
         background-color: #fff;
         background-repeat: no-repeat;
         background-position: 50% 66px;
-        box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.1); }
+        box-shadow: 3px 4px 8.55px 0.45px rgba(0, 0, 0, 0.17); }
         .steps ul li .item.step-1 {
           background-image: url(/assets/images/application/stap01_bg.png); }
         .steps ul li .item.step-2 {

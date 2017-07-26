@@ -129,10 +129,10 @@
 				
 				<fieldset class="insurance-submission">
 				    <h4>8. Health Insurance Submission</h4>
-				    <span>
+				    <p>
 				        I have uploaded all the supporting documents above and in addition, I will send a copy of my private health insurance via email to <br>
 				        studyabroad@korea.ac.kr by 31 July , 2017 
-				    </span>
+				    </p>
 				    <div class="form-group">
 				        <label>
 				            <input type="radio" required> Yes
@@ -146,22 +146,24 @@
 				        <input type="text" class="form-control" required>
 				    </div>
 				    <hr>
-				    <span>
+				    <p>
 				        I understand that I am responsible for submitting the copy of private health insurance by the deadline which will be valid during my stay in the Republic of Korea and that I will not be given the right to register for any courses without its submission. 
-				    </span>
-                    <label>
-                        <input type="radio" required> Yes
-                    </label>
-                    <label>
-                        <input type="radio" required> No
-                    </label>
+				    </p>
+                    <div class="form-group">
+                        <label>
+                            <input type="radio" required> Yes
+                        </label>
+                        <label>
+                            <input type="radio" required> No
+                        </label>
+                    </div>
 				</fieldset>
 				
 				<fieldset class="declaration">
 				    <h4>9. Declaration</h4>
-                    <div class="detail-content">
-                        <span><i class="require"></i>Do you have any criminal convictions?</span>
+                    <div class="criminal-records">
                         <div class="form-group">
+                            <p>Do you have any criminal convictions?</p>
                             <label>
                                 <input type="radio" required> Yes
                             </label>
@@ -177,8 +179,8 @@
                         </p>
                     </div>
 				    <hr>
-				    <div class="detail-content">
-                        <span><i class="require"></i>I agree that Korea University may collect my personal information shown above for the following purposes:</span>
+				    <div class="information-collection">
+                        <p class="consent">I agree that Korea University may collect my personal information shown above for the following purposes:</p>
                         <ul>
                             <li>Administration purposes for the exchange/visiting program and scholarships</li>
                             <li>Statistical and research purposes by the Office of International Affairs, Korea University</li>
@@ -186,16 +188,16 @@
                             <li>To obtain access to Korea University facilities available to exchange/visiting students</li>
                             <li>Process for student ID card issuance (KU Library and Hana bank)</li>
                         </ul>
-                        <p>
-                            ※ Exchange/visiting Students can apply for the student ID card only after they arrive in Korea and it is required to register through the Hana bank only.<br>
+                        <p class="announcement">
+                            Exchange/visiting Students can apply for the student ID card only after they arrive in Korea and it is required to register through the Hana bank only.<br>
                             (It is students’ decision to use the student card as debit card afterwards)
                         </p>
-                        <p>※ The Application record will be kept for three years</p>
+                        <p class="announcement"> The Application record will be kept for three years</p>
                     </div>
 				    <hr>
-                    <div class="detail-content">
-                        <span><i class="require"></i>I have read the declaration and agree.</span>
+                    <div class="announcement">
                         <div class="form-group">
+                            <p>I have read the declaration and agree.</p>
                             <label>
                                 <input type="radio" required> Yes
                             </label>
@@ -212,7 +214,7 @@
 				    <ul>
 				        <li class="tel">Tel. +82-2-3290-5176 or 5177 or 5178</li>
 				        <li class="email">
-				            E-mail. <a href="mailto:">studyabroad@korea.ac.kr</a>
+				            E-mail. <a href="mailto:studyabroad@korea.ac.kr">studyabroad@korea.ac.kr</a>
 				        </li>
 				    </ul>
 				</article>
