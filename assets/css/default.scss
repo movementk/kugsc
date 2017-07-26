@@ -20,16 +20,22 @@ html {
 
 body {
 	position: relative;
+	padding-top: 53px;
 	min-width: 320px;
 	height: 100%;
 	font-family: "Arial", sans-serif;
 	font-size: 12px;
 	overflow-scrolling: touch;
 	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
 	&.nav-opened {
 		overflow: hidden;
 	}
+	@media (min-width: $sm) {
+		padding-top: 84px;
+	}
 	@media (min-width: $lg) {
+		padding-top: 98px;
 		&.nav-opened {
 			overflow: initial;
 		}
@@ -90,6 +96,7 @@ body {
 }
 
 #header {
+	z-index: 9000;
 	overflow: hidden;
 	position: fixed;
 	top: 0;
@@ -224,6 +231,9 @@ body {
 								> li {
 									a {
 										display: block;
+										margin-bottom: 15px;
+										//margin-left: -5px;
+										//margin-right: -5px;
 										color: #333;
 										padding-left: 10px;
 										padding-right: 10px;
@@ -234,6 +244,10 @@ body {
 										border-bottom: 1px solid #ccc;
 										color: #555;
 										@include trans();
+										span {
+											word-spacing: -1px;
+											letter-spacing: -1px;
+										}
 										&:before {
 											margin-right: 5px;
 											font-family: "fontello";
@@ -246,15 +260,6 @@ body {
 											font-weight: bold;
 										}
 									}
-									> ul {
-										> li {
-											& + li {
-												a {
-													margin-top: 15px;
-												}
-											}
-										}
-									}
 								}
 							}
 						}
@@ -262,6 +267,15 @@ body {
 					& + li {
 						> a {
 							margin-left: 50px;
+						}
+					}
+					&:nth-of-type(3) {
+						> .nav-content {
+							.nav-head {
+								h4 {
+									margin-right: -30px;
+								}
+							}
 						}
 					}
 				}
@@ -274,6 +288,7 @@ body.nav-expanded {
 	@media (min-width: $lg) {
 		#header {
 			height: 525px;
+			box-shadow: 0 1px 10px rgba(#000, .15);
 			.nav {
 				> ul {
 					> li.active {
@@ -284,6 +299,12 @@ body.nav-expanded {
 				}
 			}
 		}
+	}
+}
+
+body.scrolled {
+	#header {
+		box-shadow: 0 1px 10px rgba(#000, .15);
 	}
 }
 
@@ -447,7 +468,7 @@ body.nav-expanded {
 			.nav-head {
 				height: 80px;
 				.logo {
-					margin-top: 25px;
+					margin-top: 30px;
 					margin-left: 27px;
 				}
 				.btn-nav-close {
@@ -498,11 +519,16 @@ body.nav-opened {
 	}
 }
 
+#content {
+	min-height: 500px;
+}
+
 #footer {
 	padding-top: 30px;
 	padding-bottom: 20px;
 	background-color: #fff;
 	text-align: center;
+	border-top: 1px solid #d4d4d4;
 	.logo {
 		margin-bottom: 20px;
 		margin-left: auto;
@@ -529,6 +555,7 @@ body.nav-opened {
 		}
 	}
 	@media (min-width: $lg) {
+		margin-top: 120px;
 		padding-bottom: 30px;
 		.logo {
 			margin-bottom: 15px;

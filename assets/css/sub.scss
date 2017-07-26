@@ -1,0 +1,335 @@
+@import 'common';
+
+#content {
+	font-family: "Tahoma", sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+	@media (min-width: $sm) {
+		font-size: 13px;
+	}
+	@media (min-width: $lg) {
+		font-size: 14px;
+		line-height: 25px;
+	}
+}
+
+.container-fluid {
+	@media (min-width: $lg) {
+		width: 1200px;
+	}
+}
+
+.page-content {
+	@media (min-width: $sm) {
+		margin: 0 auto;
+		padding-left: 20px;
+    	padding-right: 20px;
+		width: 750px;
+	}
+	@media (min-width: $md) {
+		padding-left: 15px;
+    	padding-right: 15px;
+		width: 970px;
+	}
+	@media (min-width: $lg) {
+		padding-left: 0;
+    	padding-right: 0;
+		width: 100%;
+	}
+}
+
+.page-header {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	border-bottom: 0;
+	text-align: center;
+	background-color: #000;
+	font-family: "Arial", sans-serif;
+	h1 {
+		margin-bottom: 20px;
+		font-size: 40px;
+		color: #fff;
+	}
+	p {
+		font-size: 16px;
+		line-height: 24px;
+		color: #fff;
+	}
+	@media (min-width: $lg) {
+		margin-bottom: 80px;
+		padding-top: 120px;
+		padding-bottom: 120px;
+		h1 {
+			font-size: 34px;
+		}
+		p {
+			font-size: 14px;
+			line-height: 22px;
+		}
+	}
+}
+
+#lnb {
+	margin-left: -10px;
+	margin-right: -10px;
+	.btn {
+		padding: 16px 20px;
+		font-size: 14px;
+		line-height: 18px;
+		background-color: $kcolor;
+		color: #fff;
+		text-decoration: none;
+		border: 0;
+		&:after {
+			position: absolute;
+			right: 10px;
+			font-family: "fontello";
+			content: "\F107";
+		}
+	}
+	.dropdown-menu {
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		width: 100%;
+		border: 0;
+		border-radius: 0;
+		box-shadow: none;
+		text-align: center;
+		border-bottom: 1px solid rgba(#000, .1);
+		> li {
+			> a {
+				display: block;
+				padding-top: 16px;
+				padding-bottom: 16px;
+				font-size: 14px;
+				line-height: 18px;
+				background-color: #333;
+				color: #fff;
+				border-top: 1px solid rgba(#fff, .1);
+			}
+			> ul {
+				display: none;
+				> li {
+					> a {
+						display: block;
+						padding: 16px 20px;
+						font-size: 13px;
+						line-height: 17px;
+						background-color: #efefef;
+						color: #777;
+						text-decoration: none;
+						border-top: 1px solid rgba(#333, .1);
+					}
+				}
+			}
+			&:first-child {
+				> a {
+					border-top: 0;
+				}
+			}
+			&.has-child {
+				> a {
+					&:after {
+						position: absolute;
+						right: 10px;
+						font-family: "fontello";
+						content: "\E807";
+						color: #fff;
+					}
+				}
+			}
+			&.active {
+				> ul {
+					display: block;
+				}
+				&.has-child {
+					> a {
+						&:after {
+							content: "\E808";
+						}
+					}
+				}
+			}
+		}
+	}
+	&.open {
+		.btn {
+			&:after {
+				content: "\F106";
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		margin-left: -20px;
+		margin-right: -20px;
+		.btn {
+			font-size: 16px;
+		}
+		.dropdown-menu {
+			> li {
+				> a {
+					padding-top: 18px;
+					padding-bottom: 18px;
+					font-size: 16px;
+				}
+				> ul {
+					> li {
+						> a {
+							padding-top: 18px;
+							padding-bottom: 18px;
+							font-size: 14px;
+							line-height: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	@media (min-width: $lg) {
+		margin-left: 0;
+		margin-right: 0;
+		width: 240px;
+		h2 {
+			margin-bottom: 4px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			height: 100px;
+			background-color: $kcolor;
+			color: #fff;
+			font-size: 18px;
+			line-height: 30px;
+			text-align: center;
+			font-weight: bold;
+		}
+		.btn {
+			display: none;
+		}
+		.dropdown-menu {
+			display: block !important;
+			position: relative;
+			text-align: left;
+			border-bottom: 2px solid $kcolor;
+			> li {
+				> a {
+					font-size: 13px;
+					line-height: 17px;
+					background-color: #fff;
+					color: #777;
+					border-top: 1px solid rgba(#000, .1);
+					&:hover, &:focus {
+						color: $kcolor;
+					}
+				}
+				> ul {
+					padding-top: 12px;
+					padding-bottom: 12px;
+					background-color: #f6f6f6;
+					border-top: 1px solid rgba(#000, .1);
+					> li {
+						> a {
+							padding-top: 9px;
+							padding-bottom: 9px;
+							padding-left: 40px;
+							border-top: 0;
+							font-size: 12px;
+							line-height: 16px;
+							background-color: transparent;
+							&:before {
+								position: absolute;
+								margin-left: -10px;
+								content: "-";
+							}
+							&:hover, &:focus {
+								color: $kcolor;
+							}
+						}
+					}
+				}
+				&:first-child {
+					border-top: 0;
+				}
+				&.has-child {
+					> a {
+						padding-right: 40px;
+						&:after {
+							right: 20px;
+							content: "\F107";
+							color: inherit;
+						}
+					}
+				}
+				&.active {
+					> a {
+						position: relative;
+						background-color: $kcolor;
+						color: #fff;
+						&:after {
+							position: absolute;
+							top: 50%;
+							right: 20px;
+							margin-top: -9px;
+							font-family: "fontello";
+							content: "\F105";
+						}
+					}
+					&.has-child {
+						> a {
+							&:after {
+								content: "\F106";
+								color: inherit;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.lnb-1 {
+			h2 {
+				padding-top: 40px;
+				padding-bottom: 40px;
+			}
+		}
+	}
+}
+
+.page-title {
+	margin-top: 55px;
+	margin-bottom: 45px;
+	height: 39px;
+	border-bottom: 1px solid rgba(#000, .1);
+	h3 {
+		float: left;
+		height: 40px;
+		border-bottom: 2px solid #000;
+		font-size: 18px;
+		color: #333;
+	}
+	@media (min-width: $sm) {
+		margin-top: 65px;
+		margin-bottom: 65px;
+		height: 51px;
+		h3 {
+			height: 52px;
+			font-size: 26px;
+		}
+	}
+	@media (min-width: $lg) {
+		margin-top: 34px;
+		height: 67px;
+		h3 {
+			height: 68px;
+			font-size: 28px;
+		}
+	}
+}
+
+.nav-tabs {
+}

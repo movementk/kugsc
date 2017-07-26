@@ -26,7 +26,7 @@
 											<div class="nav-head">
 												<h4>About GSC</h4>
 												<figure>
-													<img class="img-responsive" src="/assets/images/img_nav_content_2.jpg">
+													<img class="img-responsive" src="/assets/images/img_nav_content_1.jpg">
 													<figcaption>
 														As Brexit negotiations begin, the University
 														of Cambridge's Vice-Chancellor, Professor
@@ -38,14 +38,10 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4">
-														<ul>
-															<li><a href="#">About Korea University</a></li>
-															<li><a href="#">About Us</a></li>
-															<li><a href="#">Staff List</a></li>
-															<li><a href="#">Contact Us</a></li>
-														</ul>
-													</li>
+													<li class="col-xs-4"><a href="#">About Korea University</a></li>
+													<li class="col-xs-4"><a href="#">About Us</a></li>
+													<li class="col-xs-4"><a href="#">Staff List</a></li>
+													<li class="col-xs-4"><a href="#">Contact Us</a></li>
 												</ul>
 											</div>
 										</div>
@@ -74,30 +70,18 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4">
-														<ul>
-															<li><a href="#">Getting Prepared</a></li>
-															<li><a href="#">New Int'l Student Orientation</a></li>
-															<li><a href="#">Student Visa &amp; Immigration</a></li>
-															<li><a href="#">Accomodation</a></li>
-														</ul>
-													</li>
-													<li class="col-xs-4">
-														<ul>
-															<li><a href="#">Insurance</a></li>
-															<li><a href="#">Scholarships</a></li>
-															<li><a href="#">Mentoring Programs</a></li>
-															<li><a href="#">Student Counseling Service</a></li>
-														</ul>
-													</li>
-													<li class="col-xs-4">
-														<ul>
-															<li><a href="#">Announcements</a></li>
-															<li><a href="#">Career</a></li>
-															<li><a href="#">FAQs</a></li>
-															<li><a href="#">Q&amp;A</a></li>
-														</ul>
-													</li>
+													<li class="col-xs-4"><a href="#">Getting Prepared</a></li>
+													<li class="col-xs-4"><a href="#">New Int'l Student Orientation</a></li>
+													<li class="col-xs-4"><a href="#">Student Visa &amp; Immigration</a></li>
+													<li class="col-xs-4"><a href="#">Accomodation</a></li>
+													<li class="col-xs-4"><a href="#">Insurance</a></li>
+													<li class="col-xs-4"><a href="#">Scholarships</a></li>
+													<li class="col-xs-4"><a href="#">Mentoring Programs</a></li>
+													<li class="col-xs-4"><a href="#">Student Counseling Service</a></li>
+													<li class="col-xs-4"><a href="#">Announcements</a></li>
+													<li class="col-xs-4"><a href="#">Career</a></li>
+													<li class="col-xs-4"><a href="#">FAQs</a></li>
+													<li class="col-xs-4"><a href="#">Q&amp;A</a></li>
 												</ul>
 											</div>
 										</div>
@@ -114,7 +98,7 @@
 											<div class="nav-head">
 												<h4>Exchange/Visiting Program</h4>
 												<figure>
-													<img class="img-responsive" src="/assets/images/img_nav_content_2.jpg">
+													<img class="img-responsive" src="/assets/images/img_nav_content_3.jpg">
 													<figcaption>
 														As Brexit negotiations begin, the University
 														of Cambridge's Vice-Chancellor, Professor
@@ -126,21 +110,13 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4">
-														<ul>
-															<li><a href="#">Overview</a></li>
-															<li><a href="#">Exchange Program Application Guide</a></li>
-															<li><a href="#">Visiting Program Application Guide</a></li>
-															<li><a href="#">After Acceptance</a></li>
-														</ul>
-													</li>
-													<li class="col-xs-4">
-														<ul>
-															<li><a href="#">While in KU</a></li>
-															<li><a href="#">Request</a></li>
-															<li><a href="#">Board</a></li>
-														</ul>
-													</li>
+													<li class="col-xs-4"><a href="#">Overview</a></li>
+													<li class="col-xs-4"><a href="#"><span>Exchange Program Application Guide</span></a></li>
+													<li class="col-xs-4"><a href="#"><span>Visiting Program Application Guide</span></a></li>
+													<li class="col-xs-4"><a href="#">After Acceptance</a></li>
+													<li class="col-xs-4"><a href="#">While in KU</a></li>
+													<li class="col-xs-4"><a href="#">Request</a></li>
+													<li class="col-xs-4"><a href="#">Board</a></li>
 												</ul>
 											</div>
 										</div>
@@ -153,10 +129,33 @@
 							<div class="nav-content">
 								<div class="container">
 									<div class="row">
-										<div class="col-xs-3">9</div>
-										<div class="col-xs-3">10</div>
-										<div class="col-xs-3">11</div>
-										<div class="col-xs-3">12</div>
+										<div class="col-xs-3">
+											<div class="nav-head">
+												<h4>Student Services</h4>
+												<figure>
+													<img class="img-responsive" src="/assets/images/img_nav_content_4.jpg">
+													<figcaption>
+														As Brexit negotiations begin, the University
+														of Cambridge's Vice-Chancellor, Professor
+														Sir Leszek
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="col-xs-9">
+											<div class="nav-body">
+												<ul class="row">
+													<li class="col-xs-4"><a href="#">Student Life</a></li>
+													<li class="col-xs-4"><a href="#">Student Counseling Service</a></li>
+													<li class="col-xs-4"><a href="#">Student Disability Support Center</a></li>
+													<li class="col-xs-4"><a href="#"><span>Academic Mentoring program - KUCTL</span></a></li>
+													<li class="col-xs-4"><a href="#">One-Stop Service Center</a></li>
+													<li class="col-xs-4"><a href="#">Health Center</a></li>
+													<li class="col-xs-4"><a href="#">Facilities</a></li>
+													<li class="col-xs-4"><a href="#">Useful Sites</a></li>
+												</ul>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>

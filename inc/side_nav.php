@@ -15,7 +15,7 @@
 						<li><a href="#">Contact Us</a></li>
 					</ul>
 				</li>
-				<li class="active">
+				<li>
 					<a href="#">International Student</a>
 					<ul>
 						<li><a href="#">Getting Prepared</a></li>
