@@ -23,6 +23,9 @@ body {
   border-top: 6px solid #920326;
   background-color: #f7f7f7; }
 
+.noto {
+  font-family: 'Noto Sans KR', sans-serif; }
+
 .container {
   width: 1200px !important; }
 
@@ -46,6 +49,8 @@ label {
 select.form-control,
 [type="text"].form-control,
 [type="email"].form-control,
+[type="password"].form-control,
+[type="file"].form-control,
 textarea.form-control {
   display: inline-block;
   width: 142px;
@@ -57,6 +62,8 @@ textarea.form-control {
   select.form-control:focus,
   [type="text"].form-control:focus,
   [type="email"].form-control:focus,
+  [type="password"].form-control:focus,
+  [type="file"].form-control:focus,
   textarea.form-control:focus {
     border-color: #920326;
     color: #666; }
@@ -158,6 +165,41 @@ textarea.form-control {
       content: '■'; }
     #content .guide ul li + li {
       margin-top: 15px; }
+  #content .attachments fieldset {
+    padding: 40px 70px;
+    background-color: #fff;
+    box-shadow: 5px 5px 14.72px 1.28px rgba(0, 0, 0, 0.07); }
+    #content .attachments fieldset h5 {
+      margin-bottom: 25px;
+      font-size: 16px;
+      font-family: 'Noto Sans KR', sans-serif; }
+    #content .attachments fieldset input[type="file"] {
+      height: 42px;
+      width: 527px; }
+    #content .attachments fieldset .btn-upload, #content .attachments fieldset .btn-download {
+      height: 42px;
+      border-radius: 2px;
+      color: #fff;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 13px;
+      line-height: 28px; }
+      #content .attachments fieldset .btn-upload:before, #content .attachments fieldset .btn-download:before {
+        margin-right: 5px;
+        font-family: "fontello";
+        content: "\E80A"; }
+    #content .attachments fieldset .btn-upload {
+      margin-left: 10px;
+      width: 154px;
+      background-color: #930629;
+      border-color: #930629; }
+    #content .attachments fieldset .btn-download {
+      width: 234px;
+      background-color: #7f7f7f;
+      border-color: #7f7f7f; }
+    #content .attachments fieldset .down {
+      margin-left: 45px;
+      padding-left: 45px;
+      border-left: 1px solid #ccc; }
   #content .form-wrap fieldset {
     position: relative;
     margin-top: 40px;
@@ -180,6 +222,12 @@ textarea.form-control {
       margin-bottom: 5px;
       color: #920326;
       font-size: 13px; }
+
+.recommendation #content .form-wrap h4 {
+  width: 552px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  background-image: url(/assets/images/application/bg_fieldset_head_2.png); }
 
 .application {
   padding: 40px 0 30px; }
@@ -565,6 +613,9 @@ textarea.form-control {
         font-weight: bold;
         margin-top: 30px; }
 
+.recommendation .steps ul li {
+  width: 50%; }
+
 .questions {
   margin-top: 40px;
   padding: 40px 70px 50px;
@@ -946,5 +997,51 @@ textarea.form-control {
   width: 100%;
   border-top: 1px solid #d6d6d6;
   margin: 50px 0; }
+
+.recommendation .univ-info .form-control {
+  width: 312px; }
+.recommendation .univ-info .school input.form-control:after {
+  font-family: "fontello";
+  content: "\E809"; }
+.recommendation .univ-info .school .search {
+  position: relative;
+  display: inline-block; }
+  .recommendation .univ-info .school .search .btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    height: 32px;
+    width: 35px;
+    line-height: 32px;
+    text-align: center;
+    color: #999;
+    font-size: 16px; }
+  .recommendation .univ-info .school .search .form-control {
+    padding-right: 40px; }
+.recommendation .password .form-control {
+  width: 232px; }
+.recommendation .password .btn-ok {
+  position: absolute;
+  margin-left: 10px;
+  display: inline-block;
+  width: 85px;
+  height: 32px;
+  border: 1px solid #d6d6d6;
+  background-color: #ececec;
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: bold;
+  vertical-align: middle; }
+.recommendation .persenal-info .table th, .recommendation .persenal-info .table td {
+  height: 49px; }
+.recommendation .persenal-info .form-control {
+  width: 312px; }
+.recommendation .student-info .table th {
+  width: 155px; }
+.recommendation .student-info .table td {
+  width: 360px; }
+.recommendation .student-info .form-control {
+  width: 272px; }
 
 /*# sourceMappingURL=application.css.map */

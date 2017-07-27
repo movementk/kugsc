@@ -7,6 +7,14 @@ body {
 	background-color: #f7f7f7;
 }
 
+@mixin noto() {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.noto {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
 .container {
 	width: 1200px !important;
 }
@@ -42,6 +50,8 @@ label {
 select.form-control,
 [type="text"].form-control,
 [type="email"].form-control,
+[type="password"].form-control,
+[type="file"].form-control,
 textarea.form-control {
 	display: inline-block;
 	width: 142px;
@@ -190,6 +200,51 @@ textarea.form-control {
 			}
 		}
 	}
+	.attachments {
+		fieldset {
+			padding: 40px 70px;
+			background-color: #fff;
+			box-shadow: 5px 5px 14.72px 1.28px rgba(0, 0, 0, 0.07);
+			h5 {
+				margin-bottom: 25px;
+				font-size: 16px;
+				@include noto();
+			}
+			input[type="file"] {
+				height: 42px;
+				width: 527px;
+			}
+			.btn-upload, .btn-download {
+				height: 42px;
+				border-radius: 2px;
+				color: #fff;
+				@include noto();
+				font-size: 13px;
+				line-height: 28px;
+				&:before {
+					margin-right: 5px;
+					font-family: "fontello";
+					content: "\E80A";
+				}
+			}
+			.btn-upload {
+				margin-left: 10px;
+				width: 154px;
+				background-color: #930629;
+				border-color: #930629;
+			}
+			.btn-download {
+				width: 234px;
+				background-color: #7f7f7f;
+				border-color: #7f7f7f;
+			}
+			.down {
+				margin-left: 45px;
+				padding-left: 45px;
+				border-left: 1px solid #ccc;
+			}
+		}
+	}
 	.form-wrap {
 		fieldset {
 			position: relative;
@@ -219,7 +274,22 @@ textarea.form-control {
 	}
 }
 
-.application {padding: 40px 0 30px;}
+.recommendation {
+	#content {
+		.form-wrap {
+			h4 {
+				width: 552px;
+				@include noto();
+				font-weight: 300;
+				background-image: url(/assets/images/application/bg_fieldset_head_2.png);
+			}
+		}
+	}
+}
+
+.application {
+	padding: 40px 0 30px;
+}
 
 .application.step1 {
 	.personal-details {
@@ -288,7 +358,6 @@ textarea.form-control {
         }
 	}
 }
-
 
 .application.step2 {
     .academic-background {
@@ -708,7 +777,6 @@ textarea.form-control {
     }
 }
 
-
 .steps {
     margin: 90px 0 70px;
     ul {
@@ -788,6 +856,15 @@ textarea.form-control {
     }
 }
 
+.recommendation {
+	.steps {
+		ul {
+			li {
+				width: 50%;
+			}
+		}
+	}
+}
 
 .questions {
     margin-top: 40px;
@@ -1358,4 +1435,80 @@ textarea.form-control {
             }
         }
     }
+}
+
+.recommendation {
+	.univ-info {
+		.form-control {
+			width: 312px;
+		}
+		.school {
+			input.form-control {
+				&:after {
+					font-family: "fontello";
+					content: "\E809";
+				}
+			}
+			.search {
+				position: relative;
+				display: inline-block;
+				.btn-search {
+					position: absolute;
+					right: 0;
+					top: 0;
+					padding: 0;
+					height: 32px;
+					width: 35px;
+					line-height: 32px;
+					text-align: center;
+					color: #999;
+					font-size: 16px;
+				}
+				.form-control {
+					padding-right: 40px;
+				}
+			}
+		}
+	}
+	.password {
+		.form-control {
+			width: 232px;
+		}
+		.btn-ok {
+			position: absolute;
+			margin-left: 10px;
+			display: inline-block;
+			width: 85px;
+			height: 32px;
+			border: 1px solid #d6d6d6;
+			background-color: #ececec;
+			font-size: 12px;
+			font-family: "Arial";
+			font-weight: bold;
+			vertical-align: middle;
+		}
+	}
+	.persenal-info {
+		.table {
+			th, td {
+				height: 49px;
+			}
+		}
+		.form-control {
+			width: 312px;
+		}
+	}
+	.student-info {
+		.table {
+			th {
+				width: 155px;
+			}
+			td {
+				width: 360px;
+			}
+		}
+		.form-control {
+			width: 272px;
+		}
+	}
 }

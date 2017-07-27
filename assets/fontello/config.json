@@ -95,6 +95,18 @@
       "css": "angle-down",
       "code": 61703,
       "src": "fontawesome"
+    },
+    {
+      "uid": "7222571caa5c15f83dcfd447c58d68d9",
+      "css": "search",
+      "code": 59401,
+      "src": "entypo"
+    },
+    {
+      "uid": "1b5a5d7b7e3c71437f5a26befdd045ed",
+      "css": "doc",
+      "code": 59402,
+      "src": "fontawesome"
     }
   ]
 }
