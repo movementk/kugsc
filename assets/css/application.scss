@@ -1452,6 +1452,7 @@ textarea.form-control {
 			.search {
 				position: relative;
 				display: inline-block;
+				margin-left: 15px;
 				.btn-search {
 					position: absolute;
 					right: 0;
@@ -1463,6 +1464,10 @@ textarea.form-control {
 					text-align: center;
 					color: #999;
 					font-size: 16px;
+					text-decoration: none;
+					&:focus, &:hover {
+						color: $kcolor;
+					}
 				}
 				.form-control {
 					padding-right: 40px;

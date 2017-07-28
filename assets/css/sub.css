@@ -33,6 +33,11 @@ address {
   .container-fluid {
     width: 1200px; } }
 
+h4 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #920326; }
+
 @media (min-width: 768px) {
   .page-content {
     margin: 0 auto;

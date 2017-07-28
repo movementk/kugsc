@@ -20,6 +20,12 @@
 	}
 }
 
+h4 {
+	font-size: 15px;
+	line-height: 22px;
+	color: $kcolor;
+}
+
 .page-content {
 	@media (min-width: $sm) {
 		margin: 0 auto;
