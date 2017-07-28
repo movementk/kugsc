@@ -48,6 +48,27 @@
 			font-size: 16px;
 		}
 	}
+	
+	.c-title {
+		position: relative;
+		margin-bottom: 20px;
+		padding-left: 30px;
+		font-size: 13px;
+		line-height: 20px;
+		color: #666;
+		i {
+			position: absolute;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			background-color: $kcolor;
+			border-radius: 50%;
+			font-style: normal;
+			color: #fff;
+		}
+	}
 
 	p {
 		margin-bottom: 25px !important;
@@ -381,30 +402,6 @@
 			color: #777;
 			font-size: 13px;
 			line-height: 20px;
-			p {
-				margin-bottom: 0 !important;
-				font-size: 12px;
-				line-height: 20px;
-				&.dot {
-					position: relative;
-					padding-left: 10px;
-					&:before {
-						position: absolute;
-						left: 0;
-						content: "\00B7";
-					}
-				}
-				&.link {
-					position: relative;
-					padding-left: 12px;
-					&:before {
-						position: absolute;
-						left: 0;
-						font-family: "fontello";
-						content: "\F08E";
-					}
-				}
-			}
 			&:before {
 				counter-increment: section;
 				content: counter(section); 
@@ -420,12 +417,17 @@
 				font-size: 10px;
 			}
 			& + li {
-				margin-top: 15px;
+				margin-top: 20px;
+			}
+			* {
+				font-size: 12px;
+				line-height: 20px;
 			}
 		}
 	}
 	
 	.u-list {
+		margin-bottom: 20px;
 		> li {
 			position: relative;
 			padding-left: 10px;
@@ -433,7 +435,7 @@
 			font-size: 13px;
 			line-height: 18px;
 			& + li {
-				margin-top: 10px;
+				margin-top: 7px;
 			}
 			&:before {
 				position: absolute;
@@ -442,21 +444,57 @@
 				content: "\E80B";
 			}
 		}
-		@media (min-width: $sm) {
-			> li {
-				font-size: 13px;
-				line-height: 25px;
-			}
-		}
 	}	
 	
 	.box {
-		margin-bottom: 20px;
-		padding: 30px 10px;
 		background-color: #f5f5f5;
-		@media (min-width: $sm) {
-			margin-bottom: 30px;
-			padding: 30px 30px;
+	}
+	
+	.table-responsive {
+		border-color: #bfbfbf;
+	}
+	.table.table-bordered {
+		border-color: #bfbfbf;
+		th, td {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-color: #bfbfbf;
+			font-size: 13px;
+			line-height: 18px;
+			vertical-align: middle;
+			text-align: center;
+			color: #666;
+		}
+		thead {
+			th {
+				border-bottom-width: 1px;
+				background-color: #f7f7f7;
+			}
+		}
+	}
+	
+	.btn {
+		height: 45px;
+		border: 0;
+		border-radius: 0;
+		color: #fff;
+		font-size: 14px;
+		&.btn-primary {
+			background-color: $kcolor;
+		}
+		&.btn-default {
+			background-color: #a3a3a3;
+		}
+	}
+	
+	.note {
+		margin-bottom: 7px !important;
+		font-size: 12px;
+		line-height: 18px;
+		color: #666;
+		&:before {
+			margin-right: 5px;
+			content: "*";
 		}
 	}
 }
