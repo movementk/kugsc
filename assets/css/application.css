@@ -232,49 +232,49 @@ textarea.form-control {
 .application {
   padding: 40px 0 30px; }
 
-.application.step1 .personal-details .nationality .form-control {
+.personal-details .nationality .form-control {
   width: 342px; }
-.application.step1 .personal-details .passport.number .form-control, .application.step1 .personal-details .email .form-control {
+.personal-details .passport.number .form-control, .personal-details .email .form-control {
   width: 332px; }
-.application.step1 .personal-details .passport.valid .form-control, .application.step1 .personal-details .birthday .form-control, .application.step1 .personal-details .phone .form-control {
+.personal-details .passport.valid .form-control, .personal-details .birthday .form-control, .personal-details .phone .form-control {
   width: 92px;
   text-align: center; }
-.application.step1 .personal-details .address .form-control {
+.personal-details .address .form-control {
   width: 100%; }
-.application.step1 .personal-details .disability .help-block {
+.personal-details .disability .help-block {
   margin-bottom: 15px;
   color: #444; }
-.application.step1 .personal-details .passport.ask {
+.personal-details .passport.ask {
   padding: 50px 26px; }
-  .application.step1 .personal-details .passport.ask h5 {
+  .personal-details .passport.ask h5 {
     display: inline-block;
     font-size: 20px;
     color: #202020;
     font-weight: 400;
     margin-bottom: 35px; }
-  .application.step1 .personal-details .passport.ask p {
+  .personal-details .passport.ask p {
     font-size: 14px;
     color: #333; }
-  .application.step1 .personal-details .passport.ask label {
+  .personal-details .passport.ask label {
     position: relative;
     width: 100%;
     margin-top: 25px;
     padding-left: 25px; }
-    .application.step1 .personal-details .passport.ask label input[type="radio"] {
+    .personal-details .passport.ask label input[type="radio"] {
       position: absolute;
       top: 0;
       left: 0;
       margin-left: 0; }
-  .application.step1 .personal-details .passport.ask .help-block {
+  .personal-details .passport.ask .help-block {
     font-size: 14px;
     color: #808080;
     margin: 0;
     padding-left: 25px; }
-    .application.step1 .personal-details .passport.ask .help-block:before {
+    .personal-details .passport.ask .help-block:before {
       content: "*";
       color: #e61937; }
 
-.application.step2 .academic-background .apply {
+.academic-background .apply {
   height: 54px;
   color: #444;
   font-size: 14px;
@@ -282,58 +282,60 @@ textarea.form-control {
   line-height: 18px !important;
   padding-left: 16px !important;
   padding-right: 20px !important; }
-  .application.step2 .academic-background .apply .form-group > p {
+  .academic-background .apply .form-group > p {
     display: inline-block; }
-    .application.step2 .academic-background .apply .form-group > p:before {
+    .academic-background .apply .form-group > p:before {
       content: "*";
       color: #e61937;
       margin-right: 3px; }
-  .application.step2 .academic-background .apply p {
+  .academic-background .apply p {
     position: relative;
     margin-right: 40px; }
-.application.step2 .academic-background .major .form-control {
+.academic-background .major .form-control {
   width: 445px; }
-.application.step2 .academic-background .gpa .form-control, .application.step2 .academic-background .recent-year .form-control {
+.academic-background .gpa .form-control, .academic-background .recent-year .form-control {
   width: 140px; }
-.application.step2 .academic-background .gpa.recent-year th, .application.step2 .academic-background .recent-year.recent-year th {
+.academic-background .gpa.recent-year th, .academic-background .recent-year.recent-year th {
   padding-left: 16px !important; }
-.application.step2 .home-institution .international .form-control, .application.step2 .home-institution email .form-control, .application.step2 .home-institution addr .form-control {
+
+.home-institution .international .form-control, .home-institution email .form-control, .home-institution addr .form-control {
   width: 445px; }
-.application.step2 .home-institution .phone .form-control, .application.step2 .home-institution .fax .form-control {
+.home-institution .phone .form-control, .home-institution .fax .form-control {
   width: 92px; }
-.application.step2 .home-institution .phone.fax th, .application.step2 .home-institution .fax.fax th {
+.home-institution .phone.fax th, .home-institution .fax.fax th {
   padding-left: 18px !important; }
-.application.step2 .study-plan strong {
+
+.study-plan strong {
   display: inline-block;
   font-size: 16px;
   color: #920326;
   font-weight: 400;
   margin: 80px 0 15px; }
-  .application.step2 .study-plan strong:before {
+  .study-plan strong:before {
     content: "※";
     margin-right: 5px; }
-.application.step2 .study-plan .notice-summary {
+.study-plan .notice-summary {
   font-size: 14px;
   color: #333;
   line-height: 26px;
   margin-bottom: 35px; }
-.application.step2 .study-plan .decimal-list li .registration-courses ul {
+.study-plan .decimal-list li .registration-courses ul {
   margin-top: 20px; }
-  .application.step2 .study-plan .decimal-list li .registration-courses ul li {
+  .study-plan .decimal-list li .registration-courses ul li {
     font-size: 14px;
     color: #808080;
     line-height: 20px; }
-    .application.step2 .study-plan .decimal-list li .registration-courses ul li:before {
+    .study-plan .decimal-list li .registration-courses ul li:before {
       content: "-";
       margin-right: 5px; }
-.application.step2 .study-plan .decimal-list li .registration-courses > p {
+.study-plan .decimal-list li .registration-courses > p {
   font-size: 14px;
   color: #808080;
   line-height: 20px; }
-.application.step2 .study-plan .form-control {
+.study-plan .form-control {
   height: 40px;
   border-radius: 0 !important; }
-.application.step2 .study-plan th {
+.study-plan th {
   height: 54px;
   font-size: 16px;
   color: #303030;
@@ -342,45 +344,46 @@ textarea.form-control {
   background-color: #fff;
   border-bottom: 1px solid #910023;
   border-right: 1px solid #e7e7e7; }
-  .application.step2 .study-plan th:nth-of-type(1) {
+  .study-plan th:nth-of-type(1) {
     width: 290px; }
-  .application.step2 .study-plan th:nth-of-type(2) {
+  .study-plan th:nth-of-type(2) {
     width: 155px; }
-  .application.step2 .study-plan th:nth-of-type(3) {
+  .study-plan th:nth-of-type(3) {
     width: 390px; }
-  .application.step2 .study-plan th:nth-of-type(4) {
+  .study-plan th:nth-of-type(4) {
     width: 195px; }
-  .application.step2 .study-plan th:last-child {
+  .study-plan th:last-child {
     border-right: 0; }
-.application.step2 .study-plan tr:last-child td {
+.study-plan tr:last-child td {
   border-bottom: 1px solid #910023; }
-.application.step2 .study-plan tr td {
+.study-plan tr td {
   padding: 35px 0 !important;
   text-align: center;
   border-right: 1px solid #e7e7e7; }
-  .application.step2 .study-plan tr td:last-child {
+  .study-plan tr td:last-child {
     border-right: 0; }
-  .application.step2 .study-plan tr td:nth-of-type(1) {
+  .study-plan tr td:nth-of-type(1) {
     width: 290px; }
-  .application.step2 .study-plan tr td:nth-of-type(2) {
+  .study-plan tr td:nth-of-type(2) {
     width: 155px; }
-  .application.step2 .study-plan tr td:nth-of-type(3) {
+  .study-plan tr td:nth-of-type(3) {
     width: 390px; }
-  .application.step2 .study-plan tr td:nth-of-type(4) {
+  .study-plan tr td:nth-of-type(4) {
     width: 195px; }
-  .application.step2 .study-plan tr td.department .form-control {
+  .study-plan tr td.department .form-control {
     width: 256px;
     margin-left: 0;
     margin-bottom: 10px; }
-    .application.step2 .study-plan tr td.department .form-control:last-child {
+    .study-plan tr td.department .form-control:last-child {
       margin-bottom: 0; }
-  .application.step2 .study-plan tr td.course-code .form-control {
+  .study-plan tr td.course-code .form-control {
     width: 110px !important; }
-  .application.step2 .study-plan tr td.title .form-control {
+  .study-plan tr td.title .form-control {
     width: 344px !important; }
-  .application.step2 .study-plan tr td.credit-value select.form-control {
+  .study-plan tr td.credit-value select.form-control {
     width: 130px !important; }
-.application.step2 .language-proficiency td {
+
+.language-proficiency td {
   height: 54px;
   color: #444;
   font-size: 14px;
@@ -388,25 +391,25 @@ textarea.form-control {
   line-height: 18px !important;
   padding-left: 25px !important;
   padding-right: 20px !important; }
-  .application.step2 .language-proficiency td .form-group p {
+  .language-proficiency td .form-group p {
     display: inline-block;
     margin-right: 40px; }
-    .application.step2 .language-proficiency td .form-group p:before {
+    .language-proficiency td .form-group p:before {
       content: "*";
       color: #e61937;
       margin-right: 3px; }
 
-.application.step3 .supporting-documents .table th {
+.supporting-documents .table th {
   width: 50%;
   background-color: #fff; }
-  .application.step3 .supporting-documents .table th i.require {
+  .supporting-documents .table th i.require {
     top: 0; }
-  .application.step3 .supporting-documents .table th .help-inline {
+  .supporting-documents .table th .help-inline {
     margin-left: 0; }
-  .application.step3 .supporting-documents .table th .btn-down {
+  .supporting-documents .table th .btn-down {
     display: inline-block;
     margin-left: 30px; }
-    .application.step3 .supporting-documents .table th .btn-down .btn {
+    .supporting-documents .table th .btn-down .btn {
       width: 144px;
       height: 34px;
       font-size: 14px;
@@ -417,26 +420,26 @@ textarea.form-control {
       text-align: center;
       border: 1px solid #e9e9e9;
       background-image: url(/assets/images/application/btn_down_bg.gif); }
-.application.step3 .supporting-documents .table td {
+.supporting-documents .table td {
   width: 50%;
   height: 54px;
   padding-right: 20px !important; }
-  .application.step3 .supporting-documents .table td .form-group {
+  .supporting-documents .table td .form-group {
     position: relative;
     display: inline-block;
     width: 100%;
     padding-right: 110px; }
-    .application.step3 .supporting-documents .table td .form-group .form-control {
+    .supporting-documents .table td .form-group .form-control {
       width: 100%;
       height: 40px;
       border-color: #f6f6f6;
       border-radius: 0;
       background-color: #f6f6f6; }
-    .application.step3 .supporting-documents .table td .form-group .btn-search {
+    .supporting-documents .table td .form-group .btn-search {
       position: absolute;
       top: 0;
       right: 0; }
-      .application.step3 .supporting-documents .table td .form-group .btn-search .btn {
+      .supporting-documents .table td .form-group .btn-search .btn {
         width: 110px;
         height: 40px;
         font-size: 14px;
@@ -446,100 +449,102 @@ textarea.form-control {
         padding: 0;
         border-radius: 0;
         background-color: #bfbfbf; }
-.application.step3 .supporting-documents .table .passport td {
+.supporting-documents .table .passport td {
   padding-top: 20px;
   padding-bottom: 20px; }
-.application.step3 .supporting-documents .attention {
+.supporting-documents .attention {
   width: 100%;
   margin-top: 40px;
   padding: 30px 20px;
   background-color: #f2f2f2; }
-  .application.step3 .supporting-documents .attention ul li {
+  .supporting-documents .attention ul li {
     font-size: 14px;
     color: #303030;
     line-height: 18px;
     margin-bottom: 15px; }
-    .application.step3 .supporting-documents .attention ul li:before {
+    .supporting-documents .attention ul li:before {
       content: "-"; }
-    .application.step3 .supporting-documents .attention ul li:last-child {
+    .supporting-documents .attention ul li:last-child {
       margin-bottom: 0; }
-.application.step3 .insurance-submission > p {
+
+.insurance-submission > p {
   position: relative;
   font-size: 14px;
   display: block;
   color: #333;
   line-height: 22px;
   margin-bottom: 35px; }
-  .application.step3 .insurance-submission > p i.require {
+  .insurance-submission > p i.require {
     position: absolute;
     left: -10px;
     color: #e61937; }
-    .application.step3 .insurance-submission > p i.require:before {
+    .insurance-submission > p i.require:before {
       margin-right: 5px;
       content: '*'; }
-.application.step3 .insurance-submission hr {
+.insurance-submission hr {
   width: 100%;
   border-top: 1px solid #d6d6d6;
   margin: 50px 0; }
-.application.step3 .insurance-submission .form-group .help-inline {
+.insurance-submission .form-group .help-inline {
   margin-left: 50px;
   margin-right: 10px; }
-.application.step3 .insurance-submission .form-group .form-control {
+.insurance-submission .form-group .form-control {
   width: 530px;
   height: 40px;
   border-radius: 0 !important; }
-.application.step3 .declaration .form-group p {
+
+.declaration .form-group p {
   display: inline-block; }
-.application.step3 .declaration .criminal-records .form-group > p {
+.declaration .criminal-records .form-group > p {
   display: inline-block;
   font-size: 14px;
   color: #333;
   line-height: 22px;
   margin-right: 40px; }
-  .application.step3 .declaration .criminal-records .form-group > p:before {
+  .declaration .criminal-records .form-group > p:before {
     content: "*";
     color: #e61937;
     margin-right: 2px; }
-.application.step3 .declaration .criminal-records > p {
+.declaration .criminal-records > p {
   font-size: 13px;
   color: #777;
   line-height: 22px;
   margin-top: 30px; }
-.application.step3 .declaration .information-collection .consent {
+.declaration .information-collection .consent {
   font-size: 14px;
   color: #333;
   line-height: 22px; }
-  .application.step3 .declaration .information-collection .consent:before {
+  .declaration .information-collection .consent:before {
     content: "*";
     color: #e61937;
     margin-right: 2px; }
-.application.step3 .declaration .information-collection p {
+.declaration .information-collection p {
   font-size: 13px;
   color: #777;
   line-height: 22px;
   margin-top: 30px; }
-  .application.step3 .declaration .information-collection p:before {
+  .declaration .information-collection p:before {
     content: "※"; }
-.application.step3 .declaration .information-collection ul {
+.declaration .information-collection ul {
   margin-top: 30px; }
-  .application.step3 .declaration .information-collection ul li {
+  .declaration .information-collection ul li {
     font-size: 13px;
     color: #777;
     line-height: 22px; }
-    .application.step3 .declaration .information-collection ul li:before {
+    .declaration .information-collection ul li:before {
       content: "-";
       margin-right: 3px; }
-.application.step3 .declaration .announcement .form-group p {
+.declaration .announcement .form-group p {
   display: inline-block;
   font-size: 14px;
   color: #333;
   line-height: 22px;
   margin-right: 40px; }
-  .application.step3 .declaration .announcement .form-group p:before {
+  .declaration .announcement .form-group p:before {
     content: "*";
     color: #e61937;
     margin-right: 2px; }
-.application.step3 .declaration hr {
+.declaration hr {
   width: 100%;
   border-top: 1px solid #d6d6d6;
   margin: 50px 0; }
@@ -687,316 +692,6 @@ textarea.form-control {
       background-color: #900020; }
     .btn-area p .btn.btn-send {
       background-color: #900020; }
-
-#content .application .personal-details .nationality .form-control {
-  width: 342px; }
-#content .application .personal-details .passport.number .form-control, #content .application .personal-details .email .form-control {
-  width: 332px; }
-#content .application .personal-details .passport.valid .form-control, #content .application .personal-details .birthday .form-control, #content .application .personal-details .phone .form-control {
-  width: 92px;
-  text-align: center; }
-#content .application .personal-details .address .form-control {
-  width: 100%; }
-#content .application .personal-details .disability .help-block {
-  margin-bottom: 15px;
-  color: #444; }
-#content .application .personal-details .passport.ask {
-  padding: 50px 26px; }
-  #content .application .personal-details .passport.ask h5 {
-    display: inline-block;
-    font-size: 20px;
-    color: #202020;
-    font-weight: 400;
-    margin-bottom: 35px; }
-  #content .application .personal-details .passport.ask p {
-    font-size: 14px;
-    color: #333; }
-  #content .application .personal-details .passport.ask label {
-    position: relative;
-    width: 100%;
-    margin-top: 25px;
-    padding-left: 25px; }
-    #content .application .personal-details .passport.ask label input[type="radio"] {
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin-left: 0; }
-  #content .application .personal-details .passport.ask .help-block {
-    font-size: 14px;
-    color: #808080;
-    margin: 0;
-    padding-left: 25px; }
-    #content .application .personal-details .passport.ask .help-block:before {
-      content: "*";
-      color: #e61937; }
-#content .application .academic-background .apply {
-  height: 54px;
-  color: #444;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 18px !important;
-  padding-left: 16px !important;
-  padding-right: 20px !important; }
-  #content .application .academic-background .apply .form-group > p {
-    display: inline-block; }
-    #content .application .academic-background .apply .form-group > p:before {
-      content: "*";
-      color: #e61937;
-      margin-right: 3px; }
-  #content .application .academic-background .apply p {
-    position: relative;
-    margin-right: 40px; }
-#content .application .academic-background .major .form-control {
-  width: 445px; }
-#content .application .academic-background .gpa .form-control, #content .application .academic-background .recent-year .form-control {
-  width: 140px; }
-#content .application .academic-background .gpa.recent-year th, #content .application .academic-background .recent-year.recent-year th {
-  padding-left: 16px !important; }
-#content .application .home-institution .international .form-control, #content .application .home-institution email .form-control, #content .application .home-institution addr .form-control {
-  width: 445px; }
-#content .application .home-institution .phone .form-control, #content .application .home-institution .fax .form-control {
-  width: 92px; }
-#content .application .home-institution .phone.fax th, #content .application .home-institution .fax.fax th {
-  padding-left: 18px !important; }
-#content .application .study-plan strong {
-  display: inline-block;
-  font-size: 16px;
-  color: #920326;
-  font-weight: 400;
-  margin: 80px 0 15px; }
-  #content .application .study-plan strong:before {
-    content: "※";
-    margin-right: 5px; }
-#content .application .study-plan .notice-summary {
-  font-size: 14px;
-  color: #333;
-  line-height: 26px;
-  margin-bottom: 35px; }
-#content .application .study-plan .decimal-list li .registration-courses ul {
-  margin-top: 20px; }
-  #content .application .study-plan .decimal-list li .registration-courses ul li {
-    font-size: 14px;
-    color: #808080;
-    line-height: 20px; }
-    #content .application .study-plan .decimal-list li .registration-courses ul li:before {
-      content: "-";
-      margin-right: 5px; }
-#content .application .study-plan .decimal-list li .registration-courses > p {
-  font-size: 14px;
-  color: #808080;
-  line-height: 20px; }
-#content .application .study-plan .form-control {
-  height: 40px;
-  border-radius: 0 !important; }
-#content .application .study-plan th {
-  height: 54px;
-  font-size: 16px;
-  color: #303030;
-  text-align: center;
-  font-weight: 400;
-  background-color: #fff;
-  border-bottom: 1px solid #910023;
-  border-right: 1px solid #e7e7e7; }
-  #content .application .study-plan th:nth-of-type(1) {
-    width: 290px; }
-  #content .application .study-plan th:nth-of-type(2) {
-    width: 155px; }
-  #content .application .study-plan th:nth-of-type(3) {
-    width: 390px; }
-  #content .application .study-plan th:nth-of-type(4) {
-    width: 195px; }
-  #content .application .study-plan th:last-child {
-    border-right: 0; }
-#content .application .study-plan tr:last-child td {
-  border-bottom: 1px solid #910023; }
-#content .application .study-plan tr td {
-  padding: 35px 0 !important;
-  text-align: center;
-  border-right: 1px solid #e7e7e7; }
-  #content .application .study-plan tr td:last-child {
-    border-right: 0; }
-  #content .application .study-plan tr td:nth-of-type(1) {
-    width: 290px; }
-  #content .application .study-plan tr td:nth-of-type(2) {
-    width: 155px; }
-  #content .application .study-plan tr td:nth-of-type(3) {
-    width: 390px; }
-  #content .application .study-plan tr td:nth-of-type(4) {
-    width: 195px; }
-  #content .application .study-plan tr td.department .form-control {
-    width: 256px;
-    margin-left: 0;
-    margin-bottom: 10px; }
-    #content .application .study-plan tr td.department .form-control:last-child {
-      margin-bottom: 0; }
-  #content .application .study-plan tr td.course-code .form-control {
-    width: 110px !important; }
-  #content .application .study-plan tr td.title .form-control {
-    width: 344px !important; }
-  #content .application .study-plan tr td.credit-value select.form-control {
-    width: 130px !important; }
-#content .application .language-proficiency td {
-  height: 54px;
-  color: #444;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 18px !important;
-  padding-left: 25px !important;
-  padding-right: 20px !important; }
-  #content .application .language-proficiency td .form-group p {
-    display: inline-block;
-    margin-right: 40px; }
-    #content .application .language-proficiency td .form-group p:before {
-      content: "*";
-      color: #e61937;
-      margin-right: 3px; }
-#content .application .supporting-documents .table th {
-  width: 50%;
-  background-color: #fff; }
-  #content .application .supporting-documents .table th i.require {
-    top: 0; }
-  #content .application .supporting-documents .table th .help-inline {
-    margin-left: 0; }
-  #content .application .supporting-documents .table th .btn-down {
-    display: inline-block;
-    margin-left: 30px; }
-    #content .application .supporting-documents .table th .btn-down .btn {
-      width: 144px;
-      height: 34px;
-      font-size: 14px;
-      color: #303030;
-      line-height: 32px;
-      padding: 0;
-      border-radius: 0;
-      text-align: center;
-      border: 1px solid #e9e9e9;
-      background-image: url(/assets/images/application/btn_down_bg.gif); }
-#content .application .supporting-documents .table td {
-  width: 50%;
-  height: 54px;
-  padding-right: 20px !important; }
-  #content .application .supporting-documents .table td .form-group {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    padding-right: 110px; }
-    #content .application .supporting-documents .table td .form-group .form-control {
-      width: 100%;
-      height: 40px;
-      border-color: #f6f6f6;
-      border-radius: 0;
-      background-color: #f6f6f6; }
-    #content .application .supporting-documents .table td .form-group .btn-search {
-      position: absolute;
-      top: 0;
-      right: 0; }
-      #content .application .supporting-documents .table td .form-group .btn-search .btn {
-        width: 110px;
-        height: 40px;
-        font-size: 14px;
-        color: #fff;
-        line-height: 40px;
-        text-align: center;
-        padding: 0;
-        border-radius: 0;
-        background-color: #bfbfbf; }
-#content .application .supporting-documents .table .passport td {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-#content .application .supporting-documents .attention {
-  width: 100%;
-  margin-top: 40px;
-  padding: 30px 20px;
-  background-color: #f2f2f2; }
-  #content .application .supporting-documents .attention ul li {
-    font-size: 14px;
-    color: #303030;
-    line-height: 18px;
-    margin-bottom: 15px; }
-    #content .application .supporting-documents .attention ul li:before {
-      content: "-"; }
-    #content .application .supporting-documents .attention ul li:last-child {
-      margin-bottom: 0; }
-#content .application .insurance-submission > p {
-  position: relative;
-  font-size: 14px;
-  display: block;
-  color: #333;
-  line-height: 22px;
-  margin-bottom: 35px; }
-  #content .application .insurance-submission > p i.require {
-    position: absolute;
-    left: -10px;
-    color: #e61937; }
-    #content .application .insurance-submission > p i.require:before {
-      margin-right: 5px;
-      content: '*'; }
-#content .application .insurance-submission hr {
-  width: 100%;
-  border-top: 1px solid #d6d6d6;
-  margin: 50px 0; }
-#content .application .insurance-submission .form-group .help-inline {
-  margin-left: 50px;
-  margin-right: 10px; }
-#content .application .insurance-submission .form-group .form-control {
-  width: 530px;
-  height: 40px;
-  border-radius: 0 !important; }
-#content .application .declaration .form-group p {
-  display: inline-block; }
-#content .application .declaration .criminal-records .form-group > p {
-  display: inline-block;
-  font-size: 14px;
-  color: #333;
-  line-height: 22px;
-  margin-right: 40px; }
-  #content .application .declaration .criminal-records .form-group > p:before {
-    content: "*";
-    color: #e61937;
-    margin-right: 2px; }
-#content .application .declaration .criminal-records > p {
-  font-size: 13px;
-  color: #777;
-  line-height: 22px;
-  margin-top: 30px; }
-#content .application .declaration .information-collection .consent {
-  font-size: 14px;
-  color: #333;
-  line-height: 22px; }
-  #content .application .declaration .information-collection .consent:before {
-    content: "*";
-    color: #e61937;
-    margin-right: 2px; }
-#content .application .declaration .information-collection p {
-  font-size: 13px;
-  color: #777;
-  line-height: 22px;
-  margin-top: 30px; }
-  #content .application .declaration .information-collection p:before {
-    content: "※"; }
-#content .application .declaration .information-collection ul {
-  margin-top: 30px; }
-  #content .application .declaration .information-collection ul li {
-    font-size: 13px;
-    color: #777;
-    line-height: 22px; }
-    #content .application .declaration .information-collection ul li:before {
-      content: "-";
-      margin-right: 3px; }
-#content .application .declaration .announcement .form-group p {
-  display: inline-block;
-  font-size: 14px;
-  color: #333;
-  line-height: 22px;
-  margin-right: 40px; }
-  #content .application .declaration .announcement .form-group p:before {
-    content: "*";
-    color: #e61937;
-    margin-right: 2px; }
-#content .application .declaration hr {
-  width: 100%;
-  border-top: 1px solid #d6d6d6;
-  margin: 50px 0; }
 
 .recommendation .univ-info .form-control {
   width: 312px; }
