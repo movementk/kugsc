@@ -107,6 +107,12 @@
       "css": "doc",
       "code": 59402,
       "src": "fontawesome"
+    },
+    {
+      "uid": "3838a5aba604532d2dbae5904615ea39",
+      "css": "down",
+      "code": 59404,
+      "src": "mfglabs"
     }
   ]
 }

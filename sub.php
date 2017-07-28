@@ -72,7 +72,22 @@
 						</li>
 						<li>
 							Find <a href="#">Accommodation</a>
+							<p class="link">Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+						</li>
+						<li>
+							Getting to KU – Airport Pickup Service
+							<p>Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+						</li>
+					</ol>
+					
+					<ol class="u-list">
+						<li>
+							Getting to KU – Airport Pickup Service
 							<p class="dot">Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+						</li>
+						<li>
+							Find <a href="#">Accommodation</a>
+							<p class="link">Pay your tuition and other optional fees, especially mutual health aid association fee</p>
 						</li>
 						<li>
 							Getting to KU – Airport Pickup Service
