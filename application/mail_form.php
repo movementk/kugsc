@@ -2,7 +2,7 @@
 </head>
 
 <body>
-    <div class="kugsc-wrapper" style="font-family: 'Tahoma', sans-serif; background-color: #fff; width: 700px; margin: 0 auto;">
+    <div class="kugsc-wrapper" style="font-family: 'Tahoma', sans-serif; background-color: #fff; width: 700px; margin: 0 auto; border: 1px solid #dfdfdf;">
         <div class="kugsc-header" style="background-color: #8b0029; padding: 8px 20px;">
             <h1>
                 <img src="/assets/images/logo_white_lg.png" alt="">
