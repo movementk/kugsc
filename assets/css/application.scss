@@ -291,186 +291,215 @@ textarea.form-control {
 	padding: 40px 0 30px;
 }
 
-.application.step1 {
-	.personal-details {
-		.nationality {
-			.form-control {
-				width: 342px;
-			}
-		}
-		.passport.number, .email {
-			.form-control {
-				width: 332px;
-			}
-		}
-		.passport.valid, .birthday, .phone {
-			.form-control {
-				width: 92px;
-				text-align: center;
-			}
-		}
-		.address {
-			.form-control {
-				width: 100%;
-			}
-		}
-		.disability {
-			.help-block {
-				margin-bottom: 15px;
-				color: #444;
-			}
-		}
-        .passport.ask {
-            padding: 50px 26px;
-            h5 {
+.personal-details {
+    .nationality {
+        .form-control {
+            width: 342px;
+        }
+    }
+    .passport.number, .email {
+        .form-control {
+            width: 332px;
+        }
+    }
+    .passport.valid, .birthday, .phone {
+        .form-control {
+            width: 92px;
+            text-align: center;
+        }
+    }
+    .address {
+        .form-control {
+            width: 100%;
+        }
+    }
+    .disability {
+        .help-block {
+            margin-bottom: 15px;
+            color: #444;
+        }
+    }
+    .passport.ask {
+        padding: 50px 26px;
+        h5 {
+            display: inline-block;
+            font-size: 20px;
+            color: #202020;
+            font-weight: 400;
+            margin-bottom: 35px;
+        }
+        p {
+            font-size: 14px;
+            color: #333;
+        }
+        label {
+            position: relative;
+            width: 100%;
+            margin-top: 25px;
+            padding-left: 25px;
+            input[type="radio"] {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-left: 0;
+            }
+        }
+        .help-block {
+            font-size: 14px;
+            color: #808080;
+            margin: 0;
+            padding-left: 25px;
+            &:before {
+                content: "*";
+                color: #e61937;
+            }
+        }
+    }
+}
+
+
+.academic-background {
+    .apply {
+        height: 54px;
+        color: #444;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 18px !important;
+        padding-left: 16px !important;
+        padding-right: 20px !important;
+        .form-group {
+            > p {
                 display: inline-block;
-                font-size: 20px;
-                color: #202020;
-                font-weight: 400;
-                margin-bottom: 35px;
-            }
-            p {
-                font-size: 14px;
-                color: #333;
-            }
-            label {
-                position: relative;
-                width: 100%;
-                margin-top: 25px;
-                padding-left: 25px;
-                input[type="radio"] {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    margin-left: 0;
-                }
-            }
-            .help-block {
-                font-size: 14px;
-                color: #808080;
-                margin: 0;
-                padding-left: 25px;
                 &:before {
                     content: "*";
                     color: #e61937;
+                    margin-right: 3px;
                 }
             }
         }
-	}
+        p {
+            position: relative;
+            margin-right: 40px;
+        }
+    }
+    .major {
+        .form-control {
+            width: 445px;
+        }
+    }
+    .gpa, .recent-year {
+        .form-control {
+            width: 140px;
+        }
+        &.recent-year {
+            th {
+                padding-left: 16px !important;
+            }
+        }
+    }
 }
 
-.application.step2 {
-    .academic-background {
-        .apply {
-            height: 54px;
-            color: #444;
-            font-size: 14px;
-            font-weight: normal;
-            line-height: 18px !important;
-            padding-left: 16px !important;
-            padding-right: 20px !important;
-            .form-group {
-                > p {
-                    display: inline-block;
-                    &:before {
-                        content: "*";
-                        color: #e61937;
-                        margin-right: 3px;
-                    }
-                }
-            }
-            p {
-                position: relative;
-                margin-right: 40px;
-            }
+.home-institution {
+    .international, email, addr {
+        .form-control {
+            width: 445px;
         }
-        .major {
-            .form-control {
-                width: 445px;
-            }
+    }
+    .phone, .fax {
+        .form-control {
+            width: 92px;
         }
-        .gpa, .recent-year {
-            .form-control {
-                width: 140px;
-            }
-            &.recent-year {
-                th {
-                    padding-left: 16px !important;
-                }
+        &.fax {
+            th {
+                padding-left: 18px !important;
             }
         }
     }
-    .home-institution {
-        .international, email, addr {
-            .form-control {
-                width: 445px;
-            }
-        }
-        .phone, .fax {
-            .form-control {
-                width: 92px;
-            }
-            &.fax {
-                th {
-                    padding-left: 18px !important;
-                }
-            }
+}
+
+.study-plan {
+    strong {
+        display: inline-block;
+        font-size: 16px;
+        color: #920326;
+        font-weight: 400;
+        margin: 80px 0 15px;
+        &:before {
+            content: "※";
+            margin-right: 5px;
         }
     }
-    .study-plan {
-        strong {
-            display: inline-block;
-            font-size: 16px;
-            color: #920326;
-            font-weight: 400;
-            margin: 80px 0 15px;
-            &:before {
-                content: "※";
-                margin-right: 5px;
-            }
-        }
-        .notice-summary {
-            font-size: 14px;
-            color: #333;
-            line-height: 26px;
-            margin-bottom: 35px;
-        }
-        .decimal-list {
-            li {
-                .registration-courses {
-                    ul {
-                        margin-top: 20px;
-                        li {
-                            font-size: 14px;
-                            color: #808080;
-                            line-height: 20px;
-                            &:before {
-                                content: "-";
-                                margin-right: 5px;
-                            }
-                        }
-                    }
-                    > p {
+    .notice-summary {
+        font-size: 14px;
+        color: #333;
+        line-height: 26px;
+        margin-bottom: 35px;
+    }
+    .decimal-list {
+        li {
+            .registration-courses {
+                ul {
+                    margin-top: 20px;
+                    li {
                         font-size: 14px;
                         color: #808080;
                         line-height: 20px;
+                        &:before {
+                            content: "-";
+                            margin-right: 5px;
+                        }
                     }
+                }
+                > p {
+                    font-size: 14px;
+                    color: #808080;
+                    line-height: 20px;
                 }
             }
         }
-        .form-control {
-            height: 40px;
-            border-radius: 0 !important;
+    }
+    .form-control {
+        height: 40px;
+        border-radius: 0 !important;
+    }
+    th {
+        height: 54px;
+        font-size: 16px;
+        color: #303030;
+        text-align: center;
+        font-weight: 400;
+        background-color: #fff;
+        border-bottom: 1px solid #910023;
+        border-right: 1px solid #e7e7e7;
+        &:nth-of-type(1) {
+            width: 290px;
         }
-        th {
-            height: 54px;
-            font-size: 16px;
-            color: #303030;
+        &:nth-of-type(2) {
+            width: 155px;
+        }
+        &:nth-of-type(3) {
+            width: 390px;
+        }
+        &:nth-of-type(4) {
+            width: 195px;
+        }
+        &:last-child {
+            border-right: 0;
+        }
+    }
+    tr {
+        &:last-child {
+            td {
+                border-bottom: 1px solid #910023;
+            }
+        }
+        td {
+            padding: 35px 0 !important;
             text-align: center;
-            font-weight: 400;
-            background-color: #fff;
-            border-bottom: 1px solid #910023;
             border-right: 1px solid #e7e7e7;
+            &:last-child {
+                border-right: 0;
+            }
             &:nth-of-type(1) {
                 width: 290px;
             }
@@ -483,82 +512,30 @@ textarea.form-control {
             &:nth-of-type(4) {
                 width: 195px;
             }
-            &:last-child {
-                border-right: 0;
-            }
-        }
-        tr {
-            &:last-child {
-                td {
-                    border-bottom: 1px solid #910023;
-                }
-            }
-            td {
-                padding: 35px 0 !important;
-                text-align: center;
-                border-right: 1px solid #e7e7e7;
-                &:last-child {
-                    border-right: 0;
-                }
-                &:nth-of-type(1) {
-                    width: 290px;
-                }
-                &:nth-of-type(2) {
-                    width: 155px;
-                }
-                &:nth-of-type(3) {
-                    width: 390px;
-                }
-                &:nth-of-type(4) {
-                    width: 195px;
-                }
-                &.department {
-                    .form-control {
-                        width: 256px;
-                        margin-left: 0;
-                        margin-bottom: 10px; 
-                        &:last-child {
-                            margin-bottom: 0;
-                        }
-                    }
-                }
-                &.course-code {
-                    .form-control {
-                        width: 110px !important;
-                    }
-                }
-                &.title {
-                    .form-control {
-                        width: 344px !important;
-                    }
-                }
-                &.credit-value {
-                    select {
-                        &.form-control {
-                            width: 130px !important;
-                        }
+            &.department {
+                .form-control {
+                    width: 256px;
+                    margin-left: 0;
+                    margin-bottom: 10px; 
+                    &:last-child {
+                        margin-bottom: 0;
                     }
                 }
             }
-        }
-    }
-    .language-proficiency {
-        td {
-            height: 54px;
-            color: #444;
-            font-size: 14px;
-            font-weight: normal;
-            line-height: 18px !important;
-            padding-left: 25px !important;
-            padding-right: 20px !important;
-            .form-group {
-                p {
-                    display: inline-block;
-                    margin-right: 40px;
-                    &:before {
-                        content: "*";
-                        color: #e61937;
-                        margin-right: 3px;
+            &.course-code {
+                .form-control {
+                    width: 110px !important;
+                }
+            }
+            &.title {
+                .form-control {
+                    width: 344px !important;
+                }
+            }
+            &.credit-value {
+                select {
+                    &.form-control {
+                        width: 130px !important;
                     }
                 }
             }
@@ -566,214 +543,239 @@ textarea.form-control {
     }
 }
 
-.application.step3 {
-    .supporting-documents {
-        .table {
-            th {
-                width: 50%;
-                background-color: #fff;
-                i.require {
-                    top: 0;
-                }
-                .help-inline {
-                    margin-left: 0;
-                }
-                .btn-down {
-                    display: inline-block;
-                    margin-left: 30px;
-                    .btn {
-                        width: 144px;
-                        height: 34px;
-                        font-size: 14px;
-                        color: #303030;
-                        line-height: 32px;
-                        padding: 0;
-                        border-radius: 0;
-                        text-align: center;
-                        border: 1px solid #e9e9e9;
-                        background-image: url(/assets/images/application/btn_down_bg.gif);
-                    }
-                }
-            }
-            td {
-                width: 50%;
-                height: 54px;
-                padding-right: 20px !important;
-                .form-group {
-                    position: relative;
-                    display: inline-block;
-                    width: 100%;
-                    padding-right: 110px;
-                    .form-control {
-                        width: 100%;
-                        height: 40px;
-                        border-color: #f6f6f6;
-                        border-radius: 0;
-                        background-color: #f6f6f6;
-                    }
-                    .btn-search {
-                        position: absolute;
-                        top: 0;
-                        right: 0;
-                        .btn {
-                            width: 110px;
-                            height: 40px;
-                            font-size: 14px;
-                            color: #fff;
-                            line-height: 40px;
-                            text-align: center;
-                            padding: 0;
-                            border-radius: 0;
-                            background-color: #bfbfbf;
-                        }
-                    }
-                }
-            }
-            .passport {
-                td {
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                }
-            }
-        }
-        .attention {
-            width: 100%;
-            margin-top: 40px;
-            padding: 30px 20px;
-            background-color: #f2f2f2;
-            ul {
-                li {
-                    font-size: 14px;
-                    color: #303030;
-                    line-height: 18px;
-                    margin-bottom: 15px;
-                    &:before {
-                        content: "-";
-                    }
-                    &:last-child {
-                        margin-bottom: 0;
-                    }
-                }
-            }
-        }
-    }
-    .insurance-submission {
-        > p {
-            position: relative;
-            font-size: 14px;
-            display: block;
-            color: #333;
-            line-height: 22px;
-            margin-bottom: 35px;
-            i.require {
-                position: absolute;
-                left: -10px;
-                color: #e61937;
-                &:before {
-                    margin-right: 5px;
-                    content: '*';
-                }
-            }
-        }
-        hr {
-            width: 100%;
-            border-top: 1px solid #d6d6d6;
-            margin: 50px 0;
-        }
-        .form-group {
-            .help-inline {
-                margin-left: 50px;
-                margin-right: 10px;
-            }
-            .form-control {
-                width: 530px;
-                height: 40px;
-                border-radius: 0 !important;
-            }
-        }
-    }
-    .declaration {
+.language-proficiency {
+    td {
+        height: 54px;
+        color: #444;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 18px !important;
+        padding-left: 25px !important;
+        padding-right: 20px !important;
         .form-group {
             p {
                 display: inline-block;
+                margin-right: 40px;
+                &:before {
+                    content: "*";
+                    color: #e61937;
+                    margin-right: 3px;
+                }
             }
         }
-        .criminal-records {
-            .form-group {
-                > p {
-                    display: inline-block;
+    }
+}
+
+
+
+.supporting-documents {
+    .table {
+        th {
+            width: 50%;
+            background-color: #fff;
+            i.require {
+                top: 0;
+            }
+            .help-inline {
+                margin-left: 0;
+            }
+            .btn-down {
+                display: inline-block;
+                margin-left: 30px;
+                .btn {
+                    width: 144px;
+                    height: 34px;
                     font-size: 14px;
-                    color: #333;
-                    line-height: 22px;
-                    margin-right: 40px;
-                    &:before {
-                        content: "*";
-                        color: #e61937;
-                        margin-right: 2px;
+                    color: #303030;
+                    line-height: 32px;
+                    padding: 0;
+                    border-radius: 0;
+                    text-align: center;
+                    border: 1px solid #e9e9e9;
+                    background-image: url(/assets/images/application/btn_down_bg.gif);
+                }
+            }
+        }
+        td {
+            width: 50%;
+            height: 54px;
+            padding-right: 20px !important;
+            .form-group {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                padding-right: 110px;
+                .form-control {
+                    width: 100%;
+                    height: 40px;
+                    border-color: #f6f6f6;
+                    border-radius: 0;
+                    background-color: #f6f6f6;
+                }
+                .btn-search {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    .btn {
+                        width: 110px;
+                        height: 40px;
+                        font-size: 14px;
+                        color: #fff;
+                        line-height: 40px;
+                        text-align: center;
+                        padding: 0;
+                        border-radius: 0;
+                        background-color: #bfbfbf;
                     }
                 }
             }
-            > p {
-                font-size: 13px;
-                color: #777;
-                line-height: 22px;
-                margin-top: 30px;
+        }
+        .passport {
+            td {
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
         }
-        .information-collection {
-            .consent {
+    }
+    .attention {
+        width: 100%;
+        margin-top: 40px;
+        padding: 30px 20px;
+        background-color: #f2f2f2;
+        ul {
+            li {
+                font-size: 14px;
+                color: #303030;
+                line-height: 18px;
+                margin-bottom: 15px;
+                &:before {
+                    content: "-";
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.insurance-submission {
+    > p {
+        position: relative;
+        font-size: 14px;
+        display: block;
+        color: #333;
+        line-height: 22px;
+        margin-bottom: 35px;
+        i.require {
+            position: absolute;
+            left: -10px;
+            color: #e61937;
+            &:before {
+                margin-right: 5px;
+                content: '*';
+            }
+        }
+    }
+    hr {
+        width: 100%;
+        border-top: 1px solid #d6d6d6;
+        margin: 50px 0;
+    }
+    .form-group {
+        .help-inline {
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+        .form-control {
+            width: 530px;
+            height: 40px;
+            border-radius: 0 !important;
+        }
+    }
+}
+
+.declaration {
+    .form-group {
+        p {
+            display: inline-block;
+        }
+    }
+    .criminal-records {
+        .form-group {
+            > p {
+                display: inline-block;
                 font-size: 14px;
                 color: #333;
                 line-height: 22px;
+                margin-right: 40px;
                 &:before {
                     content: "*";
                     color: #e61937;
                     margin-right: 2px;
                 }
             }
-            p {
+        }
+        > p {
+            font-size: 13px;
+            color: #777;
+            line-height: 22px;
+            margin-top: 30px;
+        }
+    }
+    .information-collection {
+        .consent {
+            font-size: 14px;
+            color: #333;
+            line-height: 22px;
+            &:before {
+                content: "*";
+                color: #e61937;
+                margin-right: 2px;
+            }
+        }
+        p {
+            font-size: 13px;
+            color: #777;
+            line-height: 22px;
+            margin-top: 30px;
+            &:before {
+                content: "※";
+            }
+        }
+        ul {
+            margin-top: 30px;
+            li {
                 font-size: 13px;
                 color: #777;
                 line-height: 22px;
-                margin-top: 30px;
                 &:before {
-                    content: "※";
-                }
-            }
-            ul {
-                margin-top: 30px;
-                li {
-                    font-size: 13px;
-                    color: #777;
-                    line-height: 22px;
-                    &:before {
-                        content: "-";
-                        margin-right: 3px;
-                    }
+                    content: "-";
+                    margin-right: 3px;
                 }
             }
         }
-        .announcement {
-            .form-group {
-                p {
-                    display: inline-block;
-                    font-size: 14px;
-                    color: #333;
-                    line-height: 22px;
-                    margin-right: 40px;
-                    &:before {
-                        content: "*";
-                        color: #e61937;
-                        margin-right: 2px;
-                    }
+    }
+    .announcement {
+        .form-group {
+            p {
+                display: inline-block;
+                font-size: 14px;
+                color: #333;
+                line-height: 22px;
+                margin-right: 40px;
+                &:before {
+                    content: "*";
+                    color: #e61937;
+                    margin-right: 2px;
                 }
             }
         }
-        hr {
-            width: 100%;
-            border-top: 1px solid #d6d6d6;
-            margin: 50px 0;
-        }
+    }
+    hr {
+        width: 100%;
+        border-top: 1px solid #d6d6d6;
+        margin: 50px 0;
     }
 }
 
@@ -951,488 +953,6 @@ textarea.form-control {
             &.btn-prev {background-color: #b8b8b8;}
             &.btn-next {background-color: #900020;}
             &.btn-send {background-color: #900020;}
-        }
-    }
-}
-
-#content {
-    .application {
-        .personal-details {
-            .nationality {
-                .form-control {
-                    width: 342px;
-                }
-            }
-            .passport.number, .email {
-                .form-control {
-                    width: 332px;
-                }
-            }
-            .passport.valid, .birthday, .phone {
-                .form-control {
-                    width: 92px;
-                    text-align: center;
-                }
-            }
-            .address {
-                .form-control {
-                    width: 100%;
-                }
-            }
-            .disability {
-                .help-block {
-                    margin-bottom: 15px;
-                    color: #444;
-                }
-            }
-            .passport.ask {
-                padding: 50px 26px;
-                h5 {
-                    display: inline-block;
-                    font-size: 20px;
-                    color: #202020;
-                    font-weight: 400;
-                    margin-bottom: 35px;
-                }
-                p {
-                    font-size: 14px;
-                    color: #333;
-                }
-                label {
-                    position: relative;
-                    width: 100%;
-                    margin-top: 25px;
-                    padding-left: 25px;
-                    input[type="radio"] {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        margin-left: 0;
-                    }
-                }
-                .help-block {
-                    font-size: 14px;
-                    color: #808080;
-                    margin: 0;
-                    padding-left: 25px;
-                    &:before {
-                        content: "*";
-                        color: #e61937;
-                    }
-                }
-            }
-        }
-        .academic-background {
-            .apply {
-                height: 54px;
-                color: #444;
-                font-size: 14px;
-                font-weight: normal;
-                line-height: 18px !important;
-                padding-left: 16px !important;
-                padding-right: 20px !important;
-                .form-group {
-                    > p {
-                        display: inline-block;
-                        &:before {
-                            content: "*";
-                            color: #e61937;
-                            margin-right: 3px;
-                        }
-                    }
-                }
-                p {
-                    position: relative;
-                    margin-right: 40px;
-                }
-            }
-            .major {
-                .form-control {
-                    width: 445px;
-                }
-            }
-            .gpa, .recent-year {
-                .form-control {
-                    width: 140px;
-                }
-                &.recent-year {
-                    th {
-                        padding-left: 16px !important;
-                    }
-                }
-            }
-        }
-        .home-institution {
-            .international, email, addr {
-                .form-control {
-                    width: 445px;
-                }
-            }
-            .phone, .fax {
-                .form-control {
-                    width: 92px;
-                }
-                &.fax {
-                    th {
-                        padding-left: 18px !important;
-                    }
-                }
-            }
-        }
-        .study-plan {
-            strong {
-                display: inline-block;
-                font-size: 16px;
-                color: #920326;
-                font-weight: 400;
-                margin: 80px 0 15px;
-                &:before {
-                    content: "※";
-                    margin-right: 5px;
-                }
-            }
-            .notice-summary {
-                font-size: 14px;
-                color: #333;
-                line-height: 26px;
-                margin-bottom: 35px;
-            }
-            .decimal-list {
-                li {
-                    .registration-courses {
-                        ul {
-                            margin-top: 20px;
-                            li {
-                                font-size: 14px;
-                                color: #808080;
-                                line-height: 20px;
-                                &:before {
-                                    content: "-";
-                                    margin-right: 5px;
-                                }
-                            }
-                        }
-                        > p {
-                            font-size: 14px;
-                            color: #808080;
-                            line-height: 20px;
-                        }
-                    }
-                }
-            }
-            .form-control {
-                height: 40px;
-                border-radius: 0 !important;
-            }
-            th {
-                height: 54px;
-                font-size: 16px;
-                color: #303030;
-                text-align: center;
-                font-weight: 400;
-                background-color: #fff;
-                border-bottom: 1px solid #910023;
-                border-right: 1px solid #e7e7e7;
-                &:nth-of-type(1) {
-                    width: 290px;
-                }
-                &:nth-of-type(2) {
-                    width: 155px;
-                }
-                &:nth-of-type(3) {
-                    width: 390px;
-                }
-                &:nth-of-type(4) {
-                    width: 195px;
-                }
-                &:last-child {
-                    border-right: 0;
-                }
-            }
-            tr {
-                &:last-child {
-                    td {
-                        border-bottom: 1px solid #910023;
-                    }
-                }
-                td {
-                    padding: 35px 0 !important;
-                    text-align: center;
-                    border-right: 1px solid #e7e7e7;
-                    &:last-child {
-                        border-right: 0;
-                    }
-                    &:nth-of-type(1) {
-                        width: 290px;
-                    }
-                    &:nth-of-type(2) {
-                        width: 155px;
-                    }
-                    &:nth-of-type(3) {
-                        width: 390px;
-                    }
-                    &:nth-of-type(4) {
-                        width: 195px;
-                    }
-                    &.department {
-                        .form-control {
-                            width: 256px;
-                            margin-left: 0;
-                            margin-bottom: 10px; 
-                            &:last-child {
-                                margin-bottom: 0;
-                            }
-                        }
-                    }
-                    &.course-code {
-                        .form-control {
-                            width: 110px !important;
-                        }
-                    }
-                    &.title {
-                        .form-control {
-                            width: 344px !important;
-                        }
-                    }
-                    &.credit-value {
-                        select {
-                            &.form-control {
-                                width: 130px !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .language-proficiency {
-            td {
-                height: 54px;
-                color: #444;
-                font-size: 14px;
-                font-weight: normal;
-                line-height: 18px !important;
-                padding-left: 25px !important;
-                padding-right: 20px !important;
-                .form-group {
-                    p {
-                        display: inline-block;
-                        margin-right: 40px;
-                        &:before {
-                            content: "*";
-                            color: #e61937;
-                            margin-right: 3px;
-                        }
-                    }
-                }
-            }
-        }
-        .supporting-documents {
-            .table {
-                th {
-                    width: 50%;
-                    background-color: #fff;
-                    i.require {
-                        top: 0;
-                    }
-                    .help-inline {
-                        margin-left: 0;
-                    }
-                    .btn-down {
-                        display: inline-block;
-                        margin-left: 30px;
-                        .btn {
-                            width: 144px;
-                            height: 34px;
-                            font-size: 14px;
-                            color: #303030;
-                            line-height: 32px;
-                            padding: 0;
-                            border-radius: 0;
-                            text-align: center;
-                            border: 1px solid #e9e9e9;
-                            background-image: url(/assets/images/application/btn_down_bg.gif);
-                        }
-                    }
-                }
-                td {
-                    width: 50%;
-                    height: 54px;
-                    padding-right: 20px !important;
-                    .form-group {
-                        position: relative;
-                        display: inline-block;
-                        width: 100%;
-                        padding-right: 110px;
-                        .form-control {
-                            width: 100%;
-                            height: 40px;
-                            border-color: #f6f6f6;
-                            border-radius: 0;
-                            background-color: #f6f6f6;
-                        }
-                        .btn-search {
-                            position: absolute;
-                            top: 0;
-                            right: 0;
-                            .btn {
-                                width: 110px;
-                                height: 40px;
-                                font-size: 14px;
-                                color: #fff;
-                                line-height: 40px;
-                                text-align: center;
-                                padding: 0;
-                                border-radius: 0;
-                                background-color: #bfbfbf;
-                            }
-                        }
-                    }
-                }
-                .passport {
-                    td {
-                        padding-top: 20px;
-                        padding-bottom: 20px;
-                    }
-                }
-            }
-            .attention {
-                width: 100%;
-                margin-top: 40px;
-                padding: 30px 20px;
-                background-color: #f2f2f2;
-                ul {
-                    li {
-                        font-size: 14px;
-                        color: #303030;
-                        line-height: 18px;
-                        margin-bottom: 15px;
-                        &:before {
-                            content: "-";
-                        }
-                        &:last-child {
-                            margin-bottom: 0;
-                        }
-                    }
-                }
-            }
-        }
-        .insurance-submission {
-            > p {
-                position: relative;
-                font-size: 14px;
-                display: block;
-                color: #333;
-                line-height: 22px;
-                margin-bottom: 35px;
-                i.require {
-                    position: absolute;
-                    left: -10px;
-                    color: #e61937;
-                    &:before {
-                        margin-right: 5px;
-                        content: '*';
-                    }
-                }
-            }
-            hr {
-                width: 100%;
-                border-top: 1px solid #d6d6d6;
-                margin: 50px 0;
-            }
-            .form-group {
-                .help-inline {
-                    margin-left: 50px;
-                    margin-right: 10px;
-                }
-                .form-control {
-                    width: 530px;
-                    height: 40px;
-                    border-radius: 0 !important;
-                }
-            }
-        }
-        .declaration {
-            .form-group {
-                p {
-                    display: inline-block;
-                }
-            }
-            .criminal-records {
-                .form-group {
-                    > p {
-                        display: inline-block;
-                        font-size: 14px;
-                        color: #333;
-                        line-height: 22px;
-                        margin-right: 40px;
-                        &:before {
-                            content: "*";
-                            color: #e61937;
-                            margin-right: 2px;
-                        }
-                    }
-                }
-                > p {
-                    font-size: 13px;
-                    color: #777;
-                    line-height: 22px;
-                    margin-top: 30px;
-                }
-            }
-            .information-collection {
-                .consent {
-                    font-size: 14px;
-                    color: #333;
-                    line-height: 22px;
-                    &:before {
-                        content: "*";
-                        color: #e61937;
-                        margin-right: 2px;
-                    }
-                }
-                p {
-                    font-size: 13px;
-                    color: #777;
-                    line-height: 22px;
-                    margin-top: 30px;
-                    &:before {
-                        content: "※";
-                    }
-                }
-                ul {
-                    margin-top: 30px;
-                    li {
-                        font-size: 13px;
-                        color: #777;
-                        line-height: 22px;
-                        &:before {
-                            content: "-";
-                            margin-right: 3px;
-                        }
-                    }
-                }
-            }
-            .announcement {
-                .form-group {
-                    p {
-                        display: inline-block;
-                        font-size: 14px;
-                        color: #333;
-                        line-height: 22px;
-                        margin-right: 40px;
-                        &:before {
-                            content: "*";
-                            color: #e61937;
-                            margin-right: 2px;
-                        }
-                    }
-                }
-            }
-            hr {
-                width: 100%;
-                border-top: 1px solid #d6d6d6;
-                margin: 50px 0;
-            }
         }
     }
 }
