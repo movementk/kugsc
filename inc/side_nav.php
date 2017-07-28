@@ -1,4 +1,4 @@
-<nav id="side-nav" class="hidden-lg" role="presentation">
+<nav id="side-nav" class="hidden-lg">
 	<div class="nav-content">
 		<div class="nav-head">
 			<h1 class="logo"><a href="/"><span class="sr-only">KOREA UNIVERSITY Global Services Center</span></a></h1>

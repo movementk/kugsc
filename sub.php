@@ -57,11 +57,44 @@
 						</div>
 					</div>
 					
-					<h4>What is an ‘Orientation Week’?</h4>
+					<h4 class="title">What is an ‘Orientation Week’?</h4>
+					
+					<p class="u-title">What is an ‘Orientation Week’?</p>
 					
 					<p>Orientation Week offers you social, sporting, study and support sessions and events to help you get familiar with the campus, meet people, get prepared for study, find out who’s there to help and most importantly have fun!</p>
 
 					<p>Attending orientation is an important step of starting university so attendance is considered essential. The orientation conducted by Global Services Center is mandatory.</p>
+					
+					<ol class="co-list">
+						<li>
+							Getting to KU – Airport Pickup Service
+							<p class="dot">Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+						</li>
+						<li>
+							Find <a href="#">Accommodation</a>
+							<p class="dot">Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+						</li>
+						<li>
+							Getting to KU – Airport Pickup Service
+							<p>Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+						</li>
+					</ol>
+					
+					<div class="box">
+						<ol class="co-list">
+							<li>
+								Getting to KU – Airport Pickup Service
+								<p class="dot">Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+							</li>
+							<li>
+								Find <a href="#">Accommodation</a>
+							</li>
+							<li>
+								Getting to KU – Airport Pickup Service
+								<p>Pay your tuition and other optional fees, especially mutual health aid association fee</p>
+							</li>
+						</ol>
+					</div>
 					
 				</div>
 				
