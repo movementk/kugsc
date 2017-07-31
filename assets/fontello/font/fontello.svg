@@ -32,6 +32,10 @@
 
 <glyph glyph-name="down" unicode="&#xe80c;" d="M0 283q0 25 18 43t44 18 42-18l244-243v642q0 25 18 43t43 18 43-18 18-43v-642l243 243q18 18 43 18t43-18q18-18 18-43t-18-44l-390-390-391 390q-18 20-18 44z" horiz-adv-x="817.4" />
 
+<glyph glyph-name="down-open-big" unicode="&#xe80d;" d="M63 570l370-356 372 356q22 26 48 0 26-22 0-48l-396-392q-22-22-48 0l-396 392q-26 26 0 48 24 24 50 0z" horiz-adv-x="866" />
+
+<glyph glyph-name="up-open-big" unicode="&#xe80e;" d="M804 130l-372 358-370-358q-26-22-50 0-24 24 0 50l396 390q26 26 48 0l396-390q24-26 0-50-26-22-48 0z" horiz-adv-x="864" />
+
 <glyph glyph-name="right-open" unicode="&#xf006;" d="M0 0q0 25 18 43l305 304-305 304q-18 18-18 44t18 43 44 18 43-18l390-391-390-391q-19-18-43-18t-44 18q-18 18-18 44z" horiz-adv-x="495.1" />
 
 <glyph glyph-name="left-open" unicode="&#xf007;" d="M0 353l391 391q18 18 43 18 24 0 43-18 18-18 18-44t-18-43l-304-304 304-305q18-17 18-43t-18-43q-18-18-43-18t-43 18z" horiz-adv-x="495.1" />

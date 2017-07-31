@@ -31,14 +31,18 @@
 					</div>
 
 					<!-- 탭 -->
-					<div class="nav nav-tabs nav-justified"  role="tablist">
-						<ul>
-							<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-							<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-							<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-							<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-							<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-						</ul>
+					<p>note: 두줄짜리 탭은 a 태그에 high 클래스 필요</p>
+					<div class="tabs dropdown">
+						<button class="btn btn-defualt btn-block" data-toggle="dropdown">
+							On-campus accommodation
+						</button>
+						<div class="dropdown-menu">
+							<ul class="nav nav-tabs nav-justified" role="tablist">
+								<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">On-campus accommodation</a></li>
+								<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Off-campus accommodation</a></li>
+								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="high">Temporary Short-term Temporary Short-term</a></li>
+							</ul>
+						</div>
 					</div>
 
 					<!-- 탭 패널 -->
@@ -120,7 +124,7 @@ insurance.</p>
 							</thead>
 							<tbody>
 								<tr>
-									<td rowspan="6">Medical Cost</td>
+									<td rowspan="6" class="border-bottom-0">Medical Cost</td>
 									<td rowspan="2">Hospitalization (Including surgery)</td>
 									<td>Certificate of discharge (Including diagnosis)</td>
 									<td>Care hospital</td>
@@ -139,7 +143,7 @@ insurance.</p>
 									<td>Receipt of treatment</td>
 								</tr>
 								<tr>
-									<td rowspan="2">Outpatient Treatment</td>
+									<td rowspan="2" class="border-bottom-0">Outpatient Treatment</td>
 									<td>Medical records or First visit medical records</td>
 									<td>Care hospital</td>
 								</tr>
@@ -173,6 +177,17 @@ insurance.</p>
 
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot_sub.php"); ?>
+<!--
+<script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script>
+	(function($) {
+		$(".tabs > ul").draggable({
+			axis: "x",
+			containment: "parent"
+		});
+	})(jQuery);
+</script>
+-->
 
 </body>
 </html>

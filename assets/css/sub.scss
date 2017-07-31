@@ -132,6 +132,7 @@
 	}
 
 	#lnb {
+		z-index: 1001;
 		margin-left: -10px;
 		margin-right: -10px;
 		.btn {
@@ -389,10 +390,125 @@
 			}
 		}
 	}
-
-	.nav-tabs {
+	
+	.tabs {
+		margin-bottom: 55px;
+		.btn {
+			padding-right: 30px;
+			padding-left: 30px;
+			border: 1px solid $kcolor;
+			background-color: #fff;
+			color: $kcolor;
+			font-size: 13px;
+			line-height: 16px;
+			font-weight: bold;
+			&:after {
+				position: absolute;
+				right: 20px;
+				font-family: "fontello";
+				content: "\E80D";
+			}
+		}
+		.dropdown-menu {
+			margin-top: -1px;
+			padding-top: 0;
+			padding-bottom: 0;
+			width: 100%;
+			box-shadow: none;
+			border-radius: 0;
+			border: 1px solid $kcolor !important;
+			ul {
+				> li {
+					margin-bottom: 0;
+					> a {
+						margin-bottom: 0;
+						padding-top: 14px;
+						padding-bottom: 14px;
+						border-radius: 0;
+						border-top: 0;
+						border-left: 0;
+						border-right: 0;
+						border-bottom: 1px solid #e2e2e2;
+						font-size: 13px;
+						line-height: 16px;
+						color: #666;
+					}
+					&:last-child {
+						> a {
+							border-bottom: 0;
+						}
+					}
+					&.active {
+						> a {
+							background-color: $kcolor;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		&.open {
+			.btn {
+				&:after {
+					content: "\E80E";
+				}
+			}
+		}
+		@media (min-width: $sm) {
+			position: relative;
+			height: 50px;
+			.btn {
+				display: none;
+			}
+			.dropdown-menu {
+				position: relative;
+				top: 0;
+				display: block;
+				margin-top: 0;
+				border-top: 0 !important;
+				border-left: 0 !important;
+				border-right: 0 !important;
+				> ul {
+					padding-left: 1px;
+					> li {
+						vertical-align: top;
+						> a {
+							z-index: 0;
+							position: relative;
+							margin-left: -1px;
+							padding-top: 16px;
+							padding-bottom: 16px;
+							border-top: 1px solid #e3e3e3;
+							border-left: 1px solid #e3e3e3;
+							border-right: 1px solid #e3e3e3;
+							border-bottom: 0;
+							background-color: #f7f7f7;
+							height: 49px;
+							&.high {
+								padding-top: 8px;
+								padding-bottom: 8px;
+							}
+						}
+						&.active {
+							> a {
+								z-index: 1;
+								margin-bottom: -1px;
+								height: 50px;
+								background-color: #fff;
+								color: $kcolor;
+								font-weight: bold;
+								border-top: 1px solid $kcolor;
+								border-left: 1px solid $kcolor;
+								border-right: 1px solid $kcolor;
+								border-bottom: 1px solid #fff;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
-
+	
 	.co-list {
 		margin-bottom: 20px;
 		counter-reset: section;
@@ -470,6 +586,9 @@
 				border-bottom-width: 1px;
 				background-color: #f7f7f7;
 			}
+		}
+		.border-bottom-0 {
+			border-bottom: 0;
 		}
 	}
 	
