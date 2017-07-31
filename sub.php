@@ -38,9 +38,9 @@
 						</button>
 						<div class="dropdown-menu">
 							<ul class="nav nav-tabs nav-justified" role="tablist">
-								<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">On-campus accommodation</a></li>
+								<li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">On-campus accommodation</a></li>
 								<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Off-campus accommodation</a></li>
-								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="high">Temporary Short-term Temporary Short-term</a></li>
+								<li role="presentation" class="active"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="high">Temporary Short-term Temporary Short-term</a></li>
 							</ul>
 						</div>
 					</div>
@@ -177,17 +177,6 @@ insurance.</p>
 
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot_sub.php"); ?>
-<!--
-<script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-<script>
-	(function($) {
-		$(".tabs > ul").draggable({
-			axis: "x",
-			containment: "parent"
-		});
-	})(jQuery);
-</script>
--->
 
 </body>
 </html>
