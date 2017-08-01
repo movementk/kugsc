@@ -205,3 +205,123 @@
         }
     }
 }
+
+
+.student-visa {
+    padding-bottom: 100px;
+    @media(min-width: $sm) {
+        padding-bottom: 130px;
+    }
+    @media(min-width: $lg) {
+        padding-bottom: 0;
+    }
+    .summary {
+        a {
+            color: #920326;
+        }
+    }
+    .required-documents {
+        margin-top: 60px;
+        .co-list {
+            padding: 50px 10px 40px;
+            background-color: #f2f2f2;
+            @media(min-width: $sm) {
+                margin-top: 30px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            @media(min-width: $lg) {
+                padding-left: 75px;
+                padding-right: 75px;
+            }
+            li {
+                .dot-list {
+                    padding-top: 5px;
+                    @media(min-width: $sm) {
+                        padding-top: 0;
+                    }
+                    li {
+                        color: #666;
+                        opacity: .8;
+                        margin-top: 15px;
+                        &:before {
+                            content: "\E80B";
+                            font-family: "fontello";
+                        }
+                        @media(min-width: $sm) {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+                p {
+                    display: block;
+                    color: #777;
+                    opacity: .9;
+                    margin-top: 25px;
+                    &:before {
+                        content: "(";
+                    }
+                    &:after {
+                        content: ")";
+                    }
+                    @media(min-width: $sm) {
+                        margin-top: 10px;
+                        margin-bottom: 15px !important;
+                    }
+                }
+                i {
+                    position: relative;
+                    display: inline-block;
+                    padding-left: 10px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: "*";
+                    }
+                    color: #777;
+                    span {
+                        color: #910023;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

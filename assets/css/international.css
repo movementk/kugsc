@@ -185,4 +185,69 @@ address {
         left: 0;
         content: "*"; }
 
+.student-visa {
+  padding-bottom: 100px; }
+  @media (min-width: 768px) {
+    .student-visa {
+      padding-bottom: 130px; } }
+  @media (min-width: 1280px) {
+    .student-visa {
+      padding-bottom: 0; } }
+  .student-visa .summary a {
+    color: #920326; }
+  .student-visa .required-documents {
+    margin-top: 60px; }
+    .student-visa .required-documents .co-list {
+      padding: 50px 10px 40px;
+      background-color: #f2f2f2; }
+      @media (min-width: 768px) {
+        .student-visa .required-documents .co-list {
+          margin-top: 30px;
+          padding-left: 40px;
+          padding-right: 40px; } }
+      @media (min-width: 1280px) {
+        .student-visa .required-documents .co-list {
+          padding-left: 75px;
+          padding-right: 75px; } }
+      .student-visa .required-documents .co-list li .dot-list {
+        padding-top: 5px; }
+        @media (min-width: 768px) {
+          .student-visa .required-documents .co-list li .dot-list {
+            padding-top: 0; } }
+        .student-visa .required-documents .co-list li .dot-list li {
+          color: #666;
+          opacity: .8;
+          margin-top: 15px; }
+          .student-visa .required-documents .co-list li .dot-list li:before {
+            content: "\E80B";
+            font-family: "fontello"; }
+          @media (min-width: 768px) {
+            .student-visa .required-documents .co-list li .dot-list li {
+              margin-top: 5px; } }
+      .student-visa .required-documents .co-list li p {
+        display: block;
+        color: #777;
+        opacity: .9;
+        margin-top: 25px; }
+        .student-visa .required-documents .co-list li p:before {
+          content: "("; }
+        .student-visa .required-documents .co-list li p:after {
+          content: ")"; }
+        @media (min-width: 768px) {
+          .student-visa .required-documents .co-list li p {
+            margin-top: 10px;
+            margin-bottom: 15px !important; } }
+      .student-visa .required-documents .co-list li i {
+        position: relative;
+        display: inline-block;
+        padding-left: 10px;
+        color: #777; }
+        .student-visa .required-documents .co-list li i:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "*"; }
+        .student-visa .required-documents .co-list li i span {
+          color: #910023; }
+
 /*# sourceMappingURL=international.css.map */
