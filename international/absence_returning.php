@@ -34,9 +34,9 @@
                     <div class="account-information">
                         <h4 class="u-title">Account Information:</h4>
                         <ul>
-                            <li>KEB Hana Bank - Godae Branch (Swift Code: KOEXKRSE) 145 Anam-Ro, Seongbuk-Gu,</li>
-                            <li>Seoul, Korea 02841</li>
+                            <li>KEB Hana Bank - Godae Branch (Swift Code: KOEXKRSE) 145 Anam-Ro, Seongbuk-Gu, Seoul, Korea 02841</li>
                             <li>Account Number : 391-904468-24637</li>
+                            <li>Account Holder : Korea University</li>
                         </ul>
                         <i>
                             Please check once again that the exact amount in Korean currency (KRW) is ransferred. You must consider extra charges subjected to your transaction, such as remittance fee, extra fee from intermediary banks, etc. Please make sure
