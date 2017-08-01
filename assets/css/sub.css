@@ -77,18 +77,12 @@ address {
   @media (min-width: 768px) {
     #content .page-content {
       margin: 0 auto;
-      padding-left: 20px;
-      padding-right: 20px;
-      width: 750px; } }
+      width: 710px; } }
   @media (min-width: 992px) {
     #content .page-content {
-      padding-left: 15px;
-      padding-right: 15px;
-      width: 970px; } }
+      width: 940px; } }
   @media (min-width: 1280px) {
     #content .page-content {
-      padding-left: 0;
-      padding-right: 0;
       width: 100%; } }
   #content .page-header {
     margin-top: 0;
