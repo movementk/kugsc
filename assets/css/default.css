@@ -760,6 +760,7 @@ body.nav-opened #side-nav {
   min-height: 500px; }
 
 #footer {
+  margin-top: 80px;
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #fff;
@@ -777,6 +778,7 @@ body.nav-opened #side-nav {
     color: #777; }
   @media (min-width: 768px) {
     #footer {
+      margin-top: 100px;
       padding-bottom: 30px;
       text-align: left; }
       #footer .logo {

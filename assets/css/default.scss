@@ -524,6 +524,7 @@ body.nav-opened {
 }
 
 #footer {
+	margin-top: 80px;
 	padding-top: 30px;
 	padding-bottom: 20px;
 	background-color: #fff;
@@ -542,6 +543,7 @@ body.nav-opened {
 		color: #777;
 	}
 	@media (min-width: $sm) {
+		margin-top: 100px;
 		padding-bottom: 30px;
 		text-align: left;
 		.logo {

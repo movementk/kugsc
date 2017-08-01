@@ -3,15 +3,11 @@
 #content {
 	
 	font-family: "Tahoma", sans-serif;
-	font-size: 12px;
-	line-height: 24px;
+	font-size: 13px;
+	line-height: 25px;
 	color: #666;
 	@media (min-width: $sm) {
-		font-size: 13px;
-	}
-	@media (min-width: $lg) {
 		font-size: 14px;
-		line-height: 25px;
 	}
 
 	.container-fluid {
@@ -351,12 +347,14 @@
 					}
 				}
 			}
-			&.lnb-1 {
+			/*
+			&.lnb-about {
 				h2 {
 					padding-top: 40px;
 					padding-bottom: 40px;
 				}
 			}
+			*/
 		}
 	}
 
@@ -394,8 +392,11 @@
 	.tabs {
 		margin-bottom: 55px;
 		.btn {
+			padding-top: 14px;
+			padding-bottom: 14px;
 			padding-right: 30px;
 			padding-left: 30px;
+			height: auto;
 			border: 1px solid $kcolor;
 			background-color: #fff;
 			color: $kcolor;
@@ -404,7 +405,9 @@
 			font-weight: bold;
 			&:after {
 				position: absolute;
+				top: 50%;
 				right: 20px;
+				margin-top: -8px;
 				font-family: "fontello";
 				content: "\E80D";
 			}
@@ -563,7 +566,24 @@
 	}	
 	
 	.box {
-		background-color: #f5f5f5;
+		margin-bottom: 35px;
+		font-size: 13px;
+		&.grey {
+			background-color: #f5f5f5;
+		}
+		&.space {
+			padding: 40px 20px;
+		}
+		@media (min-width: $sm) {
+			&.space {
+				padding: 40px 35px;
+			}
+		}
+		@media (min-width: $lg) {
+			&.space {
+				padding: 30px 50px;
+			}
+		}
 	}
 	
 	.table-responsive {

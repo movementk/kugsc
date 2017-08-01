@@ -26,16 +26,16 @@
 	// 해상도: = xs
 	// 설명: TAB의 항목 선택 시 제목 자동 입력 시키기
 	$(document).on("click", ".tabs .dropdown-menu > ul > li > a", function(e) {
-		$(".tabs .btn").text($(this).text());
+		$(".tabs .btn").html($(this).html());
 	});
 	
 	// 해상도: All
 	// 설명: TAB의 active 클래스 항목을 자동 입력 시키기
 	$(window).on("load", function() {
 		if ($(".tabs .dropdown-menu > ul > li.active").length == 1) {
-			$(".tabs .btn").text($(".tabs .dropdown-menu > ul > li.active > a").text());
+			$(".tabs .btn").html($(".tabs .dropdown-menu > ul > li.active > a").html());
 		} else {
-			$(".tabs .btn").text("Select Menu");
+			$(".tabs .btn").html("Select Menu");
 		}
 	});
 })(jQuery);

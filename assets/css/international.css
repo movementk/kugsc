@@ -16,6 +16,10 @@ dl {
 address {
   margin-bottom: 0; }
 
+#lnb h2 {
+  padding-top: 35px !important;
+  padding-bottom: 35px !important; }
+
 .getting-prepared {
   padding-bottom: 100px; }
   @media (min-width: 768px) {
@@ -184,5 +188,47 @@ address {
         top: 0;
         left: 0;
         content: "*"; }
+
+.accomodation .tabs {
+  margin-top: 35px; }
+@media (min-width: 768px) {
+  .accomodation .tabs {
+    margin-top: 55px; } }
+.accomodation #accomodation-3 figure {
+  margin-bottom: 20px; }
+  .accomodation #accomodation-3 figure .img-responsive {
+    margin: 0 auto 10px; }
+  .accomodation #accomodation-3 figure figcaption {
+    margin-top: 10px; }
+.accomodation #accomodation-3 .box:nth-of-type(1) dl dt {
+  margin-bottom: 7px;
+  font-weight: normal; }
+.accomodation #accomodation-3 .box:nth-of-type(1) dl dd {
+  margin-bottom: 12px; }
+  .accomodation #accomodation-3 .box:nth-of-type(1) dl dd a {
+    word-break: break-all;
+    word-wrap: break-word; }
+.accomodation #accomodation-3 .box:nth-of-type(1) p {
+  margin-bottom: 7px !important;
+  line-height: 18px; }
+.accomodation #accomodation-3 .box:nth-of-type(2) {
+  margin-bottom: 0; }
+@media (min-width: 768px) {
+  .accomodation #accomodation-3 .box:nth-of-type(1) {
+    margin-bottom: 30px; }
+    .accomodation #accomodation-3 .box:nth-of-type(1) dl dt {
+      float: left;
+      margin-right: 10px; }
+    .accomodation #accomodation-3 .box:nth-of-type(1) dl dd {
+      margin-bottom: 7px; }
+    .accomodation #accomodation-3 .box:nth-of-type(1) p {
+      font-size: 13px; }
+  .accomodation #accomodation-3 .box:nth-of-type(2) {
+    margin-bottom: inherit; } }
+@media (min-width: 1280px) {
+  .accomodation #accomodation-3 figure {
+    margin-bottom: 30px; }
+  .accomodation #accomodation-3 .box:nth-of-type(1) {
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=international.css.map */

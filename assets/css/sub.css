@@ -18,16 +18,12 @@ address {
 
 #content {
   font-family: "Tahoma", sans-serif;
-  font-size: 12px;
-  line-height: 24px;
+  font-size: 13px;
+  line-height: 25px;
   color: #666; }
   @media (min-width: 768px) {
     #content {
-      font-size: 13px; } }
-  @media (min-width: 1280px) {
-    #content {
-      font-size: 14px;
-      line-height: 25px; } }
+      font-size: 14px; } }
   @media (min-width: 1280px) {
     #content .container-fluid {
       width: 1200px; } }
@@ -205,7 +201,15 @@ address {
       #content #lnb {
         margin-left: 0;
         margin-right: 0;
-        width: 240px; }
+        width: 240px;
+        /*
+        &.lnb-about {
+        	h2 {
+        		padding-top: 40px;
+        		padding-bottom: 40px;
+        	}
+        }
+        */ }
         #content #lnb h2 {
           margin-bottom: 4px;
           padding-top: 20px;
@@ -272,10 +276,7 @@ address {
               content: "\F105"; }
           #content #lnb .dropdown-menu > li.active.has-child > a:after {
             content: "\F106";
-            color: inherit; }
-        #content #lnb.lnb-1 h2 {
-          padding-top: 40px;
-          padding-bottom: 40px; } }
+            color: inherit; } }
   #content .page-title {
     margin-top: 55px;
     margin-bottom: 45px;
@@ -305,8 +306,11 @@ address {
   #content .tabs {
     margin-bottom: 55px; }
     #content .tabs .btn {
+      padding-top: 14px;
+      padding-bottom: 14px;
       padding-right: 30px;
       padding-left: 30px;
+      height: auto;
       border: 1px solid #920326;
       background-color: #fff;
       color: #920326;
@@ -315,7 +319,9 @@ address {
       font-weight: bold; }
       #content .tabs .btn:after {
         position: absolute;
+        top: 50%;
         right: 20px;
+        margin-top: -8px;
         font-family: "fontello";
         content: "\E80D"; }
     #content .tabs .dropdown-menu {
@@ -434,7 +440,18 @@ address {
         font-family: "fontello";
         content: "\E80B"; }
   #content .box {
-    background-color: #f5f5f5; }
+    margin-bottom: 35px;
+    font-size: 13px; }
+    #content .box.grey {
+      background-color: #f5f5f5; }
+    #content .box.space {
+      padding: 40px 20px; }
+    @media (min-width: 768px) {
+      #content .box.space {
+        padding: 40px 35px; } }
+    @media (min-width: 1280px) {
+      #content .box.space {
+        padding: 30px 50px; } }
   #content .table-responsive {
     border-color: #bfbfbf; }
   #content .table.table-bordered {
