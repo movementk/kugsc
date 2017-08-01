@@ -23,7 +23,7 @@
 				<div class="page-content">
 					<!-- 페이지 타이틀 -->
 					<div class="page-title">
-						<h3>Q&amp;A</h3>
+						<h3>FAQ</h3>
 					</div>
                    
                     <div class="tabs dropdown">
@@ -124,9 +124,6 @@
                                     </div>
                                 </div>
                             </div>
-                    
-                    
-                    
 						</div>
 						<div role="tabpanel" class="tab-pane" id="academics">
 							탭 패널 #2
