@@ -631,3 +631,111 @@
 		}
 	}
 }
+
+.paging {
+    text-align: center;
+    height: 30px;
+    .pagination {
+        display: inline-block;
+        margin: 0;
+        li {
+            a {
+                width: 30px;
+                height: 30px;
+                font-size: 14px;
+                color: #999 !important;
+                line-height: 30px;
+                padding: 0;
+                text-align: center;
+                border: 0;
+                border-radius: 0;
+                @include trans();
+                i {
+                    &:before {
+                        margin: 0;
+                    }
+                }
+                &:hover, &:focus {
+                    color: #910023 !important;
+                    background: none;
+                    font-weight: bold;
+                }
+                @media(min-width: $sm) {
+                    font-size: 13px;
+                }
+            }
+            &.active {
+                a {
+                    color: #910023 !important;
+                    background: none;
+                    font-weight: bold;
+                }
+            }
+            &.angle {
+                a {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+.search-form {
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #f5f5f5;
+    @media(min-width: $sm) {
+        padding: 28px 0;
+    }
+    .form-group {
+        position: relative;
+        width: 280px;
+        font-size: 0;
+        margin: 0 auto;
+        @media(min-width: $sm) {
+            width: 357px;
+        }
+        select {
+            width: 86px;
+            margin-right: 10px;
+            @media(min-width: $sm) {
+                width: 105px;
+            }
+        }
+        input {
+            width: 184px;
+            padding-right: 30px;
+            @media(min-width: $sm) {
+                width: 242px;
+            }
+        }
+        .form-control {
+            display: inline-block;
+            height: 35px;
+            font-size: 12px;
+            box-shadow: none;
+            border-radius: 0;
+            border: 1px solid #eaeaea;
+            @media(min-width: $sm) {
+                font-size: 14px;
+            }
+        }
+        .btn-search {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 33px;
+            height: 33px;
+            line-height: 33px;
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            background: none;
+            .icon-search {
+                font-size: 18px;
+            }
+        }
+    }
+}
