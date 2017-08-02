@@ -81,9 +81,9 @@
 						<li>
 							Getting to KU – Airport Pickup Service
 							<p>If you apply or make a payment after the
-application period, individual rate would be
-applied which will result in higher cost of
-insurance.</p>
+                            application period, individual rate would be
+                            applied which will result in higher cost of
+                            insurance.</p>
 						</li>
 						<li>
 							Find <a href="#">Accommodation</a>
@@ -166,6 +166,65 @@ insurance.</p>
 					<!-- 버튼 -->
 					<button type="button" class="btn btn-default">Book one-on-one appointment</button>
 					<button type="button" class="btn btn-primary">Book one-on-one appointment</button>
+					
+					
+					<br><br>##### 검색폼 #####<br><br>
+					
+					<!-- 검색폼 -->
+					<div class="search-form">
+					    <form action="#">
+					        <div class="form-group">
+					            <select class="form-control">
+					                <option>Title</option>
+					            </select>
+					            <input type="text" id="search" class="form-control">
+					            <label for="search" class="sr-only">search</label>
+                                <button type="submit" class="btn-search">
+                                    <i class="icon-search">
+                                        <span class="sr-only">search icon</span>
+                                    </i>
+                                </button>
+					        </div>
+					    </form>
+					</div>
+					
+					<br><br>##### 페이징 #####<br><br>
+					
+					<!-- 페이징 -->
+					<nav aria-label="Page navigation" class="paging">
+                        <ul class="pagination">
+                            <li class="angle">
+                                <a href="#" aria-label="Previous">
+                                    <i class="icon-angle-double-left"></i>
+                                </a>
+                            </li>
+                            <li class="angle">
+                                <a href="#" aria-label="Previous">
+                                    <i class="icon-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li class="hidden-xs"><a href="#">6</a></li>
+                            <li class="hidden-xs"><a href="#">7</a></li>
+                            <li class="hidden-xs"><a href="#">8</a></li>
+                            <li class="hidden-xs"><a href="#">9</a></li>
+                            <li class="hidden-xs"><a href="#">10</a></li>
+                            <li class="angle">
+                                <a href="#" aria-label="Next">
+                                    <i class="icon-angle-right"></i>
+                                </a>
+                            </li>
+                            <li class="angle">
+                                <a href="#" aria-label="Next">
+                                    <i class="icon-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
 					
 				</div>
 				
