@@ -1,5 +1,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/main.css" rel="stylesheet">
+<link href="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+<link href="/assets/jquery.mCustomScrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -57,6 +59,244 @@
 					<a class="more hidden-xs" href="#">Find out more</a>
 				</div>
 			</div>
+		</div>
+	</div>
+	
+	<div id="community">
+		<div class="container">
+			<div id="announcements" class="hidden-xs">
+				<h4>Announcements<span class="bar"></span></h4>
+				<figure>
+					<p style="background-image: url(/assets/images/main/img_announcements.jpg);"></p>
+					<figcaption>
+						<h5>World’s Leading International Exchange Programs</h5>
+						<ul>
+							<li><i class="icon-calendar"></i>2017.04.11</li>
+							<li><i class="icon-eye"></i>11</li>
+						</ul>
+						<p>
+							In a few minutes there was, so far as the soldier 
+							see, not a lterials to create semi-soft machines
+							walk like insects Business School,SEAS announce 
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div id="events" class="hidden-xs">
+			
+				<!-- jquery ui 캘린더 입력 영역 -->
+				<div class="calendar"></div>
+				<!-- // jquery ui 캘린더 입력 영역 -->
+				
+				<div class="article">
+					<figure>
+						<p style="background-image: url(/assets/images/main/img_article.jpg);"></p>
+						<figcaption>
+							<span class="date">
+								<b class="day">13</b> <span class="month">MAY</span>
+							</span>
+							<h5>Understanding the Universe Using Gravitational Waves</h5>
+							<p>
+								In Q&amp;A, retired judge explains the legal issues raised and
+								the the legal issues raised and the...
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+				
+			</div>
+			<div id="sns">
+				<ul>
+					<li class="visible-xs"><a class="announcements" href="#"><i></i>Announcements</a></li>
+					<li><a class="career" href="#"><i></i>Career</a></li>
+					<li><a class="kakaotalk" href="#"><i></i><span class="sr-only">Kakao Talk</span></a></li>
+					<li><a class="buddy" href="#"><i></i>Buddy Program</a></li>
+				</ul>
+			</div>
+			<div id="upcoming" class="visible-xs">
+				<h4>Upcoming Events</h4>
+				<ol>
+					<li>
+						<a href="#">
+							<span class="date">
+								<b class="day">13</b> <span class="month">MAY</span>
+							</span>
+							<h5>Understanding the Universe Using Gravitational Waves</h5>
+							<p>
+								Last year LIGO announced the first direct detection of gravitational waves.
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="date">
+								<b class="day">13</b> <span class="month">MAY</span>
+							</span>
+							<h5>Understanding the Universe Using Gravitational Waves</h5>
+							<p>
+								Last year LIGO announced the first direct detection of gravitational waves.
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="date">
+								<b class="day">13</b> <span class="month">MAY</span>
+							</span>
+							<h5>Understanding the Universe Using Gravitational Waves</h5>
+							<p>
+								Last year LIGO announced the first direct detection of gravitational waves.
+							</p>
+						</a>
+					</li>
+				</ol>
+				<p class="more">
+					<a href="#"><u>Learn More</u></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="statistics" class="hidden-xs">
+		<div class="container">
+			<h4>Statistics</h4>
+			<div class="row">
+				<div class="col-xs-12 col-lg-6">
+					<div class="contries">
+						<h5>Students from 91 countries<br>in 6 continents</h5>
+						<div class="list">
+							<ul>
+								<li class="active">
+									<a href="#">Asia</a>
+									<div>
+										<ul>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Africa</a>
+									<div>
+										<ul>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+											<li><a href="#">country #1</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">North America</a>
+									<div>
+										<ul>
+											<li><a href="#">country #2</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">South America</a>
+									<div>
+										<ul>
+											<li><a href="#">country #2</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Europe</a>
+									<div>
+										<ul>
+											<li><a href="#">country #2</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Australia</a>
+									<div>
+										<ul>
+											<li><a href="#">country #2</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="map">
+							<div class="asia active"></div>
+							<div class="africa"></div>
+							<div class="north-america"></div>
+							<div class="south-america"></div>
+							<div class="europe"></div>
+							<div class="australia"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-lg-6">
+					<div class="students">
+						<h5>International Students<br>Over Time</h5>
+						<ol>
+							<li>
+								<dl>
+									<dt>2013</dt>
+									<dd class="count">2982</dd>
+									<dd class="person" role="presentation">
+										<img class="img-responsive" src="/assets/images/main/ico_person.png" alt="">
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>2014</dt>
+									<dd class="count">3325</dd>
+									<dd class="person" role="presentation">
+										<img class="img-responsive" src="/assets/images/main/ico_person.png" alt="">
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>2015</dt>
+									<dd class="count">3398</dd>
+									<dd class="person" role="presentation">
+										<img class="img-responsive" src="/assets/images/main/ico_person.png" alt="">
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt>2016</dt>
+									<dd class="count">3974</dd>
+									<dd class="person" role="presentation">
+										<img class="img-responsive" src="/assets/images/main/ico_person.png" alt="">
+									</dd>
+								</dl>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<p class="note">Statisctics includes; International undergraduate, graduate, exchange and visiting students 2017</p>
 		</div>
 	</div>
 	
@@ -119,6 +359,37 @@
 
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
+<script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="/assets/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+	(function($) {
+		
+		// 해상도: All
+		// 설명: 이벤트 캘린더 생성
+		$("#events .calendar").datepicker();
+		
+		// 해상도: All
+		// 설명: 통계 영역에서 국가 클릭 시
+		$(document).on("click", "#statistics .contries .list > ul > li > a", function(e) {
+			console.log($(this).parent().index());
+			$(this).parent().siblings(".active").removeClass("active");
+			$(this).parent().addClass("active");
+			$("#statistics .contries .map > div.active").removeClass("active");
+			$("#statistics .contries .map > div:eq("+$(this).parent().index()+")").addClass("active");
+			e.preventDefault();
+		});
+		
+		$(window).on("load", function() {
+			
+			// 해상도: > xs
+			// 설명: 통계 영역에 국가 스크롤 생성
+			$("#statistics .contries .list > ul > li > div").mCustomScrollbar({
+				theme: "light-3"
+			});
+			
+		});
+	})(jQuery);
+</script>
 
 </body>
 </html>

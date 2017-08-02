@@ -45,8 +45,8 @@ body.scrolled #header {
   body.scrolled #header .btn-nav-open {
     color: #333; }
 @media (min-width: 768px) {
-  body.nav-expanded .logo a,
-  body.scrolled .logo a {
+  body.nav-expanded #header .logo a,
+  body.scrolled #header .logo a {
     background-image: url(/assets/images/logo_crimson_sm.png); } }
 @media (min-width: 1280px) {
   body.nav-expanded #header .logo a,
@@ -229,9 +229,429 @@ body.scrolled #header {
     #visual .carousel-indicators {
       bottom: 25px; } }
 
+#community {
+  margin: 10px auto 0;
+  max-width: 320px; }
+  #community #sns {
+    margin-bottom: 25px; }
+    #community #sns > ul {
+      overflow: hidden;
+      margin: -5px; }
+      #community #sns > ul > li {
+        float: left;
+        padding: 5px;
+        width: 50%; }
+        #community #sns > ul > li > a {
+          display: block;
+          height: 123px;
+          text-align: center;
+          background-color: blue;
+          font-size: 14px;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none; }
+          #community #sns > ul > li > a i {
+            display: block;
+            height: 85px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%; }
+          #community #sns > ul > li > a.announcements {
+            background-color: #9a1736; }
+            #community #sns > ul > li > a.announcements i {
+              background-image: url(/assets/images/main/ico_microphone.png);
+              background-position: 50% 30px; }
+          #community #sns > ul > li > a.career {
+            background-color: #8e8f8f; }
+            #community #sns > ul > li > a.career i {
+              background-image: url(/assets/images/main/ico_career.png);
+              background-size: auto 51px;
+              background-position: 50% 26px; }
+          #community #sns > ul > li > a.kakaotalk {
+            background-color: #fee900; }
+            #community #sns > ul > li > a.kakaotalk i {
+              height: 100%;
+              background-image: url(/assets/images/main/ico_kakaotalk_xs.png);
+              background-position: 50% 18px; }
+          #community #sns > ul > li > a.buddy {
+            background-color: #5599e2; }
+            #community #sns > ul > li > a.buddy i {
+              background-image: url(/assets/images/main/ico_buddy.png);
+              background-size: auto 45px;
+              background-position: 50% 27px; }
+  #community #upcoming h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px; }
+  #community #upcoming ol li a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    background-color: #fff; }
+    #community #upcoming ol li a .date {
+      float: left;
+      margin-right: 10px;
+      width: 35px;
+      height: 40px;
+      background-color: #920326;
+      color: #fff;
+      text-align: center;
+      line-height: 14px; }
+      #community #upcoming ol li a .date .day {
+        display: block;
+        margin-top: 7px;
+        font-size: 16px; }
+      #community #upcoming ol li a .date .month {
+        display: block;
+        font-size: 10px;
+        font-family: "Tahoma", sans-serif; }
+    #community #upcoming ol li a h5 {
+      color: #333;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      min-height: 40px; }
+    #community #upcoming ol li a p {
+      margin-top: 15px;
+      color: rgba(102, 102, 102, 0.7);
+      font-size: 12px;
+      line-height: 16px;
+      font-family: "Tahoma", sans-serif; }
+  #community #upcoming ol li + li {
+    margin-top: 5px; }
+  #community #upcoming .more {
+    margin-top: 10px;
+    text-align: center; }
+    #community #upcoming .more a {
+      font-size: 13px;
+      line-height: 18px;
+      color: #920326;
+      font-style: italic;
+      text-decoration: none; }
+      #community #upcoming .more a:after {
+        margin-left: 5px;
+        font-family: "fontello";
+        content: "\E806"; }
+  @media (min-width: 768px) {
+    #community {
+      margin: auto;
+      max-width: none; }
+      #community #announcements {
+        overflow: hidden;
+        margin-top: 20px;
+        padding: 25px 20px;
+        background-color: #fff; }
+        #community #announcements h4 {
+          position: relative;
+          margin-bottom: 30px;
+          height: 30px;
+          font-size: 18px;
+          border-bottom: 2px solid #f0f0f0; }
+          #community #announcements h4 .bar {
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 24px;
+            height: 2px;
+            border-right: 6px solid #fff;
+            background-color: #920326; }
+        #community #announcements figure > p {
+          float: left;
+          width: 345px;
+          height: 185px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 50% 50%; }
+        #community #announcements figure > figcaption {
+          margin-left: 370px; }
+          #community #announcements figure > figcaption h5 {
+            margin-bottom: 25px;
+            font-size: 16px;
+            line-height: 24px; }
+          #community #announcements figure > figcaption ul {
+            margin-bottom: 35px; }
+            #community #announcements figure > figcaption ul li {
+              display: inline-block;
+              font-size: 12px;
+              color: #999;
+              font-family: "Tahoma", sans-serif; }
+              #community #announcements figure > figcaption ul li i {
+                margin-right: 5px;
+                color: rgba(59, 59, 59, 0.7); }
+              #community #announcements figure > figcaption ul li + li {
+                margin-left: 25px; }
+          #community #announcements figure > figcaption p {
+            font-size: 13px;
+            line-height: 20px;
+            color: #999;
+            font-family: "Tahome", sans-serif; }
+      #community #events {
+        margin-top: 20px;
+        height: 282px;
+        background-color: #fff; }
+        #community #events .calendar {
+          float: left;
+          width: 290px; }
+          #community #events .calendar .ui-datepicker {
+            padding: 0 15px 5px;
+            width: 100%; }
+            #community #events .calendar .ui-datepicker .ui-datepicker-header {
+              margin-left: -15px;
+              margin-right: -15px;
+              padding-top: 15px;
+              padding-bottom: 0;
+              height: 60px;
+              font-size: 18px;
+              font-weight: bold;
+              background-color: #920326;
+              color: #fff;
+              line-height: 30px; }
+              #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev,
+              #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+                top: 16px;
+                width: 24px;
+                height: 24px;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                text-decoration: none;
+                cursor: pointer;
+                text-align: center;
+                line-height: 16px; }
+                #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev:before,
+                #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next:before {
+                  font-family: "fontello";
+                  color: #fff;
+                  font-weight: normal;
+                  font-size: 12px; }
+              #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+                left: 20px; }
+                #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev:before {
+                  content: "\F007"; }
+              #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+                right: 20px; }
+                #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next:before {
+                  content: "\F006"; }
+            #community #events .calendar .ui-datepicker .ui-datepicker-calendar {
+              margin-top: 12px;
+              margin-bottom: 0;
+              height: 200px;
+              background-color: #fff; }
+              #community #events .calendar .ui-datepicker .ui-datepicker-calendar th {
+                font-size: 15px;
+                color: #920326; }
+              #community #events .calendar .ui-datepicker .ui-datepicker-calendar td a {
+                text-align: center;
+                font-size: 15px;
+                color: #9099b7; }
+        #community #events .article {
+          padding: 10px;
+          margin-left: 290px;
+          background-color: #fff; }
+          #community #events .article figure > p {
+            height: 137px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%; }
+          #community #events .article figure > figcaption {
+            padding: 20px 20px 10px 20px;
+            height: 122px;
+            background-color: #920326; }
+            #community #events .article figure > figcaption .date {
+              float: left;
+              margin-right: 15px;
+              width: 25px;
+              height: 40px;
+              background-color: #920326;
+              color: #fff;
+              text-align: center;
+              line-height: 20px; }
+              #community #events .article figure > figcaption .date .day {
+                display: block;
+                font-size: 20px; }
+              #community #events .article figure > figcaption .date .month {
+                display: block;
+                font-size: 10px;
+                font-family: "Tahoma", sans-serif; }
+            #community #events .article figure > figcaption h5 {
+              color: #333;
+              font-weight: bold;
+              font-size: 13px;
+              line-height: 20px;
+              min-height: 40px;
+              color: #fff; }
+            #community #events .article figure > figcaption p {
+              margin-top: 5px;
+              color: rgba(255, 255, 255, 0.7);
+              font-size: 12px;
+              line-height: 20px;
+              font-family: "Tahoma", sans-serif; }
+      #community #sns {
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        #community #sns > ul {
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: -10px;
+          margin-right: -10px; }
+          #community #sns > ul > li {
+            padding: 0 10px;
+            width: 33.33%; }
+            #community #sns > ul > li > a {
+              height: 208px;
+              font-size: 16px; }
+              #community #sns > ul > li > a i {
+                height: 130px; }
+              #community #sns > ul > li > a.buddy i {
+                background-size: auto 53px;
+                background-position: 50% 57px; }
+              #community #sns > ul > li > a.career i {
+                background-size: auto 62px;
+                background-position: 50% 50px; }
+              #community #sns > ul > li > a.kakaotalk i {
+                background-image: url(/assets/images/main/ico_kakaotalk_sm.png);
+                background-position: 50% 45px; }
+            #community #sns > ul > li:nth-of-type(2) {
+              position: relative;
+              left: 66.66%; }
+            #community #sns > ul > li:nth-of-type(4) {
+              position: relative;
+              margin-left: -66.66%; } }
+
+#statistics {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-image: url(/assets/images/main/bg_statistics.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff; }
+  #statistics h4 {
+    margin-bottom: 75px;
+    font-size: 30px;
+    text-align: center; }
+  #statistics h5 {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center; }
+  #statistics .note {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center; }
+    #statistics .note:before {
+      content: "*"; }
+  #statistics .contries {
+    position: relative;
+    margin-bottom: 110px; }
+    #statistics .contries h5 {
+      margin-bottom: 50px; }
+    #statistics .contries .list {
+      position: absolute;
+      top: 105px;
+      left: 50px;
+      padding: 15px;
+      width: 222px;
+      height: 175px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 3px; }
+      #statistics .contries .list > ul > li > a {
+        font-size: 12px;
+        line-height: 24px;
+        color: #333;
+        font-family: "Tahoma", sans-serif; }
+      #statistics .contries .list > ul > li > div {
+        display: none;
+        overflow: auto;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 85px;
+        height: 145px; }
+        #statistics .contries .list > ul > li > div ul > li > a {
+          display: block;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-size: 12px;
+          line-height: 14px;
+          color: #666;
+          font-family: "Tahoma", sans-serif; }
+        #statistics .contries .list > ul > li > div .mCSB_inside > .mCSB_container {
+          margin-right: 10px; }
+      #statistics .contries .list > ul > li.active > a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #920326; }
+      #statistics .contries .list > ul > li.active > div {
+        display: block; }
+    #statistics .contries .map {
+      margin: 0 auto;
+      width: 580px;
+      height: 200px; }
+      #statistics .contries .map .asia {
+        background-image: url(/assets/images/main/img_map_asia.png); }
+      #statistics .contries .map .africa {
+        background-image: url(/assets/images/main/img_map_africa.png); }
+      #statistics .contries .map .north-america {
+        background-image: url(/assets/images/main/img_map_north_america.png); }
+      #statistics .contries .map .south-america {
+        background-image: url(/assets/images/main/img_map_south_america.png); }
+      #statistics .contries .map .europe {
+        background-image: url(/assets/images/main/img_map_europe.png); }
+      #statistics .contries .map .australia {
+        background-image: url(/assets/images/main/img_map_australia.png); }
+      #statistics .contries .map > div {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 100% 100%; }
+        #statistics .contries .map > div.active {
+          display: block; }
+  #statistics .students {
+    margin-bottom: 60px; }
+    #statistics .students h5 {
+      margin-bottom: 30px; }
+    #statistics .students ol {
+      display: table;
+      margin: 0 auto;
+      width: 450px;
+      table-layout: fixed; }
+      #statistics .students ol li {
+        position: relative;
+        display: table-cell;
+        text-align: center;
+        vertical-align: bottom; }
+        #statistics .students ol li dl {
+          margin-bottom: 30px; }
+          #statistics .students ol li dl dt {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            font-size: 13px;
+            line-height: 16px;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: "Tahoma", sans-serif;
+            font-weight: normal; }
+          #statistics .students ol li dl .count {
+            margin-bottom: 15px;
+            font-size: 18px; }
+          #statistics .students ol li dl .person {
+            opacity: .75; }
+            #statistics .students ol li dl .person .img-responsive {
+              margin: 0 auto; }
+        #statistics .students ol li:nth-of-type(1) dl .person .img-responsive {
+          height: 60px; }
+        #statistics .students ol li:nth-of-type(2) dl .person .img-responsive {
+          height: 72px; }
+        #statistics .students ol li:nth-of-type(3) dl .person .img-responsive {
+          height: 97px; }
+        #statistics .students ol li:last-child dl .person {
+          opacity: .9; }
+
 #contact {
   padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 320px; }
   #contact h5 {
     font-size: 16px;
     line-height: 20px;
@@ -279,22 +699,25 @@ body.scrolled #header {
       background-size: cover;
       background-position: 50% 50%; }
   @media (min-width: 768px) {
-    #contact h6 {
-      margin-top: 20px; }
-    #contact dl dt, #contact dl dd {
-      font-size: 13px; }
-    #contact ul li {
-      float: left;
-      width: 33.33%;
-      font-size: 13px; }
-      #contact ul li:nth-of-type(3n+1) {
-        clear: both; }
-      #contact ul li:nth-of-type(3n+3) {
-        padding-left: 25px; }
-    #contact .map {
-      margin-bottom: 40px; }
-      #contact .map > div {
-        height: 325px; } }
+    #contact {
+      margin: auto;
+      max-width: none; }
+      #contact h6 {
+        margin-top: 20px; }
+      #contact dl dt, #contact dl dd {
+        font-size: 13px; }
+      #contact ul li {
+        float: left;
+        width: 33.33%;
+        font-size: 13px; }
+        #contact ul li:nth-of-type(3n+1) {
+          clear: both; }
+        #contact ul li:nth-of-type(3n+3) {
+          padding-left: 25px; }
+      #contact .map {
+        margin-bottom: 40px; }
+        #contact .map > div {
+          height: 325px; } }
   @media (min-width: 1280px) {
     #contact {
       padding-top: 85px;
