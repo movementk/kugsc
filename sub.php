@@ -226,6 +226,25 @@
                         </ul>
                     </nav>
 					
+					<br><br>##### collapse #####<br><br>
+					
+                    <div class="collapse-list">
+                        <ul>
+                            <li>
+                                <div class="collapse-content">
+                                    <a class="btn btn-collapse" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                                        subject
+                                    </a>
+                                    <div class="collapse" id="collapse-1">
+                                        <div class="well">
+                                            content
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
 				</div>
 				
 			</div>

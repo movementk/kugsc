@@ -523,6 +523,11 @@ address {
     .paging .pagination li.angle a {
       width: 25px; }
 
+.collapse-list .collapse-content {
+  background-color: #f5f5f5; }
+  .collapse-list .collapse-content .btn-collapse {
+    color: #000 !important; }
+
 .search-form {
   width: 100%;
   text-align: center;

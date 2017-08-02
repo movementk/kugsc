@@ -680,6 +680,16 @@
     }
 }
 
+.collapse-list {
+    .collapse-content {
+        background-color: #f5f5f5;
+        .btn-collapse {
+            color: #000 !important;
+        }
+    }
+}
+
+
 
 .search-form {
     width: 100%;
