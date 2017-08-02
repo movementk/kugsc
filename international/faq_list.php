@@ -80,16 +80,16 @@
                             </nav>
                             
                             <!-- collapse List -->
-                            <div class="panel-group question-list" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel-group question-list" id="question-list-1" role="tablist" aria-multiselectable="true">
                                 <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading-1">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                    <div class="panel-heading" role="tab" id="heading-1-1">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1-1" aria-expanded="true" aria-controls="collapse-1-1">
                                             <i class="question">Q</i>
                                             Where can I get all kinds
                                             of certificates? 
                                         </a>
                                     </div>
-                                    <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+                                    <div id="collapse-1-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1-1">
                                         <div class="panel-body">
                                             <i class="asked">A</i>
                                             If you haven’t paid the Mutual Health
@@ -102,8 +102,8 @@
                                     </div>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="heading-2">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                    <div class="panel-heading" role="tab" id="heading-1-2">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
                                             <i class="question">Q</i>
                                             I went to One-Stop Service
                                             Center and tried to issue my
@@ -111,7 +111,7 @@
                                             What can I do?
                                         </a>
                                     </div>
-                                    <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                                    <div id="collapse-1-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-1-2">
                                         <div class="panel-body">
                                             <i class="asked">A</i>
                                             If you haven’t paid the Mutual Health
@@ -126,13 +126,214 @@
                             </div>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="academics">
-							탭 패널 #2
+							<nav class="question-type">
+                                <ul class="row">
+                                    <li class="col-xs-6 col-sm-2 active">
+                                        <a href="#">Issue of<br>Certificates</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Student ID Card</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Change of<br>studentship status </a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Insurance</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Change of personal<br> info and log-in on <br>Portal (KUPID)</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Full time and<br>part-time jobs</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
+                            <!-- collapse List -->
+                            <div class="panel-group question-list" id="question-list-2" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading-2-1">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2-1" aria-expanded="true" aria-controls="collapse-2-1">
+                                            <i class="question">Q</i>
+                                            Where can I get all kinds
+                                            of certificates? 
+                                        </a>
+                                    </div>
+                                    <div id="collapse-2-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-2-1">
+                                        <div class="panel-body">
+                                            <i class="asked">A</i>
+                                            If you haven’t paid the Mutual Health
+                                            Aid Association fee or submitted a copy
+                                            of your private insurance policy, you
+                                            won’t be able to issue your certificates
+                                            at all until you submit a proof of
+                                            buying insurance to GSC
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading-2-2">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2-2" aria-expanded="false" aria-controls="collapse-2-2">
+                                            <i class="question">Q</i>
+                                            I went to One-Stop Service
+                                            Center and tried to issue my
+                                            academic transcript but failed.
+                                            What can I do?
+                                        </a>
+                                    </div>
+                                    <div id="collapse-2-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2-2">
+                                        <div class="panel-body">
+                                            <i class="asked">A</i>
+                                            If you haven’t paid the Mutual Health
+                                            Aid Association fee or submitted a copy
+                                            of your private insurance policy, you
+                                            won’t be able to issue your certificates
+                                            at all until you submit a proof of
+                                            buying insurance to GSC
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="scholarships">
-							탭 패널 #3
+							<nav class="question-type">
+                                <ul class="row">
+                                    <li class="col-xs-6 col-sm-2 active">
+                                        <a href="#">Issue of<br>Certificates</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Student ID Card</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Change of<br>studentship status </a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Insurance</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Change of personal<br> info and log-in on <br>Portal (KUPID)</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Full time and<br>part-time jobs</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
+                            <!-- collapse List -->
+                            <div class="panel-group question-list" id="question-list-3" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading-3-1">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3-1" aria-expanded="true" aria-controls="collapse-3-1">
+                                            <i class="question">Q</i>
+                                            Where can I get all kinds
+                                            of certificates? 
+                                        </a>
+                                    </div>
+                                    <div id="collapse-3-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-3-1">
+                                        <div class="panel-body">
+                                            <i class="asked">A</i>
+                                            If you haven’t paid the Mutual Health
+                                            Aid Association fee or submitted a copy
+                                            of your private insurance policy, you
+                                            won’t be able to issue your certificates
+                                            at all until you submit a proof of
+                                            buying insurance to GSC
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading-3-2">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3-2" aria-expanded="false" aria-controls="collapse-3-2">
+                                            <i class="question">Q</i>
+                                            I went to One-Stop Service
+                                            Center and tried to issue my
+                                            academic transcript but failed.
+                                            What can I do?
+                                        </a>
+                                    </div>
+                                    <div id="collapse-3-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3-2">
+                                        <div class="panel-body">
+                                            <i class="asked">A</i>
+                                            If you haven’t paid the Mutual Health
+                                            Aid Association fee or submitted a copy
+                                            of your private insurance policy, you
+                                            won’t be able to issue your certificates
+                                            at all until you submit a proof of
+                                            buying insurance to GSC
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="immigration-issues">
-							탭 패널 #4
+							<nav class="question-type">
+                                <ul class="row">
+                                    <li class="col-xs-6 col-sm-2 active">
+                                        <a href="#">Issue of<br>Certificates</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Student ID Card</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Change of<br>studentship status </a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Insurance</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Change of personal<br> info and log-in on <br>Portal (KUPID)</a>
+                                    </li>
+                                    <li class="col-xs-6 col-sm-2">
+                                        <a href="#">Full time and<br>part-time jobs</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
+                            <!-- collapse List -->
+                            <div class="panel-group question-list" id="question-list-4" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading-4-1">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4-1" aria-expanded="true" aria-controls="collapse-4-1">
+                                            <i class="question">Q</i>
+                                            Where can I get all kinds
+                                            of certificates? 
+                                        </a>
+                                    </div>
+                                    <div id="collapse-4-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-4-1">
+                                        <div class="panel-body">
+                                            <i class="asked">A</i>
+                                            If you haven’t paid the Mutual Health
+                                            Aid Association fee or submitted a copy
+                                            of your private insurance policy, you
+                                            won’t be able to issue your certificates
+                                            at all until you submit a proof of
+                                            buying insurance to GSC
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading-4-2">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4-2" aria-expanded="false" aria-controls="collapse-4-2">
+                                            <i class="question">Q</i>
+                                            I went to One-Stop Service
+                                            Center and tried to issue my
+                                            academic transcript but failed.
+                                            What can I do?
+                                        </a>
+                                    </div>
+                                    <div id="collapse-4-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4-2">
+                                        <div class="panel-body">
+                                            <i class="asked">A</i>
+                                            If you haven’t paid the Mutual Health
+                                            Aid Association fee or submitted a copy
+                                            of your private insurance policy, you
+                                            won’t be able to issue your certificates
+                                            at all until you submit a proof of
+                                            buying insurance to GSC
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 					
