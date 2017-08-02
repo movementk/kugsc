@@ -155,6 +155,12 @@
       "css": "link",
       "code": 59407,
       "src": "entypo"
+    },
+    {
+      "uid": "0ddd3e8201ccc7d41f7b7c9d27eca6c1",
+      "css": "link-1",
+      "code": 59408,
+      "src": "fontawesome"
     }
   ]
 }
