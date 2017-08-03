@@ -69,15 +69,16 @@
 				<figure>
 					<p style="background-image: url(/assets/images/main/img_announcements.jpg);"></p>
 					<figcaption>
-						<h5>World’s Leading International Exchange Programs</h5>
+						<h5><a href="#">World’s Leading International Exchange Programs</a></h5>
 						<ul>
 							<li><i class="icon-calendar"></i>2017.04.11</li>
 							<li><i class="icon-eye"></i>11</li>
 						</ul>
 						<p>
-							In a few minutes there was, so far as the soldier 
-							see, not a lterials to create semi-soft machines
-							walk like insects Business School,SEAS announce 
+							In a few minutes there was, so far as the soldier could see, 
+							not a living things cientists use simple materials to create
+							semi-soft machines that walk like insects Business School,
+							SEAS announce
 						</p>
 					</figcaption>
 				</figure>
@@ -88,21 +89,35 @@
 				<div class="calendar"></div>
 				<!-- // jquery ui 캘린더 입력 영역 -->
 				
-				<div class="article">
+				<div class="article first">
 					<figure>
 						<p style="background-image: url(/assets/images/main/img_article.jpg);"></p>
 						<figcaption>
 							<span class="date">
 								<b class="day">13</b> <span class="month">MAY</span>
 							</span>
-							<h5>Understanding the Universe Using Gravitational Waves</h5>
+							<h5><a href="#">Understanding the Universe Using Gravitational Waves</a></h5>
 							<p>
 								In Q&amp;A, retired judge explains the legal issues raised and
-								the the legal issues raised and the...
+								the the legal issues...
 							</p>
 						</figcaption>
 					</figure>
 				</div>
+				
+				<div class="article second visible-lg">
+					<span class="date">
+						<b class="day">13</b> <span class="month">MAY</span>
+					</span>
+					<h5><a href="#">President Luis Guillermo Solis</a></h5>
+					<p>
+						In Q&amp;A, retired judge explains the legal issues raised and the the legal issues...
+					</p>
+				</div>
+				
+				<p class="more visible-lg">
+					<a href="#"><span>Learn More</span></a>
+				</p>
 				
 			</div>
 			<div id="sns">
@@ -371,7 +386,6 @@
 		// 해상도: All
 		// 설명: 통계 영역에서 국가 클릭 시
 		$(document).on("click", "#statistics .contries .list > ul > li > a", function(e) {
-			console.log($(this).parent().index());
 			$(this).parent().siblings(".active").removeClass("active");
 			$(this).parent().addClass("active");
 			$("#statistics .contries .map > div.active").removeClass("active");

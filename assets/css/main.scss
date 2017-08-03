@@ -503,6 +503,9 @@ body.scrolled {
 						margin-bottom: 25px;
 						font-size: 16px;
 						line-height: 24px;
+						a {
+							color: #333;
+						}
 					}
 					ul {
 						margin-bottom: 35px;
@@ -552,7 +555,7 @@ body.scrolled {
 						line-height: 30px;
 						.ui-datepicker-prev,
 						.ui-datepicker-next {
-							top: 16px;
+							top: 18px;
 							width: 24px;
 							height: 24px;
 							border: 2px solid #fff;
@@ -582,7 +585,7 @@ body.scrolled {
 						}
 					}
 					.ui-datepicker-calendar {
-						margin-top: 12px;
+						margin-top: 10px;
 						margin-bottom: 0;
 						height: 200px;
 						background-color: #fff;
@@ -592,6 +595,7 @@ body.scrolled {
 						}
 						td {
 							a {
+								padding: .1em;
 								text-align: center;
 								font-size: 15px;
 								color: #9099b7;
@@ -601,53 +605,56 @@ body.scrolled {
 				}
 			}
 			.article {
-				padding: 10px;
-				margin-left: 290px;
-				background-color: #fff;
-				figure {
-					> p {
-						height: 137px;
-						background-repeat: no-repeat;
-						background-size: cover;
-						background-position: 50% 50%;
-					}
-					> figcaption {
-						padding: 20px 20px 10px 20px;
-						height: 122px;
-						background-color: $kcolor;
-						.date {
-							float: left;
-							margin-right: 15px;
-							width: 25px;
-							height: 40px;
+				&.first {
+					padding: 10px;
+					margin-left: 290px;
+					background-color: #fff;
+					figure {
+						> p {
+							height: 137px;
+							background-repeat: no-repeat;
+							background-size: cover;
+							background-position: 50% 50%;
+						}
+						> figcaption {
+							padding: 20px 20px 10px 20px;
+							height: 122px;
 							background-color: $kcolor;
-							color: #fff;
-							text-align: center;
-							line-height: 20px;
-							.day {
-								display: block;
-								font-size: 20px;
+							.date {
+								float: left;
+								margin-right: 15px;
+								width: 25px;
+								height: 40px;
+								background-color: $kcolor;
+								color: #fff;
+								text-align: center;
+								line-height: 20px;
+								.day {
+									display: block;
+									font-size: 20px;
+								}
+								.month {
+									display: block;
+									font-size: 10px;
+									font-family: "Tahoma", sans-serif;
+								}
 							}
-							.month {
-								display: block;
-								font-size: 10px;
+							h5 {
+								font-weight: bold;
+								font-size: 13px;
+								line-height: 20px;
+								min-height: 40px;
+								a {
+									color: #fff;
+								}
+							}
+							p {
+								margin-top: 5px;
+								color: rgba(#fff, .7);
+								font-size: 12px;
+								line-height: 20px;
 								font-family: "Tahoma", sans-serif;
 							}
-						}
-						h5 {
-							color: #333;
-							font-weight: bold;
-							font-size: 13px;
-							line-height: 20px;
-							min-height: 40px;
-							color: #fff;
-						}
-						p {
-							margin-top: 5px;
-							color: rgba(#fff, .7);
-							font-size: 12px;
-							line-height: 20px;
-							font-family: "Tahoma", sans-serif;
 						}
 					}
 				}
@@ -701,6 +708,189 @@ body.scrolled {
 			}
 		}
 	}
+	@media (min-width: $lg) {
+		padding-top: 70px;
+		padding-bottom: 80px;
+		.container {
+			position: relative;
+			height: 710px;
+		}
+		#announcements {
+			margin-top: 0;
+			margin-left: 310px;
+			padding: 40px 35px 55px;
+			height: 450px;
+			h4 {
+				margin-bottom: 45px;
+				height: 40px; 
+				font-size: 24px;
+				border-bottom-width: 4px;
+				.bar {
+					bottom: -4px;
+					width: 33px;
+					height: 4px;
+					border-right-width: 4px;
+				}
+			}
+			figure {
+				> p {
+					width: 392px;
+					height: 272px;
+				}
+				> figcaption {
+					margin-left: 420px;
+					h5 {
+						padding-top: 75px;
+						font-size: 20px;
+						line-height: 28px;
+					}
+					ul {
+						margin-bottom: 30px;
+						li {
+							& + li {
+								margin-left: 30px;
+							}
+						}
+					}
+					p {
+						font-size: 13px;
+						line-height: 18px;
+					}
+				}
+			}
+		}
+		#events {
+			position: absolute;
+			top: 0;
+			left: 15px;
+			margin-top: 0;
+			width: 300px;
+			height: 710px;
+			.calendar {
+				float: none;
+				width: 100%;
+			}
+			.article {
+				&.first {
+					margin-left: 0;
+					figure {
+						> p {
+							height: 150px;
+						}
+						> figcaption {
+							padding: 20px 15px;
+							height: 130px;
+							p {
+								margin-top: 10px;
+							}
+						}
+					}
+				}
+				&.second {
+					display: block;
+					padding: 10px;
+					text-decoration: none;
+					background-color: #fff;
+					.date {
+						float: left;
+						margin-right: 10px;
+						width: 52px;
+						height: 48px;
+						background-color: $kcolor;
+						color: #fff;
+						text-align: center;
+
+						.day {
+							display: block;
+							margin-top: 8px;
+							font-size: 20px;
+							line-height: 20px;
+						}
+						.month {
+							display: block;
+							font-size: 10px;
+							line-height: 14px;
+							font-family: "Tahoma", sans-serif;
+						}
+					}
+					h5 {
+						font-size: 14px;
+						line-height: 20px;
+						a {
+							color: #333;
+						}
+					}
+					p {
+						margin-top: 3px;
+						color: rgba(#666, .7);
+						font-size: 12px;
+						line-height: 20px;
+						font-family: "Tahoma", sans-serif;
+					}
+				}
+			}
+			.more {
+				position: absolute;
+				right: 25px;
+				bottom: 20px;
+				a {
+					font-size: 12px;
+					line-height: 18px;
+					color: $kcolor;
+					font-style: italic;
+					text-decoration: none;
+					&:after {
+						margin-left: 5px;
+						font-family: "fontello";
+						content: "\E806";
+					}
+					&:hover, &:focus {
+						span {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		#sns {
+			margin-top: 10px;
+			margin-bottom: 0;
+			margin-left: 310px;
+			width: 860px;
+			> ul {
+				margin-left: -5px;
+				margin-right: -5px;
+				> li {
+					padding-left: 5px;
+					padding-right: 5px;
+					> a {
+						height: 250px;
+						i {
+							height: 150px;
+						}
+						&.buddy {
+							i {
+								background-size: auto 53px;
+								background-position: 50% 78px;
+							}
+						}
+						&.career {
+							i {
+								background-size: auto 62px;
+								background-position: 50% 69px;
+							}
+						}
+						&.kakaotalk {
+							i {
+								background-image: url(/assets/images/main/ico_kakaotalk.png);
+								background-position: 50% 66px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 #statistics {
@@ -732,6 +922,9 @@ body.scrolled {
 	.contries {
 		position: relative;
 		margin-bottom: 110px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 710px;
 		h5 {
 			margin-bottom: 50px;
 		}
@@ -826,6 +1019,9 @@ body.scrolled {
 	}
 	.students {
 		margin-bottom: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 710px;
 		h5 {
 			margin-bottom: 30px;
 		}
@@ -896,6 +1092,25 @@ body.scrolled {
 						}
 					}
 				}
+			}
+		}
+	}
+	
+	@media (min-width: $lg) {
+		.contries {
+			margin-bottom: 70px;
+			.list {
+				top: 110px; 
+				left: 0;
+			}
+			.map {
+				width: 100%;
+			}
+		}
+		.students {
+			margin-bottom: 70px;
+			h5 {
+				margin-bottom: 50px; 
 			}
 		}
 	}

@@ -368,6 +368,8 @@ body.scrolled #header {
             margin-bottom: 25px;
             font-size: 16px;
             line-height: 24px; }
+            #community #announcements figure > figcaption h5 a {
+              color: #333; }
           #community #announcements figure > figcaption ul {
             margin-bottom: 35px; }
             #community #announcements figure > figcaption ul li {
@@ -408,7 +410,7 @@ body.scrolled #header {
               line-height: 30px; }
               #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev,
               #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
-                top: 16px;
+                top: 18px;
                 width: 24px;
                 height: 24px;
                 border: 2px solid #fff;
@@ -432,7 +434,7 @@ body.scrolled #header {
                 #community #events .calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next:before {
                   content: "\F006"; }
             #community #events .calendar .ui-datepicker .ui-datepicker-calendar {
-              margin-top: 12px;
+              margin-top: 10px;
               margin-bottom: 0;
               height: 200px;
               background-color: #fff; }
@@ -440,23 +442,24 @@ body.scrolled #header {
                 font-size: 15px;
                 color: #920326; }
               #community #events .calendar .ui-datepicker .ui-datepicker-calendar td a {
+                padding: .1em;
                 text-align: center;
                 font-size: 15px;
                 color: #9099b7; }
-        #community #events .article {
+        #community #events .article.first {
           padding: 10px;
           margin-left: 290px;
           background-color: #fff; }
-          #community #events .article figure > p {
+          #community #events .article.first figure > p {
             height: 137px;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%; }
-          #community #events .article figure > figcaption {
+          #community #events .article.first figure > figcaption {
             padding: 20px 20px 10px 20px;
             height: 122px;
             background-color: #920326; }
-            #community #events .article figure > figcaption .date {
+            #community #events .article.first figure > figcaption .date {
               float: left;
               margin-right: 15px;
               width: 25px;
@@ -465,21 +468,21 @@ body.scrolled #header {
               color: #fff;
               text-align: center;
               line-height: 20px; }
-              #community #events .article figure > figcaption .date .day {
+              #community #events .article.first figure > figcaption .date .day {
                 display: block;
                 font-size: 20px; }
-              #community #events .article figure > figcaption .date .month {
+              #community #events .article.first figure > figcaption .date .month {
                 display: block;
                 font-size: 10px;
                 font-family: "Tahoma", sans-serif; }
-            #community #events .article figure > figcaption h5 {
-              color: #333;
+            #community #events .article.first figure > figcaption h5 {
               font-weight: bold;
               font-size: 13px;
               line-height: 20px;
-              min-height: 40px;
-              color: #fff; }
-            #community #events .article figure > figcaption p {
+              min-height: 40px; }
+              #community #events .article.first figure > figcaption h5 a {
+                color: #fff; }
+            #community #events .article.first figure > figcaption p {
               margin-top: 5px;
               color: rgba(255, 255, 255, 0.7);
               font-size: 12px;
@@ -516,6 +519,137 @@ body.scrolled #header {
             #community #sns > ul > li:nth-of-type(4) {
               position: relative;
               margin-left: -66.66%; } }
+  @media (min-width: 1280px) {
+    #community {
+      padding-top: 70px;
+      padding-bottom: 80px; }
+      #community .container {
+        position: relative;
+        height: 710px; }
+      #community #announcements {
+        margin-top: 0;
+        margin-left: 310px;
+        padding: 40px 35px 55px;
+        height: 450px; }
+        #community #announcements h4 {
+          margin-bottom: 45px;
+          height: 40px;
+          font-size: 24px;
+          border-bottom-width: 4px; }
+          #community #announcements h4 .bar {
+            bottom: -4px;
+            width: 33px;
+            height: 4px;
+            border-right-width: 4px; }
+        #community #announcements figure > p {
+          width: 392px;
+          height: 272px; }
+        #community #announcements figure > figcaption {
+          margin-left: 420px; }
+          #community #announcements figure > figcaption h5 {
+            padding-top: 75px;
+            font-size: 20px;
+            line-height: 28px; }
+          #community #announcements figure > figcaption ul {
+            margin-bottom: 30px; }
+            #community #announcements figure > figcaption ul li + li {
+              margin-left: 30px; }
+          #community #announcements figure > figcaption p {
+            font-size: 13px;
+            line-height: 18px; }
+      #community #events {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        margin-top: 0;
+        width: 300px;
+        height: 710px; }
+        #community #events .calendar {
+          float: none;
+          width: 100%; }
+        #community #events .article.first {
+          margin-left: 0; }
+          #community #events .article.first figure > p {
+            height: 150px; }
+          #community #events .article.first figure > figcaption {
+            padding: 20px 15px;
+            height: 130px; }
+            #community #events .article.first figure > figcaption p {
+              margin-top: 10px; }
+        #community #events .article.second {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          background-color: #fff; }
+          #community #events .article.second .date {
+            float: left;
+            margin-right: 10px;
+            width: 52px;
+            height: 48px;
+            background-color: #920326;
+            color: #fff;
+            text-align: center; }
+            #community #events .article.second .date .day {
+              display: block;
+              margin-top: 8px;
+              font-size: 20px;
+              line-height: 20px; }
+            #community #events .article.second .date .month {
+              display: block;
+              font-size: 10px;
+              line-height: 14px;
+              font-family: "Tahoma", sans-serif; }
+          #community #events .article.second h5 {
+            font-size: 14px;
+            line-height: 20px; }
+            #community #events .article.second h5 a {
+              color: #333; }
+          #community #events .article.second p {
+            margin-top: 3px;
+            color: rgba(102, 102, 102, 0.7);
+            font-size: 12px;
+            line-height: 20px;
+            font-family: "Tahoma", sans-serif; }
+        #community #events .more {
+          position: absolute;
+          right: 25px;
+          bottom: 20px; }
+          #community #events .more a {
+            font-size: 12px;
+            line-height: 18px;
+            color: #920326;
+            font-style: italic;
+            text-decoration: none; }
+            #community #events .more a:after {
+              margin-left: 5px;
+              font-family: "fontello";
+              content: "\E806"; }
+            #community #events .more a:hover span, #community #events .more a:focus span {
+              text-decoration: underline; }
+      #community #sns {
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 310px;
+        width: 860px; }
+        #community #sns > ul {
+          margin-left: -5px;
+          margin-right: -5px; }
+          #community #sns > ul > li {
+            padding-left: 5px;
+            padding-right: 5px; }
+            #community #sns > ul > li > a {
+              height: 250px; }
+              #community #sns > ul > li > a i {
+                height: 150px; }
+              #community #sns > ul > li > a.buddy i {
+                background-size: auto 53px;
+                background-position: 50% 78px; }
+              #community #sns > ul > li > a.career i {
+                background-size: auto 62px;
+                background-position: 50% 69px; }
+              #community #sns > ul > li > a.kakaotalk i {
+                background-image: url(/assets/images/main/ico_kakaotalk.png);
+                background-position: 50% 66px; } }
 
 #statistics {
   padding-top: 60px;
@@ -541,7 +675,10 @@ body.scrolled #header {
       content: "*"; }
   #statistics .contries {
     position: relative;
-    margin-bottom: 110px; }
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 710px; }
     #statistics .contries h5 {
       margin-bottom: 50px; }
     #statistics .contries .list {
@@ -607,7 +744,10 @@ body.scrolled #header {
         #statistics .contries .map > div.active {
           display: block; }
   #statistics .students {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 710px; }
     #statistics .students h5 {
       margin-bottom: 30px; }
     #statistics .students ol {
@@ -646,6 +786,18 @@ body.scrolled #header {
           height: 97px; }
         #statistics .students ol li:last-child dl .person {
           opacity: .9; }
+  @media (min-width: 1280px) {
+    #statistics .contries {
+      margin-bottom: 70px; }
+      #statistics .contries .list {
+        top: 110px;
+        left: 0; }
+      #statistics .contries .map {
+        width: 100%; }
+    #statistics .students {
+      margin-bottom: 70px; }
+      #statistics .students h5 {
+        margin-bottom: 50px; } }
 
 #contact {
   padding-top: 40px;
