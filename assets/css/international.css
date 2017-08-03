@@ -180,6 +180,49 @@ address {
 @media (min-width: 768px) {
   .accomodation .tabs {
     margin-top: 55px; } }
+.accomodation #accomodation-1 p i {
+  color: #910023;
+  font-style: normal; }
+.accomodation #accomodation-1 .section {
+  margin-top: 60px; }
+  .accomodation #accomodation-1 .section .u-title {
+    margin-bottom: 30px; }
+  .accomodation #accomodation-1 .section figure ul li:last-child .img-responsive {
+    margin-bottom: 20px; }
+  .accomodation #accomodation-1 .section figure ul li .img-responsive {
+    margin: 0 auto 10px; }
+    @media (min-width: 768px) {
+      .accomodation #accomodation-1 .section figure ul li .img-responsive {
+        margin-bottom: 30px; } }
+  .accomodation #accomodation-1 .section .room-rates {
+    margin-top: 30px; }
+.accomodation #accomodation-2 .section {
+  margin-top: 60px; }
+  .accomodation #accomodation-2 .section .u-title {
+    margin-bottom: 30px; }
+  .accomodation #accomodation-2 .section figure ul li:last-child .img-responsive {
+    margin-bottom: 20px; }
+  .accomodation #accomodation-2 .section figure ul li .img-responsive {
+    margin: 0 auto 10px; }
+    @media (min-width: 768px) {
+      .accomodation #accomodation-2 .section figure ul li .img-responsive {
+        margin-bottom: 30px; } }
+  .accomodation #accomodation-2 .section i {
+    font-style: normal;
+    color: #910023; }
+.accomodation #accomodation-2 .box {
+  padding: 40px 10px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  background-color: #f2f2f2; }
+  @media (min-width: 768px) {
+    .accomodation #accomodation-2 .box {
+      padding: 50px 40px; } }
+  @media (min-width: 992px) {
+    .accomodation #accomodation-2 .box {
+      padding: 50px; } }
+  .accomodation #accomodation-2 .box .co-list {
+    margin-bottom: 0 !important; }
 .accomodation #accomodation-3 figure {
   margin-bottom: 20px; }
   .accomodation #accomodation-3 figure .img-responsive {
@@ -1047,5 +1090,198 @@ address {
         left: 0; }
   .stay .information .changes {
     margin-bottom: 10px !important; }
+
+.student-orientation .co-list li {
+  margin-top: 0 !important; }
+  .student-orientation .co-list li:last-child {
+    margin-bottom: 0 !important; }
+.student-orientation .collapse-list ul li {
+  margin-bottom: 30px; }
+  .student-orientation .collapse-list ul li:last-child {
+    margin-bottom: 0; }
+  .student-orientation .collapse-list ul li .collapse-content .well .co-list {
+    margin-bottom: 0 !important; }
+    .student-orientation .collapse-list ul li .collapse-content .well .co-list li {
+      margin-bottom: 20px; }
+  .student-orientation .collapse-list ul li .collapse-content .well i {
+    color: #991333;
+    font-style: normal; }
+  .student-orientation .collapse-list ul li .collapse-content .well .dott {
+    position: relative;
+    font-size: 12px !important;
+    color: #666;
+    line-height: 20px;
+    opacity: .8;
+    padding-left: 10px; }
+    .student-orientation .collapse-list ul li .collapse-content .well .dott:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "\E80B";
+      font-family: "fontello";
+      margin-right: 5px; }
+  .student-orientation .collapse-list ul li .collapse-content .well a {
+    position: relative;
+    display: block !important;
+    color: #777 !important;
+    padding-left: 17px;
+    opacity: .8;
+    line-height: 16px;
+    margin-top: 5px; }
+    .student-orientation .collapse-list ul li .collapse-content .well a:first-child {
+      margin-top: 10px; }
+    .student-orientation .collapse-list ul li .collapse-content .well a:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 12px;
+      content: "\F08E";
+      font-family: "fontello"; }
+.student-orientation .orientation-inquires {
+  margin: 60px 0 100px; }
+  .student-orientation .orientation-inquires dl {
+    font-size: 0; }
+    .student-orientation .orientation-inquires dl dt {
+      display: inline-block;
+      font-size: 13px;
+      color: #666;
+      font-weight: 300; }
+      .student-orientation .orientation-inquires dl dt:before {
+        margin-right: 5px;
+        content: "\E804";
+        font-family: "fontello"; }
+      .student-orientation .orientation-inquires dl dt:after {
+        content: ":";
+        margin: 0 3px; }
+      @media (min-width: 768px) {
+        .student-orientation .orientation-inquires dl dt {
+          font-size: 14px; }
+          .student-orientation .orientation-inquires dl dt:before {
+            font-size: 14px;
+            margin-right: 15px; } }
+    .student-orientation .orientation-inquires dl dd {
+      display: inline-block;
+      font-size: 13px;
+      color: #666;
+      font-weight: 300; }
+      @media (min-width: 768px) {
+        .student-orientation .orientation-inquires dl dd {
+          font-size: 14px; } }
+.student-orientation .kakao-plus {
+  margin-top: 60px; }
+  .student-orientation .kakao-plus .co-list {
+    margin-bottom: 30px !important; }
+    .student-orientation .kakao-plus .co-list li {
+      margin-bottom: 10px; }
+  .student-orientation .kakao-plus figure {
+    margin-top: 50px; }
+    .student-orientation .kakao-plus figure .img-responsive {
+      margin: 0 auto; }
+    @media (min-width: 768px) {
+      .student-orientation .kakao-plus figure {
+        margin-top: 30px; } }
+.student-orientation i {
+  color: #333;
+  font-style: normal; }
+  .student-orientation i.co-r {
+    color: #991333; }
+
+.part-time .required-documents {
+  margin-top: 30px;
+  padding: 35px 10px 40px;
+  background-color: #f2f2f2; }
+  @media (min-width: 768px) {
+    .part-time .required-documents {
+      padding: 40px; } }
+  @media (min-width: 992px) {
+    .part-time .required-documents {
+      padding: 50px 50px 40px; } }
+  .part-time .required-documents .co-list {
+    margin-bottom: 0 !important; }
+
+.insurance .dot-list {
+  margin-bottom: 60px; }
+  .insurance .dot-list li {
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 15px; }
+    .insurance .dot-list li:last-child {
+      margin-bottom: 0; }
+    .insurance .dot-list li:before {
+      position: absolute;
+      top: 1px;
+      left: 0;
+      content: "\E80B";
+      font-family: "fontello"; }
+.insurance .tabs {
+  margin-top: 60px; }
+.insurance .box {
+  padding: 40px 10px;
+  margin-top: 30px;
+  background-color: #f2f2f2; }
+  @media (min-width: 768px) {
+    .insurance .box {
+      padding: 50px 40px; } }
+  @media (min-width: 992px) {
+    .insurance .box {
+      padding: 50px; } }
+.insurance #insurance-1 p .note {
+  display: block;
+  margin-top: 5px; }
+.insurance #insurance-1 .box ol li:last-child .c-title {
+  margin-bottom: 0 !important; }
+.insurance #insurance-1 .box ol li:nth-of-type(3) .c-title {
+  margin-bottom: 5px !important; }
+.insurance #insurance-1 .box ol li:nth-of-type(4) .c-title {
+  margin-bottom: 5px !important; }
+.insurance #insurance-1 .box ol li > ol {
+  padding-left: 30px; }
+  .insurance #insurance-1 .box ol li > ol > li {
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    opacity: .8;
+    margin-bottom: 5px; }
+.insurance #insurance-1 .box ol li dl {
+  padding-left: 30px;
+  margin-bottom: 0; }
+  .insurance #insurance-1 .box ol li dl dt {
+    font-size: 12px !important;
+    color: #333;
+    opacity: .8; }
+  .insurance #insurance-1 .box ol li dl dd {
+    float: left;
+    font-size: 12px !important;
+    color: #333;
+    opacity: .8;
+    margin-bottom: 0; }
+.insurance #insurance-1 .box ol li .note {
+  padding-left: 30px; }
+.insurance #insurance-1 dl {
+  overflow: hidden;
+  margin-bottom: 15px; }
+  .insurance #insurance-1 dl dt {
+    float: left;
+    clear: both;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300; }
+    .insurance #insurance-1 dl dt:after {
+      content: ":";
+      margin: 0 3px; }
+  .insurance #insurance-1 dl dd {
+    float: left;
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 5px; }
+  @media (min-width: 768px) {
+    .insurance #insurance-1 dl dt {
+      font-size: 14px; }
+    .insurance #insurance-1 dl dd {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=international.css.map */
