@@ -167,6 +167,15 @@
 					<button type="button" class="btn btn-default">Book one-on-one appointment</button>
 					<button type="button" class="btn btn-primary">Book one-on-one appointment</button>
 					
+					<br><br>##### 버튼 여러개 사용 시 (정렬은 text-left, text-center, text-right 클래스 이용)#####<br><br>
+					
+					<div class="btn-area text-right">
+						<div>
+							<p><button type="button" class="btn btn-default">Book one-on-one appointment</button></p>
+							<p><button type="button" class="btn btn-primary">Book one-on-one appointment</button></p>
+						</div>
+					</div>
+					
 					
 					<br><br>##### 검색폼 #####<br><br>
 					

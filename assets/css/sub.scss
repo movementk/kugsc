@@ -622,21 +622,30 @@
 	
 	.btn-area {
 		position: relative;
-		margin-left: -5px;
-		margin-right: -5px;
-		&:before, &:after {
-			display: table;
-			content: " ";
-		}
 		p {
-			display: table-cell;
-			width: 50%;
 			margin-bottom: 0;
-			padding-left: 5px;
-			padding-right: 5px;
-			.btn {
-				overflow: hidden;
-				width: 100%;
+			& + p {
+				.btn {
+					margin-top: 10px;
+				}
+			}
+		}
+		@media (min-width: $sm) {
+			div {
+				display: inline-block;
+				p {
+					margin-top: 0;
+					display: inline;
+					.btn {
+						float: left;
+					}
+					& + p {
+						.btn {
+							margin-top: 0;
+							margin-left: 10px;
+						}
+					}
+				}
 			}
 		}
 	}
