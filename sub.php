@@ -233,11 +233,22 @@
                             <li>
                                 <div class="collapse-content">
                                     <a class="btn btn-collapse" role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
-                                        subject
+                                        D-4 General Trainee
                                     </a>
-                                    <div class="collapse" id="collapse-1">
+                                    <div class="collapse in" id="collapse-1">
                                         <div class="well">
-                                            content
+                                            This visa is intended for a person learning
+                                            Korean at a university-affiliated language
+                                            center. If you want to take Korean Language 
+                                            Class, you can apply for D-4 Visa. More
+                                            information is available at <a href="https://klc.korea.
+                                            ac.kr/index.do" target="_blank">https://klc.korea.
+                                            ac.kr/index.do</a> For students who are in trans
+                                            ition of switching program from D-4 to D-2,one
+                                            must complete the language training before
+                                            semester starts in either March or September
+                                            in order to switch visa. D-4 visa holders can
+                                            NOT study at degree-seeking program.
                                         </div>
                                     </div>
                                 </div>
