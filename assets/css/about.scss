@@ -1,0 +1,115 @@
+@import "common";
+
+#lnb {
+	h2 {
+		padding-top: 35px !important;
+		padding-bottom: 35px !important;
+	}
+}
+
+#content.korea-univ {
+	.u-title {
+		margin-top: 45px;
+		margin-bottom: 40px;
+	}
+	.facts {
+		> li {
+			.fact-item {
+				i {
+					float: left;
+					margin-right: 15px;
+					width: 85px;
+					.img-responsive {
+						margin: 0 auto;
+					}
+				}
+				p {
+					margin-bottom: 0;
+					line-height: 20px;
+				}
+			}
+			.fact-item-1 {
+				p {
+					position: relative;
+					top: 15px;
+				}
+			}
+			& + li {
+				margin-top: 40px;
+			}
+		}
+	}
+	.rank-graph {
+		padding: 40px 10px 45px;
+		margin-top: 60px;
+		//padding-top: 40px;
+		//padding-bottom: 45px;
+		border: 1px solid #e4ebf1;
+		p {
+			margin-bottom: 40px;
+			.img-responsive {
+				margin: 0 auto;
+			}
+		}
+		figcaption {
+			line-height: 16px;
+			text-align: center;
+		}
+	}
+	.stats {
+		margin-top: 60px;
+		> li {
+			.stats-item {
+				i {
+					float: left;
+					margin-right: 15px;
+					width: 75px;
+					.img-responsive {
+						margin: 0 auto;
+					}
+				}
+				dl {
+					dt, dd {
+						line-height: 18px;
+					}
+					dt {
+						 font-weight: normal;
+					}
+					dd {
+						margin-top: 5px;
+						font-size: 22px;
+						color: $kcolor;
+						font-weight: bold;
+					}
+				}
+			}
+			.stats-item-1 {
+				dl {
+					position: relative;
+					top: 15px;
+				}
+			}
+			.stats-item-2 {
+				dl {
+					position: relative;
+					top: 15px;
+				}
+			}
+			& + li {
+				margin-top: 55px;
+			}
+		}
+	}
+	.stats-graph {
+		margin-top: 110px;
+		text-align: center;
+		h5 {
+			margin-bottom: 75px;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		.img-responsive {
+			margin: 0 auto;
+		}
+	}
+}
