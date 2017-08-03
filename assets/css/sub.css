@@ -474,6 +474,16 @@ address {
       background-color: #920326; }
     #content .btn.btn-default {
       background-color: #a3a3a3; }
+  #content .btn-area {
+    display: table;
+    margin-left: -5px;
+    margin-right: -5px; }
+    #content .btn-area p {
+      padding-left: 5px;
+      padding-right: 5px;
+      display: table-cell; }
+      #content .btn-area p .btn {
+        width: 100%; }
   #content .note {
     margin-bottom: 7px !important;
     font-size: 12px;

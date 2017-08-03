@@ -167,6 +167,11 @@
 					<button type="button" class="btn btn-default">Book one-on-one appointment</button>
 					<button type="button" class="btn btn-primary">Book one-on-one appointment</button>
 					
+					<div class="btn-area">
+						<p><button type="button" class="btn btn-default">Book one-on-one appointment</button></p>
+						<p><button type="button" class="btn btn-primary">Book one-on-one appointment</button></p>
+					</div>
+					
 					
 					<br><br>##### 검색폼 #####<br><br>
 					
