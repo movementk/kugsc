@@ -9,57 +9,25 @@
 				<li>
 					<a href="#">About GSC</a>
 					<ul>
-						<li><a href="#">About Korea University</a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Staff List</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="/about/korea_university.php">About Korea University</a></li>
+						<li><a href="/about/about_us.php">About Us</a></li>
+						<li><a href="/about/staff_list.php">Staff List</a></li>
+						<li><a href="/about/contact_us.php">Contact Us</a></li>
 					</ul>
 				</li>
 				<li>
 					<a href="#">International Student</a>
 					<ul>
-						<li><a href="#">Getting Prepared</a></li>
-						<li><a href="#">New Int'l Student Orientation</a></li>
-						<li><a href="#">Student Visa &amp; Immigration</a></li>
-						<li><a href="#">Accomodation</a></li>
-						<li><a href="#">Insurance</a></li>
-						<li><a href="#">Scholarships</a></li>
-						<li class="has-child">
-							<a href="#">Mentoring Programs</a>
-							<ul>
-								<li><a href="#">KUISA</a></li>
-								<li><a href="#">Free Math Class/Free Korean Language Class</a></li>
-								<li><a href="#">1:1 Language Exchange Program</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Student Counseling Service</a></li>
-						<li class="has-child">
-							<a href="#">Announcements</a>
-							<ul>
-								<li><a href="#">General info</a></li>
-								<li><a href="#">Academics</a></li>
-								<li><a href="#">Scholarships</a></li>
-								<li><a href="#">Immigration issues</a></li>
-								<li><a href="#">Extra-curricular Activities - Downloads</a></li>
-							</ul>
-						</li>
-						<li class="has-child">
-							<a href="#">Career</a>
-							<ul>
-								<li><a href="#">Job openings</a></li>
-								<li><a href="#">Career Support Programs</a></li>
-							</ul>
-						</li>
-						<li class="has-child">
-							<a href="#">FAQs</a>
-							<ul>
-								<li><a href="#">General info</a></li>
-								<li><a href="#">Academics</a></li>
-								<li><a href="#">Scholarships</a></li>
-								<li><a href="#">Immigration issues</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Q&amp;A</a></li>
+						<li><a href="/international/getting_prepared.php">Getting Prepared</a></li>
+                        <li><a href="/international/student_orientation.php">New Int'l Student Orientation</a></li>
+                        <li><a href="/international/visa.php">Student Visa &amp; Immigration</a></li>
+                        <li><a href="/international/accomodation.php">Accomodation</a></li>
+                        <li><a href="/international/scolarships.php">Scholarships</a></li>
+                        <li><a href="/international/mentoring_programs.php">Mentoring Programs</a></li>
+                        <li><a href="/international/announcements.php">Announcements</a></li>
+                        <li><a href="/international/career.php">Career</a></li>
+                        <li><a href="/international/faq_list.php">FAQs</a></li>
+                        <li><a href="/international/qna_list.php">Q&amp;A</a></li>
 					</ul>
 				</li>
 				<li>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -19,6 +20,16 @@ address {
 #lnb h2 {
   padding-top: 35px !important;
   padding-bottom: 35px !important; }
+
+.international .page-header {
+  background-image: url(/assets/images/international/international_top_sm_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  @media (min-width: 992px) {
+    .international .page-header {
+      background-image: url(/assets/images/international/international_top_bg.jpg);
+      background-position: 35% 50%; } }
 
 .form-group {
   margin-bottom: 0; }
@@ -486,9 +497,9 @@ address {
     .qna-list .search-form {
       margin-bottom: 30px; } }
 .qna-list .table-responsive {
-  border-color: #e3e3e3 !important;
   margin-bottom: 0; }
   .qna-list .table-responsive .table {
+    border-color: #e3e3e3 !important;
     table-layout: fixed; }
     .qna-list .table-responsive .table thead tr th {
       font-size: 12px !important;
@@ -656,91 +667,93 @@ address {
       .qna-view .btn-area .btn-primary {
         width: 120px; } }
 
-.qna-write .table-wrap .table {
+.qna-write .table-responsive {
   border: 0 !important; }
-  .qna-write .table-wrap .table tbody tr th {
-    font-size: 13px !important;
-    color: #666 !important;
-    font-weight: 400;
-    text-align: left !important;
-    padding-left: 20px !important;
-    padding-right: 10px !important;
-    border-color: #e3e3e3 !important;
-    background-color: #f5f5f5; }
-    .qna-write .table-wrap .table tbody tr th label {
-      margin-bottom: 0;
-      font-weight: 300; }
-    @media (min-width: 768px) {
-      .qna-write .table-wrap .table tbody tr th {
-        font-size: 14px !important; } }
-    .qna-write .table-wrap .table tbody tr th.attach {
-      vertical-align: top !important; }
+  .qna-write .table-responsive .table {
+    border: 0 !important; }
+    .qna-write .table-responsive .table tbody tr th {
+      font-size: 13px !important;
+      color: #666 !important;
+      font-weight: 400;
+      text-align: left !important;
+      padding-left: 20px !important;
+      padding-right: 10px !important;
+      border-color: #e3e3e3 !important;
+      background-color: #f5f5f5; }
+      .qna-write .table-responsive .table tbody tr th label {
+        margin-bottom: 0;
+        font-weight: 300; }
       @media (min-width: 768px) {
-        .qna-write .table-wrap .table tbody tr th.attach {
-          vertical-align: middle !important; } }
-    .qna-write .table-wrap .table tbody tr th.content {
-      vertical-align: top !important; }
-  .qna-write .table-wrap .table tbody tr td {
-    font-size: 13px !important;
-    color: #777 !important;
-    font-weight: 400;
-    text-align: left !important;
-    padding: 8px 10px 8px 15px !important;
-    border-color: #e3e3e3 !important;
-    border-right: 0 !important; }
-    @media (min-width: 768px) {
-      .qna-write .table-wrap .table tbody tr td {
-        font-size: 14px !important;
-        padding-left: 20px !important;
-        padding-right: 44px !important; } }
-    @media (min-width: 992px) {
-      .qna-write .table-wrap .table tbody tr td {
-        padding-left: 30px !important;
-        padding-right: 20px !important; } }
-    .qna-write .table-wrap .table tbody tr td .form-group .form-control {
-      width: 100%;
-      height: 44px; }
-    .qna-write .table-wrap .table tbody tr td.attach {
-      font-size: 0; }
-      .qna-write .table-wrap .table tbody tr td.attach .form-group .form-control {
-        font-size: 13px; }
+        .qna-write .table-responsive .table tbody tr th {
+          font-size: 14px !important; } }
+      .qna-write .table-responsive .table tbody tr th.attach {
+        vertical-align: top !important; }
         @media (min-width: 768px) {
-          .qna-write .table-wrap .table tbody tr td.attach .form-group .form-control {
-            width: 380px;
-            display: inline-block;
-            font-size: 14px; } }
-        @media (min-width: 992px) {
-          .qna-write .table-wrap .table tbody tr td.attach .form-group .form-control {
-            width: 624px; } }
-        @media (min-width: 1280px) {
-          .qna-write .table-wrap .table tbody tr td.attach .form-group .form-control {
-            width: 554px; } }
-      .qna-write .table-wrap .table tbody tr td.attach .btn-default {
-        margin-top: 5px;
-        width: 100%;
-        max-width: 190px;
-        height: 44px !important;
-        font-size: 14px; }
-        @media (min-width: 768px) {
-          .qna-write .table-wrap .table tbody tr td.attach .btn-default {
-            display: inline-block;
-            width: 142px;
-            margin-top: 0;
-            margin-left: 9px; } }
-    .qna-write .table-wrap .table tbody tr td.password .form-group .form-control {
-      width: 220px; }
-    .qna-write .table-wrap .table tbody tr td.content {
-      padding-bottom: 15px !important; }
+          .qna-write .table-responsive .table tbody tr th.attach {
+            vertical-align: middle !important; } }
+      .qna-write .table-responsive .table tbody tr th.content {
+        vertical-align: top !important; }
+    .qna-write .table-responsive .table tbody tr td {
+      font-size: 13px !important;
+      color: #777 !important;
+      font-weight: 400;
+      text-align: left !important;
+      padding: 8px 10px 8px 15px !important;
+      border-color: #e3e3e3 !important;
+      border-right: 0 !important; }
       @media (min-width: 768px) {
-        .qna-write .table-wrap .table tbody tr td.content {
-          padding-top: 20px !important;
-          padding-bottom: 20px !important; } }
-      .qna-write .table-wrap .table tbody tr td.content .form-group textarea {
+        .qna-write .table-responsive .table tbody tr td {
+          font-size: 14px !important;
+          padding-left: 20px !important;
+          padding-right: 44px !important; } }
+      @media (min-width: 992px) {
+        .qna-write .table-responsive .table tbody tr td {
+          padding-left: 30px !important;
+          padding-right: 20px !important; } }
+      .qna-write .table-responsive .table tbody tr td .form-group .form-control {
         width: 100%;
-        height: 300px; }
+        height: 44px; }
+      .qna-write .table-responsive .table tbody tr td.attach {
+        font-size: 0; }
+        .qna-write .table-responsive .table tbody tr td.attach .form-group .form-control {
+          font-size: 13px; }
+          @media (min-width: 768px) {
+            .qna-write .table-responsive .table tbody tr td.attach .form-group .form-control {
+              width: 380px;
+              display: inline-block;
+              font-size: 14px; } }
+          @media (min-width: 992px) {
+            .qna-write .table-responsive .table tbody tr td.attach .form-group .form-control {
+              width: 624px; } }
+          @media (min-width: 1280px) {
+            .qna-write .table-responsive .table tbody tr td.attach .form-group .form-control {
+              width: 554px; } }
+        .qna-write .table-responsive .table tbody tr td.attach .btn-default {
+          margin-top: 5px;
+          width: 100%;
+          max-width: 190px;
+          height: 44px !important;
+          font-size: 14px; }
+          @media (min-width: 768px) {
+            .qna-write .table-responsive .table tbody tr td.attach .btn-default {
+              display: inline-block;
+              width: 142px;
+              margin-top: 0;
+              margin-left: 9px; } }
+      .qna-write .table-responsive .table tbody tr td.password .form-group .form-control {
+        width: 220px; }
+      .qna-write .table-responsive .table tbody tr td.content {
+        padding-bottom: 15px !important; }
         @media (min-width: 768px) {
-          .qna-write .table-wrap .table tbody tr td.content .form-group textarea {
-            height: 395px; } }
+          .qna-write .table-responsive .table tbody tr td.content {
+            padding-top: 20px !important;
+            padding-bottom: 20px !important; } }
+        .qna-write .table-responsive .table tbody tr td.content .form-group textarea {
+          width: 100%;
+          height: 300px; }
+          @media (min-width: 768px) {
+            .qna-write .table-responsive .table tbody tr td.content .form-group textarea {
+              height: 395px; } }
 .qna-write .btn-area {
   text-align: center;
   margin-top: 30px; }
@@ -1218,6 +1231,9 @@ address {
       font-family: "fontello"; }
 .insurance .tabs {
   margin-top: 60px; }
+  @media (min-width: 992px) {
+    .insurance .tabs {
+      margin-top: 70px; } }
 .insurance .box {
   padding: 40px 10px;
   margin-top: 30px;
@@ -1231,6 +1247,8 @@ address {
 .insurance #insurance-1 p .note {
   display: block;
   margin-top: 5px; }
+.insurance #insurance-1 p.summary {
+  margin-bottom: 60px !important; }
 .insurance #insurance-1 .box ol li:last-child .c-title {
   margin-bottom: 0 !important; }
 .insurance #insurance-1 .box ol li:nth-of-type(3) .c-title {
@@ -1283,5 +1301,424 @@ address {
       font-size: 14px; }
     .insurance #insurance-1 dl dd {
       font-size: 14px; } }
+.insurance #insurance-1 .btn-details {
+  margin-top: 40px;
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    .insurance #insurance-1 .btn-details {
+      margin-top: 30px; } }
+  .insurance #insurance-1 .btn-details .btn-primary {
+    position: relative;
+    width: 300px;
+    height: auto;
+    font-size: 13px !important;
+    line-height: 18px;
+    text-align: left;
+    padding: 9px 20px; }
+    .insurance #insurance-1 .btn-details .btn-primary:after {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      margin-top: -12px;
+      width: 24px;
+      height: 24px;
+      text-align: center;
+      line-height: 22px;
+      color: #fff;
+      display: block;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      content: "\E80C";
+      font-family: "fontello"; }
+    .insurance #insurance-1 .btn-details .btn-primary:hover, .insurance #insurance-1 .btn-details .btn-primary:focus {
+      color: #fff; }
+    @media (min-width: 768px) {
+      .insurance #insurance-1 .btn-details .btn-primary {
+        width: 322px;
+        padding: 18px 10px; }
+        .insurance #insurance-1 .btn-details .btn-primary:after {
+          right: 10px; } }
+.insurance #insurance-1 .table-responsive {
+  margin: 30px 0; }
+  @media (min-width: 768px) {
+    .insurance #insurance-1 .table-responsive {
+      margin-bottom: 20px; } }
+  .insurance #insurance-1 .table-responsive .table thead tr th {
+    padding: 25px 0; }
+.insurance #insurance-1 .steps {
+  margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    .insurance #insurance-1 .steps {
+      margin-bottom: 20px; } }
+  .insurance #insurance-1 .steps > li {
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .insurance #insurance-1 .steps > li {
+        margin-bottom: 0 !important;
+        line-height: 25px; } }
+    .insurance #insurance-1 .steps > li:last-child {
+      margin-bottom: 0; }
+    .insurance #insurance-1 .steps > li dl {
+      position: relative; }
+      .insurance #insurance-1 .steps > li dl dt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 13px;
+        color: #333;
+        line-height: 18px;
+        font-weight: 300; }
+        .insurance #insurance-1 .steps > li dl dt:after {
+          content: ":";
+          margin: 0 3px; }
+        @media (min-width: 768px) {
+          .insurance #insurance-1 .steps > li dl dt {
+            font-size: 14px; } }
+      .insurance #insurance-1 .steps > li dl dd {
+        position: relative;
+        font-size: 13px;
+        color: #666;
+        line-height: 18px;
+        font-weight: 300;
+        padding-left: 48px;
+        margin-bottom: 0; }
+        @media (min-width: 768px) {
+          .insurance #insurance-1 .steps > li dl dd {
+            font-size: 14px;
+            padding-left: 50px; } }
+.insurance #insurance-1 .dot-list {
+  margin-bottom: 20px; }
+.insurance #insurance-2 > p.summary {
+  margin-bottom: 15px !important; }
+  .insurance #insurance-2 > p.summary i {
+    color: #920326;
+    font-style: normal; }
+.insurance #insurance-2 .box {
+  margin-bottom: 0; }
+  .insurance #insurance-2 .box ~ .u-title {
+    margin-top: 60px !important; }
+.insurance #insurance-2 .attention:before {
+  content: "※";
+  margin-right: 3px; }
+.insurance #insurance-2 .co-list li a {
+  color: #777 !important;
+  word-break: break-all;
+  word-wrap: break-word; }
+.insurance #insurance-2 .medical-card {
+  margin-top: 30px; }
+  .insurance #insurance-2 .medical-card .caption {
+    text-align: center;
+    font-size: 14px;
+    color: #666; }
+    .insurance #insurance-2 .medical-card .caption:before {
+      content: "<"; }
+    .insurance #insurance-2 .medical-card .caption:after {
+      content: ">"; }
+    @media (min-width: 768px) {
+      .insurance #insurance-2 .medical-card .caption {
+        text-align: left; } }
+  .insurance #insurance-2 .medical-card ul li:last-child figure {
+    margin-bottom: 0; }
+  .insurance #insurance-2 .medical-card ul li figure {
+    margin-bottom: 25px; }
+    .insurance #insurance-2 .medical-card ul li figure .img-responsive {
+      margin: 0 auto; }
+    .insurance #insurance-2 .medical-card ul li figure figcaption {
+      text-align: center;
+      margin-top: 10px;
+      color: #777; }
+      .insurance #insurance-2 .medical-card ul li figure figcaption:before {
+        content: "("; }
+      .insurance #insurance-2 .medical-card ul li figure figcaption:after {
+        content: ")"; }
+.insurance #insurance-2 .questio-list li {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #c2c2c2; }
+  .insurance #insurance-2 .questio-list li:first-child {
+    padding-top: 0; }
+  .insurance #insurance-2 .questio-list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0; }
+  .insurance #insurance-2 .questio-list li dl dt {
+    position: relative;
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
+    font-weight: 300;
+    padding-left: 35px;
+    margin-bottom: 25px; }
+    .insurance #insurance-2 .questio-list li dl dt:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Q";
+      display: block;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 28px;
+      font-family: "Myriad Pro", sans-serif;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #453b3a; }
+    @media (min-width: 768px) {
+      .insurance #insurance-2 .questio-list li dl dt {
+        margin-bottom: 20px; } }
+  .insurance #insurance-2 .questio-list li dl dd {
+    position: relative;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.8);
+    line-height: 20px;
+    font-weight: 300;
+    padding-left: 35px; }
+    .insurance #insurance-2 .questio-list li dl dd:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "A";
+      display: block;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 26px;
+      font-family: "Myriad Pro", sans-serif;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #910023; }
+.insurance #insurance-2 .angle-list li {
+  display: inline-block; }
+  .insurance #insurance-2 .angle-list li:after {
+    content: "->";
+    margin: 0 2px 0 6px; }
+  .insurance #insurance-2 .angle-list li:last-child {
+    color: #910023; }
+    .insurance #insurance-2 .angle-list li:last-child:after {
+      content: ""; }
+.insurance #insurance-2 .inquiries {
+  overflow: hidden; }
+  .insurance #insurance-2 .inquiries dt {
+    position: relative;
+    float: left;
+    clear: both;
+    line-height: 25px;
+    font-weight: 300;
+    padding-left: 30px; }
+    .insurance #insurance-2 .inquiries dt:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: "fontello";
+      font-size: 13px;
+      color: #777;
+      opacity: .7; }
+    .insurance #insurance-2 .inquiries dt:after {
+      content: ":";
+      padding: 0 5px; }
+    .insurance #insurance-2 .inquiries dt.tel:before {
+      content: "\E804"; }
+    .insurance #insurance-2 .inquiries dt.email:before {
+      content: "\E803"; }
+    .insurance #insurance-2 .inquiries dt.fax:before {
+      content: "\F1AC"; }
+    .insurance #insurance-2 .inquiries dt.location:before {
+      content: "\E811"; }
+  .insurance #insurance-2 .inquiries dd {
+    float: left;
+    font-weight: 300;
+    line-height: 25px; }
+    .insurance #insurance-2 .inquiries dd a {
+      color: #666 !important; }
+
+.scolarships .u-title {
+  margin-top: 60px; }
+.scolarships .table-responsive {
+  margin-bottom: 40px; }
+  .scolarships .table-responsive .table {
+    margin-bottom: 0; }
+    .scolarships .table-responsive .table thead tr th {
+      padding: 25px 0 !important; }
+.scolarships .co-list li {
+  font-size: 15px !important; }
+  .scolarships .co-list li:nth-of-type(3) .note {
+    margin-top: 0; }
+  .scolarships .co-list li p {
+    font-size: 14px !important;
+    margin-top: 20px;
+    margin-bottom: 0 !important; }
+    @media (min-width: 768px) {
+      .scolarships .co-list li p {
+        font-size: 14px !important; } }
+  .scolarships .co-list li .dot-list {
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      .scolarships .co-list li .dot-list {
+        margin-top: 15px; } }
+    .scolarships .co-list li .dot-list li {
+      position: relative;
+      font-size: 12px !important;
+      color: rgba(102, 102, 102, 0.8);
+      line-height: 18px;
+      margin-bottom: 10px;
+      padding-left: 15px; }
+      .scolarships .co-list li .dot-list li:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #333;
+        font-size: 18px;
+        content: "\E80B";
+        font-family: "fontello"; }
+      .scolarships .co-list li .dot-list li:last-child {
+        margin-bottom: 0; }
+      @media (min-width: 992px) {
+        .scolarships .co-list li .dot-list li {
+          margin-bottom: 0;
+          line-height: 25px !important; } }
+.scolarships .angle-list {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .scolarships .angle-list {
+      margin-top: 15px;
+      margin-bottom: 10px; } }
+  @media (min-width: 768px) {
+    .scolarships .angle-list {
+      margin-top: 30px; } }
+  .scolarships .angle-list li {
+    font-size: 13px !important;
+    display: inline-block; }
+    .scolarships .angle-list li:after {
+      content: "->";
+      margin: 0 2px 0 6px; }
+    .scolarships .angle-list li:last-child:after {
+      content: ""; }
+    @media (min-width: 768px) {
+      .scolarships .angle-list li {
+        font-size: 14px !important; } }
+.scolarships .inquiries {
+  overflow: hidden; }
+  .scolarships .inquiries dt {
+    position: relative;
+    float: left;
+    clear: both;
+    line-height: 25px;
+    font-weight: 300;
+    padding-left: 30px; }
+    .scolarships .inquiries dt:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: "fontello";
+      font-size: 13px;
+      color: #777;
+      opacity: .7; }
+    .scolarships .inquiries dt:after {
+      content: ":";
+      padding: 0 5px; }
+    .scolarships .inquiries dt.tel:before {
+      content: "\E804"; }
+    .scolarships .inquiries dt.email:before {
+      content: "\E803"; }
+  .scolarships .inquiries dd {
+    float: left;
+    font-weight: 300;
+    line-height: 25px; }
+    .scolarships .inquiries dd a {
+      color: #666 !important; }
+
+.mentoring-programs .box {
+  padding: 40px 10px;
+  background-color: #f2f2f2; }
+  @media (min-width: 768px) {
+    .mentoring-programs .box {
+      padding: 50px 40px; } }
+  @media (min-width: 992px) {
+    .mentoring-programs .box {
+      padding: 50px; } }
+@media (min-width: 768px) {
+  .mentoring-programs #mentoring-1 p {
+    margin-bottom: 35px !important; } }
+.mentoring-programs #mentoring-1 .u-title {
+  margin-top: 35px; }
+  @media (min-width: 768px) {
+    .mentoring-programs #mentoring-1 .u-title {
+      margin-top: 25px; } }
+@media (min-width: 768px) {
+  .mentoring-programs #mentoring-1 .figure {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
+.mentoring-programs #mentoring-1 figure {
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .mentoring-programs #mentoring-1 figure {
+      margin-bottom: 0; } }
+  .mentoring-programs #mentoring-1 figure .img-responsive {
+    margin: 0 auto; }
+.mentoring-programs #mentoring-1 .justify {
+  text-align: justify; }
+  .mentoring-programs #mentoring-1 .justify b {
+    font-weight: 400;
+    color: #333; }
+@media (min-width: 992px) {
+  .mentoring-programs #mentoring-1 .row .space:nth-of-type(1) {
+    padding-right: 0 !important;
+    margin-right: -30px !important; }
+  .mentoring-programs #mentoring-1 .row .space:nth-of-type(2) {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .mentoring-programs #mentoring-1 .row .space:nth-of-type(3) {
+    padding-left: 0 !important;
+    margin-left: -30px !important; } }
+@media (min-width: 992px) {
+  .mentoring-programs #mentoring-1 .row .space:nth-of-type(1) {
+    padding-right: 0 !important;
+    margin-right: -15px !important; }
+  .mentoring-programs #mentoring-1 .row .space:nth-of-type(2) {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .mentoring-programs #mentoring-1 .row .space:nth-of-type(3) {
+    padding-left: 0 !important;
+    margin-left: -15px !important; } }
+.mentoring-programs #mentoring-1 .box {
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .mentoring-programs #mentoring-1 .box {
+      margin-bottom: 30px; } }
+  .mentoring-programs #mentoring-1 .box .btn-area {
+    text-align: center;
+    margin-top: 40px; }
+    @media (min-width: 768px) {
+      .mentoring-programs #mentoring-1 .box .btn-area {
+        margin-top: 20px;
+        text-align: right; } }
+    .mentoring-programs #mentoring-1 .box .btn-area .btn {
+      display: inline-block;
+      width: 280px; }
+      @media (min-width: 768px) {
+        .mentoring-programs #mentoring-1 .box .btn-area .btn {
+          width: 200px; } }
+.mentoring-programs #mentoring-2 .title {
+  margin-top: 100px; }
+.mentoring-programs #mentoring-2 .u-title {
+  margin-top: 60px; }
+.mentoring-programs #mentoring-2 .co-list {
+  margin-bottom: 0; }
+  .mentoring-programs #mentoring-2 .co-list li {
+    margin-top: 10px !important; }
+.mentoring-programs #mentoring-2 .note {
+  margin-top: 20px; }
+.mentoring-programs #mentoring-3 .u-title {
+  margin-top: 60px; }
+.mentoring-programs #mentoring-3 .co-list {
+  margin-bottom: 0; }
+  .mentoring-programs #mentoring-3 .co-list li {
+    margin-top: 10px !important; }
+.mentoring-programs #mentoring-3 .note {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=international.css.map */

@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -63,7 +63,7 @@
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="insurance-1">
 							<h5 class="title">Group Private Insurance by Joonang Ins. Korea (Dongbu Insurance Policy)</h5>
-							<p>
+							<p class="summary">
 							    This group private insurance is specially offered to Korea University International students at a substantially lower rate by Joongang Ins Korea. (Details are provided by Joongang Ins. korea and are subject to change)
 							</p>
 							<h6 class="u-title">How to apply:</h6>
@@ -147,11 +147,256 @@
 							    <i>For more information about the coverage, download the following:</i>
 							</p>
 							<div class="btn-details">
-							    <button type="button" class="btn btn-primary">Coverage details<br>( 한국어,English,中文 )</button>
+							    <a href="#" class="btn btn-primary" role="button">Coverage details<br class="visible-xs"> ( 한국어,English,中文 )</a>
 							</div>
+							<h6 class="u-title">What to prepare and Where to contact for Claims:</h6>
+							<ol>
+							    <li>
+							        <p class="c-title">
+							            <i>A</i>
+							            Information on Necessary Documents for Claims
+							        </p>
+							        <div class="table-responsive">
+							            <table class="table table-bordered">
+							                <thead>
+							                    <tr>
+							                        <th colspan="2">Division</th>
+							                        <th>Documents</th>
+							                        <th>Issuer</th>
+							                    </tr>
+							                </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td rowspan="3" colspan="2">Common Documents</td>
+                                                    <td>Claim Report &amp; Personal Data Processing Agreement</td>
+                                                    <td rowspan="3">Personally</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Copy of allen registration card</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Copy of Bank Book</td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="8">Medical<br>Cost</td>
+                                                    <td rowspan="4">ospitalization<br>(Including surgery)</td>
+                                                    <td>Certificate of discharge (Including diagnosis)</td>
+                                                    <td rowspan="4">Care hospital</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Receipt of treatment</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Detailed Statement of medical expenses</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Confirmation at the time of surgery, including surgery</td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="2">Outpatient<br>Treatment</td>
+                                                    <td>Medical records or First visit medical records</td>
+                                                    <td rowspan="2">Care hospital</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Receipt of treatment</td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="2">Prescribed<br>Treatment</td>
+                                                    <td>Name of disease (codes) listed prescription</td>
+                                                    <td rowspan="2">Care hospital<br>Pharmacy</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pharmacy receipt</td>
+                                                </tr>
+                                            </tbody>
+							            </table>
+							        </div>
+							        <ol class="steps">
+							            <li>
+							                <dl>
+							                    <dt>Step 1</dt>
+							                    <dd>
+							                        Login on the Web-site (Student Id Number or Alien Registration Number).
+							                    </dd>
+							                </dl>
+							            </li>
+							            <li>
+							                <dl>
+							                    <dt>Step 2</dt>
+							                    <dd>
+							                        After downloading the insurance claim report and personal data processing agreement, fill these documents.
+							                    </dd>
+							                </dl>
+							            </li>
+							            <li>
+							                <dl>
+							                    <dt>Step 3</dt>
+							                    <dd>
+							                        Convert scanned documents or a photo to file the claim and upload on "Upload Documents Claims" menu.
+							                    </dd>
+							                </dl>
+							            </li>
+							            <li>
+							                <dl>
+							                    <dt>Step 4</dt>
+							                    <dd>
+							                        If everything is in order, the insurance will be refunded within 2 to 3 days, if there are additional documents required, they will contact you on Kakaotalk messenger.
+                                                </dd>
+							                </dl>
+							            </li>
+							        </ol>
+							        <p class="note">
+							            <i>For more information about homepage user guide and claims, download the following:</i>
+							        </p>
+							        <div class="btn-details">
+                                        <a href="#" class="btn btn-primary" role="button">Website guide<br class="visible-xs"> ( 한국어,English,中文 )</a>
+                                    </div>
+							    </li>
+							    <li>
+							        <p class="c-title">
+							            <i>B</i>
+							            For any inquiries including claims related, Customer Service available
+							        </p>
+							        <ul class="dot-list">
+							            <li>English (02-776-8500)</li>
+							            <li>Chinese (02-3481-2133)</li>
+							        </ul>
+							        <p class="note">
+							            <i>Korea University will not be held responsible for any legal issues arising between any parties during the insured period.</i>
+							        </p>
+							    </li>
+							</ol>
 						</div>
 						<div role="tabpanel" class="tab-pane" id="insurance-2">
-							탭 패널 #2
+							<h5 class="title">Mutual Health Aid Association (Applicable to KU international students only)</h5>
+							<p class="summary">
+							    A partial form of insurance that provides a minimum medical coverage to all KU international students who pay the Mutual Health Aid Association fee. It plays a role of insurance only at the following:
+							</p>
+							<i class="attention">Designated Hospital &amp; Clinic Information (Anam Campus)</i>
+							<div class="box">
+							    <ol class="co-list">
+							        <li>
+							            Korea University Anam Hospital (Seongbuk-gu, Anam-dong) <i class="icon-phone"></i>+82-2-920-5114<br class="hidden-xs">
+							            <a href="http://anam.kumc.or.kr/language/ENG/main/index.do" target="_blank">(http://anam.kumc.or.kr/language/ENG/main/index.do)</a>
+							        </li>
+							        <li>
+							            Korea University Guro Hospital (Guro-gu, Guro-dong) <i class="icon-phone"></i>+82-2-2626-2040<br class="hidden-xs">
+							            <a href="http://guro.kumc.or.kr/language/ENG/main/index.do" target="_blank">(http://guro.kumc.or.kr/language/ENG/main/index.do)</a>
+							        </li>
+                                    <li>
+							            Saramin Dental Clinic (Seongbuk-gu, Anam-dong) <i class="icon-phone"></i>+82-2-2626-2040
+							        </li>
+							        <li>
+							            Anam Dental Clinic (Seongbuk-gu, Anam-dong) <i class="icon-phone"></i>+82-2-925-2875
+							        </li>
+							    </ol>
+							    <p class="note">
+							        Korea University Ansan Hospital is excluded from the list of designated hospitals.
+							    </p>
+							    <p class="note">
+							        Medical coverage of Mutual Health Aid Association is highly limited compared to private health insurance, hence we strongly recommend you to buy a private insurance. 
+							    </p>
+							</div>
+							<h6 class="u-title">How to apply (Must be paid during the enrollment period only) :</h6>
+							<p>
+							    The Mutual Health Aid Association Fee is given as one of the optional fees on your tuition bill. Therefore, you must select the Mutual Health Aid Association Fee option and pay the amount along with your tuition fee during the enrollment period of every semester.<br>
+							    A separate payment of Mutual Health Aid Association Fee after the enrollment period is NOT allowed.
+							</p>
+							<h6 class="u-title">After you apply :</h6>
+							<p class="summary">
+							    You must visit the medical benefit office in advance to obtain the <i>‘Medical Benefit Eligibility Verification Card’</i> in order to receive medical benefits from the designated hospitals and clinics.
+							</p>
+							<p class="note">
+							    <i>Medical Benefit Office is at Central Plaza, #112 (Next to One-Stop Service Center)</i>
+							</p>
+							<div class="medical-card">
+                                <p class="caption">Medical Benefit Eligibility Verification Card</p>
+                                <ul class="row">
+                                    <li class="col-xs-12 col-sm-4">
+                                        <figure>
+                                            <img src="/assets/images/international/medical_card_img01.jpg" class="img-responsive" alt="front">
+                                            <figcaption>Front</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="col-xs-12 col-sm-4">
+                                        <figure>
+                                            <img src="/assets/images/international/medical_card_img02.jpg" class="img-responsive" alt="back">
+                                            <figcaption>Back</figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+							</div>
+							<h6 class="u-title">How to use :</h6>
+							<p>
+							    You need to carry your ‘Medical Benefit Eligibility Verification Card’ and show it at the reception and billing counter of the designated hospitals and clinics. You will be able to get a discount on your medical treatment charges on the spot.
+							</p>
+							<p class="note">
+							    Medical benefits are applicable only when you are currently enrolled at Korea University. The Maximum amount of  benefits per semester is 2,000,000 KRW (400,000 KRW for outpatients, 1,600,000 KRW for inpatients), and a total of 2,000,000 KRW can be received per semester for the same illness.
+							</p>
+							<p class="note">
+							    In case of an emergency or other circumstances where a student does not possess his/her verification card, he/she must at least inform the hospital that he/she is attending Korea University and follow the procedures as directed by them.
+							</p>
+							<div class="box">
+							    <p class="title">Frequently Asked Questions about Mutual Health Aid Association</p>
+							    <ul class="questio-list">
+							        <li>
+							            <dl>
+							                <dt>Can I benefit from Mutual Health Aid Association during vacation?</dt>
+							                <dd>Yes, you can go to the designated hospitals and clinics and receive benefits during vacation.</dd>
+							            </dl>
+							        </li>
+							        <li>
+							            <dl>
+							                <dt>Can I pay the Mutual Health Aid Association fee during the semester?</dt>
+							                <dd>No, you can only pay along with your tuition fee during the tuition payment period.</dd>
+							            </dl>
+							        </li>
+							        <li>
+							            <dl>
+							                <dt>Can I benefit from Mutual Health Aid Association during vacation?</dt>
+							                <dd>Yes, you can go to the designated hospitals and clinics and receive benefits during vacation.</dd>
+							            </dl>
+							        </li>
+                                    <li>
+							            <dl>
+							                <dt>Is the Mutual Health Aid Association fee refundable if I did not benefit from any hospitals and clinics?</dt>
+							                <dd>No, it is not refundable.</dd>
+							            </dl>
+							        </li>
+							        <li>
+							            <dl>
+							                <dt>How much can I benefit through medical benefits?</dt>
+							                <dd>No, you can only pay along with your tuition fee during the tuition payment period.</dd>
+							            </dl>
+							        </li>
+							    </ul>
+							</div>
+							<h6 class="u-title">For more information</h6>
+							<ol class="angle-list">
+							    <li>Go to Korea.ac.kr</li>
+							    <li>Life@KU</li>
+							    <li>Health &amp; Medical Benefits</li>
+							</ol>
+							<h6 class="u-title">For inquiries, contact Mutual Health Aid Association Office</h6>
+							<dl class="inquiries">
+							    <dt class="tel">Tel</dt>
+							    <dd>+82-2-3290-1573</dd>
+							    <dt class="email">Email</dt>
+							    <dd><a href="mailto:kyungs@korea.ac.kr">kyungs@korea.ac.kr</a></dd>
+							    <dt class="fax">Fax</dt>
+							    <dd>+82-2-925-2331</dd>
+							    <dt class="location">Location</dt>
+							    <dd>#112, Central Plaza (next to One-Stop Service Center)</dd>
+							</dl>
+							<h6 class="u-title">For inquiries about Submission</h6>
+							<dl class="inquiries">
+							    <dt class="tel">Tel</dt>
+							    <dd>+82-2-3290-5173, 5174</dd>
+							    <dt class="email">Email</dt>
+							    <dd><a href="mailto:gsc@korea.ac.kr">gsc@korea.ac.kr</a></dd>
+							</dl>
+							
+							
 						</div>
 					</div>
 					

@@ -38,10 +38,10 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4"><a href="#">About Korea University</a></li>
-													<li class="col-xs-4"><a href="#">About Us</a></li>
-													<li class="col-xs-4"><a href="#">Staff List</a></li>
-													<li class="col-xs-4"><a href="#">Contact Us</a></li>
+													<li class="col-xs-4"><a href="/about/korea_university.php">About Korea University</a></li>
+													<li class="col-xs-4"><a href="/about/about_us.php">About Us</a></li>
+													<li class="col-xs-4"><a href="/about/staff_list.php">Staff List</a></li>
+													<li class="col-xs-4"><a href="/about/contact_us.php">Contact Us</a></li>
 												</ul>
 											</div>
 										</div>
@@ -70,18 +70,18 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4"><a href="#">Getting Prepared</a></li>
-													<li class="col-xs-4"><a href="#">New Int'l Student Orientation</a></li>
-													<li class="col-xs-4"><a href="#">Student Visa &amp; Immigration</a></li>
-													<li class="col-xs-4"><a href="#">Accomodation</a></li>
-													<li class="col-xs-4"><a href="#">Insurance</a></li>
-													<li class="col-xs-4"><a href="#">Scholarships</a></li>
-													<li class="col-xs-4"><a href="#">Mentoring Programs</a></li>
-													<li class="col-xs-4"><a href="#">Student Counseling Service</a></li>
-													<li class="col-xs-4"><a href="#">Announcements</a></li>
-													<li class="col-xs-4"><a href="#">Career</a></li>
-													<li class="col-xs-4"><a href="#">FAQs</a></li>
-													<li class="col-xs-4"><a href="#">Q&amp;A</a></li>
+													<li class="col-xs-4"><a href="/international/getting_prepared.php">Getting Prepared</a></li>
+													<li class="col-xs-4"><a href="/international/student_orientation.php">New Int'l Student Orientation</a></li>
+													<li class="col-xs-4"><a href="/international/visa.php">Student Visa &amp; Immigration</a></li>
+													<li class="col-xs-4"><a href="/international/accomodation.php">Accomodation</a></li>
+													<li class="col-xs-4"><a href="/international/insurance.php">Insurance</a></li>
+													<li class="col-xs-4"><a href="/international/scolarships.php">Scholarships</a></li>
+													<li class="col-xs-4"><a href="/international/mentoring_programs.php">Mentoring Programs</a></li>
+													<li class="col-xs-4"><a href="/international/counseling_service.php">Student Counseling Service</a></li>
+													<li class="col-xs-4"><a href="/international/announcements.php">Announcements</a></li>
+													<li class="col-xs-4"><a href="/international/career.php">Career</a></li>
+													<li class="col-xs-4"><a href="/international/faq_list.php">FAQs</a></li>
+													<li class="col-xs-4"><a href="/international/qna_list.php">Q&amp;A</a></li>
 												</ul>
 											</div>
 										</div>
