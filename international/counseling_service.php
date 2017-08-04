@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">

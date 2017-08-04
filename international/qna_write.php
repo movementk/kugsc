@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -25,7 +25,7 @@
 					<div class="page-title">
 						<h3>Q&amp;A</h3>
 					</div>
-					<div class="table-wrap">
+					<div class="table-responsive">
                         <form action="#">
                             <table class="table table-bordered">
                                 <tbody>

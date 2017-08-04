@@ -5,34 +5,34 @@
 	</button>
 	<ul class="dropdown-menu">
 		<li>
-			<a href="#">Getting Prepared</a>
+			<a href="/international/getting_prepared.php">Getting Prepared</a>
 		</li>
 		<li>
-			<a href="#">New Int'l Student Orientation</a>
+			<a href="/international/student_orientation.php">New Int'l Student Orientation</a>
 		</li>
 		<li>
-			<a href="#">Student Visa &amp; Immigration</a>
+			<a href="/international/visa.php">Student Visa &amp; Immigration</a>
 		</li>
 		<li>
 			<a href="/international/accomodation.php">Accomodation</a>
 		</li>
 		<li>
-			<a href="#">Scholarships</a>
+			<a href="/international/scolarships.php">Scholarships</a>
 		</li>
 		<li>
-			<a href="#">Mentoring Programs</a>
+			<a href="/international/mentoring_programs.php">Mentoring Programs</a>
 		</li>
 		<li>
-			<a href="#">Announcements</a>
+			<a href="/international/announcements.php">Announcements</a>
 		</li>
 		<li>
-			<a href="#">Career</a>
+			<a href="/international/career.php">Career</a>
 		</li>
 		<li>
-			<a href="#">FAQs</a>
+			<a href="/international/faq_list.php">FAQs</a>
 		</li>
 		<li>
-			<a href="#">Q&amp;A</a>
+			<a href="/international/qna_list.php">Q&amp;A</a>
 		</li>
 	</ul>
 </nav>
