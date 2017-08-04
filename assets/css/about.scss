@@ -7,10 +7,21 @@
 	}
 }
 
+#content .page-header {
+	background-image: url(/assets/images/about/bg_visual.jpg);
+}
+
 #content.korea-univ {
 	.u-title {
 		margin-top: 45px;
 		margin-bottom: 40px;
+		@media (min-width: $sm) {
+			margin-top: 70px;
+		}
+		@media (min-width: $lg) {
+			margin-top: 80px;
+			margin-bottom: 60px;
+		}
 	}
 	.facts {
 		> li {
@@ -38,6 +49,27 @@
 				margin-top: 40px;
 			}
 		}
+		@media (min-width: $sm) {
+			> li {
+				.fact-item {
+					i {
+						margin-right: 20px;
+					}
+				}
+				& + li {
+					margin-top: 15px;
+				}
+			}
+		}
+		@media (min-width: $lg) {
+			> li {
+				.fact-item {
+					i {
+						margin-right: 40px;
+					}
+				}
+			}
+		}
 	}
 	.rank-graph {
 		padding: 40px 10px 45px;
@@ -54,6 +86,24 @@
 		figcaption {
 			line-height: 16px;
 			text-align: center;
+		}
+		
+		@media (min-width: $sm) {
+			padding-top: 35px;
+			padding-bottom: 35px;
+			p {
+				margin-bottom: 35px;
+			}
+			figcaption {
+				font-size: 13px;
+			}
+		}
+		@media (min-width: $lg) {
+			padding-top: 45px;
+			padding-bottom: 40px;
+			p {
+				margin-bottom: 45px;
+			}
 		}
 	}
 	.stats {
@@ -99,6 +149,36 @@
 				margin-top: 55px;
 			}
 		}
+		@media (min-width: $sm) {
+			margin-top: 125px;
+			> li {
+				.stats-item {
+					i {
+						margin-right: 20px;
+					}
+					dl {
+						top: 10px;
+						dd {
+							margin-top: 10px;
+							font-size: 24px;
+						}
+					}
+				}
+				& + li {
+					margin-top: 0;
+				}
+			}
+		}
+		@media (min-width: $lg) {
+			margin-top: 110px;
+			> li {
+				.stats-item {
+					i {
+						margin-right: 40px;
+					}
+				}
+			}
+		}
 	}
 	.stats-graph {
 		margin-top: 110px;
@@ -107,9 +187,37 @@
 			margin-bottom: 75px;
 			font-size: 16px;
 			line-height: 20px;
+			color: #333;
 		}
 		.img-responsive {
 			margin: 0 auto;
 		}
+		@media (min-width: $sm) {
+			margin-top: 100px;
+			h5 {
+				margin-bottom: 60px;
+			}
+		}
+		@media (min-width: $lg) {
+			h5 {
+				margin-bottom: 40px;
+			}
+			margin-top: 130px;
+		}
+	}
+}
+
+#content.about-us {
+	.page-title {
+		margin-bottom: 10px;
+		@media (min-width: $sm) {
+			margin-bottom: 70px;
+		}
+	}
+	.figure {
+		height: 185px;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: cover;
 	}
 }

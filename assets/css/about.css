@@ -20,9 +20,19 @@ address {
   padding-top: 35px !important;
   padding-bottom: 35px !important; }
 
+#content .page-header {
+  background-image: url(/assets/images/about/bg_visual.jpg); }
+
 #content.korea-univ .u-title {
   margin-top: 45px;
   margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    #content.korea-univ .u-title {
+      margin-top: 70px; } }
+  @media (min-width: 1280px) {
+    #content.korea-univ .u-title {
+      margin-top: 80px;
+      margin-bottom: 60px; } }
 #content.korea-univ .facts > li .fact-item i {
   float: left;
   margin-right: 15px;
@@ -37,6 +47,14 @@ address {
   top: 15px; }
 #content.korea-univ .facts > li + li {
   margin-top: 40px; }
+@media (min-width: 768px) {
+  #content.korea-univ .facts > li .fact-item i {
+    margin-right: 20px; }
+  #content.korea-univ .facts > li + li {
+    margin-top: 15px; } }
+@media (min-width: 1280px) {
+  #content.korea-univ .facts > li .fact-item i {
+    margin-right: 40px; } }
 #content.korea-univ .rank-graph {
   padding: 40px 10px 45px;
   margin-top: 60px;
@@ -48,6 +66,20 @@ address {
   #content.korea-univ .rank-graph figcaption {
     line-height: 16px;
     text-align: center; }
+  @media (min-width: 768px) {
+    #content.korea-univ .rank-graph {
+      padding-top: 35px;
+      padding-bottom: 35px; }
+      #content.korea-univ .rank-graph p {
+        margin-bottom: 35px; }
+      #content.korea-univ .rank-graph figcaption {
+        font-size: 13px; } }
+  @media (min-width: 1280px) {
+    #content.korea-univ .rank-graph {
+      padding-top: 45px;
+      padding-bottom: 40px; }
+      #content.korea-univ .rank-graph p {
+        margin-bottom: 45px; } }
 #content.korea-univ .stats {
   margin-top: 60px; }
   #content.korea-univ .stats > li .stats-item i {
@@ -73,14 +105,53 @@ address {
     top: 15px; }
   #content.korea-univ .stats > li + li {
     margin-top: 55px; }
+  @media (min-width: 768px) {
+    #content.korea-univ .stats {
+      margin-top: 125px; }
+      #content.korea-univ .stats > li .stats-item i {
+        margin-right: 20px; }
+      #content.korea-univ .stats > li .stats-item dl {
+        top: 10px; }
+        #content.korea-univ .stats > li .stats-item dl dd {
+          margin-top: 10px;
+          font-size: 24px; }
+      #content.korea-univ .stats > li + li {
+        margin-top: 0; } }
+  @media (min-width: 1280px) {
+    #content.korea-univ .stats {
+      margin-top: 110px; }
+      #content.korea-univ .stats > li .stats-item i {
+        margin-right: 40px; } }
 #content.korea-univ .stats-graph {
   margin-top: 110px;
   text-align: center; }
   #content.korea-univ .stats-graph h5 {
     margin-bottom: 75px;
     font-size: 16px;
-    line-height: 20px; }
+    line-height: 20px;
+    color: #333; }
   #content.korea-univ .stats-graph .img-responsive {
     margin: 0 auto; }
+  @media (min-width: 768px) {
+    #content.korea-univ .stats-graph {
+      margin-top: 100px; }
+      #content.korea-univ .stats-graph h5 {
+        margin-bottom: 60px; } }
+  @media (min-width: 1280px) {
+    #content.korea-univ .stats-graph {
+      margin-top: 130px; }
+      #content.korea-univ .stats-graph h5 {
+        margin-bottom: 40px; } }
+
+#content.about-us .page-title {
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    #content.about-us .page-title {
+      margin-bottom: 70px; } }
+#content.about-us .figure {
+  height: 185px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
 
 /*# sourceMappingURL=about.css.map */

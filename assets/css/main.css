@@ -521,8 +521,8 @@ body.scrolled #header {
               margin-left: -66.66%; } }
   @media (min-width: 1280px) {
     #community {
-      padding-top: 70px;
-      padding-bottom: 80px; }
+      padding-top: 40px;
+      padding-bottom: 40px; }
       #community .container {
         position: relative;
         height: 710px; }

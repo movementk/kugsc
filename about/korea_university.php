@@ -49,8 +49,8 @@
                   			<div class="fact-item fact-item-1">
 								<i><img class="img-responsive" src="/assets/images/about/ku/ico_badge_rank_100.png" alt="100"></i>
 								<p>
-									First Private University in Korea
-									to enter the top100
+									First Private University in Korea<br>
+									to enter the top100<br>
 									QS World Ranking 2017-18
 								</p>
                   			</div>
@@ -59,8 +59,8 @@
                   			<div class="fact-item fact-item-2">
 								<i><img class="img-responsive" src="/assets/images/about/ku/ico_badge_rank_16.png" alt="16"></i>
 								<p>
-									#1 private University in
-									Korea and #16 in QS Asian
+									#1 private University in<br>
+									Korea and #16 in QS Asian<br>
 									University Rankings 2016
 								</p>
                   			</div>
@@ -74,8 +74,8 @@
                   			<img class="img-responsive visible-lg" src="/assets/images/about/ku/img_rank_graph_lg.gif">
                   		</p>
                   		<figcaption>
-							Rankings of Korea University in the QS<br>
-							World University Rankings<br>
+							Rankings of Korea University in the QS<br class="visible-xs">
+							World University Rankings<br class="visible-xs">
 							for the past 5 years
                  		</figcaption>
                   	</figure>
@@ -104,7 +104,10 @@
                   	</ul>
                   	
                   	<div class="stats-graph">
-                  		<h5>International Students by Academic Level</h5>
+                  		<h5>
+                  			International Students<br class="visible-xs">
+                  			by Academic Level
+                  		</h5>
                   		<p>
                   			<img class="img-responsive visible-xs" src="/assets/images/about/ku/img_percent_xs.gif">
                   			<img class="img-responsive visible-sm visible-md" src="/assets/images/about/ku/img_percent_sm.gif">
