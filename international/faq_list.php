@@ -9,14 +9,14 @@
 <main id="content" class="faq-list">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -128,10 +128,10 @@
 						<div role="tabpanel" class="tab-pane" id="academics">
 							<nav class="question-type">
                                 <ul class="row">
-                                    <li class="col-xs-6 col-sm-2 active">
+                                    <li class="col-xs-6 col-sm-2">
                                         <a href="#">Issue of<br>Certificates</a>
                                     </li>
-                                    <li class="col-xs-6 col-sm-2">
+                                    <li class="col-xs-6 col-sm-2 active">
                                         <a href="#">Student ID Card</a>
                                     </li>
                                     <li class="col-xs-6 col-sm-2">
@@ -198,13 +198,13 @@
 						<div role="tabpanel" class="tab-pane" id="scholarships">
 							<nav class="question-type">
                                 <ul class="row">
-                                    <li class="col-xs-6 col-sm-2 active">
+                                    <li class="col-xs-6 col-sm-2">
                                         <a href="#">Issue of<br>Certificates</a>
                                     </li>
                                     <li class="col-xs-6 col-sm-2">
                                         <a href="#">Student ID Card</a>
                                     </li>
-                                    <li class="col-xs-6 col-sm-2">
+                                    <li class="col-xs-6 col-sm-2 active">
                                         <a href="#">Change of<br>studentship status </a>
                                     </li>
                                     <li class="col-xs-6 col-sm-2">
@@ -268,7 +268,7 @@
 						<div role="tabpanel" class="tab-pane" id="immigration-issues">
 							<nav class="question-type">
                                 <ul class="row">
-                                    <li class="col-xs-6 col-sm-2 active">
+                                    <li class="col-xs-6 col-sm-2">
                                         <a href="#">Issue of<br>Certificates</a>
                                     </li>
                                     <li class="col-xs-6 col-sm-2">
@@ -277,7 +277,7 @@
                                     <li class="col-xs-6 col-sm-2">
                                         <a href="#">Change of<br>studentship status </a>
                                     </li>
-                                    <li class="col-xs-6 col-sm-2">
+                                    <li class="col-xs-6 col-sm-2 active">
                                         <a href="#">Insurance</a>
                                     </li>
                                     <li class="col-xs-6 col-sm-2">

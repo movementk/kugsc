@@ -6,7 +6,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/side_nav.php"); ?>
 
-<main id="content" class="qna-view">
+<main id="content" class="career-view">
 
 	<!-- Page header -->
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
@@ -23,7 +23,7 @@
 				<div class="page-content">
 					<!-- 페이지 타이틀 -->
 					<div class="page-title">
-						<h3>Q&amp;A</h3>
+						<h3>Career</h3>
 					</div>
 					<div class="table-wrap">
 					    <table class="table table-bordered">
@@ -58,7 +58,7 @@
 					</div>
 					<div class="btn-area">
 						<div>
-							<p><a href="/international/qna_list.php" class="btn btn-primary" role="button">OK</a></p>
+							<p><a href="/international/career.php" class="btn btn-primary" role="button">OK</a></p>
 						</div>
 					</div>
 				</div>

@@ -21,15 +21,8 @@ address {
   padding-top: 35px !important;
   padding-bottom: 35px !important; }
 
-.international .page-header {
-  background-image: url(/assets/images/international/international_top_sm_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%; }
-  @media (min-width: 992px) {
-    .international .page-header {
-      background-image: url(/assets/images/international/international_top_bg.jpg);
-      background-position: 35% 50%; } }
+#content .page-header {
+  background-image: url(/assets/images/international/bg_visual.jpg); }
 
 .form-group {
   margin-bottom: 0; }
@@ -425,7 +418,7 @@ address {
           font-style: normal;
           margin-right: 20px;
           color: #fff;
-          padding: 4px 0;
+          line-height: 26px;
           border-radius: 50%;
           background-color: #483d3d; }
         .question-list .panel .panel-heading a.collapsed:after {
@@ -476,17 +469,17 @@ address {
           text-align: center;
           font-style: normal;
           margin-right: 20px;
-          padding: 2px 0;
           color: #fff;
+          line-height: 26px;
           border-radius: 50%;
           background-color: #910023; }
 
 .new {
   display: inline-block;
   width: 35px;
-  height: 17px;
+  height: 16px;
   font-size: 10px;
-  line-height: 17px;
+  line-height: 16px;
   color: #fff;
   text-align: center;
   background-color: #db073a; }
@@ -588,10 +581,14 @@ address {
       margin-top: 20px; } }
   .qna-list .btn-area .btn-primary {
     width: 300px;
-    display: inline-block; }
+    display: inline-block;
+    padding: 0;
+    line-height: 45px; }
     @media (min-width: 768px) {
       .qna-list .btn-area .btn-primary {
         width: 120px; } }
+    .qna-list .btn-area .btn-primary:hover, .qna-list .btn-area .btn-primary:focus {
+      color: #fff !important; }
 .qna-list .paging {
   margin-top: 40px; }
   @media (min-width: 768px) {
@@ -662,10 +659,14 @@ address {
       margin-top: 20px; } }
   .qna-view .btn-area .btn-primary {
     width: 300px;
-    display: inline-block; }
+    display: inline-block;
+    padding: 0;
+    line-height: 45px; }
     @media (min-width: 768px) {
       .qna-view .btn-area .btn-primary {
         width: 120px; } }
+    .qna-view .btn-area .btn-primary:hover, .qna-view .btn-area .btn-primary:focus {
+      color: #fff !important; }
 
 .qna-write .table-responsive {
   border: 0 !important; }
@@ -754,19 +755,19 @@ address {
           @media (min-width: 768px) {
             .qna-write .table-responsive .table tbody tr td.content .form-group textarea {
               height: 395px; } }
-.qna-write .btn-area {
-  text-align: center;
-  margin-top: 30px; }
-  @media (min-width: 768px) {
-    .qna-write .btn-area {
-      text-align: right;
-      margin-top: 20px; } }
-  .qna-write .btn-area .btn-primary {
-    width: 300px;
-    display: inline-block; }
+  .qna-write .table-responsive .btn-area {
+    text-align: center;
+    margin-top: 30px; }
     @media (min-width: 768px) {
-      .qna-write .btn-area .btn-primary {
-        width: 120px; } }
+      .qna-write .table-responsive .btn-area {
+        text-align: right;
+        margin-top: 20px; } }
+    .qna-write .table-responsive .btn-area .btn-primary {
+      width: 300px;
+      display: inline-block; }
+      @media (min-width: 768px) {
+        .qna-write .table-responsive .btn-area .btn-primary {
+          width: 120px; } }
 
 .counseling-service .page-content .counseling {
   margin-top: 100px; }
@@ -834,6 +835,7 @@ address {
             display: table-cell;
             border-left: 1px solid #e3e3e3; } }
     .career .table-responsive .table tbody tr td {
+      min-height: 60px;
       font-size: 12px !important;
       padding-top: 20px !important;
       padding-bottom: 20px !important;
@@ -886,6 +888,76 @@ address {
           margin-right: 10px; }
 .career .paging {
   margin-top: 40px; }
+
+.career-view .table-wrap {
+  border-top: 0; }
+  .career-view .table-wrap .table {
+    border-color: #e3e3e3 !important; }
+    .career-view .table-wrap .table tbody tr th {
+      font-size: 13px !important;
+      color: #666 !important;
+      font-weight: 400;
+      text-align: left !important;
+      vertical-align: top !important;
+      padding: 25px 10px 25px 20px !important;
+      border-color: #e3e3e3 !important;
+      background-color: #f5f5f5; }
+      @media (min-width: 768px) {
+        .career-view .table-wrap .table tbody tr th {
+          font-size: 14px !important; } }
+      .career-view .table-wrap .table tbody tr th.content {
+        vertical-align: middle !important; }
+    .career-view .table-wrap .table tbody tr td {
+      font-size: 13px !important;
+      color: #777 !important;
+      font-weight: 400;
+      text-align: left !important;
+      padding: 25px 10px 25px 20px !important;
+      border-color: #e3e3e3 !important; }
+      @media (min-width: 768px) {
+        .career-view .table-wrap .table tbody tr td {
+          font-size: 14px !important; } }
+      .career-view .table-wrap .table tbody tr td .new {
+        margin-left: 10px; }
+      .career-view .table-wrap .table tbody tr td.content {
+        line-height: 24px !important;
+        border: 0;
+        display: inline-block;
+        min-height: 370px; }
+        @media (min-width: 768px) {
+          .career-view .table-wrap .table tbody tr td.content {
+            min-height: 520px; } }
+      .career-view .table-wrap .table tbody tr td.attach a {
+        display: inline-block;
+        color: #333 !important;
+        font-weight: bold; }
+        .career-view .table-wrap .table tbody tr td.attach a:after {
+          content: ",";
+          margin-right: 5px; }
+        .career-view .table-wrap .table tbody tr td.attach a:last-child:after {
+          content: ""; }
+        .career-view .table-wrap .table tbody tr td.attach a:first-child:before {
+          display: inline-block;
+          content: "\E80F";
+          font-family: "fontello";
+          margin-right: 5px; }
+.career-view .btn-area {
+  text-align: center;
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .career-view .btn-area {
+      text-align: right;
+      margin-top: 20px; } }
+  .career-view .btn-area .btn-primary {
+    width: 300px;
+    display: inline-block;
+    padding: 0;
+    line-height: 45px; }
+    @media (min-width: 768px) {
+      .career-view .btn-area .btn-primary {
+        width: 120px; } }
+    .career-view .btn-area .btn-primary:hover, .career-view .btn-area .btn-primary:focus {
+      color: #fff !important; }
 
 .announcements .tabs {
   margin-top: 60px !important;
@@ -1659,31 +1731,30 @@ address {
       margin-bottom: 0; } }
   .mentoring-programs #mentoring-1 figure .img-responsive {
     margin: 0 auto; }
-.mentoring-programs #mentoring-1 .justify {
-  text-align: justify; }
-  .mentoring-programs #mentoring-1 .justify b {
-    font-weight: 400;
-    color: #333; }
+@media (min-width: 768px) {
+  .mentoring-programs #mentoring-1 .justify {
+    text-align: justify; } }
+.mentoring-programs #mentoring-1 .justify b {
+  font-weight: 400;
+  color: #333; }
 @media (min-width: 992px) {
   .mentoring-programs #mentoring-1 .row .space:nth-of-type(1) {
-    padding-right: 0 !important;
-    margin-right: -30px !important; }
-  .mentoring-programs #mentoring-1 .row .space:nth-of-type(2) {
-    padding-left: 0 !important;
     padding-right: 0 !important; }
+    .mentoring-programs #mentoring-1 .row .space:nth-of-type(1) p {
+      margin-right: -30px !important; }
   .mentoring-programs #mentoring-1 .row .space:nth-of-type(3) {
-    padding-left: 0 !important;
-    margin-left: -30px !important; } }
+    padding-left: 0 !important; }
+    .mentoring-programs #mentoring-1 .row .space:nth-of-type(3) p {
+      margin-left: -30px !important; } }
 @media (min-width: 992px) {
   .mentoring-programs #mentoring-1 .row .space:nth-of-type(1) {
-    padding-right: 0 !important;
-    margin-right: -15px !important; }
-  .mentoring-programs #mentoring-1 .row .space:nth-of-type(2) {
-    padding-left: 0 !important;
     padding-right: 0 !important; }
+    .mentoring-programs #mentoring-1 .row .space:nth-of-type(1) p {
+      margin-right: -15px !important; }
   .mentoring-programs #mentoring-1 .row .space:nth-of-type(3) {
-    padding-left: 0 !important;
-    margin-left: -15px !important; } }
+    padding-left: 0 !important; }
+    .mentoring-programs #mentoring-1 .row .space:nth-of-type(3) p {
+      margin-left: -15px !important; } }
 .mentoring-programs #mentoring-1 .box {
   margin-bottom: 20px; }
   @media (min-width: 768px) {

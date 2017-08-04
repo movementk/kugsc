@@ -9,14 +9,14 @@
 <main id="content" class="qna-list">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -56,7 +56,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#"><span class="new">NEW</span>활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류</a>
+									    <a href="/international/qna_view.php"><span class="new">NEW</span>활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류활동증빙서류</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -64,7 +64,7 @@
 								<tr>
 									<td>1350</td>
 									<td class="reply">
-									    <a href="#"><span class="new">NEW</span>활동증빙서류</a>
+									    <a href="/international/qna_view.php"><span class="new">NEW</span>활동증빙서류</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -72,7 +72,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">서류도착확인</a>
+									    <a href="/international/qna_view.php">서류도착확인</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -80,7 +80,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">제출서류 수험번호</a>
+									    <a href="/international/qna_view.php">제출서류 수험번호</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -88,7 +88,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">서류도착확인</a>
+									    <a href="/international/qna_view.php">서류도착확인</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -96,7 +96,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">제출서류 수험번호</a>
+									    <a href="/international/qna_view.php">제출서류 수험번호</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -104,7 +104,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">서류도착확인</a>
+									    <a href="/international/qna_view.php">서류도착확인</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -112,7 +112,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">제출서류 수험번호</a>
+									    <a href="/international/qna_view.php">제출서류 수험번호</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -120,7 +120,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">서류도착확인</a>
+									    <a href="/international/qna_view.php">서류도착확인</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -128,7 +128,7 @@
 								<tr>
 									<td>1350</td>
 									<td>
-									    <a href="#">제출서류 수험번호</a>
+									    <a href="/international/qna_view.php">제출서류 수험번호</a>
 									</td>
 									<td>Student</td>
 									<td>2015.03.03</td>
@@ -137,7 +137,9 @@
 						</table>
 					</div>
 					<div class="btn-area">
-                        <button type="button" class="btn btn-primary">Write</button>
+                        <div>
+                            <p><a href="/international/qna_write.php" class="btn btn-primary" role="button">Write</a></p>
+                        </div>
 					</div>
                     <nav aria-label="Page navigation" class="paging">
                         <ul class="pagination">

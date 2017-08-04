@@ -9,14 +9,14 @@
 <main id="content" class="scolarships">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -42,7 +42,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td rowspan="3">Enrolled<br>Students</td>
+                                    <td rowspan="3" class="border-bottom-0">Enrolled<br>Students</td>
                                     <td>Academic Excellence<br>Scholarship</td>
                                     <td>100% of tuition fee</td>
                                     <td>Students who have achieved<br>an outstanding GPA</td>

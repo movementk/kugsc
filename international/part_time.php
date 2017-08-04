@@ -9,14 +9,14 @@
 <main id="content" class="part-time">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">

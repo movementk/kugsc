@@ -9,15 +9,14 @@
 <main id="content" class="accomodation">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
-			
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 				
 			</div>
@@ -97,7 +96,7 @@
 							                </thead>
 							                <tbody>
 							                    <tr>
-							                        <td rowspan="2">
+							                        <td rowspan="2" class="border-bottom-0">
 							                            CJ International<br>
                                                         House<br>
                                                         (w/Bath)
@@ -152,7 +151,7 @@
 							                </thead>
 							                <tbody>
 							                    <tr>
-							                        <td rowspan="2">
+							                        <td rowspan="2" class="border-bottom-0">
 							                            Anam Global House<br>
                                                         (w/Bath)
 							                        </td>
