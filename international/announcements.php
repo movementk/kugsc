@@ -9,14 +9,14 @@
 <main id="content" class="announcements">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -70,10 +70,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017-07-20</td>
+                                            <td>2017-01-11</td>
                                             <td>Academics</td>
                                             <td>
-                                                <a href="#">President Luis Guillermo Solis River if Costa Rica visits KU</a>
+                                                <a href="#">1. President Luis Guillermo Solis River if Costa Rica visits KU</a>
                                             </td>
                                             <td>Student</td>
                                         </tr>
@@ -218,10 +218,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017-07-20</td>
+                                            <td>2017-02-22</td>
                                             <td>Academics</td>
                                             <td>
-                                                <a href="#">President Luis Guillermo Solis River if Costa Rica visits KU</a>
+                                                <a href="#">2. President Luis Guillermo Solis River if Costa Rica visits KU</a>
                                             </td>
                                             <td>Student</td>
                                         </tr>
@@ -366,10 +366,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017-07-20</td>
+                                            <td>2017-03-03</td>
                                             <td>Academics</td>
                                             <td>
-                                                <a href="#">President Luis Guillermo Solis River if Costa Rica visits KU</a>
+                                                <a href="#">3. President Luis Guillermo Solis River if Costa Rica visits KU</a>
                                             </td>
                                             <td>Student</td>
                                         </tr>
@@ -514,10 +514,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017-07-20</td>
+                                            <td>2017-04-04</td>
                                             <td>Academics</td>
                                             <td>
-                                                <a href="#">President Luis Guillermo Solis River if Costa Rica visits KU</a>
+                                                <a href="#">4. President Luis Guillermo Solis River if Costa Rica visits KU</a>
                                             </td>
                                             <td>Student</td>
                                         </tr>
@@ -662,10 +662,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017-07-20</td>
+                                            <td>2017-05-05</td>
                                             <td>Academics</td>
                                             <td>
-                                                <a href="#">President Luis Guillermo Solis River if Costa Rica visits KU</a>
+                                                <a href="#">5. President Luis Guillermo Solis River if Costa Rica visits KU</a>
                                             </td>
                                             <td>Student</td>
                                         </tr>
@@ -810,10 +810,10 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017-07-20</td>
+                                            <td>2017-06-06</td>
                                             <td>Academics</td>
                                             <td>
-                                                <a href="#">President Luis Guillermo Solis River if Costa Rica visits KU</a>
+                                                <a href="#">6. President Luis Guillermo Solis River if Costa Rica visits KU</a>
                                             </td>
                                             <td>Student</td>
                                         </tr>

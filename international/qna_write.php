@@ -9,14 +9,14 @@
 <main id="content" class="qna-write">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3">
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_international.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/international/_lnb.php"); ?>
 				<!-- // LNB -->
 			</div>
 			<div class="col-lg-9">
@@ -72,10 +72,12 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="btn-area">
+                                <div>
+                                    <p><button type="submit" class="btn btn-primary">OK</button></p>
+                                </div>
+                            </div>
 					    </form>
-					</div>
-					<div class="btn-area">
-					    <button type="button" class="btn btn-primary">OK</button>
 					</div>
 				</div>
 			</div>
