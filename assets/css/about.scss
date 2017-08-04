@@ -221,3 +221,123 @@
 		background-size: cover;
 	}
 }
+
+#content.staff-list {
+	.page-title {
+		@media (min-width: $sm) {
+			margin-bottom: 40px;
+		}
+		@media (min-width: $lg) {
+			margin-bottom: 70px;
+		}
+	}
+	.staff-list {
+		> li {
+			figure {
+				> p {
+					margin-bottom: 20px;
+					.img-responsive {
+						margin: 0 auto;
+						border: 1px solid #dadada;
+					}
+				}
+				figcaption {
+					text-align: center;
+					dl {
+						dt {
+							font-size: 14px;
+							line-height: 25px;
+							color: #666;
+						}
+						dd {
+							font-size: 13px;
+							line-height: 25px;
+							&.contact {
+								&:before {
+									margin-right: 5px;
+									font-family: "fontello";
+									content: "\e804";
+								}
+							}
+						}
+					}
+				}
+			}
+			& + li {
+				margin-top: 60px;
+			}
+		}
+	}
+	.notice {
+		margin-top: 90px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 40px 15px;
+		max-width: 300px;
+		background-color: #f2f2f2;
+		p {
+			margin-bottom: 0;
+			line-height: 18px;
+			color: #333;
+			a {
+				text-decoration: none;
+				&:before {
+					margin-right: 8px;
+					font-family: "fontello";
+					content: "\e803";
+				}
+				&:hover, &:focus {
+					span {
+						text-decoration: underline;
+					}
+				}
+			}
+			i {
+				font-style: normal;
+				color: $kcolor;
+			}
+			& + p {
+				margin-top: 10px;
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		.staff-list {
+			> li {
+				figure {
+					overflow: hidden;
+					> p {
+						float: left;
+					}
+					> figcaption {
+						margin-left: 250px;
+						padding-top: 130px;
+						height: 238px;
+						text-align: left;
+					}
+				}
+			}
+		}
+		.notice {
+			max-width: none;
+			padding-left: 65px;
+			padding-right: 65px;
+			p {
+				font-size: 13px;
+			}
+		}
+	}
+	@media (min-width: $lg) {
+		.staff-list {
+			> li {
+				& + li {
+					margin-top: 50px;
+				}
+			}
+		}
+		.notice {
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+	}
+}

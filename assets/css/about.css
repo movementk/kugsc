@@ -154,4 +154,77 @@ address {
   background-position: 50% 50%;
   background-size: cover; }
 
+@media (min-width: 768px) {
+  #content.staff-list .page-title {
+    margin-bottom: 40px; } }
+@media (min-width: 1280px) {
+  #content.staff-list .page-title {
+    margin-bottom: 70px; } }
+#content.staff-list .staff-list > li figure > p {
+  margin-bottom: 20px; }
+  #content.staff-list .staff-list > li figure > p .img-responsive {
+    margin: 0 auto;
+    border: 1px solid #dadada; }
+#content.staff-list .staff-list > li figure figcaption {
+  text-align: center; }
+  #content.staff-list .staff-list > li figure figcaption dl dt {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666; }
+  #content.staff-list .staff-list > li figure figcaption dl dd {
+    font-size: 13px;
+    line-height: 25px; }
+    #content.staff-list .staff-list > li figure figcaption dl dd.contact:before {
+      margin-right: 5px;
+      font-family: "fontello";
+      content: "\e804"; }
+#content.staff-list .staff-list > li + li {
+  margin-top: 60px; }
+#content.staff-list .notice {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 15px;
+  max-width: 300px;
+  background-color: #f2f2f2; }
+  #content.staff-list .notice p {
+    margin-bottom: 0;
+    line-height: 18px;
+    color: #333; }
+    #content.staff-list .notice p a {
+      text-decoration: none; }
+      #content.staff-list .notice p a:before {
+        margin-right: 8px;
+        font-family: "fontello";
+        content: "\e803"; }
+      #content.staff-list .notice p a:hover span, #content.staff-list .notice p a:focus span {
+        text-decoration: underline; }
+    #content.staff-list .notice p i {
+      font-style: normal;
+      color: #920326; }
+    #content.staff-list .notice p + p {
+      margin-top: 10px; }
+@media (min-width: 768px) {
+  #content.staff-list .staff-list > li figure {
+    overflow: hidden; }
+    #content.staff-list .staff-list > li figure > p {
+      float: left; }
+    #content.staff-list .staff-list > li figure > figcaption {
+      margin-left: 250px;
+      padding-top: 130px;
+      height: 238px;
+      text-align: left; }
+  #content.staff-list .notice {
+    max-width: none;
+    padding-left: 65px;
+    padding-right: 65px; }
+    #content.staff-list .notice p {
+      font-size: 13px; } }
+@media (min-width: 1280px) {
+  #content.staff-list .staff-list > li + li {
+    margin-top: 50px; }
+  #content.staff-list .notice {
+    padding-left: 80px;
+    padding-right: 80px; } }
+
 /*# sourceMappingURL=about.css.map */

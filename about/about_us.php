@@ -9,7 +9,7 @@
 <main id="content" class="about-us">
 
 	<!-- Page header -->
-	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/page_header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/about/_page_header.php"); ?>
 	<!-- // Page header -->
 	
 	<div class="container-fluid">
@@ -17,7 +17,7 @@
 			<div class="col-lg-3">
 			
 				<!-- LNB -->
-				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/lnb_about.php"); ?>
+				<?php require_once($_SERVER["DOCUMENT_ROOT"]."/about/_lnb.php"); ?>
 				<!-- // LNB -->
 				
 			</div>
