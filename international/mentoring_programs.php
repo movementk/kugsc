@@ -60,18 +60,18 @@
 							    The bud and buddy help each other in academic related matters and other difficulties faced in everyday life. Not only do they promote friendship and cultures through various events, language exchange and others but this is also an opportunity for them to nurture on another. 
 							</p>
 							<div class="row">
-							    <div class="col-xs-12 col-sm-4 space">
+							    <div class="col-xs-12 col-sm-4">
                                     <p class="justify">
                                         The <b>[BUD]</b> is Korea University Korean students who can help new international students. KUISA recruits BUD each semester by interview and screening his/her application. BUD usually serves for one semester but if a BUD wishes to continue, he/she can do so.
                                     </p>
 							    </div>
-							    <div class="col-xs-12 col-sm-4 space">
+							    <div class="col-xs-12 col-sm-4">
 							        <figure>
 							            <img src="/assets/images/international/mentoring_xs_img02.jpg" class="img-responsive visible-xs" alt="">
 							            <img src="/assets/images/international/mentoring_sm_img02.jpg" class="img-responsive hidden-xs" alt="">
 							        </figure>
 							    </div>
-							    <div class="col-xs-12 col-sm-4 space">
+							    <div class="col-xs-12 col-sm-4">
                                     <p class="justify">
                                         The <b>[BUDDY]</b> is new international or overseas Korean students who receive help from the KUISA BUDs. There is no recruitment process for buddies. All KU international and overseas Korean students are able to join activities with KUISA.                                        
                                     </p>
