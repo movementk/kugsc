@@ -161,6 +161,18 @@
       "css": "link-1",
       "code": 59408,
       "src": "fontawesome"
+    },
+    {
+      "uid": "5cbe092278ff71fc27c920298b0f3ca3",
+      "css": "fax",
+      "code": 61868,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "location",
+      "code": 59409,
+      "src": "elusive"
     }
   ]
 }
