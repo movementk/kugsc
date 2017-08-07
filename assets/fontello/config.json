@@ -175,16 +175,10 @@
       "src": "elusive"
     },
     {
-      "uid": "8ca5f77677a66dbe813213ca75ac1474",
-      "css": "mic",
+      "uid": "f8d887df13c5f95ede5fb0e2cdb042b1",
+      "css": "resize-horizontal",
       "code": 59410,
       "src": "elusive"
-    },
-    {
-      "uid": "26667777684de4808cedd3783834356f",
-      "css": "subway",
-      "code": 62009,
-      "src": "fontawesome"
     }
   ]
 }
