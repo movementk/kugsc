@@ -18,6 +18,8 @@
 .icon-link-1:before { content: '\e810'; } /* '' */
 .icon-location:before { content: '\e811'; } /* '' */
 .icon-resize-horizontal:before { content: '\e812'; } /* '' */
+.icon-mic:before { content: '\e813'; } /* '' */
+.icon-volume-up-1:before { content: '\e814'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
 .icon-left-open:before { content: '\f007'; } /* '' */
 .icon-link-ext:before { content: '\f08e'; } /* '' */
@@ -28,3 +30,4 @@
 .icon-angle-up:before { content: '\f106'; } /* '' */
 .icon-angle-down:before { content: '\f107'; } /* '' */
 .icon-fax:before { content: '\f1ac'; } /* '' */
+.icon-subway:before { content: '\f239'; } /* '' */
