@@ -179,6 +179,24 @@
       "css": "resize-horizontal",
       "code": 59410,
       "src": "elusive"
+    },
+    {
+      "uid": "012ff5762ccb18c16bdfdd6baf187406",
+      "css": "volume-up-1",
+      "code": 59412,
+      "src": "elusive"
+    },
+    {
+      "uid": "8ca5f77677a66dbe813213ca75ac1474",
+      "css": "mic",
+      "code": 59411,
+      "src": "elusive"
+    },
+    {
+      "uid": "26667777684de4808cedd3783834356f",
+      "css": "subway",
+      "code": 62009,
+      "src": "fontawesome"
     }
   ]
 }
