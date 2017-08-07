@@ -173,6 +173,12 @@
       "css": "location",
       "code": 59409,
       "src": "elusive"
+    },
+    {
+      "uid": "f8d887df13c5f95ede5fb0e2cdb042b1",
+      "css": "resize-horizontal",
+      "code": 59410,
+      "src": "elusive"
     }
   ]
 }
