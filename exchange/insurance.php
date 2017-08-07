@@ -43,7 +43,9 @@
                     </ul>
                     <p>However, please be noted that the co-payment tends to be expensive and coverage is limited.</p>
                     <div class="box">
-                        <p>We do not introduce specific insurance company, it is students decision to purchase the insurance</p>
+                        <p>
+                            <i class="icon-volume-up-1"></i>We do not introduce specific insurance company, it is students decision to purchase the insurance
+                        </p>
                     </div>
 				</div>
 			</div>

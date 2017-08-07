@@ -14,8 +14,8 @@
 				<li><a href="/exchange/visa.php">Visa &amp; Immigration<br class="visible-lg"> for Exchange/Visiting Students</a></li>
 				<li><a href="/exchange/insurance.php">Insurance</a></li>
 				<li><a href="/exchange/scholarships.php">Scholarships</a></li>
-				<li><a href="/exchange/">KUBA</a></li>
-				<li><a href="/exchange/">How to Apply for Certificates</a></li>
+				<li><a href="/exchange/kuba.php">KUBA</a></li>
+				<li><a href="/exchange/apply_certificates.php">How to Apply for Certificates</a></li>
 			</ul>
 		</li>
 		<li><a href="#">Request</a></li>
