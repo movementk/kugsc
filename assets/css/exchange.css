@@ -371,12 +371,14 @@ address {
     @media (min-width: 768px) {
       .insurance .box:last-child {
         text-align: center; } }
-    .insurance .box:last-child p:before {
-      content: "\E814";
+    .insurance .box:last-child p {
+      padding-left: 0; }
+      .insurance .box:last-child p:before {
+        content: "";
+        background: none; }
+    .insurance .box:last-child .icon-volume-up-1 {
       color: #920326;
-      background: none;
-      top: -2px;
-      font-size: 13px; }
+      margin-right: 5px; }
   .insurance .box p {
     position: relative;
     padding-left: 38px;
@@ -392,7 +394,7 @@ address {
       color: #fff;
       text-align: center;
       line-height: 30px;
-      content: "\E812";
+      content: "\E813";
       font-family: "fontello";
       border-radius: 50%;
       background-color: #920326; }
@@ -425,5 +427,157 @@ address {
     @media (min-width: 768px) {
       .insurance .dot-list li {
         margin-bottom: 10px; } }
+
+.scholarships .title ~ .title {
+  margin-top: 100px; }
+.scholarships .dot-list li {
+  position: relative;
+  font-size: 13px;
+  color: #666;
+  padding-left: 15px;
+  line-height: 18px;
+  margin-bottom: 5px; }
+  .scholarships .dot-list li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\E80B";
+    font-family: "fontello"; }
+  .scholarships .dot-list li:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .scholarships .dot-list li {
+      font-size: 13px;
+      margin-bottom: 10px; } }
+  @media (min-width: 992px) {
+    .scholarships .dot-list li {
+      font-size: 14px; } }
+.scholarships #scholarships-2 p:nth-of-type(3) {
+  margin-bottom: 10px !important; }
+.scholarships #scholarships-2 p a {
+  word-break: break-all;
+  word-wrap: break-word; }
+.scholarships #scholarships-2 .dot-list li i {
+  font-style: normal;
+  color: #920326; }
+.scholarships #scholarships-3 p:nth-of-type(3) {
+  margin-bottom: 10px !important; }
+.scholarships #scholarships-3 p a {
+  word-break: break-all;
+  word-wrap: break-word; }
+.scholarships #scholarships-3 .dot-list li i {
+  font-style: normal;
+  color: #920326; }
+
+.kuba .title ~ .title {
+  margin-top: 100px; }
+.kuba .dot-list {
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .kuba .dot-list {
+      margin-bottom: 40px; } }
+  .kuba .dot-list li {
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    padding-left: 15px;
+    line-height: 18px;
+    margin-bottom: 5px; }
+    .kuba .dot-list li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "\E80B";
+      font-family: "fontello"; }
+    .kuba .dot-list li:last-child {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .kuba .dot-list li {
+        font-size: 13px;
+        margin-bottom: 0px;
+        line-height: 25px; } }
+.kuba .activities-list li {
+  margin-top: 60px; }
+  .kuba .activities-list li h5 {
+    position: relative;
+    padding-left: 22px;
+    font-size: 15px;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .kuba .activities-list li h5 {
+        font-size: 16px; } }
+    .kuba .activities-list li h5:before {
+      position: absolute;
+      top: 4px;
+      left: 0;
+      content: "\E80A";
+      font-family: "fontello";
+      border-bottom: 1px solid #fff; }
+    .kuba .activities-list li h5 span {
+      display: inline;
+      display: inline;
+      color: #111;
+      line-height: 22px;
+      border-bottom: 1px solid #111; }
+    .kuba .activities-list li h5 i {
+      position: relative;
+      font-style: normal;
+      display: inline-block;
+      line-height: 22px;
+      color: #920326;
+      top: -1px; }
+      .kuba .activities-list li h5 i:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        content: "";
+        border-bottom: 1px solid #920326; }
+
+.apply-certificates .table {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5; }
+  .apply-certificates .table tbody tr th {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #666;
+    font-weight: 300;
+    line-height: 22px;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background-color: #f6f6f6; }
+    .apply-certificates .table tbody tr th:last-child {
+      border-right: 0;
+      border-bottom: 0; }
+    @media (min-width: 992px) {
+      .apply-certificates .table tbody tr th {
+        font-size: 13px; } }
+  .apply-certificates .table tbody tr td {
+    width: 50%;
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 30px 10px;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5; }
+    .apply-certificates .table tbody tr td i {
+      color: #920326;
+      font-style: normal; }
+    .apply-certificates .table tbody tr td:last-child {
+      border-right: 0;
+      border-bottom: 0; }
+    @media (min-width: 768px) {
+      .apply-certificates .table tbody tr td {
+        padding: 30px; } }
+    @media (min-width: 992px) {
+      .apply-certificates .table tbody tr td {
+        font-size: 13px;
+        padding: 25px 40px; } }
+.apply-certificates .note a {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=exchange.css.map */
