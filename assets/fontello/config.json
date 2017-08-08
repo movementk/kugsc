@@ -209,6 +209,12 @@
       "css": "info-circled",
       "code": 59413,
       "src": "entypo"
+    },
+    {
+      "uid": "8d2b0a28ccbfc06bb840720e554d79cc",
+      "css": "bookmark",
+      "code": 59414,
+      "src": "elusive"
     }
   ]
 }
