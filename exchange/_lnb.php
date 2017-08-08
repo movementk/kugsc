@@ -18,7 +18,14 @@
 				<li><a href="/exchange/apply_certificates.php">How to Apply for Certificates</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Request</a></li>
-		<li><a href="#">Board</a></li>
+		<li><a href="/exchange/request.php">Request</a></li>
+		<li class="has-child">
+		    <a href="#">Board</a>
+		    <ul>
+		        <li><a href="/exchange/notice_list.php">Notice</a></li>
+		        <li><a href="/exchange/faq_list.php">FAQ</a></li>
+		        <li><a href="/exchange/qna_list.php">Q&amp;A</a></li>
+		    </ul>
+		</li>
 	</ul>
 </nav>

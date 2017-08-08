@@ -635,9 +635,10 @@
     }
     .table-responsive {
         margin-bottom: 0;
+        border-color: #e3e3e3 !important;
         .table {
-            border-color: #e3e3e3 !important;
             table-layout: fixed;
+            border-color: #e3e3e3 !important;
             thead {
                 tr {
                     th {
@@ -1290,6 +1291,7 @@
         margin-bottom: 0;
         .table {
             table-layout: fixed;
+            border-color: #e3e3e3 !important;
             thead {
                 tr {
                     th {
