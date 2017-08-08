@@ -162,7 +162,7 @@
 								
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane" id="about-us-2">
+						<div role="tabpanel" class="tab-pane active" id="about-us-2">
 							<h4 class="title">By Subway</h4>
 							<ol class="co-list">
 								<li>
@@ -212,7 +212,7 @@
 							<p class="note">12:00am - 4:00am additional 20% late night premium applicable for standard taxi only</p>
 							<p class="note">Deluxe taxis are colored black and called “mo-bum taxi"</p>
 						</div>
-						<div role="tabpanel" class="tab-pane active" id="about-us-4">
+						<div role="tabpanel" class="tab-pane" id="about-us-4">
 							<h4 class="title">Campus map</h4>
 							<div class="map">
 								구글지도 연동 영역(개발 후 확인 가능함)
