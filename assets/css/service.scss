@@ -1,0 +1,162 @@
+@import 'common';
+
+#lnb {
+	h2 {
+		padding-top: 35px !important;
+		padding-bottom: 35px !important;
+	}
+}
+
+#content .page-header {
+    background-image: url(/assets/images/service/bg_visual.jpg);
+}
+
+.accomodation {
+	.tabs {
+		margin-top: 35px;
+	}
+	@media (min-width: $sm) {
+		.tabs {
+			margin-top: 55px;
+		}
+	}
+    #accomodation-1 {
+        p {
+            i {
+                color: #910023;
+                font-style: normal;
+            }
+        }
+        .section {
+            margin-top: 60px;
+            .u-title {
+                margin-bottom: 30px;
+            }
+            figure {
+                ul {
+                    li {
+                        &:last-child {
+                            .img-responsive {
+                                margin-bottom: 20px;
+                            }
+                        }
+                        .img-responsive {
+                            margin: 0 auto 10px;
+                            @media(min-width: $sm) {
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+            .room-rates {
+                margin-top: 30px;
+            }
+        }
+    }
+    #accomodation-2 {
+        .section {
+            margin-top: 60px;
+            .u-title {
+                margin-bottom: 30px;
+            }
+            figure {
+                ul {
+                    li {
+                        &:last-child {
+                            .img-responsive {
+                                margin-bottom: 20px;
+                            }
+                        }
+                        .img-responsive {
+                            margin: 0 auto 10px;
+                            @media(min-width: $sm) {
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+            i {
+                font-style: normal;
+                color: #910023;
+            }
+        }
+        .box {
+            padding: 40px 10px;
+            margin-top: 30px;
+            margin-bottom: 60px;
+            background-color: #f2f2f2;
+            @media(min-width: $sm) {
+                padding: 50px 40px;
+            }
+            @media(min-width: $md) {
+                padding: 50px;
+            }
+            .co-list {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+	#accomodation-3 {
+		figure {
+			margin-bottom: 20px;
+			.img-responsive {
+				margin: 0 auto 10px;
+			}
+			figcaption {
+				margin-top: 10px;
+			}
+		}
+		.box:nth-of-type(1) {
+			dl {
+				dt {
+					margin-bottom: 7px;
+					font-weight: normal;
+				}
+				dd {
+					margin-bottom: 12px;
+					a {
+						word-break: break-all;
+						word-wrap: break-word;
+					}
+				}
+			}
+			p {
+				margin-bottom: 7px !important;
+				line-height: 18px;
+			}
+		}
+		.box:nth-of-type(2) {
+			margin-bottom: 0;
+		}
+		@media (min-width: $sm) {
+			.box:nth-of-type(1) {
+				margin-bottom: 30px;
+				dl {
+					dt {
+						float: left;
+						margin-right: 10px;
+					}
+					dd {
+						margin-bottom: 7px;
+					}
+				}
+				p {
+					font-size: 13px;
+				}
+			}
+			.box:nth-of-type(2) {
+				margin-bottom: inherit;
+			}
+		}
+		@media (min-width: $lg) {
+			figure {
+				margin-bottom: 30px;
+			}
+			.box:nth-of-type(1) {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}

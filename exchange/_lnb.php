@@ -1,5 +1,5 @@
 <nav id="lnb" class="dropdown lnb-1">
-	<h2 class="visible-lg">About GSC</h2>
+	<h2 class="visible-lg">Exchange/Visiting<br>Student</h2>
 	<button class="btn btn-link btn-block dropdown-toggle" type="button" data-toggle="dropdown">
 		Select
 	</button>
