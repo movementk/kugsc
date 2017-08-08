@@ -492,10 +492,11 @@ address {
     .qna-list .search-form {
       margin-bottom: 30px; } }
 .qna-list .table-responsive {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border-color: #e3e3e3 !important; }
   .qna-list .table-responsive .table {
-    border-color: #e3e3e3 !important;
-    table-layout: fixed; }
+    table-layout: fixed;
+    border-color: #e3e3e3 !important; }
     .qna-list .table-responsive .table thead tr th {
       font-size: 12px !important;
       font-weight: 400;
@@ -976,7 +977,8 @@ address {
   border-color: #e3e3e3 !important;
   margin-bottom: 0; }
   .announcements .table-responsive .table {
-    table-layout: fixed; }
+    table-layout: fixed;
+    border-color: #e3e3e3 !important; }
     .announcements .table-responsive .table thead tr th {
       font-size: 13px !important;
       font-weight: 400;

@@ -110,13 +110,13 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4"><a href="#">Overview</a></li>
-													<li class="col-xs-4"><a href="#"><span>Exchange Program Application Guide</span></a></li>
-													<li class="col-xs-4"><a href="#"><span>Visiting Program Application Guide</span></a></li>
-													<li class="col-xs-4"><a href="#">After Acceptance</a></li>
-													<li class="col-xs-4"><a href="#">While in KU</a></li>
-													<li class="col-xs-4"><a href="#">Request</a></li>
-													<li class="col-xs-4"><a href="#">Board</a></li>
+													<li class="col-xs-4"><a href="/exchange/overview.php">Overview</a></li>
+													<li class="col-xs-4"><a href="/exchange/exchange_program.php"><span>Exchange Program Application Guide</span></a></li>
+													<li class="col-xs-4"><a href="/exchange/visiting_program.php"><span>Visiting Program Application Guide</span></a></li>
+													<li class="col-xs-4"><a href="/exchange/after_acceptance.php">After Acceptance</a></li>
+													<li class="col-xs-4"><a href="/exchange/visa.php">While in KU</a></li>
+													<li class="col-xs-4"><a href="/exchange/request.php">Request</a></li>
+													<li class="col-xs-4"><a href="/exchange/notice_list.php">Board</a></li>
 												</ul>
 											</div>
 										</div>
