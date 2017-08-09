@@ -215,6 +215,18 @@
       "css": "bookmark",
       "code": 59414,
       "src": "elusive"
+    },
+    {
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
+      "css": "home",
+      "code": 59415,
+      "src": "entypo"
+    },
+    {
+      "uid": "8663320a860b00f26e94d3d15c9ba99a",
+      "css": "clock",
+      "code": 59416,
+      "src": "entypo"
     }
   ]
 }
