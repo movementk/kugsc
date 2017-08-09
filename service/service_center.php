@@ -75,6 +75,53 @@
                             <a href="http://korea.ac.kr/user/boardList.do?handle=201&siteId=university&id=university_050203040000" target="_blank"><i class="icon-link-ext"></i>http://korea.ac.kr/user/boardList.do?handle=201&siteId=university&id=university_050203040000</a>
                         </i>
                     </p>
+                    <p class="space">
+                        ONE-STOP service center shall dispose the item that has dangerous and harmful elements in it within 3 months. (eg. food items, flammable substances, potential cause of odors and other items deemed dangerous for storage)
+                    </p>
+                    <h5 class="u-title">Free fax transmission/reception services (domestic):</h5>
+                    <p>
+                        Installed at ONE-STOP service center (Humanities &amp; Social Sciences campus, Natural Sciences &amp; Engineering campus) 
+                    </p>
+                    <h5 class="u-title">Mobile phone charging service available at One-stop service center (Humanities &amp; Social Sciences campus only)</h5>
+                    <p class="note">
+                        <i>
+                            * Note : International students are suggested to visit the official Korea University website and see the details for more information. If you wish to see the details, please visit www.korea.edu > Life@KU > Student Support > <span>One-Stop Service Center.</span><br>
+                            (Please note that the details given on the official Kroea University website are mainly based on the services provided for local(domestic) students. You may visit the counter at One-stop service center for more detailed information.
+                        </i>
+                    </p>
+                    <div class="box">
+                        <h6 class="title">Operation hours</h6>
+                        <p>Monday to Friday, 9:00am to 5:30pm (4:30pm during vacation)</p>
+                        <h6 class="title">Location</h6>
+                        <ol class="co-list">
+                            <li>
+                                Humanities and Social Sciences campus
+                                <dl>
+                                    <dt class="tel">Tel</dt>
+                                    <dd>+82-2-3290-1140~6</dd>
+                                    <dt class="email">Email</dt>
+                                    <dd><a href="mailto:onestop1@korea.ac.kr">onestop1@korea.ac.kr</a></dd>
+                                    <dt class="fax">Fax</dt>
+                                    <dd>+82-2-929-2380</dd>
+                                    <dt class="location">Location</dt>
+                                    <dd>Central Plaza B1</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                Natural Sciences and Engineering campus
+                                <dl>
+                                    <dt class="tel">Tel</dt>
+                                    <dd>+82-2-3290-4090~2</dd>
+                                    <dt class="email">Email</dt>
+                                    <dd><a href="mailto:onestop2@korea.ac.kr">onestop2@korea.ac.kr</a></dd>
+                                    <dt class="fax">Fax</dt>
+                                    <dd>+82-2-929-0220</dd>
+                                    <dt class="location">Location</dt>
+                                    <dd>Hana Square B1</dd>
+                                </dl>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
 			</div>
 		</div>

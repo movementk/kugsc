@@ -71,31 +71,21 @@
 				<li>
 					<a href="#">Student Services</a>
 					<ul>
-						<li><a href="#">Student Life</a></li>
-						<li><a href="#">Student Counseling Service</a></li>
-						<li><a href="#">Student Disability Support Center</a></li>
-						<li><a href="#">Academic Mentoring program - KUCTL</a></li>
-						<li><a href="#">One-Stop Service Center</a></li>
-						<li><a href="#">Health Center</a></li>
+						<li><a href="/service/accomodation.php">accomodation.php</a></li>
+						<li><a href="/service/student_life.php">Student Life</a></li>
+						<li><a href="/service/counseling_service.php">Student Counseling Service</a></li>
+						<li><a href="/service/support_center.php">Student Disability Support Center</a></li>
+						<li><a href="/service/mentoring_program.php">Academic Mentoring program - KUCTL</a></li>
+						<li><a href="/service/service_center.php">One-Stop Service Center</a></li>
+						<li><a href="/service/health_center.php">Health Center</a></li>
 						<li class="has-child">
 							<a href="#">Facilities</a>
 							<ul>
-								<li><a href="#">Libraries</a></li>
-								<li><a href="#">Sports center</a></li>
-								<li><a href="#">Hana Bank</a></li>
+								<li><a href="/service/libraries.php">Libraries</a></li>
+								<li><a href="/service/sports_center.php">Sports center</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
-							<a href="#">Useful Sites</a>
-							<ul>
-								<li><a href="#">KU main homepage</a></li>
-								<li><a href="#">국제입학팀</a></li>
-								<li><a href="#">도서관</a></li>
-								<li><a href="#">외국어센터</a></li>
-								<li><a href="#">국제하계대학</a></li>
-								<li><a href="#">국제동계대학</a></li>
-							</ul>
-						</li>
+						<li><a href="/service/useful_sites.php">Useful Sites</a></li>
 					</ul>
 				</li>
 			</ul>

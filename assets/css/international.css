@@ -1367,7 +1367,6 @@ address {
       content: ":";
       margin: 0 3px; }
   .insurance #insurance-1 dl dd {
-    float: left;
     font-size: 13px;
     color: #666;
     font-weight: 300;
@@ -1604,7 +1603,6 @@ address {
     .insurance #insurance-2 .inquiries dt.location:before {
       content: "\E811"; }
   .insurance #insurance-2 .inquiries dd {
-    float: left;
     font-weight: 300;
     line-height: 25px; }
     .insurance #insurance-2 .inquiries dd a {
@@ -1701,7 +1699,6 @@ address {
     .scolarships .inquiries dt.email:before {
       content: "\E803"; }
   .scolarships .inquiries dd {
-    float: left;
     font-weight: 300;
     line-height: 25px; }
     .scolarships .inquiries dd a {

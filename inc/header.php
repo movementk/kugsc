@@ -145,14 +145,15 @@
 										<div class="col-xs-9">
 											<div class="nav-body">
 												<ul class="row">
-													<li class="col-xs-4"><a href="#">Student Life</a></li>
-													<li class="col-xs-4"><a href="#">Student Counseling Service</a></li>
-													<li class="col-xs-4"><a href="#">Student Disability Support Center</a></li>
-													<li class="col-xs-4"><a href="#"><span>Academic Mentoring program - KUCTL</span></a></li>
-													<li class="col-xs-4"><a href="#">One-Stop Service Center</a></li>
-													<li class="col-xs-4"><a href="#">Health Center</a></li>
-													<li class="col-xs-4"><a href="#">Facilities</a></li>
-													<li class="col-xs-4"><a href="#">Useful Sites</a></li>
+													<li class="col-xs-4"><a href="/service/accomodation.php">Accomodation</a></li>
+													<li class="col-xs-4"><a href="/service/student_life.php">Student Life</a></li>
+													<li class="col-xs-4"><a href="/service/counseling_service.php">Student Counseling Service</a></li>
+													<li class="col-xs-4"><a href="/service/support_center.php">Student Disability Support Center</a></li>
+													<li class="col-xs-4"><a href="/service/mentoring_program.php"><span>Academic Mentoring program - KUCTL</span></a></li>
+													<li class="col-xs-4"><a href="/service/service_center.php">One-Stop Service Center</a></li>
+													<li class="col-xs-4"><a href="/service/health_center.php">Health Center</a></li>
+													<li class="col-xs-4"><a href="/service/libraries.php">Facilities</a></li>
+													<li class="col-xs-4"><a href="/service/useful_sites.php">Useful Sites</a></li>
 												</ul>
 											</div>
 										</div>
