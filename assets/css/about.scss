@@ -357,7 +357,16 @@
 	}
 	.page-common {
 		.main-building {
-			margin-bottom: 60px;	
+			margin-bottom: 60px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 300px;
+			height: 250px;
+			background-color: #eee;
+			@media (min-width: $sm) {
+				width: 100%;
+				height: 400px;
+			}
 		}
 		.u-title {
 			margin-bottom: 15px;

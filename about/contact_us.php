@@ -32,11 +32,9 @@
                   
                   	<div class="page-common">
                    
-						<p class="main-building">
-							<img class="img-responsive visible-xs" src="/assets/images/about/contact/img_main_building_xs.jpg" alt="Korea University Main Building">
-							<img class="img-responsive visible-sm" src="/assets/images/about/contact/img_main_building_sm.jpg" alt="Korea University Main Building">
-							<img class="img-responsive visible-md visible-lg" src="/assets/images/about/contact/img_main_building_lg.jpg" alt="Korea University Main Building">
-						</p>
+						<div class="main-building">
+							구글 지도 연동 영역
+						</div>
 
 						<h5 class="u-title">International students <br class="visible-xs">(Undergraduate Program)</h5>
 						<dl>
