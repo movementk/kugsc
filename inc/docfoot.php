@@ -5,10 +5,8 @@
 <!-- 구글맵 연동 -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV_5tzP2rxKQqcEJi_wKoJ87cFDts9RsU&signed_in=true"></script>
 <script>
-function google_init(x,y) {
-	var geocoder;
+function google_init(x,y,target) {
 	var map;
-	geocoder = new google.maps.Geocoder();
 	var myLatlng = new google.maps.LatLng(x,y);
 	var myOptions = {
 		zoom: 16,
@@ -16,9 +14,9 @@ function google_init(x,y) {
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
 
-	var map = new google.maps.Map(document.getElementById("map"), myOptions);
+	var map = new google.maps.Map(document.getElementById(target), myOptions);
 
-	var image = "";
+	var image = "/assets/images/kugsc-marker.png";
 
 	var marker = new google.maps.Marker({
 		position: myLatlng,

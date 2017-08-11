@@ -349,7 +349,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-7 col-lg-6">
 					<div class="map">
-						<div></div>
+						<div id="map"></div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-lg-3">
@@ -400,10 +400,10 @@
 			$("#statistics .contries .list > ul > li > div").mCustomScrollbar({
 				theme: "light-3"
 			});
-			
+
+			google_init('37.589169', '127.032638',"map");
 		});
 	})(jQuery);
 </script>
-
 </body>
 </html>

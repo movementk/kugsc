@@ -32,9 +32,8 @@
                   
                   	<div class="page-common">
                    
-						<div class="main-building">
-							구글 지도 연동 영역
-						</div>
+						<div class="main-building" id="map1">
+</div>
 
 						<h5 class="u-title">International students <br class="visible-xs">(Undergraduate Program)</h5>
 						<dl>
@@ -212,9 +211,7 @@
 						</div>
 						<div role="tabpanel" class="tab-pane" id="about-us-4">
 							<h4 class="title">Campus map</h4>
-							<div class="map">
-								구글지도 연동 영역(개발 후 확인 가능함)
-							</div>
+							<div class="map" id="map2"></div>
 						</div>
 					</div>
                     
@@ -228,6 +225,42 @@
 
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot_sub.php"); ?>
+<script>
+	var map2, myLatlng;
+	(function($) {
+		$(window).on("load", function() {
+			google_init('37.589169', '127.032638',"map1");
+		});
 
+		$("a[data-toggle='tab']").on("shown.bs.tab", function(e){
+			var idx = $("a[data-toggle='tab']").index(this);
+			if(idx == 3){
+				myLatlng = new google.maps.LatLng(37.589169, 127.032638);
+				var myOptions = {
+					zoom: 16,
+					center: myLatlng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+				map2 = new google.maps.Map(document.getElementById("map2"), myOptions);
+
+				var image = "/assets/images/kugsc-marker.png";
+
+				var marker = new google.maps.Marker({
+					position: myLatlng,
+					map: map2,
+					icon: image
+				});
+
+				console.dir(map2);
+				google.maps.event.trigger(map2, 'resize');
+			}
+			//Campus map
+		});
+
+		$(window).on("resize", function(){
+			map2.setCenter(myLatlng);
+		});
+	})(jQuery);
+</script>
 </body>
 </html>
