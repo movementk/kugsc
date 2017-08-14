@@ -776,7 +776,7 @@
 					display: block;
 					padding: 15px 10px;
 					text-decoration: none;
-					background-color: #eaeaea;
+					background-color: #f5f5f5;
 					.date {
 						float: left;
 						margin-right: 10px;
@@ -807,11 +807,8 @@
 						margin-top: 15px;
                         margin-bottom: 0 !important;
 						color: rgba(#666, .7);
-						font-size: 12px;
+						font-size: 12px !important;
 						line-height: 16px !important;
-                        @media(min-width: $sm) {
-                            line-height: 20px !important;
-                        }
 					}
 				}
 				& + li {
