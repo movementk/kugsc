@@ -54,9 +54,17 @@
                                             <ol class="co-list">
                                                 <li>
                                                     Enrolling
-                                                    <p class="dott">
-                                                        Pay your tuition and other optional fees, especially mutual health aid association fee
-                                                    </p>
+                                                    <ul>
+                                                    	<li>
+                                                    		Pay your tuition and other optional fees, especially mutual health aid association fee
+                                                    		<ul>
+                                                    			<li>Pay your tuition and other optional fees, especially mutual health aid association fee</li>
+                                                    			<li>Pay your tuition and other optional fees, especially mutual health aid association fee</li>
+                                                    			<li>Pay your tuition and other optional fees, especially mutual health aid association fee</li>
+                                                    		</ul>
+                                                    	</li>
+                                                    	<li>Pay your tuition and other optional fees, especially mutual health aid association fee</li>
+                                                    </ul>
                                                 </li>
                                                 <li>Find <i>Accommodation</i></li>
                                                 <li>Getting to KU – <i>Airport Pickup Service</i></li>

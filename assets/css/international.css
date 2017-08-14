@@ -1184,32 +1184,52 @@ address {
   margin-top: 0 !important; }
   .student-orientation .co-list li:last-child {
     margin-bottom: 0 !important; }
-.student-orientation .collapse-list ul li {
+.student-orientation .collapse-list > ul > li {
   margin-bottom: 30px; }
-  .student-orientation .collapse-list ul li:last-child {
+  .student-orientation .collapse-list > ul > li:last-child {
     margin-bottom: 0; }
-  .student-orientation .collapse-list ul li .collapse-content .well .co-list {
+  .student-orientation .collapse-list > ul > li .collapse-content .well .co-list {
     margin-bottom: 0 !important; }
-    .student-orientation .collapse-list ul li .collapse-content .well .co-list li {
-      margin-bottom: 20px; }
-  .student-orientation .collapse-list ul li .collapse-content .well i {
+    .student-orientation .collapse-list > ul > li .collapse-content .well .co-list > li {
+      margin-bottom: 20px;
+      font-size: 20px; }
+      .student-orientation .collapse-list > ul > li .collapse-content .well .co-list > li > ul > li {
+        position: relative;
+        margin-top: 10px !important;
+        padding-left: 10px; }
+        .student-orientation .collapse-list > ul > li .collapse-content .well .co-list > li > ul > li:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-family: "fontello";
+          content: "\E80B"; }
+        .student-orientation .collapse-list > ul > li .collapse-content .well .co-list > li > ul > li > ul > li {
+          position: relative;
+          padding-left: 10px; }
+          .student-orientation .collapse-list > ul > li .collapse-content .well .co-list > li > ul > li > ul > li:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "-";
+            font-family: "fontello"; }
+  .student-orientation .collapse-list > ul > li .collapse-content .well i {
     color: #991333;
     font-style: normal; }
-  .student-orientation .collapse-list ul li .collapse-content .well .dott {
+  .student-orientation .collapse-list > ul > li .collapse-content .well .dott {
     position: relative;
     font-size: 12px !important;
     color: #666;
     line-height: 20px;
     opacity: .8;
     padding-left: 10px; }
-    .student-orientation .collapse-list ul li .collapse-content .well .dott:before {
+    .student-orientation .collapse-list > ul > li .collapse-content .well .dott:before {
       position: absolute;
       top: 0;
       left: 0;
       content: "\E80B";
       font-family: "fontello";
       margin-right: 5px; }
-  .student-orientation .collapse-list ul li .collapse-content .well a {
+  .student-orientation .collapse-list > ul > li .collapse-content .well a {
     position: relative;
     display: block !important;
     color: #777 !important;
@@ -1217,9 +1237,9 @@ address {
     opacity: .8;
     line-height: 16px;
     margin-top: 5px; }
-    .student-orientation .collapse-list ul li .collapse-content .well a:first-child {
+    .student-orientation .collapse-list > ul > li .collapse-content .well a:first-child {
       margin-top: 10px; }
-    .student-orientation .collapse-list ul li .collapse-content .well a:before {
+    .student-orientation .collapse-list > ul > li .collapse-content .well a:before {
       position: absolute;
       top: 0;
       left: 0;
