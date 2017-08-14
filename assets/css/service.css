@@ -540,7 +540,7 @@ address {
   display: block;
   padding: 15px 10px;
   text-decoration: none;
-  background-color: #eaeaea; }
+  background-color: #f5f5f5; }
   .upcoming-events .upcoming-list ol li .list-content .date {
     float: left;
     margin-right: 10px;
@@ -567,11 +567,8 @@ address {
     margin-top: 15px;
     margin-bottom: 0 !important;
     color: rgba(102, 102, 102, 0.7);
-    font-size: 12px;
+    font-size: 12px !important;
     line-height: 16px !important; }
-    @media (min-width: 768px) {
-      .upcoming-events .upcoming-list ol li .list-content p {
-        line-height: 20px !important; } }
 .upcoming-events .upcoming-list ol li + li {
   margin-top: 5px; }
 .upcoming-events .paging {
