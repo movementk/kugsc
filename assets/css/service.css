@@ -536,4 +536,45 @@ address {
       padding-left: 10px !important;
       padding-right: 10px !important; } }
 
+.upcoming-events .upcoming-list ol li .list-content {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  background-color: #eaeaea; }
+  .upcoming-events .upcoming-list ol li .list-content .date {
+    float: left;
+    margin-right: 10px;
+    width: 35px;
+    height: 40px;
+    background-color: #920326;
+    color: #fff;
+    text-align: center;
+    line-height: 14px; }
+    .upcoming-events .upcoming-list ol li .list-content .date .day {
+      display: block;
+      margin-top: 7px;
+      font-size: 16px; }
+    .upcoming-events .upcoming-list ol li .list-content .date .month {
+      display: block;
+      font-size: 10px; }
+  .upcoming-events .upcoming-list ol li .list-content h5 {
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    min-height: 40px; }
+  .upcoming-events .upcoming-list ol li .list-content p {
+    margin-top: 15px;
+    margin-bottom: 0 !important;
+    color: rgba(102, 102, 102, 0.7);
+    font-size: 12px;
+    line-height: 16px !important; }
+    @media (min-width: 768px) {
+      .upcoming-events .upcoming-list ol li .list-content p {
+        line-height: 20px !important; } }
+.upcoming-events .upcoming-list ol li + li {
+  margin-top: 5px; }
+.upcoming-events .paging {
+  margin-top: 30px; }
+
 /*# sourceMappingURL=service.css.map */

@@ -142,45 +142,43 @@
                         </table>
                     </div>
                     <h4 class="u-title">Reading rooms</h4>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-sm-push-8">
-                                <figure>
-                                    <img src="/assets/images/service/room_img01.jpg" class="img-responsive" alt="">
-                                    <img src="/assets/images/service/room_img02.jpg" class="img-responsive hidden-xs" alt="">
-                                </figure>
-                            </div>
-                            <div class="col-xs-12 col-sm-8 col-sm-pull-4">
-                                <div class="detils">
-                                    <p>
-                                        Recently the university went on renovating many of what were previously called, ‘Reading Rooms’ for students. ‘Reading Rooms’ are tiny study cells where students traditionally used to cram for exams.  The freshly renovated reading room in the centennial memorial hall is called, the C-Lounge where the place is divided into zones such as Study Zone, Notebook Zone, Collaboration Zone and so forth. Each zone has different operating hours. <br>
-                                        The CJ Creator Library(CCL) is also designed to support students who wish to create multi-media contents and do start-ups in the media industry. Facilities such as open plan auditorium for academic gathering or events, studios with state of the art media equipments and technologies are all part of the newly renovated library. For more detailed information, of the use and operating hourse please visit <i>Korea University Library website</i>.
-                                    </p>
-                                    <p>
-                                        The library has its guide in both English and Korean language Library Guide : 
-                                    </p>
-                                    <ul class="dot-list">
-                                        <li>
-                                            <dl>
-                                                <dt>Library Guide</dt>
-                                                <dd>
-                                                    <a href="http://ibook.korea.ac.kr/Viewer/B3R28HIFK728" target="_blank">http://ibook.korea.ac.kr/Viewer/B3R28HIFK728</a> (English)
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <dl>
-                                                <dt>도서관 이용안내</dt>
-                                                <dd>
-                                                    <a href="http://ibook.korea.ac.kr/Viewer/PRGQQDBN6DOY" target="_blank">http://ibook.korea.ac.kr/Viewer/PRGQQDBN6DOY</a> (Korean)
-                                                </dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-sm-push-8">
+                            <figure>
+                                <img src="/assets/images/service/room_img01.jpg" class="img-responsive" alt="">
+                                <img src="/assets/images/service/room_img02.jpg" class="img-responsive hidden-xs" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-sm-pull-4">
+                            <div class="detils">
+                                <p>
+                                    Recently the university went on renovating many of what were previously called, ‘Reading Rooms’ for students. ‘Reading Rooms’ are tiny study cells where students traditionally used to cram for exams.  The freshly renovated reading room in the centennial memorial hall is called, the C-Lounge where the place is divided into zones such as Study Zone, Notebook Zone, Collaboration Zone and so forth. Each zone has different operating hours. <br>
+                                    The CJ Creator Library(CCL) is also designed to support students who wish to create multi-media contents and do start-ups in the media industry. Facilities such as open plan auditorium for academic gathering or events, studios with state of the art media equipments and technologies are all part of the newly renovated library. For more detailed information, of the use and operating hourse please visit <i>Korea University Library website</i>.
+                                </p>
+                                <p>
+                                    The library has its guide in both English and Korean language Library Guide : 
+                                </p>
+                                <ul class="dot-list">
+                                    <li>
+                                        <dl>
+                                            <dt>Library Guide</dt>
+                                            <dd>
+                                                <a href="http://ibook.korea.ac.kr/Viewer/B3R28HIFK728" target="_blank">http://ibook.korea.ac.kr/Viewer/B3R28HIFK728</a> (English)
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt>도서관 이용안내</dt>
+                                            <dd>
+                                                <a href="http://ibook.korea.ac.kr/Viewer/PRGQQDBN6DOY" target="_blank">http://ibook.korea.ac.kr/Viewer/PRGQQDBN6DOY</a> (Korean)
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                    
-                    
+                    </div>
                 </div>
 			</div>
 		</div>

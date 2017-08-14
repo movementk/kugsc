@@ -154,6 +154,7 @@
 													<li class="col-xs-4"><a href="/service/health_center.php">Health Center</a></li>
 													<li class="col-xs-4"><a href="/service/libraries.php">Facilities</a></li>
 													<li class="col-xs-4"><a href="/service/useful_sites.php">Useful Sites</a></li>
+													<li class="col-xs-4"><a href="/service/upcoming_events.php">Upcoming Events</a></li>
 												</ul>
 											</div>
 										</div>
