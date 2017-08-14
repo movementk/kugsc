@@ -227,15 +227,15 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot_sub.php"); ?>
 <script>
 	var map2, myLatlng;
-	(function($) {
+	(function($) {		
 		$(window).on("load", function() {
-			google_init('37.589169', '127.032638',"map1");
+			google_init('37.588980', '127.033614',"map1");
 		});
 
 		$("a[data-toggle='tab']").on("shown.bs.tab", function(e){
 			var idx = $("a[data-toggle='tab']").index(this);
 			if(idx == 3){
-				myLatlng = new google.maps.LatLng(37.589169, 127.032638);
+				myLatlng = new google.maps.LatLng(37.588980, 127.033614);
 				var myOptions = {
 					zoom: 16,
 					center: myLatlng,
