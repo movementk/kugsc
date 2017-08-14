@@ -86,6 +86,7 @@
 							</ul>
 						</li>
 						<li><a href="/service/useful_sites.php">Useful Sites</a></li>
+						<li><a href="/service/upcoming_events.php">Upcoming Events</a></li>
 					</ul>
 				</li>
 			</ul>

@@ -768,7 +768,62 @@
     }
 }
 
-
+.upcoming-events {
+    .upcoming-list {
+		ol {
+			li {
+				.list-content {
+					display: block;
+					padding: 15px 10px;
+					text-decoration: none;
+					background-color: #eaeaea;
+					.date {
+						float: left;
+						margin-right: 10px;
+						width: 35px;
+						height: 40px;
+						background-color: $kcolor;
+						color: #fff;
+						text-align: center;
+						line-height: 14px;
+						.day {
+							display: block;
+							margin-top: 7px;
+							font-size: 16px;
+						}
+						.month {
+							display: block;
+							font-size: 10px;
+						}
+					}
+					h5 {
+						color: #333;
+						font-weight: bold;
+						font-size: 12px;
+						line-height: 20px;
+						min-height: 40px;
+					}
+					p {
+						margin-top: 15px;
+                        margin-bottom: 0 !important;
+						color: rgba(#666, .7);
+						font-size: 12px;
+						line-height: 16px !important;
+                        @media(min-width: $sm) {
+                            line-height: 20px !important;
+                        }
+					}
+				}
+				& + li {
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+    .paging {
+        margin-top: 30px;
+    }
+}
 
 
 
