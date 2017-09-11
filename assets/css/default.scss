@@ -42,6 +42,14 @@ body {
 	}
 }
 
+.Highlighted {
+	background-color: $kcolor;
+	border-radius: 5px;
+	a {
+		color: #fff !important;
+	}
+}
+
 .container,
 .container-fluid {
     padding-left: 10px;
@@ -113,8 +121,10 @@ body {
 			display: block;
 			width: 100%;
 			height: 100%;
-			background-image: url(/assets/images/logo_crimson_xs.png);
+			background-image: url(/assets/images/logo_crimson.png);
 			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
 		}
 	}
 	.btn-nav-open {
@@ -133,9 +143,11 @@ body {
 			margin-top: 22px;
 			width: 193px;
 			height: 34px;
+			/*
 			a {
-				background-image: url(/assets/images/logo_crimson_sm.png);
+				background-image: url(/assets/images/logo_crimson.png);
 			}
+			*/
 		}
 		.btn-nav-open {
 			margin-top: 9px;
@@ -167,8 +179,8 @@ body {
 						position: relative;
 						float: left;
 						height: 30px;
-						font-size: 18px;
-						color: #333;
+						font-size: 19px;
+						color: #111;
 						text-decoration: none;
 						.bar {
 							position: absolute;
@@ -206,27 +218,42 @@ body {
 						left: 0;
 						width: 100%;
 						height: 427px;
-						background-color: #fff;
+						background-color: #f5f5f5;
 						text-align: left;
 						color: #333;
 						.nav-head {
 							margin-top: 60px;
 							h4 {
 								margin-bottom: 25px;
-								font-size: 24px;
+								font-size: 22px;
 								color: $kcolor;
+								font-weight: bold;
 							}
-							figure {
-								figcaption {
-									margin-top: 15px;
-									font-size: 13px;
-									line-height: 18px;
-									color: #777;
+							small {
+								position: absolute;
+								top: 60px;
+								left: 250px;
+								font-size: 14px;
+								line-height: 24px;
+								color: $kcolor;
+								width: 500px;
+								&:before {
+									margin-right: 10px;
+									content: "-";
 								}
 							}
 						}
 						.nav-body {
+							position: relative;
 							margin-top: 110px;
+							> p {
+								position: absolute;
+								top: -48px;
+								font-size: 14px;
+								line-height: 24px;
+								color: $kcolor;
+								width: 500px;
+							}
 							> ul {
 								> li {
 									a {
@@ -242,7 +269,6 @@ body {
 										font-size: 15px;
 										text-decoration: none;
 										border-bottom: 1px solid #ccc;
-										color: #555;
 										@include trans();
 										span {
 											word-spacing: -1px;
@@ -342,8 +368,10 @@ body.scrolled {
 					display: block;
 					width: 100%;
 					height: 100%;
-					background-image: url(/assets/images/logo_white_xs.png);
+					background-image: url(/assets/images/logo_white.png);
 					background-repeat: no-repeat;
+					background-size: cover;
+					backgronnd-position: 50% 50%;
 				}
 			}
 			.btn-nav-close {
@@ -390,7 +418,7 @@ body.scrolled {
 								padding: 12px 10px 12px 20px;
 								font-size: 13px;
 								line-height: 20px;
-								color: #777;
+								color: #333;
 								border-top: 1px solid rgba(#000, .2);
 							}
 							&:first-child {
@@ -536,8 +564,11 @@ body.nav-opened {
 		margin-right: auto;
 		width: 138px;
 		height: 24px;
-		background-image: url(/assets/images/logo_footer_xs.png);
+		//background-image: url(/assets/images/logo_footer_xs.png);
+		background-image: url(/assets/images/logo_crimson.png);
 		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
 	}
 	.copyright {
 		color: #777;
@@ -557,7 +588,7 @@ body.nav-opened {
 		}
 	}
 	@media (min-width: $lg) {
-		margin-top: 120px;
+		margin-top: 0 !important;
 		padding-bottom: 30px;
 		.logo {
 			margin-bottom: 15px;

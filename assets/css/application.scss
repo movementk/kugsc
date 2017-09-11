@@ -234,13 +234,13 @@ textarea.form-control {
 				border-color: #930629;
 			}
 			.btn-download {
-				width: 234px;
+				width: 245px;
 				background-color: #7f7f7f;
 				border-color: #7f7f7f;
 			}
 			.down {
-				margin-left: 45px;
-				padding-left: 45px;
+				margin-left: 40px;
+				padding-left: 40px;
 				border-left: 1px solid #ccc;
 			}
 		}
@@ -278,9 +278,12 @@ textarea.form-control {
 	#content {
 		.form-wrap {
 			h4 {
+				padding-top: 27px;
+				padding-left: 40px;
 				width: 552px;
 				@include noto();
 				font-weight: 300;
+				font-size: 14px;
 				background-image: url(/assets/images/application/bg_fieldset_head_2.png);
 			}
 		}
@@ -949,8 +952,8 @@ textarea.form-control {
                 background: none;
                 box-shadow: none;
             }
-            &.btn-cancel {background-color: #b8b8b8;}
-            &.btn-prev {background-color: #b8b8b8;}
+            &.btn-cancel {background-color: #7f7f7f;}
+            &.btn-prev {background-color: #7f7f7f;}
             &.btn-next {background-color: #900020;}
             &.btn-send {background-color: #900020;}
         }

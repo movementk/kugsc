@@ -9,7 +9,9 @@ body {
 	background-color: transparent;
 	.logo {
 		a {
-			background-image: url(/assets/images/logo_white_xs.png);
+			background-image: url(/assets/images/logo_white.png);
+			background-size: cover;
+			background-position: 50% 50%;
 		}
 	}
 	.btn-nav-open {
@@ -18,7 +20,7 @@ body {
 	@media (min-width: $sm) {
 		.logo {
 			a {
-				background-image: url(/assets/images/logo_white_sm.png);
+				background-image: url(/assets/images/logo_white.png);
 			}
 		}
 	}
@@ -46,7 +48,9 @@ body.scrolled {
 		background-color: #fff;
 		.logo {
 			a {
-				background-image: url(/assets/images/logo_crimson_xs.png);
+				background-image: url(/assets/images/logo_crimson.png);
+				background-size: cover;
+				background-position: 50% 50%;
 			}
 		}
 		.btn-nav-open {
@@ -56,9 +60,11 @@ body.scrolled {
 	@media (min-width: $sm) {
 		#header {
 			.logo {
+				/*
 				a {
 					background-image: url(/assets/images/logo_crimson_sm.png); 
 				}
+				*/
 			}
 		}
 	}
@@ -73,7 +79,7 @@ body.scrolled {
 				> ul {
 					> li {
 						> a {
-							color: inherit;
+							color: #111;
 						}
 						&.active {
 							> a {
@@ -112,7 +118,7 @@ body.scrolled {
 		.item-1 {
 			.carousel-caption {
 				position: relative;
-				top: 150px;
+				top: 110px; 
 				text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.12);
 				h2 {
 					margin-bottom: 10px;
@@ -165,20 +171,37 @@ body.scrolled {
 				}
 			}
 		}
+		.item-3 {
+			.carousel-caption {
+				position: relative;
+				top: 290px;
+				text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.12);
+				text-align: left;
+				max-width: none;
+				h2 {
+					font-size: 24px;
+					line-height: 30px;
+					font-weight: bold;
+					text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+				}
+			}
+		}
 		@media (min-width: $sm) {
 			.item {
 				height: 558px;
 			}
 			.item-1 {
 				.carousel-caption {
-					top: 200px;
-					max-width: 476px;
+					top: 140px;
+					max-width: 500px;
 					h2 {
 						margin-bottom: 30px;
-						font-size: 46px;
+						font-size: 40px;
 						line-height: 50px;
 					}
 					p {
+						padding-right: 50px;
+    					padding-left: 50px;
 						font-size: 16px;
 						line-height: 20px;
 					}
@@ -222,12 +245,30 @@ body.scrolled {
 					}
 					.more {
 						display: inline-block;
-						margin-top: 20px;
+						margin-top: 10px;
 						color: #fff;
 						font-size: 14px;
 						line-height: 20px;
 						text-decoration: underline;
 					}
+				}
+			}
+			.item-3 {
+				.carousel-caption {
+					top: 400px;
+					padding: 0;
+					max-width: 710px;
+					h2 {
+						font-size: 40px;
+						line-height: 50px;
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			.item-3 {
+				.carousel-caption {
+					max-width: 940px;
 				}
 			}
 		}
@@ -239,8 +280,10 @@ body.scrolled {
 				.carousel-caption {
 					top: 316px;
 					padding-top: 50px;
+					padding-left: 25px;
+					padding-right: 25px;
 					max-width: 852px;
-					height: 216px;
+					height: 286px;
 					small {
 						position: absolute;
 						top: -25px;
@@ -252,6 +295,10 @@ body.scrolled {
 					h2 {
 						margin-bottom: 40px;
 						font-size: 48px;
+					}
+					p {
+						padding-right: 100px;
+    					padding-left: 100px;
 					}
 					.bar {
 						position: absolute;
@@ -308,6 +355,15 @@ body.scrolled {
 					}
 				}
 			}
+			.item-3 {
+				.carousel-caption {
+					top: 750px;
+					max-width: 1170px;
+					h2 {
+						font-size: 48px;
+					}
+				}
+			}
 		}
 	}
 	.carousel-indicators {
@@ -333,13 +389,13 @@ body.scrolled {
 
 #community {
 	margin: 10px auto 0;
-	max-width: 320px;
 	#sns {
 		margin-bottom: 25px;
 		> ul {
 			overflow: hidden;
 			margin: -5px;
 			> li {
+				position: relative;
 				float: left;
 				padding: 5px;
 				width: 50%;
@@ -387,6 +443,65 @@ body.scrolled {
 							background-image: url(/assets/images/main/ico_buddy.png);
 							background-size: auto 45px;
 							background-position: 50% 27px;
+						}
+					}
+					&.buddy, &.announcements {
+						& + div {
+							display: none;
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							padding: 5px;
+							ul {
+								padding-top: 5px;
+								padding-bottom: 5px;
+								height: 100%;
+								background-color: rgba(#000, .75);
+								li {
+									padding: 5px 10px;
+									height: 50%;
+									a {
+										display: block;
+										padding-top: 7px;
+										padding-bottom: 7px;
+										width: 100%;
+										height: 100%;
+										line-height: 16px;
+										color: #fff;
+										border: 1px solid #fff;
+										text-align: center;
+										text-decoration: none;
+										&:hover, &:focus {
+											background-color: #fff;
+											color: #111;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.selected {
+					> a {
+						&.buddy, &.announcements {
+							& + div {
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $sm) {
+			> ul {
+				> li {
+					> a {
+						&.buddy, &.announcements {
+							& + div {
+								display: none !important;
+							}
 						}
 					}
 				}
@@ -440,6 +555,9 @@ body.scrolled {
 						font-size: 12px;
 						line-height: 16px;
 						font-family: "Tahoma", sans-serif;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
 					}
 				}
 				& + li {
@@ -500,15 +618,16 @@ body.scrolled {
 				> figcaption {
 					margin-left: 370px;
 					h5 {
-						margin-bottom: 25px;
+						margin-bottom: 15px;
 						font-size: 16px;
 						line-height: 24px;
+                        padding-top: 0;
 						a {
 							color: #333;
 						}
 					}
 					ul {
-						margin-bottom: 35px;
+						margin-bottom: 20px;
 						li {
 							display: inline-block;
 							font-size: 12px;
@@ -523,6 +642,10 @@ body.scrolled {
 							}
 						}
 					}
+                    > div {
+                        overflow: hidden;
+                        height: 108px;
+                    }
 					p {
 						font-size: 13px;
 						line-height: 20px;
@@ -740,10 +863,12 @@ body.scrolled {
 				> figcaption {
 					margin-left: 420px;
 					h5 {
-						padding-top: 75px;
 						font-size: 20px;
 						line-height: 28px;
 					}
+                    > div {
+                        height: 182px;
+                    }
 					ul {
 						margin-bottom: 30px;
 						li {
@@ -955,15 +1080,12 @@ body.scrolled {
 						height: 145px;
 						ul {
 							> li {
-								> a {
-									display: block;
-									padding-top: 5px;
-									padding-bottom: 5px;
-									font-size: 12px;
-									line-height: 14px;
-									color: #666;
-									font-family: "Tahoma", sans-serif;
-								}
+								padding-top: 5px;
+								padding-bottom: 5px;
+								font-size: 12px;
+								line-height: 14px;
+								color: #666;
+								font-family: "Tahoma", sans-serif;
 							}
 						}
 						.mCSB_inside > .mCSB_container {
@@ -1120,7 +1242,6 @@ body.scrolled {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	margin: 0 auto;
-	max-width: 320px;
 	h5 {
 		font-size: 16px;
 		line-height: 20px;
@@ -1161,7 +1282,7 @@ body.scrolled {
 	}
 	ul {
 		li {
-			margin-top: 20px;
+			margin-top: 16px;
 			font-size: 12px;
 			line-height: 18px;
 			font-family: "Tahoma", sans-serif;
@@ -1180,10 +1301,6 @@ body.scrolled {
 		margin-bottom: 35px;
 		> div {
 			height: 285px;
-			background-image: url(/assets/images/main/img_map.jpg);
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: 50% 50%;
 		}
 	}
 	

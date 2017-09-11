@@ -175,6 +175,18 @@
         color: #111;
         margin: 60px 0 30px;
     }
+    .table-responsive { 
+    	.table {
+    		th {
+    			color: #fff !important;
+    			background: #6e8e3b; /* Old browsers */
+				background: -moz-linear-gradient(top, #a7bb89 0%, #6e8e3b 50%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #a7bb89 0%, #6e8e3b 50%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #a7bb89 0%, #6e8e3b 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7bb89', endColorstr='#6e8e3b',GradientType=0 ); /* IE6-9 */
+    		}
+    	}
+    }
     .btn-area {
         text-align: center;
         @media(min-width: $sm) {
@@ -283,7 +295,7 @@
 
 .support-center {
     .title {
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .u-title {
         margin-top: 60px;
@@ -296,7 +308,7 @@
         display: block;
         font-size: 12px;
         line-height: 20px !important;
-        color: #aaa;
+        color: #666;
         margin: 0 !important;
     }
     dl {
@@ -359,17 +371,7 @@
     ol {
         li {
             position: relative;
-            width: 100%;
             margin-bottom: 50px;
-            &:after {
-                position: absolute;
-                bottom: -37px;
-                left: 50%;
-                margin-left: -8px;
-                font-size: 20px;
-                content: "\E80D";
-                font-family: "fontello";
-            }
             &:last-child {
                 margin-bottom: 0;
                 &:after {
@@ -382,7 +384,7 @@
                 font-size: 13px;
                 line-height: 44px;
                 text-align: center;
-                background-color: #8b8b8b;
+                background-color: #77c27c;
             }
             .details {
                 border: 1px solid #e8e8e8;
@@ -390,6 +392,11 @@
                 text-align: center;
                 font-size: 13px;
                 line-height: 20px;
+            }
+            @media (min-width: $sm) {
+            	.details {
+            		min-height: 125px;
+            	}
             }
         }
     }
@@ -401,6 +408,10 @@
     }
     .u-title {
         margin-top: 60px;
+        &.none-under {
+            margin-top: 40px !important;
+            text-decoration: none !important;
+        }
     }
     .space {
         margin-top: 25px;
@@ -450,8 +461,8 @@
                         float: left;
                         clear: both;
                         font-size: 12px;
-                        color: #777;
-                        opacity: .8;
+                        //color: #333;
+                        //opacity: .8;
                         line-height: 20px;
                         font-weight: 300;
                         padding-left: 25px;
@@ -488,12 +499,12 @@
                     }
                     dd {
                         font-size: 12px;
-                        color: #777;
-                        opacity: .8;
+                        //color: #333;
+                        //opacity: .8;
                         font-weight: 300;
                         line-height: 20px;
                         a {
-                            color: #777 !important;
+                            color: #333 !important;
                         }
                     }
                 }
@@ -520,7 +531,7 @@
             float: left;
             clear: both;
             font-size: 12px;
-            color: #777;
+            //color: #333;
             opacity: .8;
             line-height: 20px;
             font-weight: 300;
@@ -562,12 +573,12 @@
         }
         dd {
             font-size: 12px;
-            color: #777;
+            //color: #333;
             opacity: .8;
             font-weight: 300;
             line-height: 20px;
             a {
-                color: #777 !important;
+                color: #333 !important;
             }
             @media(min-width: $sm) {
                 font-size: 14px;
@@ -604,6 +615,9 @@
             i {
                 font-style: normal;
                 color: #910023;
+            }
+            &.m-zero {
+                margin-bottom: 0 !important;
             }
         }
         @media(min-width: $sm) {
@@ -806,7 +820,7 @@
 					p {
 						margin-top: 15px;
                         margin-bottom: 0 !important;
-						color: rgba(#666, .7);
+						//color: #333;
 						font-size: 12px !important;
 						line-height: 16px !important;
 					}

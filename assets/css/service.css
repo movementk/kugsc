@@ -116,6 +116,18 @@ address {
   font-size: 15px;
   color: #111;
   margin: 60px 0 30px; }
+.student-life .table-responsive .table th {
+  color: #fff !important;
+  background: #6e8e3b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a7bb89 0%, #6e8e3b 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a7bb89 0%, #6e8e3b 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a7bb89 0%, #6e8e3b 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7bb89', endColorstr='#6e8e3b',GradientType=0 );
+  /* IE6-9 */ }
 .student-life .btn-area {
   text-align: center; }
   @media (min-width: 768px) {
@@ -197,7 +209,7 @@ address {
         width: 270px; } }
 
 .support-center .title {
-  margin-top: 100px; }
+  margin-top: 60px; }
 .support-center .u-title {
   margin-top: 60px; }
 .support-center .note {
@@ -207,7 +219,7 @@ address {
   display: block;
   font-size: 12px;
   line-height: 20px !important;
-  color: #aaa;
+  color: #666;
   margin: 0 !important; }
 .support-center dl {
   overflow: hidden; }
@@ -243,16 +255,7 @@ address {
   margin-top: 100px; }
 .mentoring-program ol li {
   position: relative;
-  width: 100%;
   margin-bottom: 50px; }
-  .mentoring-program ol li:after {
-    position: absolute;
-    bottom: -37px;
-    left: 50%;
-    margin-left: -8px;
-    font-size: 20px;
-    content: "\E80D";
-    font-family: "fontello"; }
   .mentoring-program ol li:last-child {
     margin-bottom: 0; }
     .mentoring-program ol li:last-child:after {
@@ -263,18 +266,24 @@ address {
     font-size: 13px;
     line-height: 44px;
     text-align: center;
-    background-color: #8b8b8b; }
+    background-color: #77c27c; }
   .mentoring-program ol li .details {
     border: 1px solid #e8e8e8;
     padding: 30px 0;
     text-align: center;
     font-size: 13px;
     line-height: 20px; }
+  @media (min-width: 768px) {
+    .mentoring-program ol li .details {
+      min-height: 125px; } }
 
 .service-center .title {
   margin-top: 100px; }
 .service-center .u-title {
   margin-top: 60px; }
+  .service-center .u-title.none-under {
+    margin-top: 40px !important;
+    text-decoration: none !important; }
 .service-center .space {
   margin-top: 25px; }
 .service-center .note i span {
@@ -305,8 +314,6 @@ address {
       float: left;
       clear: both;
       font-size: 12px;
-      color: #777;
-      opacity: .8;
       line-height: 20px;
       font-weight: 300;
       padding-left: 25px; }
@@ -328,12 +335,10 @@ address {
         content: "\E811"; }
     .service-center .box .co-list li dl dd {
       font-size: 12px;
-      color: #777;
-      opacity: .8;
       font-weight: 300;
       line-height: 20px; }
       .service-center .box .co-list li dl dd a {
-        color: #777 !important; }
+        color: #333 !important; }
   @media (min-width: 768px) {
     .service-center .box {
       padding: 40px 50px; } }
@@ -349,7 +354,6 @@ address {
     float: left;
     clear: both;
     font-size: 12px;
-    color: #777;
     opacity: .8;
     line-height: 20px;
     font-weight: 300;
@@ -376,12 +380,11 @@ address {
         line-height: 25px; } }
   .health-center dl dd {
     font-size: 12px;
-    color: #777;
     opacity: .8;
     font-weight: 300;
     line-height: 20px; }
     .health-center dl dd a {
-      color: #777 !important; }
+      color: #333 !important; }
     @media (min-width: 768px) {
       .health-center dl dd {
         font-size: 14px;
@@ -408,6 +411,8 @@ address {
     .libraries .detils p i {
       font-style: normal;
       color: #910023; }
+    .libraries .detils p.m-zero {
+      margin-bottom: 0 !important; }
   @media (min-width: 768px) {
     .libraries .detils {
       margin-top: 0; }
@@ -566,7 +571,6 @@ address {
   .upcoming-events .upcoming-list ol li .list-content p {
     margin-top: 15px;
     margin-bottom: 0 !important;
-    color: rgba(102, 102, 102, 0.7);
     font-size: 12px !important;
     line-height: 16px !important; }
 .upcoming-events .upcoming-list ol li + li {

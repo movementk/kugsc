@@ -81,7 +81,7 @@ address {
     .getting-prepared .page-content .ready-list ol li .details > div small {
       display: inline-block;
       font-size: 12px;
-      color: #a2a2a2;
+      color: #666;
       line-height: 16px; }
 
 .downloads .downloads-list ul li:last-child a {
@@ -138,16 +138,27 @@ address {
     display: table-cell;
     height: 76px;
     font-size: 13px;
-    color: #777;
+    color: #333;
     line-height: 18px !important;
     vertical-align: middle; }
 
 .absence-returning .account-information {
   margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-bottom: 30px; }
   @media (min-width: 768px) {
     .absence-returning .account-information {
-      margin-bottom: 70px; } }
+      margin-bottom: 40px; } }
+  .absence-returning .account-information .required-documents {
+    padding: 35px 10px 40px;
+    background-color: #f2f2f2; }
+    .absence-returning .account-information .required-documents:last-child {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .absence-returning .account-information .required-documents {
+        padding: 40px; } }
+    @media (min-width: 992px) {
+      .absence-returning .account-information .required-documents {
+        padding: 50px 50px 40px; } }
   .absence-returning .account-information .u-title {
     margin-bottom: 20px; }
     @media (min-width: 768px) {
@@ -180,6 +191,53 @@ address {
       top: 0;
       left: 0;
       content: "*"; }
+
+.change-information .required-documents {
+  padding: 35px 10px 40px;
+  background-color: #f2f2f2; }
+  .change-information .required-documents ~ .required-documents {
+    margin-top: 60px; }
+  .change-information .required-documents:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .change-information .required-documents {
+      padding: 40px; } }
+  @media (min-width: 992px) {
+    .change-information .required-documents {
+      padding: 50px 50px 40px; } }
+.change-information span {
+  display: inline-block;
+  text-decoration: underline; }
+.change-information .account-information {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    .change-information .account-information {
+      margin-bottom: 70px; } }
+  .change-information .account-information .u-title {
+    margin-top: 60px;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .change-information .account-information .u-title {
+        margin-bottom: 30px !important; } }
+  .change-information .account-information ul li {
+    position: relative;
+    padding-left: 15px;
+    line-height: 18px;
+    margin-bottom: 10px; }
+    .change-information .account-information ul li:last-child {
+      margin-bottom: 0; }
+    .change-information .account-information ul li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "\E80B";
+      font-size: 18px;
+      color: #333;
+      font-family: "fontello"; }
+  .change-information .account-information i {
+    font-style: normal;
+    color: #920326; }
 
 .accomodation .tabs {
   margin-top: 35px; }
@@ -288,7 +346,7 @@ address {
         .student-visa .required-documents .co-list li .dot-list {
           padding-top: 0; } }
       .student-visa .required-documents .co-list li .dot-list li {
-        color: #666;
+        color: #333;
         opacity: .8;
         margin-top: 15px; }
         .student-visa .required-documents .co-list li .dot-list li:before {
@@ -297,6 +355,9 @@ address {
         @media (min-width: 768px) {
           .student-visa .required-documents .co-list li .dot-list li {
             margin-top: 5px; } }
+        .student-visa .required-documents .co-list li .dot-list li span {
+          display: inline-block;
+          padding-left: 10px; }
     .student-visa .required-documents .co-list li p {
       display: block;
       color: #777;
@@ -311,17 +372,7 @@ address {
           margin-top: 10px;
           margin-bottom: 15px !important; } }
     .student-visa .required-documents .co-list li i {
-      position: relative;
-      display: inline-block;
-      padding-left: 10px;
-      color: #777; }
-      .student-visa .required-documents .co-list li i:before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        content: "*"; }
-      .student-visa .required-documents .co-list li i span {
-        color: #910023; }
+      color: #666; }
 
 .faq-list .tab-content .tab-pane .question-type {
   margin-bottom: 40px; }
@@ -420,7 +471,7 @@ address {
           font-style: normal;
           margin-right: 20px;
           color: #fff;
-          line-height: 26px;
+          line-height: 22px;
           border-radius: 50%;
           background-color: #483d3d; }
         .question-list .panel .panel-heading a.collapsed:after {
@@ -472,7 +523,7 @@ address {
           font-style: normal;
           margin-right: 20px;
           color: #fff;
-          line-height: 26px;
+          line-height: 22px;
           border-radius: 50%;
           background-color: #910023; }
 
@@ -487,10 +538,10 @@ address {
   background-color: #db073a; }
 
 .qna-list .search-form {
-  margin-bottom: 20px; }
+  margin-top: 20px; }
   @media (min-width: 768px) {
     .qna-list .search-form {
-      margin-bottom: 30px; } }
+      margin-top: 30px; } }
 .qna-list .table-responsive {
   margin-bottom: 0;
   border-color: #e3e3e3 !important; }
@@ -570,7 +621,7 @@ address {
         padding-left: 36px !important;
         background-image: url(/assets/images/international/reply_bg.gif);
         background-repeat: no-repeat;
-        background-position: 20px 20px; }
+        background-position: 20px 12px; }
         .qna-list .table-responsive .table tbody tr td.reply a:before {
           content: "RE :";
           font-weight: 400;
@@ -613,7 +664,8 @@ address {
       vertical-align: top !important;
       padding: 25px 10px 25px 20px !important;
       border-color: #e3e3e3 !important;
-      background-color: #f5f5f5; }
+      background-color: #f5f5f5;
+      width: 142px; }
       @media (min-width: 768px) {
         .qna-view .table-wrap .table tbody tr th {
           font-size: 14px !important; } }
@@ -634,7 +686,6 @@ address {
       .qna-view .table-wrap .table tbody tr td.content {
         line-height: 24px !important;
         border: 0;
-        display: inline-block;
         min-height: 370px; }
         @media (min-width: 768px) {
           .qna-view .table-wrap .table tbody tr td.content {
@@ -801,10 +852,10 @@ address {
   margin-top: 60px !important;
   margin-bottom: 60px !important; }
 .career .search-form {
-  margin-bottom: 20px; }
+  margin-top: 20px; }
   @media (min-width: 768px) {
     .career .search-form {
-      margin-bottom: 30px; } }
+      margin-top: 30px; } }
 .career .table-responsive {
   border-color: #e3e3e3 !important;
   margin-bottom: 0; }
@@ -824,6 +875,7 @@ address {
         display: none; }
         @media (min-width: 768px) {
           .career .table-responsive .table thead tr th:nth-of-type(1) {
+            width: 100px;
             display: table-cell; } }
       .career .table-responsive .table thead tr th:nth-of-type(2) {
         border-left: 0;
@@ -835,6 +887,7 @@ address {
         display: none; }
         @media (min-width: 768px) {
           .career .table-responsive .table thead tr th:nth-of-type(3) {
+            width: 120px;
             display: table-cell;
             border-left: 1px solid #e3e3e3; } }
     .career .table-responsive .table tbody tr td {
@@ -850,6 +903,7 @@ address {
         display: none; }
         @media (min-width: 768px) {
           .career .table-responsive .table tbody tr td:nth-of-type(1) {
+            width: 110px;
             display: table-cell; } }
       .career .table-responsive .table tbody tr td:nth-of-type(2) {
         width: 70%;
@@ -865,6 +919,7 @@ address {
         display: none; }
         @media (min-width: 768px) {
           .career .table-responsive .table tbody tr td:nth-of-type(3) {
+            width: 100px;
             display: table-cell; } }
       .career .table-responsive .table tbody tr td a {
         display: block;
@@ -884,7 +939,7 @@ address {
         padding-left: 36px !important;
         background-image: url(/assets/images/international/reply_bg.gif);
         background-repeat: no-repeat;
-        background-position: 20px 20px; }
+        background-position: 20px 12px; }
         .career .table-responsive .table tbody tr td.reply a:before {
           content: "RE :";
           font-weight: 400;
@@ -902,12 +957,17 @@ address {
       font-weight: 400;
       text-align: left !important;
       vertical-align: top !important;
-      padding: 25px 10px 25px 20px !important;
+      padding: 25px 10px 25px 10px !important;
       border-color: #e3e3e3 !important;
-      background-color: #f5f5f5; }
+      background-color: #f5f5f5;
+      width: 90px; }
       @media (min-width: 768px) {
         .career-view .table-wrap .table tbody tr th {
           font-size: 14px !important; } }
+      @media (min-width: 992px) {
+        .career-view .table-wrap .table tbody tr th {
+          width: 142px !important;
+          padding: 25px 10px 25px 20px !important; } }
       .career-view .table-wrap .table tbody tr th.content {
         vertical-align: middle !important; }
     .career-view .table-wrap .table tbody tr td {
@@ -925,11 +985,12 @@ address {
       .career-view .table-wrap .table tbody tr td.content {
         line-height: 24px !important;
         border: 0;
-        display: inline-block;
         min-height: 370px; }
         @media (min-width: 768px) {
           .career-view .table-wrap .table tbody tr td.content {
             min-height: 520px; } }
+        .career-view .table-wrap .table tbody tr td.content p {
+          margin-bottom: 0 !important; }
       .career-view .table-wrap .table tbody tr td.attach a {
         display: inline-block;
         color: #333 !important;
@@ -962,6 +1023,33 @@ address {
     .career-view .btn-area .btn-primary:hover, .career-view .btn-area .btn-primary:focus {
       color: #fff !important; }
 
+.announcements-view .page-title {
+  position: relative; }
+  .announcements-view .page-title .summary-icon {
+    position: absolute;
+    top: 0;
+    left: 233px;
+    font-size: 13px !important;
+    color: #920326;
+    line-height: 38px !important;
+    padding-left: 65px;
+    background-image: url(/assets/images/international/announcements_icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
+
+.announcements .page-title {
+  position: relative; }
+  .announcements .page-title .summary-icon {
+    position: absolute;
+    top: 0;
+    left: 233px;
+    font-size: 13px !important;
+    color: #920326;
+    line-height: 38px !important;
+    padding-left: 65px;
+    background-image: url(/assets/images/international/announcements_icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
 .announcements .tabs {
   margin-top: 60px !important;
   margin-bottom: 60px !important; }
@@ -969,10 +1057,10 @@ address {
     padding-left: 5px;
     padding-right: 5px; }
 .announcements .search-form {
-  margin-bottom: 20px; }
+  margin-top: 20px; }
   @media (min-width: 768px) {
     .announcements .search-form {
-      margin-bottom: 30px; } }
+      margin-top: 30px; } }
 .announcements .table-responsive {
   border-color: #e3e3e3 !important;
   margin-bottom: 0; }
@@ -1058,10 +1146,10 @@ address {
   margin-top: 40px; }
 
 .visa .collapse-list ul li {
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
   @media (min-width: 992px) {
     .visa .collapse-list ul li {
-      margin-bottom: 40px; } }
+      margin-bottom: 60px; } }
   .visa .collapse-list ul li:last-child {
     margin-bottom: 0; }
   .visa .collapse-list ul li:first-child .collapse-content {
@@ -1080,10 +1168,111 @@ address {
 .visa .note {
   margin-top: 20px; }
 
-.stay .u-title {
+.registration-card .u-title {
   margin-top: 60px; }
-.stay .required-documents {
+.registration-card .required-documents {
   margin-bottom: 100px;
+  padding: 35px 10px 40px;
+  background-color: #f2f2f2; }
+  .registration-card .required-documents:last-child {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .registration-card .required-documents {
+      padding: 40px; } }
+  @media (min-width: 992px) {
+    .registration-card .required-documents {
+      padding: 50px 50px 40px; } }
+  .registration-card .required-documents .list-title {
+    font-size: 14px;
+    color: #910023;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .registration-card .required-documents .co-list {
+    margin-bottom: 0 !important; }
+    .registration-card .required-documents .co-list li .dot-list li {
+      font-size: 12px;
+      color: #333;
+      opacity: .8;
+      line-height: 18px;
+      margin-top: 15px; }
+      .registration-card .required-documents .co-list li .dot-list li:before {
+        content: "\E80B";
+        font-family: "fontello";
+        color: #333;
+        opacity: .8; }
+      @media (min-width: 768px) {
+        .registration-card .required-documents .co-list li .dot-list li {
+          margin-top: 5px; } }
+      .registration-card .required-documents .co-list li .dot-list li span {
+        display: inline-block;
+        padding-left: 10px; }
+  .registration-card .required-documents .case-list li strong {
+    display: block;
+    font-size: 12px;
+    color: #910023;
+    font-weight: bold;
+    margin-top: 40px; }
+    @media (min-width: 768px) {
+      .registration-card .required-documents .case-list li strong {
+        font-size: 13px; } }
+  .registration-card .required-documents .case-list li .default-list {
+    margin-top: 20px;
+    counter-reset: section; }
+    .registration-card .required-documents .case-list li .default-list li {
+      position: relative;
+      font-size: 12px;
+      color: #333;
+      opacity: .8;
+      line-height: 18px;
+      margin-bottom: 10px;
+      padding-left: 20px; }
+      .registration-card .required-documents .case-list li .default-list li:last-child {
+        margin-bottom: 0; }
+      .registration-card .required-documents .case-list li .default-list li:before {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        display: block;
+        counter-increment: section;
+        content: counter(section);
+        width: 14px;
+        height: 14px;
+        font-size: 10px;
+        text-align: center;
+        line-height: 12px;
+        border: 1px solid #333;
+        border-radius: 50%;
+        font-weight: bold;
+        opacity: .8; }
+.registration-card .note {
+  display: block !important;
+  margin-top: 10px; }
+.registration-card .information {
+  margin-top: 100px; }
+  .registration-card .information .dot-list li {
+    font-size: 13px;
+    color: #666;
+    line-height: 25px; }
+    .registration-card .information .dot-list li:before {
+      display: inline-block;
+      content: "\E80B";
+      font-family: "fontello";
+      color: #333;
+      margin-right: 10px; }
+  .registration-card .information .dot-list.basic-list {
+    margin-bottom: 30px; }
+    .registration-card .information .dot-list.basic-list li {
+      position: relative;
+      padding-left: 10px; }
+      .registration-card .information .dot-list.basic-list li:before {
+        position: absolute;
+        top: 0;
+        left: 0; }
+  .registration-card .information .changes {
+    margin-bottom: 10px !important; }
+
+.stay .required-documents {
+  margin-bottom: 60px;
   padding: 35px 10px 40px;
   background-color: #f2f2f2; }
   .stay .required-documents:last-child {
@@ -1115,6 +1304,9 @@ address {
       @media (min-width: 768px) {
         .stay .required-documents .co-list li .dot-list li {
           margin-top: 5px; } }
+    .stay .required-documents .co-list li span {
+      display: inline-block;
+      padding-left: 10px; }
   .stay .required-documents .case-list li strong {
     display: block;
     font-size: 12px;
@@ -1229,23 +1421,6 @@ address {
       content: "\E80B";
       font-family: "fontello";
       margin-right: 5px; }
-  .student-orientation .collapse-list > ul > li .collapse-content .well a {
-    position: relative;
-    display: block !important;
-    color: #777 !important;
-    padding-left: 17px;
-    opacity: .8;
-    line-height: 16px;
-    margin-top: 5px; }
-    .student-orientation .collapse-list > ul > li .collapse-content .well a:first-child {
-      margin-top: 10px; }
-    .student-orientation .collapse-list > ul > li .collapse-content .well a:before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 12px;
-      content: "\F08E";
-      font-family: "fontello"; }
 .student-orientation .orientation-inquires {
   margin: 60px 0 100px; }
   .student-orientation .orientation-inquires dl {
@@ -1295,6 +1470,9 @@ address {
   .student-orientation i.co-r {
     color: #991333; }
 
+.part-time i {
+  font-style: normal;
+  color: #920326; }
 .part-time .required-documents {
   margin-top: 30px;
   padding: 35px 10px 40px;
@@ -1307,6 +1485,9 @@ address {
       padding: 50px 50px 40px; } }
   .part-time .required-documents .co-list {
     margin-bottom: 0 !important; }
+.part-time .last {
+  margin-top: 20px;
+  margin-bottom: 0 !important; }
 
 .insurance .dot-list {
   margin-bottom: 60px; }
@@ -1636,43 +1817,43 @@ address {
     margin-bottom: 0; }
     .scolarships .table-responsive .table thead tr th {
       padding: 25px 0 !important; }
+.scolarships .dot-list {
+  margin-top: 10px; }
+  @media (min-width: 768px) {
+    .scolarships .dot-list {
+      margin-top: 15px; } }
+  .scolarships .dot-list li {
+    position: relative;
+    font-size: 15px !important;
+    color: #333;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding-left: 15px; }
+    .scolarships .dot-list li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #333;
+      font-size: 18px;
+      content: "\E80B";
+      font-family: "fontello"; }
+    .scolarships .dot-list li:last-child {
+      margin-bottom: 0; }
+    @media (min-width: 992px) {
+      .scolarships .dot-list li {
+        margin-bottom: 0;
+        line-height: 25px !important; } }
 .scolarships .co-list li {
   font-size: 15px !important; }
   .scolarships .co-list li:nth-of-type(3) .note {
     margin-top: 0; }
   .scolarships .co-list li p {
-    font-size: 14px !important;
+    font-size: 13px !important;
     margin-top: 20px;
     margin-bottom: 0 !important; }
     @media (min-width: 768px) {
       .scolarships .co-list li p {
         font-size: 14px !important; } }
-  .scolarships .co-list li .dot-list {
-    margin-top: 10px; }
-    @media (min-width: 768px) {
-      .scolarships .co-list li .dot-list {
-        margin-top: 15px; } }
-    .scolarships .co-list li .dot-list li {
-      position: relative;
-      font-size: 12px !important;
-      color: rgba(102, 102, 102, 0.8);
-      line-height: 18px;
-      margin-bottom: 10px;
-      padding-left: 15px; }
-      .scolarships .co-list li .dot-list li:before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        color: #333;
-        font-size: 18px;
-        content: "\E80B";
-        font-family: "fontello"; }
-      .scolarships .co-list li .dot-list li:last-child {
-        margin-bottom: 0; }
-      @media (min-width: 992px) {
-        .scolarships .co-list li .dot-list li {
-          margin-bottom: 0;
-          line-height: 25px !important; } }
 .scolarships .angle-list {
   margin-top: 30px;
   margin-bottom: 20px; }
@@ -1684,16 +1865,13 @@ address {
     .scolarships .angle-list {
       margin-top: 30px; } }
   .scolarships .angle-list li {
-    font-size: 13px !important;
+    font-size: 15px !important;
     display: inline-block; }
     .scolarships .angle-list li:after {
       content: "->";
       margin: 0 2px 0 6px; }
     .scolarships .angle-list li:last-child:after {
       content: ""; }
-    @media (min-width: 768px) {
-      .scolarships .angle-list li {
-        font-size: 14px !important; } }
 .scolarships .inquiries {
   overflow: hidden; }
   .scolarships .inquiries dt {
@@ -1709,7 +1887,7 @@ address {
       left: 0;
       font-family: "fontello";
       font-size: 13px;
-      color: #777;
+      color: #333;
       opacity: .7; }
     .scolarships .inquiries dt:after {
       content: ":";
@@ -1722,8 +1900,22 @@ address {
     font-weight: 300;
     line-height: 25px; }
     .scolarships .inquiries dd a {
-      color: #666 !important; }
+      font-size: 15px !important;
+      color: #333 !important; }
 
+.mentoring-programs .page-title {
+  position: relative; }
+  .mentoring-programs .page-title .summary-icon {
+    position: absolute;
+    top: 0;
+    left: 290px;
+    font-size: 13px !important;
+    color: #920326;
+    line-height: 38px !important;
+    padding-left: 65px;
+    background-image: url(/assets/images/international/announcements_icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
 .mentoring-programs .box {
   padding: 40px 10px;
   background-color: #f2f2f2; }
@@ -1800,5 +1992,75 @@ address {
     margin-top: 10px !important; }
 .mentoring-programs #mentoring-3 .note {
   margin-top: 20px; }
+
+.announcements-view .table-wrap {
+  border-top: 0; }
+  .announcements-view .table-wrap .table {
+    border-color: #e3e3e3 !important; }
+    .announcements-view .table-wrap .table tbody tr th {
+      font-size: 13px !important;
+      color: #666 !important;
+      font-weight: 400;
+      text-align: left !important;
+      vertical-align: top !important;
+      padding: 25px 10px 25px 20px !important;
+      border-color: #e3e3e3 !important;
+      background-color: #f5f5f5;
+      width: 142px; }
+      @media (min-width: 768px) {
+        .announcements-view .table-wrap .table tbody tr th {
+          font-size: 14px !important; } }
+      .announcements-view .table-wrap .table tbody tr th.content {
+        vertical-align: middle !important; }
+    .announcements-view .table-wrap .table tbody tr td {
+      font-size: 13px !important;
+      color: #777 !important;
+      font-weight: 400;
+      text-align: left !important;
+      padding: 25px 10px 25px 20px !important;
+      border-color: #e3e3e3 !important; }
+      @media (min-width: 768px) {
+        .announcements-view .table-wrap .table tbody tr td {
+          font-size: 14px !important; } }
+      .announcements-view .table-wrap .table tbody tr td .new {
+        margin-left: 10px; }
+      .announcements-view .table-wrap .table tbody tr td.content {
+        line-height: 24px !important;
+        border: 0;
+        min-height: 370px; }
+        @media (min-width: 768px) {
+          .announcements-view .table-wrap .table tbody tr td.content {
+            min-height: 520px; } }
+      .announcements-view .table-wrap .table tbody tr td.attach a {
+        display: inline-block;
+        color: #333 !important;
+        font-weight: bold; }
+        .announcements-view .table-wrap .table tbody tr td.attach a:after {
+          content: ",";
+          margin-right: 5px; }
+        .announcements-view .table-wrap .table tbody tr td.attach a:last-child:after {
+          content: ""; }
+        .announcements-view .table-wrap .table tbody tr td.attach a:first-child:before {
+          display: inline-block;
+          content: "\E80F";
+          font-family: "fontello";
+          margin-right: 5px; }
+.announcements-view .btn-area {
+  text-align: center;
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .announcements-view .btn-area {
+      text-align: right;
+      margin-top: 20px; } }
+  .announcements-view .btn-area .btn-primary {
+    width: 300px;
+    display: inline-block;
+    padding: 0;
+    line-height: 45px; }
+    @media (min-width: 768px) {
+      .announcements-view .btn-area .btn-primary {
+        width: 120px; } }
+    .announcements-view .btn-area .btn-primary:hover, .announcements-view .btn-area .btn-primary:focus {
+      color: #fff !important; }
 
 /*# sourceMappingURL=international.css.map */

@@ -193,12 +193,12 @@ textarea.form-control {
       background-color: #930629;
       border-color: #930629; }
     #content .attachments fieldset .btn-download {
-      width: 234px;
+      width: 245px;
       background-color: #7f7f7f;
       border-color: #7f7f7f; }
     #content .attachments fieldset .down {
-      margin-left: 45px;
-      padding-left: 45px;
+      margin-left: 40px;
+      padding-left: 40px;
       border-left: 1px solid #ccc; }
   #content .form-wrap fieldset {
     position: relative;
@@ -224,9 +224,12 @@ textarea.form-control {
       font-size: 13px; }
 
 .recommendation #content .form-wrap h4 {
+  padding-top: 27px;
+  padding-left: 40px;
   width: 552px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
+  font-size: 14px;
   background-image: url(/assets/images/application/bg_fieldset_head_2.png); }
 
 .application {
@@ -685,9 +688,9 @@ textarea.form-control {
       background: none;
       box-shadow: none; }
     .btn-area p .btn.btn-cancel {
-      background-color: #b8b8b8; }
+      background-color: #7f7f7f; }
     .btn-area p .btn.btn-prev {
-      background-color: #b8b8b8; }
+      background-color: #7f7f7f; }
     .btn-area p .btn.btn-next {
       background-color: #900020; }
     .btn-area p .btn.btn-send {

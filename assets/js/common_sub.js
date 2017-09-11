@@ -37,5 +37,33 @@
 		} else {
 			$(".tabs .btn").html("Select Menu");
 		}
+		if($(window).width() >= 1280){
+			//$("body, html").scrollTop(350);
+			if(location.href.indexOf("kakao=1") <= 1){
+				$('html, body').stop().animate({
+					scrollTop: 350
+				}, 500, 'swing');
+			}
+		}
 	});
+	
+	// 해상도: All
+	// 설명: 스크롤 시 탑으로 이동하는 버튼
+	$(window).on("scroll", function() {
+		if ($(this).scrollTop() > 315) {
+			$("#goto-top").show();
+		} else {
+			$("#goto-top").hide();
+		}
+	});
+	
+	// 해상도: All
+	// 설명: 스크롤 최상단으로 이동
+	$(document).on("click", "#goto-top", function(e) {
+		$('html, body').stop().animate({
+			scrollTop: 0
+		}, 1000, 'swing');
+		e.preventDefault();
+	});
+	
 })(jQuery);

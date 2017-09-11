@@ -14,7 +14,8 @@
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#visual" data-slide-to="0"></li>
-			<li data-target="#visual" data-slide-to="1" class="active"></li>
+			<li data-target="#visual" data-slide-to="1"></li>
+			<li data-target="#visual" data-slide-to="2" class="active"></li>
 		</ol>
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
@@ -32,7 +33,7 @@
 					<span class="bar bottom"></span>
 				</div>
 			</div>
-			<div class="item item-2 active" style="background-image: url(/assets/images/main/img_visual_2.jpg);">
+			<div class="item item-2" style="background-image: url(/assets/images/main/img_visual_2.jpg);">
 				<div class="carousel-caption">
 					<p class="rank-logo"><img class="img-responsive" src="/assets/images/main/logo_world_university_rankings.png" alt="WORLD UNIVERSITY RANKINGS"></p>
 					<h2>2017 QS World<br class="visible-xs">University Ranking</h2>
@@ -57,6 +58,14 @@
 						</li>
 					</ul>
 					<a class="more hidden-xs" href="#">Find out more</a>
+				</div>
+			</div>
+			<div class="item item-3 active" style="background-image: url(/assets/images/main/img_visual_4.jpg);">
+				<div class="carousel-caption">
+					<h2>
+						The Largest <br class="visible-xs">Exchange/Visiting<br>
+						Program in Korea!
+					</h2>
 				</div>
 			</div>
 		</div>

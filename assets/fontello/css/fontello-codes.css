@@ -24,6 +24,7 @@
 .icon-bookmark:before { content: '\e816'; } /* '' */
 .icon-home:before { content: '\e817'; } /* '' */
 .icon-clock:before { content: '\e818'; } /* '' */
+.icon-right-small:before { content: '\e819'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
 .icon-left-open:before { content: '\f007'; } /* '' */
 .icon-link-ext:before { content: '\f08e'; } /* '' */

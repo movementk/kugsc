@@ -54,6 +54,12 @@ body {
       body.nav-opened {
         overflow: initial; } }
 
+.Highlighted {
+  background-color: #920326;
+  border-radius: 5px; }
+  .Highlighted a {
+    color: #fff !important; }
+
 .container,
 .container-fluid {
   padding-left: 10px;
@@ -459,8 +465,10 @@ body {
       display: block;
       width: 100%;
       height: 100%;
-      background-image: url(/assets/images/logo_crimson_xs.png);
-      background-repeat: no-repeat; }
+      background-image: url(/assets/images/logo_crimson.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%; }
   #header .btn-nav-open {
     float: right;
     margin-top: 4px;
@@ -476,9 +484,12 @@ body {
       #header .logo {
         margin-top: 22px;
         width: 193px;
-        height: 34px; }
-        #header .logo a {
-          background-image: url(/assets/images/logo_crimson_sm.png); }
+        height: 34px;
+        /*
+        a {
+        	background-image: url(/assets/images/logo_crimson.png);
+        }
+        */ }
       #header .btn-nav-open {
         margin-top: 9px;
         margin-right: -15px;
@@ -506,8 +517,8 @@ body {
               position: relative;
               float: left;
               height: 30px;
-              font-size: 18px;
-              color: #333;
+              font-size: 19px;
+              color: #111;
               text-decoration: none;
               /*
               &:hover, &:focus {
@@ -546,22 +557,37 @@ body {
               left: 0;
               width: 100%;
               height: 427px;
-              background-color: #fff;
+              background-color: #f5f5f5;
               text-align: left;
               color: #333; }
               #header .nav > ul > li > .nav-content .nav-head {
                 margin-top: 60px; }
                 #header .nav > ul > li > .nav-content .nav-head h4 {
                   margin-bottom: 25px;
-                  font-size: 24px;
-                  color: #920326; }
-                #header .nav > ul > li > .nav-content .nav-head figure figcaption {
-                  margin-top: 15px;
-                  font-size: 13px;
-                  line-height: 18px;
-                  color: #777; }
+                  font-size: 22px;
+                  color: #920326;
+                  font-weight: bold; }
+                #header .nav > ul > li > .nav-content .nav-head small {
+                  position: absolute;
+                  top: 60px;
+                  left: 250px;
+                  font-size: 14px;
+                  line-height: 24px;
+                  color: #920326;
+                  width: 500px; }
+                  #header .nav > ul > li > .nav-content .nav-head small:before {
+                    margin-right: 10px;
+                    content: "-"; }
               #header .nav > ul > li > .nav-content .nav-body {
+                position: relative;
                 margin-top: 110px; }
+                #header .nav > ul > li > .nav-content .nav-body > p {
+                  position: absolute;
+                  top: -48px;
+                  font-size: 14px;
+                  line-height: 24px;
+                  color: #920326;
+                  width: 500px; }
                 #header .nav > ul > li > .nav-content .nav-body > ul > li a {
                   display: block;
                   margin-bottom: 15px;
@@ -573,7 +599,6 @@ body {
                   font-size: 15px;
                   text-decoration: none;
                   border-bottom: 1px solid #ccc;
-                  color: #555;
                   -webkit-transition-property: all;
                   transition-property: all;
                   -webkit-transition-duration: 0.15s;
@@ -650,8 +675,10 @@ body.scrolled #header {
           display: block;
           width: 100%;
           height: 100%;
-          background-image: url(/assets/images/logo_white_xs.png);
-          background-repeat: no-repeat; }
+          background-image: url(/assets/images/logo_white.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          backgronnd-position: 50% 50%; }
       #side-nav .nav-content .nav-head .btn-nav-close {
         position: absolute;
         top: 11px;
@@ -688,7 +715,7 @@ body.scrolled #header {
             padding: 12px 10px 12px 20px;
             font-size: 13px;
             line-height: 20px;
-            color: #777;
+            color: #333;
             border-top: 1px solid rgba(0, 0, 0, 0.2); }
           #side-nav .nav-content .nav-body > ul > li > ul > li:first-child > a {
             border-top: 0; }
@@ -772,8 +799,10 @@ body.nav-opened #side-nav {
     margin-right: auto;
     width: 138px;
     height: 24px;
-    background-image: url(/assets/images/logo_footer_xs.png);
-    background-repeat: no-repeat; }
+    background-image: url(/assets/images/logo_crimson.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
   #footer .copyright {
     color: #777; }
   @media (min-width: 768px) {
@@ -790,7 +819,7 @@ body.nav-opened #side-nav {
         padding-top: 8px; } }
   @media (min-width: 1280px) {
     #footer {
-      margin-top: 120px;
+      margin-top: 0 !important;
       padding-bottom: 30px; }
       #footer .logo {
         margin-bottom: 15px;
